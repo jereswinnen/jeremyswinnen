@@ -1,0 +1,98 @@
+// =======================================================================
+// Layout
+// =======================================================================
+
+.o-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(18vh, auto);
+  grid-template-areas: none;
+  .c-masthead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .c-panel {
+    display: none;
+  }
+  .c-footer {
+    display: flex;
+    align-items: center;
+  }
+  @media(min-width: 30em) {
+    .c-masthead {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+  @media(min-width: 46em) {
+    grid-template-rows: minmax(14vh, auto) auto minmax(14vh, auto);
+    grid-template-areas: 
+      "masthead"
+      "main"
+      "footer";
+    .c-masthead {
+      grid-area: masthead;
+    }
+    .c-main {
+      display: grid;
+      grid-area: main;
+      grid-column-gap: var(--u-layout-gutter);
+      grid-template-columns: 1fr 3fr;
+      grid-template-areas: 
+        "aside header"
+        ". article";
+      .c-main__aside {
+        margin-top: 4vh;
+        grid-area: aside;
+      }
+      .c-main__header, .c-figure__caption, .c-article > p {
+        max-width: 32em;
+      }
+      .c-main__header {
+        grid-area: header;
+      }
+      .c-article {
+        grid-area: article;
+      }
+    }
+    .c-footer {
+      grid-area: footer;
+    }
+    // Page-specific architecture
+    &--home {
+      grid-column-gap: none;
+      grid-template-columns: 3fr 1fr;
+      grid-template-areas:
+        "masthead panel"
+        "main panel"
+        "footer panel";
+      height: 100vh;
+      .c-main, .c-section--cases, .c-section--cases .c-article--case {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .c-main {
+        position: relative;
+        .c-article {
+          position: absolute;
+          max-width: calc(100% - var(--u-layout-gutter));
+          &--case {
+            flex-direction: column;
+            .c-article__header {
+              max-width: 30rem;
+            }
+          }
+        }
+      }
+      .c-panel {
+        grid-area: panel;
+        display: block;
+        z-index: 99;
+      }
+    }   
+  }
+}

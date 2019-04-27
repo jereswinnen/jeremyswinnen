@@ -1,0 +1,8 @@
+<figure class="{% if grid %}o-grid--{{ grid }} {% endif %}c-figure{% if contained == 'yes' %} c-figure--contained{% endif %}">
+{% for screen in artwork %}
+   <img src="{{ screen.source }}" {% if screen.alt %}alt="{{ screen.alt }}"{% endif %}>
+   {% if figcaption %}
+   <figcaption class="c-figure__caption{% if captionalign %} c-figure__caption--align{{ captionalign }}"{% endif %}"><p>{{ figcaption }}</p></figcaption>
+   {% endif %}
+{% endfor %}
+</figure>

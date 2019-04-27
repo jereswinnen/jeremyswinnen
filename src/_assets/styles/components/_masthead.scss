@@ -1,0 +1,26 @@
+// =======================================================================
+// Masthead
+// =======================================================================
+
+.c-masthead {
+  .c-masthead__brand {
+    margin-bottom: var(--u-spacer-20);
+    height: 22px;
+    a {
+      svg {
+        width: 124px;
+        fill: var(--c-neutral-dark);
+        transition: opacity .2s var(--t-bezier);
+      }
+      &:hover svg {
+        opacity: .7;
+      }
+    }
+  }
+  @media(min-width: 30em) {
+    .c-masthead__brand {
+      margin-bottom: 0;
+      margin-right: calc(var(--u-spacer-15) + 1.2vmin);
+    }
+  }
+}

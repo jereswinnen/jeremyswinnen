@@ -1,0 +1,82 @@
+// =======================================================================
+// Custom Properties
+// =======================================================================
+
+:root {
+  /// Colour
+
+  --c-matter-dark: hsl(240, 25%, 12%);
+  --c-matter-accent: hsl(240, 5%, 56%);
+  --c-matter-light: hsl(240, 6%, 93%);
+
+  --c-scorecard-dark: hsl(180, 27%, 12%);
+  --c-scorecard-accent: hsl(180, 16%, 35%);
+  --c-scorecard-light: hsl(180, 8%, 90%);
+
+  --c-realo-dark: hsl(238, 27%, 12%);
+  --c-realo-accent: hsl(238, 22%, 35%);
+  --c-realo-light: hsl(238, 12%, 90%);
+
+  --c-diabetik-dark: hsl(104, 30%, 12%);
+  --c-diabetik-accent: hsl(104, 24%, 35%);
+  --c-diabetik-light: hsl(104, 12%, 90%);
+
+  --c-shelf-dark: hsl(360, 30%, 12%);
+  --c-shelf-accent: hsl(360, 23%, 35%);
+  --c-shelf-light: hsl(360, 12%, 90%);
+  
+  --c-immobrown-dark: hsl(29, 30%, 12%);
+  --c-immobrown-accent: hsl(29, 24%, 35%);
+  --c-immobrown-light: hsl(29, 12%, 90%);
+
+  --c-helpper-dark: hsl(312, 27%, 12%);
+  --c-helpper-accent: hsl(312, 16%, 35%);
+  --c-helpper-light: hsl(312, 8%, 90%);
+
+  /// Typography
+  --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  --f-family-serif: ohno-blazeface, Georgia, serif;
+  --f-family-display: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+
+  --f-size-body: calc(1rem + 0.425vmin); //adjust vmin to it doesn't get too big
+  --f-size-body-fixed: 1rem;
+  --f-size-body-small: 0.875rem;
+
+  --f-size-h1: calc(2.5rem + 1.45vw); //needs to be much bigger at larger vwprts
+  --f-size-h2: calc(1.25rem + 0.75vw);
+  --f-size-h3: calc(1.6rem + 0.25vw);
+  --f-size-h4: calc(1.125rem + 0.25vw);
+  --f-size-blockquote: var(--f-size-h3);
+
+  --f-leading-tight: 1.25em;
+  --f-leading: 1.5em;
+
+  --f-spacing-narrow: -0.016743rem;
+  --f-spacing-extended: 0.125rem;
+
+  /// Units //adjust these so they change based on viewport (vw)
+  --u-spacer: 5px;
+  --u-spacer-10: calc(var(--u-spacer) * 2);
+  --u-spacer-15: calc(var(--u-spacer) * 3);
+  --u-spacer-20: calc(var(--u-spacer) * 4);
+  --u-spacer-30: calc(var(--u-spacer) * 6);
+  --u-spacer-40: calc(var(--u-spacer) * 8);
+  --u-spacer-50: calc(var(--u-spacer) * 10);
+  --u-spacer-60: calc(var(--u-spacer) * 12);
+  --u-spacer-80: calc(var(--u-spacer) * 16);
+  --u-spacer-100: calc(var(--u-spacer) * 20);
+
+  --u-layout-column-small: 3vw;
+  --u-layout-column: 10fr;
+  --u-layout-gap-small: 3vw;
+  --u-layout-gap: 5vw;
+
+  --u-layout-gutter: 5vw;
+
+  /// Animation
+  --t-bezier: cubic-bezier(.165, .84, .44, 1);
+
+  /// Depth
+  --d-page: 0 1px 10px hsla(0, 0%, 0%, .1);
+  --d-item: 0 1px 10px hsla(0, 0%, 0%, .1);
+}

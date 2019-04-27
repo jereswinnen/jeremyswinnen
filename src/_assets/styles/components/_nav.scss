@@ -1,0 +1,30 @@
+// =======================================================================
+// Navigation
+// =======================================================================
+
+.c-nav {
+  .c-nav__items {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    .c-nav__item {
+      margin-right: calc(var(--u-spacer-15) + 1.2vmin);
+      a {
+        font-size: var(--f-size-body-fixed);
+        font-weight: 500;
+        color: var(--c-neutral-dark);
+        text-transform: lowercase;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &.c-nav__item--selected a {
+        color: #7B0046;
+      }
+    }
+  }
+}

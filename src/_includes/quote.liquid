@@ -1,0 +1,6 @@
+<blockquote class="c-blockquote">
+   <p class="c-blockquote__text">{{ blockquote | markdownify }}</p>
+   {% if reference %}
+   <p class="c-blockquote__reference">{{ reference | markdownify }}</p> 
+   {% endif %}
+</blockquote>

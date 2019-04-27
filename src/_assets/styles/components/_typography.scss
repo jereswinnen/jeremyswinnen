@@ -1,0 +1,64 @@
+// =======================================================================
+// Typography
+// =======================================================================
+
+// Body
+body {
+  font-family: var(--f-family-sans);
+  font-size: var(--f-size-body);
+  line-height: var(--f-leading);
+  color: var(--c-neutral-dark);
+  letter-spacing: var(--f-spacing-narrow);
+}
+
+// Headings
+h1 {
+  //margin-bottom: var(--u-spacer-15);
+  font-family: var(--f-family-serif);
+  font-size: var(--f-size-h1);
+  line-height: var(--f-leading-tight);
+  font-weight: 200;
+}
+h2 {
+  margin-bottom: var(--u-spacer-20);
+  font-size: var(--f-size-h2);
+  line-height: var(--f-leading);
+  color: var(--c-neutral-dark);
+  &.c-blockquote__text, &.c-page__summary, &.c-article__lede {
+    font-style: italic;
+  }
+}
+h3 {
+  margin-bottom: var(--u-spacer);
+  font-family: var(--f-family-serif);
+  font-size: var(--f-size-h3);
+  line-height: var(--f-leading);
+  color: var(--c-neutral-dark);
+  font-weight: bold;
+}
+h4 {
+  margin-bottom: var(--u-spacer);
+  font-size: var(--f-size-h4);
+  line-height: var(--f-leading);
+  color: currentColor;
+  font-weight: bold;
+}
+
+// Miscellaneous
+small {
+  font-size: var(--f-size-body-small);
+  line-height: var(--f-leading);
+}
+.c-figure__caption p {
+  font-size: var(--f-size-body-fixed);
+  line-height: var(--f-leading);
+}
+blockquote {
+  margin: 0;
+  .c-blockquote__text {
+      
+  }
+}
+cite {
+  font-style: normal;
+}
