@@ -23,7 +23,7 @@
         margin-right: 0;
       }
       &.c-nav__item--selected a {
-        color: #7B0046;
+        color: var(--c-matter-accent);
       }
     }
   }

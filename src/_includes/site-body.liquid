@@ -1,20 +1,18 @@
-<main class="c-main" role="content">
-  <article class="c-article" role="content__pitch">
-    {{ content }}
+<article class="c-article" role="content__pitch">
+  {{ content }}
+</article>
+{% if layout == 'home' %}
+<section class="c-section c-section--cases" role="case-studies">
+  {% for case in cases %}
+  <article class="c-article c-article--{{ case.name | downcase }}"> <!--for item colouring-->
+    <figure class="c-figure">
+      <a href="/work/{{ case.name | downcase }}"><img src="{{ case.cover }}" alt="{{ case.name }} &mdash; {{ case.summary }}"></a>
+    </figure>
+    <header class="c-article__header">
+      <h3>{{ case.name }}</h3>
+      <p>{{ case.summary }}</p>
+    </header>
   </article>
-  {% if layout == 'home' %}
-  <section class="c-section c-section--cases" role="case-studies">
-    {% for case in cases limit:6 %}
-    <article class="c-article c-article--case" role="content__case--{{ case.label }}">
-      <figure class="c-figure">
-        <a href="{{ case.permalink }}"><img src="{{ case.cover }}" alt="{{ case.name }} &mdash; {{ case.description }}"></a>
-      </figure>
-      <header class="c-article__header">
-        <h3>{{ case.name }}</h3>
-        <p>{{ case.description }}</p>
-      </header>
-    </article>
-    {% endfor %}
-  </section>
-  {% endif %}
-</main>
+  {% endfor %}
+</section>
+{% endif %}

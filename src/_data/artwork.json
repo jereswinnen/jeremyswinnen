@@ -1,54 +1,66 @@
 {
-   "shelf": {
-      "hero": [
-         {
-            "source": "https://cdn.uc.assets.prezly.com/04222617-10a5-46f0-9c0d-d6f345b695b2/-/preview/1200x1200/-/format/auto/",
-            "alt": "This is some alt text."
-         },
-         {
-            "source": "https://cdn.uc.assets.prezly.com/442ab629-f2f4-4d9e-8612-ab39ddfcf0fd/-/preview/1200x1200/-/format/auto/",
-            "alt": "This is some secondary alt text."
-         }
-      ],
-      "agency": [
-         {
-            "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-            "alt": "This is some agency alt text."
-         },
-         {
-            "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-            "alt": "This is some secondary agency alt text."
-         }
-      ]
-   },
-   "scorecard": {
-      "cover": [
-         {
-            "source": "https://res.cloudinary.com/matter/image/upload/v1555592654/scorecard__cover--constrained%402x.png",
-            "alt": "This is some alt text."
-         }
-      ]
-   },
-   "realo": {
-      "hero": [
-         {
-            "source": "https://res.cloudinary.com/matter/image/upload/v1549372428/View_home_q7f1j4.png",
-            "alt": "This is some alt text."
-         },
-         {
-            "source": "https://res.cloudinary.com/matter/image/upload/v1549371734/Desktop_iamcuo.png",
-            "alt": "This is some secondary alt text."
-         }
-      ],
-      "mobile": [
-         {
-            "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-            "alt": "This is some agency alt text."
-         },
-         {
-            "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-            "alt": "This is some secondary agency alt text."
-         }
-      ]
-   }
+  "shelf": {
+    "cover": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1555617849/shelf__cover--constrained%402x.png",
+        "alt": "This is some alt text."
+      }
+    ],
+    "hero": [
+      {
+        "source": "https://cdn.uc.assets.prezly.com/04222617-10a5-46f0-9c0d-d6f345b695b2/-/preview/1200x1200/-/format/auto/",
+        "alt": "This is some alt text."
+      },
+      {
+        "source": "https://cdn.uc.assets.prezly.com/442ab629-f2f4-4d9e-8612-ab39ddfcf0fd/-/preview/1200x1200/-/format/auto/",
+        "alt": "This is some secondary alt text."
+      }
+    ],
+    "agency": [
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some agency alt text."
+      },
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some secondary agency alt text."
+      }
+    ]
+  },
+  "scorecard": {
+    "cover": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1555592654/scorecard__cover--constrained%402x.png",
+        "alt": "This is some alt text."
+      }
+    ]
+  },
+  "realo": {
+    "cover": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
+        "alt": "This is some alt text."
+      }
+    ],
+    "hero": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1549372428/View_home_q7f1j4.png",
+        "alt": "This is some alt text."
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1549371734/Desktop_iamcuo.png",
+        "alt": "This is some secondary alt text."
+      }
+    ],
+    "mobile": [
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some agency alt text."
+      },
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some secondary agency alt text."
+      }
+    ]
+  }
 }

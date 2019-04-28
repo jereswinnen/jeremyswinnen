@@ -1,26 +1,24 @@
-<main class="c-main" role="content">
-  <header class="c-main__header">
-    <span><a class="c-cta c-cta--textreverse" href="/">work / </a> scorecard</span>
-    <h1>{{ title }}</h1>
-    <h2 class="c-page__summary">{{ summary }}</h2>  
-  </header>
-  <aside class="c-main__aside">
-    <dl class="c-dlist">
-      <li class="c-dlist__item">
-        <dt class="c-dlist__term">Year</dt>
-        <dd class="c-dlist__description">{{ meta.year }}</dd>
-      </li>
-      <li class="c-dlist__item">
-        <dt class="c-dlist__term">Role</dt>
-        <dd class="c-dlist__description">{{ meta.role }}</dd>
-      </li>
-      <li class="c-dlist__item">
-        <dt class="c-dlist__term">View website</dt>
-        <dd class="c-dlist__description"><a class="c-cta c-cta--text" href="{{ meta.website }}">{{ meta.website }}</a></dd>
-      </li>
-    </dl>  
-  </aside>
-  <article class="c-article">
-    {{ content }}
-  </article>
-</main>
+<header class="c-main__header">
+  <span><a class="c-cta c-cta--textreverse" href="/">work / </a> scorecard</span>
+  <h1>{{ title }}</h1>
+  <h2 class="c-page__summary">{{ summary }}</h2>  
+</header>
+<aside class="c-main__aside">
+  <dl class="c-dlist">
+    <li class="c-dlist__item">
+      <dt class="c-dlist__term">Year</dt>
+      <dd class="c-dlist__description">{{ meta.year }}</dd>
+    </li>
+    <li class="c-dlist__item">
+      <dt class="c-dlist__term">Role</dt>
+      <dd class="c-dlist__description">{{ meta.role }}</dd>
+    </li>
+    <li class="c-dlist__item">
+      <dt class="c-dlist__term">View website</dt>
+      <dd class="c-dlist__description"><a class="c-cta c-cta--text" href="{{ meta.website }}">{{ meta.website }}</a></dd>
+    </li>
+  </dl>  
+</aside>
+<article class="c-article">
+  {{ content }}
+</article>

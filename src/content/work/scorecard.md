@@ -1,12 +1,11 @@
 ---
-layout: case
-permalink: /work/scorecard/index.html
 title: Scorecard
 summary: In collaboration with Lickability, I created a fun and intuitive way to keep score while playing games with friends & family.
-meta: 
-  year: '2018-2019' 
-  role: 'Brand identity, UI & UX design, and responsive web design'
-  website: 'www.scorecardapp.co'
+
+
+artwork: think about integrating artwork in here
+
+
 ---
 {% include screens with artwork: artwork.scorecard.cover grid: 'bleed' contained: 'yes' figcaption: 'A diagram of possible predictions for a sentence. The English language is difficult to predict because of its flexible sentence structure.' captionalign: 'left' %} 
 

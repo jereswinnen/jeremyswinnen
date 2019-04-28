@@ -1,0 +1,5 @@
+<figure class="c-figure">
+{% for screen in artwork %}
+   <img src="{{ screen.source }}" {% if screen.alt %}alt="{{ screen.alt }}"{% endif %}>
+{% endfor %}
+</figure>

@@ -2,6 +2,10 @@
 // Layout
 // =======================================================================
 
+.o-flex {
+  display: flex;
+}
+
 .o-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -11,9 +15,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  .c-panel {
-    display: none;
   }
   .c-footer {
     display: flex;
@@ -65,10 +66,9 @@
       grid-column-gap: none;
       grid-template-columns: 3fr 1fr;
       grid-template-areas:
-        "masthead panel"
-        "main panel"
-        "footer panel";
-      height: 100vh;
+        "masthead masthead"
+        "main main"
+        "footer footer";
       .c-main, .c-section--cases, .c-section--cases .c-article--case {
         display: flex;
         flex-direction: row;

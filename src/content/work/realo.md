@@ -3,9 +3,9 @@ title: Realo
 summary: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
 url: https://realo.com
 meta:
- - role: Branding, UI design, icon design, and web design.
- - year: 2014-2015
- - status: Launched
+  role: Branding, UI design, icon design, and web design.
+  year: 2014-2015
+  status: Launched
 ---
 {% include screens with artwork: artwork.realo.hero grid: 'bleed' %}
 

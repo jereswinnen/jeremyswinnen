@@ -1,56 +1,38 @@
 [
-   {
-      "label": "scorecard",
-      "name": "Scorecard",
-      "description": "Keeping score while playing games with friends and family has never been so seamless.",
-      "role": "Web, iOS, Branding",
-      "tags": "Web, iOS, Branding",
-      "cover": "https://res.cloudinary.com/matter/image/upload/v1555592654/scorecard__cover--constrained%402x.png",
-      "permalink": "/work/scorecard/"
-   },
-   {
-      "label": "diabetik",
-      "name": "Diabetik",
-      "description": "Elegant diabetes management at your fingertips.",
-      "role": "Web, iOS",
-      "tags": "Web, iOS",
-      "cover": "https://res.cloudinary.com/matter/image/upload/v1555618020/diabetikrev__cover--constrained-alt%402x.png",
-      "permalink": "/work/diabetik/"
-   },
-   {
-      "label": "shelf",
-      "name": "Shelf",
-      "description": "An app for power users who work with documents on a daily basis.",
-      "role": "Web, iOS, Branding",
-      "tags": "Web, iOS, Branding",
-      "cover": "https://res.cloudinary.com/matter/image/upload/v1555617849/shelf__cover--constrained%402x.png",
-      "permalink": "/work/shelf/"
-   },
-   {
-      "label": "helpper",
-      "name": "Helpper",
-      "description": "Helpper allows you to connect with people in your neighbourhood who are in need of a helping hand.",
-      "role": "iOS",
-      "tags": "iOS",
-      "cover": "https://res.cloudinary.com/matter/image/upload/v1555620883/helpper__cover--constrained%402x.png",
-      "permalink": "/work/helpper/"
-   },
-   {
-      "label": "realo",
-      "name": "Realo",
-      "description": "Building a next generation real estate platform.",
-      "role": "Web, iOS, Android",
-      "tags": "Web, iOS, Android",
-      "cover": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
-      "permalink": "/work/realo/"
-   },
-   {
-      "label": "immobrown",
-      "name": "Immo Brown",
-      "description": "An elegant new website for an exclusive real estate agent.",
-      "role": "Web",
-      "tags": "Web",
-      "cover": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png",
-      "permalink": "/work/immobrown/"
-   }
+  {
+    "name": "Realo",
+    "summary": "Building a next generation real estate platform.",
+    "role": "Web, iOS, Android",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png"
+  },
+  {
+    "name": "Scorecard",
+    "summary": "Keeping score while playing games with friends and family has never been so seamless.",
+    "role": "Web, iOS, Branding",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555592654/scorecard__cover--constrained%402x.png"
+  },
+  {
+    "name": "Helpper",
+    "summary": "Helpper allows you to connect with people in your neighbourhood who are in need of a helping hand.",
+    "role": "iOS",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555620883/helpper__cover--constrained%402x.png"
+  },
+  {
+    "name": "Immo Brown",
+    "summary": "An elegant new website for an exclusive real estate agent.",
+    "role": "Web",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png"
+  },
+  {
+    "name": "Shelf",
+    "summary": "An app for power users who work with documents on a daily basis.",
+    "role": "Web, iOS, Branding",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555617849/shelf__cover--constrained%402x.png"
+  },
+  {
+    "name": "Diabetik",
+    "summary": "Elegant diabetes management at your fingertips.",
+    "role": "Web, iOS",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555618020/diabetikrev__cover--constrained-alt%402x.png"
+  }
 ]
