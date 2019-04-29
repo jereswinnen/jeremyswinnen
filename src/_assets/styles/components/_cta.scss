@@ -4,3 +4,16 @@
 .c-cta {
   
 }
+.c-cta--text {
+  font-size: var(--f-size-body-fixed);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .2s var(--t-bezier);
+  &:after {
+    padding-left: 3px;
+    content: '\2192';
+  }
+  &:hover {
+    color: var(--c-matter-accent);
+  }
+}

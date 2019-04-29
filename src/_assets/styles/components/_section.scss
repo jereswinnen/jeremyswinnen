@@ -5,3 +5,19 @@
 .c-section {
   margin-bottom: 0;
 }
+.c-section--collage {
+  .c-card {
+    margin-bottom: var(--u-vspacer-m);
+    &--immobrown {
+      margin-bottom: 0;
+    }
+  }
+  @media(min-width: $u-layout-break-m) {
+    .c-card {
+      margin-bottom: var(--u-flex-gutter);
+      &--diabetik, &--shelf {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

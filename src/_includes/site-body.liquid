@@ -1,15 +1,15 @@
-<article class="c-article" role="content__pitch">
+<header class="c-page__header">
   {{ content }}
-</article>
+</header>
 {% if layout == 'home' %}
-<section class="c-section c-section--cases" role="case-studies">
+<section class="c-section c-section--collage">
   {% for case in cases %}
-  <article class="c-article c-article--{{ case.name | downcase }}"> <!--for item colouring-->
-    <figure class="c-figure">
-      <a href="/work/{{ case.name | downcase }}"><img src="{{ case.cover }}" alt="{{ case.name }} &mdash; {{ case.summary }}"></a>
+  <article class="c-card c-card--{{ case.name | downcase | remove:' ' }}">
+    <figure class="c-card__artwork">
+      <img src="{{ case.cover }}" alt="{{ case.name }} &mdash; {{ case.summary }}">
     </figure>
-    <header class="c-article__header">
-      <h3>{{ case.name }}</h3>
+    <header class="c-card__header">
+      <h3><a href="/work/{{ case.name | downcase | remove: ' ' }}">{{ case.name }}</a></h3>
       <p>{{ case.summary }}</p>
     </header>
   </article>

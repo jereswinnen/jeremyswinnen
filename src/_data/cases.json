@@ -1,15 +1,9 @@
 [
   {
-    "name": "Realo",
-    "summary": "Building a next generation real estate platform.",
-    "role": "Web, iOS, Android",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png"
-  },
-  {
-    "name": "Scorecard",
-    "summary": "Keeping score while playing games with friends and family has never been so seamless.",
-    "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555592654/scorecard__cover--constrained%402x.png"
+    "name": "Diabetik",
+    "summary": "Elegant diabetes management at your fingertips.",
+    "role": "Web, iOS",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555403407/diabetik__cover--constrained%402x.png"
   },
   {
     "name": "Helpper",
@@ -24,15 +18,21 @@
     "cover": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png"
   },
   {
+    "name": "Realo",
+    "summary": "Building a next generation real estate platform.",
+    "role": "Web, iOS, Android",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png"
+  },
+  {
+    "name": "Scorecard",
+    "summary": "Keeping score while playing games with friends and family has never been so seamless.",
+    "role": "Web, iOS, Branding",
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1556484574/scorecard__cover--constrained%402x.png"
+  },
+  {
     "name": "Shelf",
     "summary": "An app for power users who work with documents on a daily basis.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555617849/shelf__cover--constrained%402x.png"
-  },
-  {
-    "name": "Diabetik",
-    "summary": "Elegant diabetes management at your fingertips.",
-    "role": "Web, iOS",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555618020/diabetikrev__cover--constrained-alt%402x.png"
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png"
   }
 ]

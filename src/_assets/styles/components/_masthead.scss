@@ -3,24 +3,22 @@
 // =======================================================================
 
 .c-masthead {
+  padding: var(--u-vspacer-m) 0;
+  margin-bottom: var(--u-vspacer-m);
   .c-masthead__brand {
-    margin-bottom: var(--u-spacer-20);
+    margin-bottom: var(--u-vspacer-xs);
     height: 22px;
-    a {
-      svg {
-        width: 124px;
-        fill: var(--c-matter-dark);
-        transition: opacity .2s var(--t-bezier);
-      }
-      &:hover svg {
-        opacity: .7;
-      }
+    a svg {
+      width: 124px;
+      fill: var(--c-matter-dark);
     }
   }
-  @media(min-width: 30em) {
+  .c-cta--text {
+    text-transform: lowercase;
+  }
+  @media(min-width: $u-layout-break-m) {
     .c-masthead__brand {
       margin-bottom: 0;
-      margin-right: calc(var(--u-spacer-15) + 1.2vmin);
     }
   }
 }

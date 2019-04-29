@@ -1,0 +1,116 @@
+// =======================================================================
+// Card
+// =======================================================================
+.c-card {
+  position: relative;
+  transform-origin: center;
+  transition: transform .45s var(--t-bezier), box-shadow .45s var(--t-bezier);
+  .c-card__artwork {
+    padding: calc(var(--u-vspacer-s) * 1.25);
+    img {
+      transition: opacity .45s var(--t-bezier);  
+    }
+  }
+  .c-card__header {
+    padding: calc(var(--u-vspacer-s) * 1.25);
+    color: white;
+    h3 {
+      margin-bottom: calc(var(--u-hspacer-xs) / 1.25);
+      a {
+        text-decoration: none;
+        &:before {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          content: "";
+          z-index: 2;
+        }
+      }
+    }
+    p {
+      margin-bottom: 0;
+      opacity: .6;
+      max-width: calc(var(--u-line-measure) / 1.5);
+    }
+  }
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: var(--d-card);
+    .c-card__artwork img {
+      opacity: 1;
+    }
+  }
+  &:active {
+    .c-card__artwork img {
+      opacity: .85;
+      transition: none;
+    }  
+  }
+  @media(min-width: $u-layout-break-m) {
+    .c-card__artwork img {
+      opacity: .85; //less busy
+    }
+    &--diabetik {
+      transform-origin: top left;
+    }
+    &--realo {
+      transform-origin: bottom right;
+    }
+    &--scorecard {
+      transform-origin: bottom left;
+    }
+    &--shelf {
+      transform-origin: top right;
+    }
+  }  
+}
+.c-card--diabetik {
+  .c-card__header {
+    background: var(--c-diabetik-accent);
+  }
+  .c-card__artwork {
+    background: var(--c-diabetik-light);
+  }
+}
+.c-card--helpper {
+  .c-card__header {
+    background: var(--c-helpper-accent);
+  }
+  .c-card__artwork {
+    background: var(--c-helpper-light);
+  }  
+}
+.c-card--immobrown {
+  .c-card__header {
+    background: var(--c-immobrown-accent);
+  }
+  .c-card__artwork {
+    background: var(--c-immobrown-light);
+  }  
+}
+.c-card--realo {
+  .c-card__header {
+    background: var(--c-realo-accent);
+  }
+  .c-card__artwork {
+    background: var(--c-realo-light);
+  }  
+}
+.c-card--scorecard {
+  .c-card__header {
+    background: var(--c-scorecard-accent);
+  }
+  .c-card__artwork {
+    background: var(--c-scorecard-light);
+  }  
+}
+.c-card--shelf {
+  .c-card__header {
+    background: var(--c-shelf-accent);
+  }
+  .c-card__artwork {
+    background: var(--c-shelf-light);
+  }  
+}

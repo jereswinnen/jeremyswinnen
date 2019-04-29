@@ -8,15 +8,16 @@
     padding: 0;
     list-style: none;
     .c-nav__item {
-      margin-right: calc(var(--u-spacer-15) + 1.2vmin);
+      margin-right: var(--u-hspacer-s);
       a {
         font-size: var(--f-size-body-fixed);
         font-weight: 500;
         color: var(--c-neutral-dark);
         text-transform: lowercase;
         text-decoration: none;
+        transition: color .2s var(--t-bezier);
         &:hover {
-          text-decoration: underline;
+          color: var(--c-matter-accent);
         }
       }
       &:last-child {

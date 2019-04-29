@@ -4,9 +4,27 @@
 
 .c-page {
   //margin: 0 auto;
-  //padding: 0 var(--u-layout-gutter);
-  //max-width: 55em;
-}
-@media(min-width: 46em) {
-  
+  padding: 0 var(--u-hspacer-s);
+  //max-width: var(--u-page-measure);
+  background: white;
+  box-shadow: var(--d-page);
+  .c-page__header {
+    margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
+    max-width: var(--u-line-measure);
+    text-align: center;
+  }
+  @media(min-width: $u-layout-break-s) {
+    padding: 0 var(--u-hspacer-m);
+  }
+  @media(min-width: $u-layout-break-m) {
+    .c-page__header {
+      text-align: left;
+    }
+  }
+  @media(min-width: $u-layout-break-l) {
+    padding: 0 var(--u-hspacer-l);  
+  }
+  @media(min-width: $u-layout-break-xl) {
+    //padding: 0 var(--u-hspacer-xl);  
+  }
 }

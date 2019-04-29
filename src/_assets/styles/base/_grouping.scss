@@ -3,13 +3,19 @@
 // =======================================================================
 
 html {
+  //padding: 0 var(--u-hspacer-xs); //hide on small viewports? (only on home?)
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
+  background: var(--c-matter-accent);
+  @media(min-width: $u-layout-break-m) {
+    padding: 0 var(--u-hspacer-m);
+  }
 }
 ::selection {
-  //background: $c-accent;
+  color: white;
+  background: var(--c-matter-accent);
 }
 body {
   margin: 0;
