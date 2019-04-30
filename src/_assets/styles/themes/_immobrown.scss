@@ -4,13 +4,13 @@
 
 .t--immobrown {
   background: var(--c-immobrown-accent);
-  body, h1, h3, .c-nav__item a {
+  body, h1, .c-nav__item a {
     color: var(--c-immobrown-dark);
   }
   ::selection {
     background: var(--c-immobrown-accent);
   }
-  h2, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .c-figure__caption, .c-footer {
+  h2, h3, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .c-figure__caption, .c-footer {
     color: var(--c-immobrown-accent);
   }
   .c-masthead__brand a svg {

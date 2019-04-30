@@ -267,7 +267,7 @@ h3 {
   margin-bottom: calc(var(--u-hspacer-xs) * 1.25);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h3);
-  color: var(--c-neutral-dark);
+  color: var(--c-matter-accent);
   font-weight: 400;
   text-transform: uppercase; }
 
@@ -491,11 +491,11 @@ a {
 
 .t--diabetik {
   background: var(--c-diabetik-accent); }
-  .t--diabetik body, .t--diabetik h1, .t--diabetik h3, .t--diabetik .c-nav__item a {
+  .t--diabetik body, .t--diabetik h1, .t--diabetik .c-nav__item a {
     color: var(--c-diabetik-dark); }
   .t--diabetik ::selection {
     background: var(--c-diabetik-accent); }
-  .t--diabetik h2, .t--diabetik h4, .t--diabetik .c-cta--text:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--diabetik .c-figure__caption, .t--diabetik .c-footer {
+  .t--diabetik h2, .t--diabetik h3, .t--diabetik h4, .t--diabetik .c-cta--text:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--diabetik .c-figure__caption, .t--diabetik .c-footer {
     color: var(--c-diabetik-accent); }
   .t--diabetik .c-masthead__brand a svg {
     fill: var(--c-diabetik-accent); }
@@ -504,11 +504,11 @@ a {
 
 .t--helpper {
   background: var(--c-helpper-accent); }
-  .t--helpper body, .t--helpper h1, .t--helpper h3, .t--helpper .c-nav__item a {
+  .t--helpper body, .t--helpper h1, .t--helpper .c-nav__item a {
     color: var(--c-helpper-dark); }
   .t--helpper ::selection {
     background: var(--c-helpper-accent); }
-  .t--helpper h2, .t--helpper h4, .t--helpper .c-cta--text:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--helpper .c-figure__caption, .t--helpper .c-footer {
+  .t--helpper h2, .t--helpper h3, .t--helpper h4, .t--helpper .c-cta--text:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--helpper .c-figure__caption, .t--helpper .c-footer {
     color: var(--c-helpper-accent); }
   .t--helpper .c-masthead__brand a svg {
     fill: var(--c-helpper-accent); }
@@ -517,11 +517,11 @@ a {
 
 .t--immobrown {
   background: var(--c-immobrown-accent); }
-  .t--immobrown body, .t--immobrown h1, .t--immobrown h3, .t--immobrown .c-nav__item a {
+  .t--immobrown body, .t--immobrown h1, .t--immobrown .c-nav__item a {
     color: var(--c-immobrown-dark); }
   .t--immobrown ::selection {
     background: var(--c-immobrown-accent); }
-  .t--immobrown h2, .t--immobrown h4, .t--immobrown .c-cta--text:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--immobrown .c-figure__caption, .t--immobrown .c-footer {
+  .t--immobrown h2, .t--immobrown h3, .t--immobrown h4, .t--immobrown .c-cta--text:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--immobrown .c-figure__caption, .t--immobrown .c-footer {
     color: var(--c-immobrown-accent); }
   .t--immobrown .c-masthead__brand a svg {
     fill: var(--c-immobrown-accent); }
@@ -530,11 +530,11 @@ a {
 
 .t--realo {
   background: var(--c-realo-accent); }
-  .t--realo body, .t--realo h1, .t--realo h3, .t--realo .c-nav__item a {
+  .t--realo body, .t--realo h1, .t--realo .c-nav__item a {
     color: var(--c-realo-dark); }
   .t--realo ::selection {
     background: var(--c-realo-accent); }
-  .t--realo h2, .t--realo h4, .t--realo .c-cta--text:hover, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--realo .c-figure__caption, .t--realo .c-footer {
+  .t--realo h2, .t--realo h3, .t--realo h4, .t--realo .c-cta--text:hover, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--realo .c-figure__caption, .t--realo .c-footer {
     color: var(--c-realo-accent); }
   .t--realo .c-masthead__brand a svg {
     fill: var(--c-realo-accent); }
@@ -543,11 +543,11 @@ a {
 
 .t--scorecard {
   background: var(--c-scorecard-accent); }
-  .t--scorecard body, .t--scorecard h1, .t--scorecard h3, .t--scorecard .c-nav__item a {
+  .t--scorecard body, .t--scorecard h1, .t--scorecard .c-nav__item a {
     color: var(--c-scorecard-dark); }
   .t--scorecard ::selection {
     background: var(--c-scorecard-accent); }
-  .t--scorecard h2, .t--scorecard h4, .t--scorecard .c-cta--text:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--scorecard .c-figure__caption, .t--scorecard .c-footer {
+  .t--scorecard h2, .t--scorecard h3, .t--scorecard h4, .t--scorecard .c-cta--text:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--scorecard .c-figure__caption, .t--scorecard .c-footer {
     color: var(--c-scorecard-accent); }
   .t--scorecard .c-masthead__brand a svg {
     fill: var(--c-scorecard-accent); }
@@ -556,11 +556,11 @@ a {
 
 .t--shelf {
   background: var(--c-shelf-accent); }
-  .t--shelf body, .t--shelf h1, .t--shelf h3, .t--shelf .c-nav__item a {
+  .t--shelf body, .t--shelf h1, .t--shelf .c-nav__item a {
     color: var(--c-shelf-dark); }
   .t--shelf ::selection {
     background: var(--c-shelf-accent); }
-  .t--shelf h2, .t--shelf h4, .t--shelf .c-cta--text:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--shelf .c-figure__caption, .t--shelf .c-footer {
+  .t--shelf h2, .t--shelf h3, .t--shelf h4, .t--shelf .c-cta--text:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--shelf .c-figure__caption, .t--shelf .c-footer {
     color: var(--c-shelf-accent); }
   .t--shelf .c-masthead__brand a svg {
     fill: var(--c-shelf-accent); }
