@@ -3,8 +3,5 @@
 // =======================================================================
 
 .c-article {
-  margin-bottom: 0;
-  .c-article__header {
-    //margin-bottom: ;  
-  }
+  margin-bottom: var(--u-vspacer-m);
 }

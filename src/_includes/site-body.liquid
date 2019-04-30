@@ -1,10 +1,10 @@
 <header class="c-page__header">
   {{ content }}
 </header>
-{% if layout == 'home' %}
+{% if type == 'home' %}
 <section class="c-section c-section--collage">
   {% for case in cases %}
-  <article class="c-card c-card--{{ case.name | downcase | remove:' ' }}">
+  <article class="{% if case.grid-size %}o-grid__item--{{ case.grid-size }} {% endif %}c-card c-card--{{ case.name | downcase | remove:' ' }}">
     <figure class="c-card__artwork">
       <img src="{{ case.cover }}" alt="{{ case.name }} &mdash; {{ case.summary }}">
     </figure>

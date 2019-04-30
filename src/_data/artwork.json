@@ -1,22 +1,68 @@
 {
-  "shelf": {
+  "diabetik": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1555617849/shelf__cover--constrained%402x.png",
+        "source": "https://res.cloudinary.com/matter/image/upload/v1555403407/diabetik__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
     ],
-    "hero": [
+    "collage": [
       {
-        "source": "https://cdn.uc.assets.prezly.com/04222617-10a5-46f0-9c0d-d6f345b695b2/-/preview/1200x1200/-/format/auto/",
-        "alt": "This is some alt text."
+        "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a figcaption",
+        "size": "small"
       },
       {
-        "source": "https://cdn.uc.assets.prezly.com/442ab629-f2f4-4d9e-8612-ab39ddfcf0fd/-/preview/1200x1200/-/format/auto/",
-        "alt": "This is some secondary alt text."
+        "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some secondary agency alt text."
+      }
+    ]
+  },
+  "helpper": {
+    "cover": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1555620883/helpper__cover--constrained%402x.png",
+        "alt": "This is some alt text."
       }
     ],
-    "agency": [
+    "collage": [
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some agency alt text."
+      },
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some secondary agency alt text."
+      }
+    ]
+  },
+  "immobrown": {
+    "cover": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png",
+        "alt": "This is some alt text."
+      }
+    ],
+    "collage": [
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some agency alt text."
+      },
+      {
+        "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
+        "alt": "This is some secondary agency alt text."
+      }
+    ]
+  },
+  "realo": {
+    "cover": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
+        "alt": "This is some alt text."
+      }
+    ],
+    "collage": [
       {
         "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
         "alt": "This is some agency alt text."
@@ -33,26 +79,67 @@
         "source": "https://res.cloudinary.com/matter/image/upload/v1555592654/scorecard__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
-    ]
-  },
-  "realo": {
-    "cover": [
-      {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
-        "alt": "This is some alt text."
-      }
     ],
-    "hero": [
+    "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1549372428/View_home_q7f1j4.png",
-        "alt": "This is some alt text."
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1292/v1556563026/work/scorecard/tablet-addagame.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556563026/work/scorecard/tablet-addagame.png",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a sample figcaption",
+        "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1549371734/Desktop_iamcuo.png",
-        "alt": "This is some secondary alt text."
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_431/v1556563026/work/scorecard/phone-addagame.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556563026/work/scorecard/phone-addagame.png",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a sample figcaption",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1292/v1556563028/work/scorecard/tablet-yourgames-dark.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556563028/work/scorecard/tablet-yourgames-dark.png",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a sample figcaption",
+        "grid-size": "medium"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1292/v1556563027/work/scorecard/tablet-gameplay-purple.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556563027/work/scorecard/tablet-gameplay-purple.png",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a sample figcaption",
+        "grid-size": "medium"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_431/v1556563026/work/scorecard/phone-addagame-teamcreated.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556563026/work/scorecard/phone-addagame-teamcreated.png",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a sample figcaption",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_431/v1556563028/work/scorecard/phone-gamesessions-blue.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556563028/work/scorecard/phone-gamesessions-blue.png",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a sample figcaption",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_431/v1556563026/work/scorecard/phone-gameplaywithteam-blue.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556563026/work/scorecard/phone-gameplaywithteam-blue.png",
+        "alt": "This is some agency alt text.",
+        "figcaption": "This is a sample figcaption",
+        "grid-size": "small"
+      }
+    ]
+  },
+  "shelf": {
+    "cover": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png",
+        "alt": "This is some alt text."
       }
     ],
-    "mobile": [
+    "collage": [
       {
         "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
         "alt": "This is some agency alt text."

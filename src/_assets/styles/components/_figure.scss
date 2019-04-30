@@ -8,6 +8,7 @@
     display: block;
   }
   .c-figure__caption {
-    color: currentColor;
+    margin-top: var(--u-hspacer-xs);
+    color: var(--c-matter-accent);
   }
 }

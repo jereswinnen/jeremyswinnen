@@ -3,5 +3,20 @@
 // =======================================================================
 
 .t--helpper {
-  
+  background: var(--c-helpper-accent);
+  body, h1, h3, .c-nav__item a {
+    color: var(--c-helpper-dark);
+  }
+  ::selection {
+    background: var(--c-helpper-accent);
+  }
+  h2, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .c-figure__caption, .c-footer {
+    color: var(--c-helpper-accent);
+  }
+  .c-masthead__brand a svg {
+    fill: var(--c-helpper-accent);
+  }
+  .c-section--collage .c-figure {
+    background: var(--c-helpper-light);
+  }
 }

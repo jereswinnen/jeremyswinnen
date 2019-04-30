@@ -18,6 +18,9 @@
   }
   @media(min-width: $u-layout-break-m) {
     .c-page__header {
+      // apply left inset (margin-left vw) on larger viewports
+      
+      padding: calc(var(--u-vspacer-s) + var(--u-vspacer-s)) 0;
       text-align: left;
     }
   }

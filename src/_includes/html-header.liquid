@@ -1,10 +1,10 @@
 <!doctype html>
-<html>
+<html class="t--{{ page.fileSlug }}">
 <head>
   <meta charset="utf-8">
   <meta name="theme-color" content="#000000"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if type == 'home' %}{{ site.title }} — {{ site.description}}{% endif %}{{ title }} — {{ site.title }}</title>
+  <title>{% if type != 'home' %}{{ title }} - {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
 
   <meta name="twitter:card" content="summary">

@@ -47,8 +47,7 @@
   --u-hspacer-xl: calc(4rem + 8vh);
   --u-line-measure: 42rem;
   --u-page-measure: 55em;
-  --u-flex-gutter: 3%;
-  --u-layout-gutter: 5vw;
+  --u-layout-gutter: 3vw;
   --t-bezier: cubic-bezier(.215, .61, .355, 1);
   --d-page: 0 0 4vw hsla(0, 0%, 0%, .1);
   --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .12); }
@@ -62,8 +61,8 @@
   display: none; }
 
 .o-grid .c-section--collage {
-  display: flex;
-  flex-direction: column; }
+  display: grid;
+  grid-template-columns: 1fr; }
   .o-grid .c-section--collage .c-card--diabetik {
     order: 5; }
   .o-grid .c-section--collage .c-card--helpper {
@@ -89,38 +88,41 @@
     display: block;
     order: 3;
     text-align: right; }
+  .o-grid .c-article--mc {
+    column-count: 2;
+    column-gap: var(--u-layout-gutter); }
   .o-grid .c-section--collage {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between; }
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: var(--u-layout-gutter);
+    align-items: flex-end; }
+    .o-grid .c-section--collage .o-grid__item--small {
+      grid-column: span 2; }
+    .o-grid .c-section--collage .o-grid__item--medium {
+      grid-column: span 3; }
+    .o-grid .c-section--collage .o-grid__item--large {
+      grid-column: span 4; }
     .o-grid .c-section--collage .c-card {
       display: flex;
       flex-direction: column;
       justify-content: space-between; }
-      .o-grid .c-section--collage .c-card--diabetik, .o-grid .c-section--collage .c-card--realo {
-        width: calc(40% - var(--u-flex-gutter) / 2); }
-      .o-grid .c-section--collage .c-card--scorecard, .o-grid .c-section--collage .c-card--shelf {
-        width: calc(60% - var(--u-flex-gutter) / 2); }
-      .o-grid .c-section--collage .c-card--helpper, .o-grid .c-section--collage .c-card--immobrown {
-        width: calc(50% - var(--u-flex-gutter) / 2);
-        align-self: stretch; }
       .o-grid .c-section--collage .c-card .c-card__artwork {
         display: flex;
         flex: 1;
         align-items: center; }
-    .o-grid .c-section--collage .c-card--diabetik {
-      order: 6; }
-    .o-grid .c-section--collage .c-card--helpper {
-      order: 3; }
-    .o-grid .c-section--collage .c-card--immobrown {
-      order: 4; }
-    .o-grid .c-section--collage .c-card--realo {
-      order: 1; }
-    .o-grid .c-section--collage .c-card--scorecard {
-      order: 2; }
-    .o-grid .c-section--collage .c-card--shelf {
-      order: 5; } }
+      .o-grid .c-section--collage .c-card--diabetik {
+        align-self: flex-start;
+        order: 6; }
+      .o-grid .c-section--collage .c-card--helpper {
+        order: 3; }
+      .o-grid .c-section--collage .c-card--immobrown {
+        align-self: stretch;
+        order: 4; }
+      .o-grid .c-section--collage .c-card--realo {
+        order: 1; }
+      .o-grid .c-section--collage .c-card--scorecard {
+        order: 2; }
+      .o-grid .c-section--collage .c-card--shelf {
+        order: 5; } }
 
 html {
   box-sizing: border-box;
@@ -247,17 +249,19 @@ body {
   letter-spacing: var(--f-spacing-narrow); }
 
 h1 {
+  margin-bottom: calc(var(--u-hspacer-s) * 1.25);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h1);
   font-weight: 400;
+  color: var(--c-matter-dark);
   text-transform: uppercase; }
 
 h2, .c-blockquote__text {
   font-family: var(--f-family-serif);
   font-size: var(--f-size-h2);
   line-height: var(--f-leading);
-  color: var(--c-matter-accent);
-  font-weight: 100; }
+  font-weight: 100;
+  color: var(--c-matter-accent); }
 
 h3 {
   margin-bottom: calc(var(--u-hspacer-xs) * 1.25);
@@ -269,9 +273,9 @@ h3 {
 
 h4 {
   font-size: var(--f-size-h4);
-  color: var(--c-matter-accent);
   font-weight: 500;
   letter-spacing: var(--f-spacing-extended);
+  color: var(--c-matter-accent);
   text-transform: uppercase; }
 
 small {
@@ -309,7 +313,7 @@ cite {
     .c-nav .c-nav__items .c-nav__item a {
       font-size: var(--f-size-body-fixed);
       font-weight: 500;
-      color: var(--c-neutral-dark);
+      color: var(--c-matter-dark);
       text-transform: lowercase;
       text-decoration: none;
       transition: color 0.2s var(--t-bezier); }
@@ -337,27 +341,37 @@ cite {
       padding: 0 var(--u-hspacer-m); } }
   @media (min-width: 46em) {
     .c-page .c-page__header {
+      padding: calc(var(--u-vspacer-s) + var(--u-vspacer-s)) 0;
       text-align: left; } }
   @media (min-width: 62.5em) {
     .c-page {
       padding: 0 var(--u-hspacer-l); } }
 
 .c-section {
+  margin-bottom: var(--u-vspacer-m); }
+
+.c-section--hero {
+  margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m)); }
+
+.c-section--collage .c-card, .c-section--collage .c-figure {
+  margin-bottom: var(--u-vspacer-m); }
+
+.c-section--collage .c-card--immobrown {
   margin-bottom: 0; }
 
-.c-section--collage .c-card {
-  margin-bottom: var(--u-vspacer-m); }
-  .c-section--collage .c-card--immobrown {
-    margin-bottom: 0; }
+.c-section--collage .c-figure {
+  padding: calc(var(--u-vspacer-s) * 1.25);
+  background: var(--c-matter-light); }
+  .c-section--collage .c-figure .c-figure__caption p {
+    margin-bottom: 0;
+    text-align: center; }
 
 @media (min-width: 46em) {
-  .c-section--collage .c-card {
-    margin-bottom: var(--u-flex-gutter); }
-    .c-section--collage .c-card--diabetik, .c-section--collage .c-card--shelf {
-      margin-bottom: 0; } }
+  .c-section--collage .c-card, .c-section--collage .c-figure {
+    margin-bottom: 0; } }
 
 .c-article {
-  margin-bottom: 0; }
+  margin-bottom: var(--u-vspacer-m); }
 
 .c-card {
   position: relative;
@@ -447,7 +461,8 @@ cite {
   .c-figure img {
     display: block; }
   .c-figure .c-figure__caption {
-    color: currentColor; }
+    margin-top: var(--u-hspacer-xs);
+    color: var(--c-matter-accent); }
 
 a {
   color: currentColor;
@@ -473,3 +488,81 @@ a {
   list-style: none; }
   .c-list .c-list__item {
     margin-bottom: 0; }
+
+.t--diabetik {
+  background: var(--c-diabetik-accent); }
+  .t--diabetik body, .t--diabetik h1, .t--diabetik h3, .t--diabetik .c-nav__item a {
+    color: var(--c-diabetik-dark); }
+  .t--diabetik ::selection {
+    background: var(--c-diabetik-accent); }
+  .t--diabetik h2, .t--diabetik h4, .t--diabetik .c-cta--text:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--diabetik .c-figure__caption, .t--diabetik .c-footer {
+    color: var(--c-diabetik-accent); }
+  .t--diabetik .c-masthead__brand a svg {
+    fill: var(--c-diabetik-accent); }
+  .t--diabetik .c-section--collage .c-figure {
+    background: var(--c-diabetik-light); }
+
+.t--helpper {
+  background: var(--c-helpper-accent); }
+  .t--helpper body, .t--helpper h1, .t--helpper h3, .t--helpper .c-nav__item a {
+    color: var(--c-helpper-dark); }
+  .t--helpper ::selection {
+    background: var(--c-helpper-accent); }
+  .t--helpper h2, .t--helpper h4, .t--helpper .c-cta--text:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--helpper .c-figure__caption, .t--helpper .c-footer {
+    color: var(--c-helpper-accent); }
+  .t--helpper .c-masthead__brand a svg {
+    fill: var(--c-helpper-accent); }
+  .t--helpper .c-section--collage .c-figure {
+    background: var(--c-helpper-light); }
+
+.t--immobrown {
+  background: var(--c-immobrown-accent); }
+  .t--immobrown body, .t--immobrown h1, .t--immobrown h3, .t--immobrown .c-nav__item a {
+    color: var(--c-immobrown-dark); }
+  .t--immobrown ::selection {
+    background: var(--c-immobrown-accent); }
+  .t--immobrown h2, .t--immobrown h4, .t--immobrown .c-cta--text:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--immobrown .c-figure__caption, .t--immobrown .c-footer {
+    color: var(--c-immobrown-accent); }
+  .t--immobrown .c-masthead__brand a svg {
+    fill: var(--c-immobrown-accent); }
+  .t--immobrown .c-section--collage .c-figure {
+    background: var(--c-immobrown-light); }
+
+.t--realo {
+  background: var(--c-realo-accent); }
+  .t--realo body, .t--realo h1, .t--realo h3, .t--realo .c-nav__item a {
+    color: var(--c-realo-dark); }
+  .t--realo ::selection {
+    background: var(--c-realo-accent); }
+  .t--realo h2, .t--realo h4, .t--realo .c-cta--text:hover, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--realo .c-figure__caption, .t--realo .c-footer {
+    color: var(--c-realo-accent); }
+  .t--realo .c-masthead__brand a svg {
+    fill: var(--c-realo-accent); }
+  .t--realo .c-section--collage .c-figure {
+    background: var(--c-realo-light); }
+
+.t--scorecard {
+  background: var(--c-scorecard-accent); }
+  .t--scorecard body, .t--scorecard h1, .t--scorecard h3, .t--scorecard .c-nav__item a {
+    color: var(--c-scorecard-dark); }
+  .t--scorecard ::selection {
+    background: var(--c-scorecard-accent); }
+  .t--scorecard h2, .t--scorecard h4, .t--scorecard .c-cta--text:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--scorecard .c-figure__caption, .t--scorecard .c-footer {
+    color: var(--c-scorecard-accent); }
+  .t--scorecard .c-masthead__brand a svg {
+    fill: var(--c-scorecard-accent); }
+  .t--scorecard .c-section--collage .c-figure {
+    background: var(--c-scorecard-light); }
+
+.t--shelf {
+  background: var(--c-shelf-accent); }
+  .t--shelf body, .t--shelf h1, .t--shelf h3, .t--shelf .c-nav__item a {
+    color: var(--c-shelf-dark); }
+  .t--shelf ::selection {
+    background: var(--c-shelf-accent); }
+  .t--shelf h2, .t--shelf h4, .t--shelf .c-cta--text:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .t--shelf .c-figure__caption, .t--shelf .c-footer {
+    color: var(--c-shelf-accent); }
+  .t--shelf .c-masthead__brand a svg {
+    fill: var(--c-shelf-accent); }
+  .t--shelf .c-section--collage .c-figure {
+    background: var(--c-shelf-light); }

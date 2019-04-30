@@ -1,1 +1,5 @@
-<!doctype html><title>Page title</title>
+---
+title: Contact
+permalink: /contact/index.html
+---
+## Contact

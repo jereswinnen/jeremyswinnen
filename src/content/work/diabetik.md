@@ -1,10 +1,6 @@
 ---
 title: Diabetik
-role: Branding, UI design, icon design, and web design.
-year: 2013-2015
-cover: https://images.unsplash.com/photo-1548502567-d6f175c4808f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-url: https://diabetikapp.com
-status: Retired
+summary: Branding, UI design, icon design, and web design.
 ---
 ## I worked together with Nial Giacomelli on creating a delightful user experience for people who suffer from diabetes. The result is an app that's modern, intuitive and fun to use.
 

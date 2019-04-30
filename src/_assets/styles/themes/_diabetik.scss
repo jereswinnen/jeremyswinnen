@@ -3,5 +3,20 @@
 // =======================================================================
 
 .t--diabetik {
-  
+  background: var(--c-diabetik-accent);
+  body, h1, h3, .c-nav__item a {
+    color: var(--c-diabetik-dark);
+  }
+  ::selection {
+    background: var(--c-diabetik-accent);
+  }
+  h2, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .c-figure__caption, .c-footer {
+    color: var(--c-diabetik-accent);
+  }
+  .c-masthead__brand a svg {
+    fill: var(--c-diabetik-accent);
+  }
+  .c-section--collage .c-figure {
+    background: var(--c-diabetik-light);
+  }
 }

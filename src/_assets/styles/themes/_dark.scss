@@ -2,6 +2,9 @@
 // Dark Custom Styles
 // =======================================================================
 
-.t--dark {
-     
+@media (prefers-color-scheme: dark) {
+  background: red;
+  .c-page {
+    background: red;
+  }
 }

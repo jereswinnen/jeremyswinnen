@@ -13,20 +13,21 @@ body {
 
 // Headings
 h1 {
-  //margin-bottom: calc(var(--u-hspacer-s) * 1.25);
+  margin-bottom: calc(var(--u-hspacer-s) * 1.25);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h1);
   font-weight: 400;
+  color: var(--c-matter-dark);
   text-transform: uppercase;
 }
 h2, .c-blockquote__text {
-  //margin-bottom: var(--u-hspacer-s);
   font-family: var(--f-family-serif);
   font-size: var(--f-size-h2);
   line-height: var(--f-leading);
-  color: var(--c-matter-accent);
   font-weight: 100;
+  color: var(--c-matter-accent);
 }
+
 h3 {
   margin-bottom: calc(var(--u-hspacer-xs) * 1.25);
   font-family: var(--f-family-display);
@@ -38,9 +39,9 @@ h3 {
 h4 {
   //margin-bottom: var(--u-spacer);
   font-size: var(--f-size-h4);
-  color: var(--c-matter-accent);
   font-weight: 500;
   letter-spacing: var(--f-spacing-extended);
+  color: var(--c-matter-accent);
   text-transform: uppercase;
 }
 

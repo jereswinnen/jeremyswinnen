@@ -12,8 +12,8 @@
     display: none;
   }
   .c-section--collage {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     .c-card--diabetik {
       order: 5;
     }
@@ -34,7 +34,7 @@
     }
   }
   @media(min-width: $u-layout-break-s) {
-    
+     
   }
   @media(min-width: $u-layout-break-m) {
     .c-masthead, .c-footer {
@@ -54,48 +54,52 @@
         text-align: right;
       }
     }
-    .c-section--collage { //make this a grid container and cards a flex container?
-      flex-direction: row;
-      flex-wrap: wrap;
+    .c-article--mc {
+      column-count: 2;
+      column-gap: var(--u-layout-gutter);
+    }
+    .c-section--collage {
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: var(--u-layout-gutter);
       align-items: flex-end;
-      justify-content: space-between;
+      .o-grid__item--small {
+        grid-column: span 2;
+      }
+      .o-grid__item--medium {
+        grid-column: span 3;  
+      }
+      .o-grid__item--large {
+        grid-column: span 4;  
+      }
       .c-card {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        &--diabetik, &--realo {
-          width: calc(40% - var(--u-flex-gutter) / 2);
-        }
-        &--scorecard, &--shelf {
-          width: calc(60% - var(--u-flex-gutter) / 2);
-        }
-        &--helpper, &--immobrown {
-          width: calc(50% - var(--u-flex-gutter) / 2);
-          align-self: stretch;
-        }
         .c-card__artwork {
           display: flex;
           flex: 1;
           align-items: center;
         }
-      }
-      .c-card--diabetik {
-        order: 6;
-      }
-      .c-card--helpper {
-        order: 3;
-      }
-      .c-card--immobrown {
-        order: 4;
-      }
-      .c-card--realo {
-        order: 1;
-      }
-      .c-card--scorecard {
-        order: 2;
-      }
-      .c-card--shelf {
-        order: 5;
+        &--diabetik {
+          align-self: flex-start;
+          order: 6;
+        }
+        &--helpper {
+          order: 3;
+        }
+        &--immobrown {
+          align-self: stretch;
+          order: 4;
+        }
+        &--realo {
+          order: 1;
+        }
+        &--scorecard {
+          order: 2;
+        }
+        &--shelf {
+          order: 5;
+        }
       }
     }
   }

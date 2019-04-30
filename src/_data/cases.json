@@ -3,36 +3,42 @@
     "name": "Diabetik",
     "summary": "Elegant diabetes management at your fingertips.",
     "role": "Web, iOS",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555403407/diabetik__cover--constrained%402x.png"
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555403407/diabetik__cover--constrained%402x.png",
+    "grid-size": "small"
   },
   {
     "name": "Helpper",
     "summary": "Helpper allows you to connect with people in your neighbourhood who are in need of a helping hand.",
     "role": "iOS",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555620883/helpper__cover--constrained%402x.png"
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555620883/helpper__cover--constrained%402x.png",
+    "grid-size": "medium"
   },
   {
     "name": "Immo Brown",
     "summary": "An elegant new website for an exclusive real estate agent.",
     "role": "Web",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png"
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png",
+    "grid-size": "medium"
   },
   {
     "name": "Realo",
     "summary": "Building a next generation real estate platform.",
     "role": "Web, iOS, Android",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png"
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
+    "grid-size": "small"
   },
   {
     "name": "Scorecard",
     "summary": "Keeping score while playing games with friends and family has never been so seamless.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1556484574/scorecard__cover--constrained%402x.png"
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1556484574/scorecard__cover--constrained%402x.png",
+    "grid-size": "large"
   },
   {
     "name": "Shelf",
     "summary": "An app for power users who work with documents on a daily basis.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png"
+    "cover": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png",
+    "grid-size": "large"
   }
 ]

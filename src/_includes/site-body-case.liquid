@@ -1,24 +1,47 @@
-<header class="c-main__header">
-  <span><a class="c-cta c-cta--textreverse" href="/">work / </a> scorecard</span>
+<header class="c-page__header">
   <h1>{{ title }}</h1>
-  <h2 class="c-page__summary">{{ summary }}</h2>  
+  <h2>{{ summary }}</h2>  
 </header>
-<aside class="c-main__aside">
-  <dl class="c-dlist">
-    <li class="c-dlist__item">
-      <dt class="c-dlist__term">Year</dt>
-      <dd class="c-dlist__description">{{ meta.year }}</dd>
-    </li>
-    <li class="c-dlist__item">
-      <dt class="c-dlist__term">Role</dt>
-      <dd class="c-dlist__description">{{ meta.role }}</dd>
-    </li>
-    <li class="c-dlist__item">
-      <dt class="c-dlist__term">View website</dt>
-      <dd class="c-dlist__description"><a class="c-cta c-cta--text" href="{{ meta.website }}">{{ meta.website }}</a></dd>
-    </li>
-  </dl>  
-</aside>
-<article class="c-article">
+<section class="c-section c-section--hero">
+{% if page.fileSlug == 'diabetik' %}
+  {% include screens with artwork: artwork.diabetik.cover %} 
+{% endif %}
+{% if page.fileSlug == 'helpper' %}
+  {% include screens with artwork: artwork.helpper.cover %} 
+{% endif %}
+{% if page.fileSlug == 'immobrown' %}
+  {% include screens with artwork: artwork.immobrown.cover %} 
+{% endif %}
+{% if page.fileSlug == 'realo' %}
+  {% include screens with artwork: artwork.realo.cover %} 
+{% endif %}
+{% if page.fileSlug == 'scorecard' %}
+  {% include screens with artwork: artwork.scorecard.cover %} 
+{% endif %}
+{% if page.fileSlug == 'shelf' %}
+  {% include screens with artwork: artwork.shelf.cover %} 
+{% endif %}  
+</section>
+<article class="c-article c-article--mc">
   {{ content }}
 </article>
+<section class="c-section c-section--collage">
+{% if page.fileSlug == 'diabetik' %}
+  {% include screens with artwork: artwork.diabetik.collage %} 
+{% endif %}
+{% if page.fileSlug == 'helpper' %}
+  {% include screens with artwork: artwork.helpper.collage %} 
+{% endif %}
+{% if page.fileSlug == 'immobrown' %}
+  {% include screens with artwork: artwork.immobrown.collage %} 
+{% endif %}
+{% if page.fileSlug == 'realo' %}
+  {% include screens with artwork: artwork.realo.collage %} 
+{% endif %}
+{% if page.fileSlug == 'scorecard' %}
+  {% include screens with artwork: artwork.scorecard.collage %} 
+{% endif %}
+{% if page.fileSlug == 'shelf' %}
+  {% include screens with artwork: artwork.shelf.collage %} 
+{% endif %}
+</section>
