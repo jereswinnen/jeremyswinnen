@@ -3,8 +3,96 @@
 // =======================================================================
 
 @media (prefers-color-scheme: dark) {
-  background: red;
-  .c-page {
-    background: red;
+  html {
+    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+      color: var(--c-matter-light);
+    }
+    .c-page {
+      background: var(--c-matter-dark);
+    }
+    .c-card--diabetik .c-card__artwork {
+      background: var(--c-diabetik-alpha);
+    }
+    .c-card--helpper .c-card__artwork {
+      background: var(--c-helpper-alpha);
+    }
+    .c-card--immobrown .c-card__artwork {
+      background: var(--c-immobrown-alpha);
+    }
+    .c-card--realo .c-card__artwork {
+      background: var(--c-realo-alpha);
+    }
+    .c-card--scorecard .c-card__artwork {
+      background: var(--c-scorecard-alpha);
+    }
+    .c-card--shelf .c-card__artwork {
+      background: var(--c-shelf-alpha);
+    }
+  }
+  html.t--diabetik {
+    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+      color: var(--c-diabetik-light);
+    }
+    .c-page {
+      background: var(--c-diabetik-dark);
+    }
+    .c-section--collage .c-figure {
+      background: var(--c-diabetik-alpha);
+    }
+  }
+  html.t--helpper {
+    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+      color: var(--c-helpper-light);
+    }
+    .c-page {
+      background: var(--c-helpper-dark);
+    }
+    .c-section--collage .c-figure {
+      background: var(--c-helpper-alpha);
+    }
+  }
+  html.t--immobrown {
+    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+      color: var(--c-immobrown-light);
+    }
+    .c-page {
+      background: var(--c-immobrown-dark);
+    }
+    .c-section--collage .c-figure {
+      background: var(--c-immobrown-alpha);
+    }
+  }
+  html.t--realo {
+    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+      color: var(--c-realo-light);
+    }
+    .c-page {
+      background: var(--c-realo-dark);
+    }
+    .c-section--collage .c-figure {
+      background: var(--c-realo-alpha);
+    }
+  }
+  html.t--scorecard {
+    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+      color: var(--c-scorecard-light);
+    }
+    .c-page {
+      background: var(--c-scorecard-dark);
+    }
+    .c-section--collage .c-figure {
+      background: var(--c-scorecard-alpha);
+    }
+  }
+  html.t--shelf {
+    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+      color: var(--c-shelf-light);
+    }
+    .c-page {
+      background: var(--c-shelf-dark);
+    }
+    .c-section--collage .c-figure {
+      background: var(--c-shelf-alpha);
+    }
   }
 }

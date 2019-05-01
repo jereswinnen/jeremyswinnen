@@ -1,25 +1,32 @@
 :root {
-  --c-matter-dark: hsl(240, 25%, 12%);
+  --c-matter-dark: hsl(240, 7%, 10%);
   --c-matter-accent: hsl(240, 5%, 56%);
   --c-matter-light: hsl(240, 6%, 93%);
+  --c-matter-alpha: hsla(240, 5%, 56%, 15%);
   --c-diabetik-dark: hsl(104, 30%, 12%);
   --c-diabetik-accent: hsl(104, 24%, 35%);
   --c-diabetik-light: hsl(104, 12%, 90%);
+  --c-diabetik-alpha: hsla(104, 24%, 35%, 15%);
   --c-helpper-dark: hsl(312, 27%, 12%);
   --c-helpper-accent: hsl(312, 16%, 35%);
   --c-helpper-light: hsl(312, 8%, 90%);
+  --c-helpper-alpha: hsla(312, 16%, 35%, 15%);
   --c-immobrown-dark: hsl(29, 30%, 12%);
   --c-immobrown-accent: hsl(29, 24%, 35%);
   --c-immobrown-light: hsl(29, 12%, 90%);
+  --c-immobrown-alpha: hsla(29, 24%, 35%, 15%);
   --c-realo-dark: hsl(238, 27%, 12%);
   --c-realo-accent: hsl(238, 22%, 35%);
   --c-realo-light: hsl(238, 12%, 90%);
+  --c-realo-alpha: hsl(238, 22%, 35%, 15%);
   --c-scorecard-dark: hsl(180, 27%, 12%);
   --c-scorecard-accent: hsl(180, 16%, 35%);
   --c-scorecard-light: hsl(180, 8%, 90%);
+  --c-scorecard-alpha: hsla(180, 16%, 35%, 15%);
   --c-shelf-dark: hsl(360, 30%, 12%);
   --c-shelf-accent: hsl(360, 23%, 35%);
   --c-shelf-light: hsl(360, 12%, 90%);
+  --c-shelf-alpha: hsla(360, 23%, 35%, 15%);
   --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --f-family-serif: ohno-blazeface, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
@@ -336,7 +343,7 @@ cite {
     margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
     max-width: var(--u-line-measure);
     text-align: center; }
-  @media (min-width: 30em) {
+  @media (min-width: 34em) {
     .c-page {
       padding: 0 var(--u-hspacer-m); } }
   @media (min-width: 46em) {
@@ -385,7 +392,8 @@ cite {
     padding: calc(var(--u-vspacer-s) * 1.25);
     color: white; }
     .c-card .c-card__header h3 {
-      margin-bottom: calc(var(--u-hspacer-xs) / 1.25); }
+      margin-bottom: calc(var(--u-hspacer-xs) / 1.25);
+      color: white; }
       .c-card .c-card__header h3 a {
         text-decoration: none; }
         .c-card .c-card__header h3 a:before {
@@ -489,9 +497,63 @@ a {
   .c-list .c-list__item {
     margin-bottom: 0; }
 
+@media (prefers-color-scheme: dark) {
+  html body, html h1, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
+    color: var(--c-matter-light); }
+  html .c-page {
+    background: var(--c-matter-dark); }
+  html .c-card--diabetik .c-card__artwork {
+    background: var(--c-diabetik-alpha); }
+  html .c-card--helpper .c-card__artwork {
+    background: var(--c-helpper-alpha); }
+  html .c-card--immobrown .c-card__artwork {
+    background: var(--c-immobrown-alpha); }
+  html .c-card--realo .c-card__artwork {
+    background: var(--c-realo-alpha); }
+  html .c-card--scorecard .c-card__artwork {
+    background: var(--c-scorecard-alpha); }
+  html .c-card--shelf .c-card__artwork {
+    background: var(--c-shelf-alpha); }
+  html.t--diabetik body, html.t--diabetik h1, html.t--diabetik .c-nav .c-nav__items .c-nav__item a, html.t--diabetik .c-figure__caption {
+    color: var(--c-diabetik-light); }
+  html.t--diabetik .c-page {
+    background: var(--c-diabetik-dark); }
+  html.t--diabetik .c-section--collage .c-figure {
+    background: var(--c-diabetik-alpha); }
+  html.t--helpper body, html.t--helpper h1, html.t--helpper .c-nav .c-nav__items .c-nav__item a, html.t--helpper .c-figure__caption {
+    color: var(--c-helpper-light); }
+  html.t--helpper .c-page {
+    background: var(--c-helpper-dark); }
+  html.t--helpper .c-section--collage .c-figure {
+    background: var(--c-helpper-alpha); }
+  html.t--immobrown body, html.t--immobrown h1, html.t--immobrown .c-nav .c-nav__items .c-nav__item a, html.t--immobrown .c-figure__caption {
+    color: var(--c-immobrown-light); }
+  html.t--immobrown .c-page {
+    background: var(--c-immobrown-dark); }
+  html.t--immobrown .c-section--collage .c-figure {
+    background: var(--c-immobrown-alpha); }
+  html.t--realo body, html.t--realo h1, html.t--realo .c-nav .c-nav__items .c-nav__item a, html.t--realo .c-figure__caption {
+    color: var(--c-realo-light); }
+  html.t--realo .c-page {
+    background: var(--c-realo-dark); }
+  html.t--realo .c-section--collage .c-figure {
+    background: var(--c-realo-alpha); }
+  html.t--scorecard body, html.t--scorecard h1, html.t--scorecard .c-nav .c-nav__items .c-nav__item a, html.t--scorecard .c-figure__caption {
+    color: var(--c-scorecard-light); }
+  html.t--scorecard .c-page {
+    background: var(--c-scorecard-dark); }
+  html.t--scorecard .c-section--collage .c-figure {
+    background: var(--c-scorecard-alpha); }
+  html.t--shelf body, html.t--shelf h1, html.t--shelf .c-nav .c-nav__items .c-nav__item a, html.t--shelf .c-figure__caption {
+    color: var(--c-shelf-light); }
+  html.t--shelf .c-page {
+    background: var(--c-shelf-dark); }
+  html.t--shelf .c-section--collage .c-figure {
+    background: var(--c-shelf-alpha); } }
+
 .t--diabetik {
   background: var(--c-diabetik-accent); }
-  .t--diabetik body, .t--diabetik h1, .t--diabetik .c-nav__item a {
+  .t--diabetik body, .t--diabetik h1, .t--diabetik .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-diabetik-dark); }
   .t--diabetik ::selection {
     background: var(--c-diabetik-accent); }
@@ -504,7 +566,7 @@ a {
 
 .t--helpper {
   background: var(--c-helpper-accent); }
-  .t--helpper body, .t--helpper h1, .t--helpper .c-nav__item a {
+  .t--helpper body, .t--helpper h1, .t--helpper .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-helpper-dark); }
   .t--helpper ::selection {
     background: var(--c-helpper-accent); }
@@ -517,7 +579,7 @@ a {
 
 .t--immobrown {
   background: var(--c-immobrown-accent); }
-  .t--immobrown body, .t--immobrown h1, .t--immobrown .c-nav__item a {
+  .t--immobrown body, .t--immobrown h1, .t--immobrown .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-immobrown-dark); }
   .t--immobrown ::selection {
     background: var(--c-immobrown-accent); }
@@ -530,7 +592,7 @@ a {
 
 .t--realo {
   background: var(--c-realo-accent); }
-  .t--realo body, .t--realo h1, .t--realo .c-nav__item a {
+  .t--realo body, .t--realo h1, .t--realo .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-realo-dark); }
   .t--realo ::selection {
     background: var(--c-realo-accent); }
@@ -543,7 +605,7 @@ a {
 
 .t--scorecard {
   background: var(--c-scorecard-accent); }
-  .t--scorecard body, .t--scorecard h1, .t--scorecard .c-nav__item a {
+  .t--scorecard body, .t--scorecard h1, .t--scorecard .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-scorecard-dark); }
   .t--scorecard ::selection {
     background: var(--c-scorecard-accent); }
@@ -556,7 +618,7 @@ a {
 
 .t--shelf {
   background: var(--c-shelf-accent); }
-  .t--shelf body, .t--shelf h1, .t--shelf .c-nav__item a {
+  .t--shelf body, .t--shelf h1, .t--shelf .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-shelf-dark); }
   .t--shelf ::selection {
     background: var(--c-shelf-accent); }
