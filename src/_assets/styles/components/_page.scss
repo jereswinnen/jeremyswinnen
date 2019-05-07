@@ -13,21 +13,16 @@
     max-width: var(--u-line-measure);
     text-align: center;
   }
+  .c-page__body {
+      margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
+    }
   @media(min-width: $u-layout-break-s) {
     padding: 0 var(--u-hspacer-m);
   }
   @media(min-width: $u-layout-break-m) {
     .c-page__header {
-      // apply left inset (margin-left vw) on larger viewports
-      
       padding: calc(var(--u-vspacer-s) + var(--u-vspacer-s)) 0;
       text-align: left;
     }
-  }
-  @media(min-width: $u-layout-break-l) {
-    padding: 0 var(--u-hspacer-l);  
-  }
-  @media(min-width: $u-layout-break-xl) {
-    //padding: 0 var(--u-hspacer-xl);  
   }
 }

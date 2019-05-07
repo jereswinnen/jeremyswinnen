@@ -7,7 +7,7 @@
   {% for case in cases %}
   <article class="{% if case.grid-size %}o-grid__item--{{ case.grid-size }} {% endif %}c-card c-card--{{ case.name | downcase | remove:' ' }}">
     <figure class="c-card__artwork">
-      <img src="{{ case.cover }}" alt="{{ case.name }} &mdash; {{ case.summary }}">
+      <img src="{{ case.cover }}" srcset="{{ case.cover }} 1x, {{ case.cover-hq }} 2x" sizes="100vw" alt="{{ case.name }} &mdash; {{ case.summary }}">
     </figure>
     <header class="c-card__header">
       <h3><a href="/work/{{ case.name | downcase | remove: ' ' }}">{{ case.name }}</a></h3>
@@ -37,7 +37,7 @@
   {% include screens with artwork: artwork.shelf.cover %} 
 {% endif %}  
 </section>
-<article class="c-article c-article--mc">
+<article class="c-page__body c-page__body--mc c-article">
   {{ content }}
 </article>
 <section class="c-section c-section--collage">

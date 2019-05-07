@@ -47,17 +47,17 @@
   --u-vspacer-m: calc(1rem + 3vh);
   --u-vspacer-l: calc(2rem + 6vh);
   --u-vspacer-xl: calc(4rem + 8vh);
-  --u-hspacer-xs: calc(0.25rem + 1vh);
-  --u-hspacer-s: calc(0.5rem + 1.5vh);
-  --u-hspacer-m: calc(1rem + 3vh);
-  --u-hspacer-l: calc(2rem + 6vh);
-  --u-hspacer-xl: calc(4rem + 8vh);
+  --u-hspacer-xs: calc(0.25rem + 1vw);
+  --u-hspacer-s: calc(0.5rem + 1.5vw);
+  --u-hspacer-m: calc(1rem + 3vw);
+  --u-hspacer-l: calc(2rem + 6vw);
+  --u-hspacer-xl: calc(4rem + 8vw);
   --u-line-measure: 42rem;
   --u-page-measure: 55em;
   --u-layout-gutter: 3vw;
   --t-bezier: cubic-bezier(.215, .61, .355, 1);
   --d-page: 0 0 4vw hsla(0, 0%, 0%, .1);
-  --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .12); }
+  --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1); }
 
 .o-grid .c-masthead, .o-grid .c-footer {
   display: flex;
@@ -83,6 +83,12 @@
   .o-grid .c-section--collage .c-card--shelf {
     order: 4; }
 
+@media (min-width: 34em) {
+  .o-grid .c-page__header, .o-grid .c-page__body {
+    padding: 0 var(--u-hspacer-s); }
+  .o-grid .c-section--hero {
+    padding: 0 var(--u-hspacer-m); } }
+
 @media (min-width: 46em) {
   .o-grid .c-masthead, .o-grid .c-footer {
     flex-direction: row; }
@@ -95,9 +101,16 @@
     display: block;
     order: 3;
     text-align: right; }
-  .o-grid .c-article--mc {
-    column-count: 2;
-    column-gap: var(--u-layout-gutter); }
+  .o-grid .c-page__header {
+    margin-left: var(--u-hspacer-m);
+    padding: 0; }
+  .o-grid .c-page__body {
+    padding: 0 var(--u-hspacer-m); }
+    .o-grid .c-page__body--mc {
+      column-count: 2;
+      column-gap: var(--u-layout-gutter); }
+  .o-grid .c-section--hero {
+    padding: 0 var(--u-hspacer-l); }
   .o-grid .c-section--collage {
     grid-template-columns: repeat(6, 1fr);
     grid-gap: var(--u-layout-gutter);
@@ -343,6 +356,8 @@ cite {
     margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
     max-width: var(--u-line-measure);
     text-align: center; }
+  .c-page .c-page__body {
+    margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m)); }
   @media (min-width: 34em) {
     .c-page {
       padding: 0 var(--u-hspacer-m); } }
@@ -350,9 +365,6 @@ cite {
     .c-page .c-page__header {
       padding: calc(var(--u-vspacer-s) + var(--u-vspacer-s)) 0;
       text-align: left; } }
-  @media (min-width: 62.5em) {
-    .c-page {
-      padding: 0 var(--u-hspacer-l); } }
 
 .c-section {
   margin-bottom: var(--u-vspacer-m); }
@@ -379,6 +391,8 @@ cite {
 
 .c-article {
   margin-bottom: var(--u-vspacer-m); }
+  .c-article p {
+    text-indent: var(--u-hspacer-s); }
 
 .c-card {
   position: relative;

@@ -74,11 +74,11 @@ $u-layout-break-xl: 90em; //1440
   --u-vspacer-l: calc(2rem + 6vh);
   --u-vspacer-xl: calc(4rem + 8vh);
 
-  --u-hspacer-xs: calc(0.25rem + 1vh);
-  --u-hspacer-s: calc(0.5rem + 1.5vh);
-  --u-hspacer-m: calc(1rem + 3vh);
-  --u-hspacer-l: calc(2rem + 6vh);
-  --u-hspacer-xl: calc(4rem + 8vh);
+  --u-hspacer-xs: calc(0.25rem + 1vw);
+  --u-hspacer-s: calc(0.5rem + 1.5vw);
+  --u-hspacer-m: calc(1rem + 3vw);
+  --u-hspacer-l: calc(2rem + 6vw);
+  --u-hspacer-xl: calc(4rem + 8vw);
 
   --u-line-measure: 42rem;
   --u-page-measure: 55em;
@@ -91,5 +91,5 @@ $u-layout-break-xl: 90em; //1440
 
   // Depth
   --d-page: 0 0 4vw hsla(0, 0%, 0%, .1);
-  --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .12);
+  --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1);
 }

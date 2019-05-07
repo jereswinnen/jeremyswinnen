@@ -2,7 +2,8 @@
   "diabetik": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1555403407/diabetik__cover--constrained%402x.png",
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1243/v1555403407/diabetik__cover--constrained%402x.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1555403407/diabetik__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
     ],
@@ -22,7 +23,8 @@
   "helpper": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1555620883/helpper__cover--constrained%402x.png",
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1371/v1555620883/helpper__cover--constrained%402x.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1555620883/helpper__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
     ],
@@ -40,7 +42,8 @@
   "immobrown": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png",
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1588/v1555619993/immobrown__cover--constrained%402x.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1555619993/immobrown__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
     ],
@@ -58,7 +61,8 @@
   "realo": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1588/v1555618894/realo__cover--constrained%402x.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
     ],
@@ -76,7 +80,7 @@
   "scorecard": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1555592654/scorecard__cover--constrained%402x.png",
+        "source": "https://res.cloudinary.com/matter/image/upload/v1556484574/scorecard__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
     ],
@@ -135,7 +139,8 @@
   "shelf": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png",
+        "source": "https://res.cloudinary.com/matter/image/upload/c_scale,w_1434/v1556484579/shelf__cover--constrained%402x.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png",
         "alt": "This is some alt text."
       }
     ],
