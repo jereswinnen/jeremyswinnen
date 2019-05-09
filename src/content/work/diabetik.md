@@ -1,6 +1,6 @@
 ---
 title: Diabetik
-summary: Branding, UI design, icon design, and web design.
+lede: Branding, UI design, icon design, and web design.
 ---
 ## I worked together with Nial Giacomelli on creating a delightful user experience for people who suffer from diabetes. The result is an app that's modern, intuitive and fun to use.
 

@@ -16,15 +16,12 @@
         text-transform: lowercase;
         text-decoration: none;
         transition: color .2s var(--t-bezier);
-        &:hover {
+        &:hover, &[aria-current] {
           color: var(--c-matter-accent);
         }
       }
       &:last-child {
         margin-right: 0;
-      }
-      &.c-nav__item--selected a {
-        color: var(--c-matter-accent);
       }
     }
   }

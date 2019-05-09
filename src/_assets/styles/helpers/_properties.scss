@@ -48,24 +48,25 @@ $u-layout-break-xl: 90em; //1440
 
   // Typography
   --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
-  --f-family-serif: ohno-blazeface, Georgia, serif;
+  --f-family-serif: input-moo, ohno-blazeface, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
 
-  --f-size-body: calc(1rem + 0.425vmin); //adjust vmin to it doesn't get too big
+  --f-size-body: calc(1rem + 0.325vmin); //adjust vmin to it doesn't get too big
   --f-size-body-fixed: 1rem;
   --f-size-body-small: 0.875rem;
 
-  --f-size-h1: calc(2.75rem + 1.45vw); //needs to be bigger at larger vwprts
-  --f-size-h2: calc(1.25rem + 0.75vw);
+  --f-size-h1: calc(2.75rem + 1.65vw);
+  //--f-size-h2: calc(1.2rem + 0.75vw);
+  --f-size-h2: calc(1.05rem + 0.75vw);
   --f-size-h3: calc(1.875rem + 0.25vw);
-  --f-size-h4: calc(0.8rem + 0.12vw);
+  --f-size-h4: calc(0.8rem + 0.1vw);
   --f-size-blockquote: var(--f-size-h3);
 
   --f-leading-tight: 1.25em;
   --f-leading: 1.4em;
 
   --f-spacing-narrow: -0.016743rem;
-  --f-spacing-extended: 0.12rem;
+  --f-spacing-extended: 0.1rem;
 
   // Units
   --u-vspacer-xs: calc(0.25rem + 1vh);
@@ -79,6 +80,20 @@ $u-layout-break-xl: 90em; //1440
   --u-hspacer-m: calc(1rem + 3vw);
   --u-hspacer-l: calc(2rem + 6vw);
   --u-hspacer-xl: calc(4rem + 8vw);
+
+  --u-spacer-outer-xs: 2vmax; //for 'outer' elements (section, header, footer, article)
+  --u-spacer-outer-s: 4vmax;
+  --u-spacer-outer-m: 6vmax;
+  --u-spacer-outer-l: 10vmax;
+  --u-spacer-outer-xl: 16vmax;
+
+  --u-spacer-inner-xs: 2vmin; //for inner elements (text elements and inside 'main' components)
+  --u-spacer-inner-s: 4vmin;
+  --u-spacer-inner-m: 6vmin;
+  --u-spacer-inner-l: 10vmin;
+  --u-spacer-inner-xl: 16vmin;
+
+  // use layout.scss purely for arranging of elements on different breakpoints (collage, o-grid)
 
   --u-line-measure: 42rem;
   --u-page-measure: 55em;

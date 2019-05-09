@@ -1,0 +1,47 @@
+<header class="c-page__header">
+  <h1>{{ title }}</h1>
+  <h2>{{ lede }}</h2>  
+</header>
+<article class="c-page__body c-page__body--mc c-article">
+  {{ content }}
+</article>
+<section class="o-grid__align--bleed c-section c-section--darken">
+  <header class="c-section__header c-section__header--centered">
+    <h4>Skills &amp; Services</h4>
+    <h2>While I'm primarily a designer, I'm equally able to assist you and your team in a few other key areas throughout the process.</h2>
+  </header>
+  <section class="o-grid__abreast">
+    {% for skill in skills %}
+    <article class="o-grid__item">
+      <h3>{{ skill.title }}</h3>
+      <p>{{ skill.description }}</p>
+    </article> 
+    {% endfor %} 
+  </section>
+</section>
+<section class="c-section" role="press">
+  <header class="c-section__header">
+    <h4>Mentions</h4>
+    <h2>My work has been featured in both local and international publications.</h2>
+  </header>
+  <section class="o-grid__cells">
+    {% for item in press %}
+    <div class="o-grid__item">
+      <img src="{{ item.logo }}" alt="{{ item.publication }}">
+    </div> 
+    {% endfor %}  
+  </section>
+</section>
+<section class="c-section" role="quotes">
+  <header class="c-section__header">
+    <h4>Nice words about my work</h4>
+  </header>
+  <section class="o-grid__abreast">
+    {% for quote in quotes %}
+    <blockquote class="o-grid__item">
+      <p class="c-blockquote__text">{{ quote.phrase }}</p>
+      <cite>{{ quote.cite }}</cite>
+    </blockquote> 
+    {% endfor %}  
+  </section>
+</section>

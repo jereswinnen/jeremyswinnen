@@ -3,6 +3,20 @@
 // =======================================================================
 
 .o-grid {
+  .o-grid__align--bleed {
+    padding-left: var(--u-hspacer-s);
+    padding-right: var(--u-hspacer-s);
+    margin-left: calc(var(--u-hspacer-s) * -1);
+    margin-right: calc(var(--u-hspacer-s) * -1);
+  }
+  .o-grid__cells, .o-grid__abreast {
+    display: grid;
+    //grid-template-columns: 1fr;
+    grid-gap: var(--u-layout-gutter);
+  }
+  .o-grid__collage {
+    //put collage props in here
+  }
   .c-masthead, .c-footer {
     display: flex;
     align-items: center;
@@ -34,6 +48,12 @@
     }
   }
   @media(min-width: $u-layout-break-s) {
+    .o-grid__align--bleed {
+      padding-left: var(--u-hspacer-m);
+      padding-right: var(--u-hspacer-m);
+      margin-left: calc(var(--u-hspacer-m) * -1);
+      margin-right: calc(var(--u-hspacer-m) * -1);
+    }
     .c-page__header, .c-page__body {
       padding: 0 var(--u-hspacer-s);
     }
@@ -59,7 +79,7 @@
         text-align: right;
       }
     }
-    .c-page__header {
+    .c-page__header, .c-section__header:not(.c-section__header--centered) {
       margin-left: var(--u-hspacer-m);
       padding: 0;
     }
@@ -72,6 +92,12 @@
     }
     .c-section--hero {
       padding: 0 var(--u-hspacer-l);
+    }
+    .o-grid__cells {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .o-grid__abreast {
+      grid-template-columns: repeat(2, 1fr);
     }
     .c-section--collage {
       grid-template-columns: repeat(6, 1fr);

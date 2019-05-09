@@ -16,6 +16,7 @@ h1 {
   margin-bottom: calc(var(--u-hspacer-s) * 1.25);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h1);
+  line-height: var(--f-leading-tight);
   font-weight: 400;
   color: var(--c-matter-dark);
   text-transform: uppercase;
@@ -23,8 +24,11 @@ h1 {
 h2, .c-blockquote__text {
   font-family: var(--f-family-serif);
   font-size: var(--f-size-h2);
+  //line-height: var(--f-leading-tight);
   line-height: var(--f-leading);
+  //font-style: italic;
   font-weight: 100;
+  //font-weight: 200;
   color: var(--c-matter-accent);
 }
 
@@ -37,7 +41,7 @@ h3 {
   text-transform: uppercase;
 }
 h4 {
-  //margin-bottom: var(--u-spacer);
+  margin-bottom: var(--u-vspacer-s);
   font-size: var(--f-size-h4);
   font-weight: 500;
   letter-spacing: var(--f-spacing-extended);
@@ -55,5 +59,7 @@ small {
   line-height: var(--f-leading);
 }
 cite {
+  font-size: var(--f-size-body-fixed);
+  line-height: var(--f-leading);
   font-style: normal;
 }

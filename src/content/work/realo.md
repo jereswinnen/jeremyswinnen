@@ -1,6 +1,6 @@
 ---
 title: Realo
-summary: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
+lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
 ---
 I joined Realo in the winter of 2014. As the only designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms. This was a project with lots of challenges and pitfalls because of the sheer amount of screens and scenarios a user can find themselves in. Together with Bregt Colpaert, my Head of Product, I created a design that’s universal in terms of design language while at the same time has a unique style.
 

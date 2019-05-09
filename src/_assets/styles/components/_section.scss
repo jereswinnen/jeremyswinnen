@@ -4,6 +4,30 @@
 
 .c-section {
   margin-bottom: var(--u-vspacer-m);
+  .c-section__header {
+    margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
+    max-width: var(--u-line-measure);
+    &--centered {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+  &--darken {
+    padding-top: var(--u-vspacer-m);
+    padding-bottom: var(--u-vspacer-m);
+    color: var(--c-matter-accent);
+    background: var(--c-matter-dark);
+    h3, h4 {
+      color: var(--c-matter-light);
+    }
+  }
+  @media(min-width: $u-layout-break-m) {
+    padding-bottom: var(--u-vspacer-l);
+    .c-section__header {
+      padding: calc(var(--u-vspacer-s) + var(--u-vspacer-s)) 0;
+    }
+  }
 }
 .c-section--hero {
   margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));

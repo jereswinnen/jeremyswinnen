@@ -10,7 +10,7 @@
   ::selection {
     background: var(--c-shelf-accent);
   }
-  h2, h3, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item.c-nav__item--selected a, .c-figure__caption, .c-footer {
+  h2, h3, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-figure__caption, .c-footer {
     color: var(--c-shelf-accent);
   }
   .c-masthead__brand a svg {

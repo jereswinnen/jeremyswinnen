@@ -7,8 +7,18 @@
     body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-matter-light);
     }
+    .c-masthead__brand a svg {
+      fill: var(--c-matter-accent) !important;
+    }
     .c-page {
       background: var(--c-matter-dark);
+    }
+    .c-section--darken {
+      color: var(--c-matter-light);
+      background: var(--c-matter-alpha);
+      h4 {
+        color: var(--c-matter-light);
+      }
     }
     .c-card--diabetik .c-card__artwork {
       background: var(--c-diabetik-alpha);
@@ -33,6 +43,9 @@
     body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-diabetik-light);
     }
+    .c-masthead__brand a svg {
+      fill: var(--c-diabetik-accent) !important;
+    }
     .c-page {
       background: var(--c-diabetik-dark);
     }
@@ -43,6 +56,9 @@
   html.t--helpper {
     body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-helpper-light);
+    }
+    .c-masthead__brand a svg {
+      fill: var(--c-helpper-accent) !important;
     }
     .c-page {
       background: var(--c-helpper-dark);
@@ -55,6 +71,9 @@
     body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-immobrown-light);
     }
+    .c-masthead__brand a svg {
+      fill: var(--c-immobrown-accent) !important;
+    }
     .c-page {
       background: var(--c-immobrown-dark);
     }
@@ -65,6 +84,9 @@
   html.t--realo {
     body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-realo-light);
+    }
+    .c-masthead__brand a svg {
+      fill: var(--c-realo-accent) !important;
     }
     .c-page {
       background: var(--c-realo-dark);
@@ -77,6 +99,9 @@
     body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-scorecard-light);
     }
+    .c-masthead__brand a svg {
+      fill: var(--c-scorecard-accent) !important;
+    }
     .c-page {
       background: var(--c-scorecard-dark);
     }
@@ -87,6 +112,9 @@
   html.t--shelf {
     body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-shelf-light);
+    }
+    .c-masthead__brand a svg {
+      fill: var(--c-shelf-accent) !important;
     }
     .c-page {
       background: var(--c-shelf-dark);
