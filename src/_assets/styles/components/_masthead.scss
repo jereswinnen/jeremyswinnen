@@ -3,22 +3,22 @@
 // =======================================================================
 
 .c-masthead {
-  padding: var(--u-vspacer-m) 0;
-  margin-bottom: var(--u-vspacer-m);
-  .c-masthead__brand {
-    margin-bottom: var(--u-vspacer-xs);
-    height: 22px;
-    a svg {
-      width: 124px;
-      fill: var(--c-matter-dark);
+  margin-bottom: var(--u-spacer-m);
+  padding: var(--u-spacer-m) 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  .c-masthead__title {
+    margin-right: calc(1rem + 0.4vw);
+    a {
+      display: table-caption;
+      font-weight: 600;
+      font-size: var(--f-size-body-fixed);
+      line-height: var(--f-leading-vtight);
+      text-decoration: none;  
     }
   }
-  .c-cta--text {
-    text-transform: lowercase;
-  }
-  @media(min-width: $u-layout-break-m) {
-    .c-masthead__brand {
-      margin-bottom: 0;
-    }
+  @media(min-width: $u-layout-break-s) {
+    justify-content: flex-start;
   }
 }

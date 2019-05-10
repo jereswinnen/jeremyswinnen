@@ -4,102 +4,55 @@
 
 .o-grid {
   .o-grid__align--bleed {
-    padding-left: var(--u-hspacer-s);
-    padding-right: var(--u-hspacer-s);
-    margin-left: calc(var(--u-hspacer-s) * -1);
-    margin-right: calc(var(--u-hspacer-s) * -1);
+    padding-left: 6vmin;
+    padding-right: 6vmin;
+    margin-left: -6vmin; //100vw - 88vmin / 2
+    margin-right: -6vmin; //100vw - 88vmin / 2
   }
-  .o-grid__cells, .o-grid__abreast {
+  .o-grid__align--measure {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--u-hero-measure);
+  }
+  .o-grid__flow, .o-grid__abreast {
     display: grid;
-    //grid-template-columns: 1fr;
-    grid-gap: var(--u-layout-gutter);
+    grid-row-gap: calc(var(--u-layout-gutter) * 1.25);
   }
   .o-grid__collage {
-    //put collage props in here
-  }
-  .c-masthead, .c-footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .c-masthead .c-cta--text {
-    display: none;
-  }
-  .c-section--collage {
     display: grid;
-    grid-template-columns: 1fr;
-    .c-card--diabetik {
+    grid-row-gap: calc(var(--u-layout-gutter) * 1.25);
+    .c-card--work--diabetik {
       order: 5;
     }
-    .c-card--helpper {
+    .c-card--work--helpper {
       order: 2;
     }
-    .c-card--immobrown {
+    .c-card--work--immobrown {
       order: 6;
     }
-    .c-card--realo {
+    .c-card--work--realo {
       order: 3;
     }
-    .c-card--scorecard {
+    .c-card--work--scorecard {
       order: 1;
     }
-    .c-card--shelf {
+    .c-card--work--shelf {
       order: 4;
     }
   }
-  @media(min-width: $u-layout-break-s) {
-    .o-grid__align--bleed {
-      padding-left: var(--u-hspacer-m);
-      padding-right: var(--u-hspacer-m);
-      margin-left: calc(var(--u-hspacer-m) * -1);
-      margin-right: calc(var(--u-hspacer-m) * -1);
-    }
-    .c-page__header, .c-page__body {
-      padding: 0 var(--u-hspacer-s);
-    }
-    .c-section--hero {
-      padding: 0 var(--u-hspacer-m);
-    }     
-  }
   @media(min-width: $u-layout-break-m) {
-    .c-masthead, .c-footer {
-      flex-direction: row;
-    }
-    .c-masthead {
-      > * {
-        flex: 33.33333%;
-      }
-      .c-masthead__brand {
-        order: 2;
-        text-align: center;
-      }
-      .c-cta--text {
-        display: block;
-        order: 3;
-        text-align: right;
-      }
-    }
-    .c-page__header, .c-section__header:not(.c-section__header--centered) {
+    .o-grid__align--inset {
       margin-left: var(--u-hspacer-m);
-      padding: 0;
-    }
-    .c-page__body {
-      padding: 0 var(--u-hspacer-m);
-      &--mc {
-        column-count: 2;
-        column-gap: var(--u-layout-gutter);
-      }
-    }
-    .c-section--hero {
-      padding: 0 var(--u-hspacer-l);
-    }
-    .o-grid__cells {
-      grid-template-columns: repeat(4, 1fr);
     }
     .o-grid__abreast {
       grid-template-columns: repeat(2, 1fr);
+      grid-gap: var(--u-layout-gutter);
     }
-    .c-section--collage {
+    .o-grid__flow {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: var(--u-layout-gutter);
+    }
+    .o-grid__collage {
       grid-template-columns: repeat(6, 1fr);
       grid-gap: var(--u-layout-gutter);
       align-items: flex-end;
@@ -112,35 +65,25 @@
       .o-grid__item--large {
         grid-column: span 4;  
       }
-      .c-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        .c-card__artwork {
-          display: flex;
-          flex: 1;
-          align-items: center;
-        }
-        &--diabetik {
-          align-self: flex-start;
-          order: 6;
-        }
-        &--helpper {
-          order: 3;
-        }
-        &--immobrown {
-          align-self: stretch;
-          order: 4;
-        }
-        &--realo {
-          order: 1;
-        }
-        &--scorecard {
-          order: 2;
-        }
-        &--shelf {
-          order: 5;
-        }
+      .c-card--work--diabetik {
+        align-self: flex-start;
+        order: 6;
+      }
+      .c-card--work--helpper {
+        order: 3;
+      }
+      .c-card--work--immobrown {
+        align-self: stretch;
+        order: 4;
+      }
+      .c-card--work--realo {
+        order: 1;
+      }
+      .c-card--work--scorecard {
+        order: 2;
+      }
+      .c-card--work--shelf {
+        order: 5;
       }
     }
   }

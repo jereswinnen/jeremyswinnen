@@ -3,20 +3,23 @@
 // =======================================================================
 
 .t--scorecard {
-  background: var(--c-scorecard-accent);
   body, h1, .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-scorecard-dark);
   }
   ::selection {
     background: var(--c-scorecard-accent);
   }
-  h2, h3, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-figure__caption, .c-footer {
+  h2, h3, h4, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-figure__caption, .c-footer {
     color: var(--c-scorecard-accent);
   }
-  .c-masthead__brand a svg {
-    fill: var(--c-scorecard-accent);
+  .c-section--darken {
+    color: var(--c-scorecard-accent);
+    background: var(--c-scorecard-dark);
+    h3, h4 {
+      color: var(--c-scorecard-light);
+    }
   }
-  .c-section--collage .c-figure {
+  .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
     background: var(--c-scorecard-light);
   }
 }

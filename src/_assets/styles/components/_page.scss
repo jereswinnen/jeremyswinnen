@@ -3,26 +3,24 @@
 // =======================================================================
 
 .c-page {
-  //margin: 0 auto;
-  padding: 0 var(--u-hspacer-s);
-  //max-width: var(--u-page-measure);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--u-page-measure);
   background: white;
-  box-shadow: var(--d-page);
   .c-page__header {
-    margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
+    margin-bottom: var(--u-spacer-l);
     max-width: var(--u-line-measure);
-    text-align: center;
   }
   .c-page__body {
-      margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
+    margin-bottom: var(--u-spacer-l);
+    &.c-article p {
+      text-indent: var(--u-spacer-xs);
     }
-  @media(min-width: $u-layout-break-s) {
-    padding: 0 var(--u-hspacer-m);
   }
   @media(min-width: $u-layout-break-m) {
-    .c-page__header {
-      padding: calc(var(--u-vspacer-s) + var(--u-vspacer-s)) 0;
-      text-align: left;
+    .c-page__body--mc {
+      column-count: 2;
+      column-gap: var(--u-layout-gutter);
     }
   }
 }

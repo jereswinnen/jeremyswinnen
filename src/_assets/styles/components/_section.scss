@@ -3,10 +3,13 @@
 // =======================================================================
 
 .c-section {
-  margin-bottom: var(--u-vspacer-m);
+  margin-bottom: var(--u-spacer-l);
   .c-section__header {
-    margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
+    margin-bottom: var(--u-spacer-m);
     max-width: var(--u-line-measure);
+    h4 {
+      color: var(--c-matter-dark);
+    }
     &--centered {
       margin-left: auto;
       margin-right: auto;
@@ -14,42 +17,15 @@
     }
   }
   &--darken {
-    padding-top: var(--u-vspacer-m);
-    padding-bottom: var(--u-vspacer-m);
+    padding-top: var(--u-spacer-m);
+    padding-bottom: var(--u-spacer-m);
     color: var(--c-matter-accent);
     background: var(--c-matter-dark);
-    h3, h4 {
+    h3, h4, .c-section__header h3, .c-section__header h4 {
       color: var(--c-matter-light);
     }
   }
-  @media(min-width: $u-layout-break-m) {
-    padding-bottom: var(--u-vspacer-l);
-    .c-section__header {
-      padding: calc(var(--u-vspacer-s) + var(--u-vspacer-s)) 0;
-    }
-  }
-}
-.c-section--hero {
-  margin-bottom: calc(var(--u-vspacer-m) + var(--u-vspacer-m));
-}
-.c-section--collage {
-  .c-card, .c-figure {
-    margin-bottom: var(--u-vspacer-m);
-  }
-  .c-card--immobrown {
-    margin-bottom: 0;
-  }
-  .c-figure {
-    padding: calc(var(--u-vspacer-s) * 1.25);
-    background: var(--c-matter-light);
-    .c-figure__caption p {
-      margin-bottom: 0;
-      text-align: center;
-    }  
-  }
-  @media(min-width: $u-layout-break-m) {
-    .c-card, .c-figure {
-      margin-bottom: 0;
-    }
+  &:last-of-type {
+    margin-bottom: var(--u-spacer-m);
   }
 }

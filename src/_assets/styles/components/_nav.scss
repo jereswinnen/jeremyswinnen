@@ -5,23 +5,19 @@
 .c-nav {
   .c-nav__items {
     display: flex;
-    padding: 0;
     list-style: none;
     .c-nav__item {
-      margin-right: var(--u-hspacer-s);
+      padding: 0 calc(0.5rem + 0.2vw);
       a {
+        display: block;
         font-size: var(--f-size-body-fixed);
-        font-weight: 500;
-        color: var(--c-matter-dark);
+        line-height: var(--f-leading-vtight);
+        //color: var(--c-matter-dark);
         text-transform: lowercase;
         text-decoration: none;
-        transition: color .2s var(--t-bezier);
         &:hover, &[aria-current] {
           color: var(--c-matter-accent);
         }
-      }
-      &:last-child {
-        margin-right: 0;
       }
     }
   }

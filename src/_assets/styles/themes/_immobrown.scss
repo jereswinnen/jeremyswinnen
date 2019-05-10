@@ -3,20 +3,23 @@
 // =======================================================================
 
 .t--immobrown {
-  background: var(--c-immobrown-accent);
   body, h1, .c-nav .c-nav__items .c-nav__item a {
     color: var(--c-immobrown-dark);
   }
   ::selection {
     background: var(--c-immobrown-accent);
   }
-  h2, h3, h4, .c-cta--text:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-figure__caption, .c-footer {
+  h2, h3, h4, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-figure__caption, .c-footer {
     color: var(--c-immobrown-accent);
   }
-  .c-masthead__brand a svg {
-    fill: var(--c-immobrown-accent);
+  .c-section--darken {
+    color: var(--c-immobrown-accent);
+    background: var(--c-immobrown-dark);
+    h3, h4 {
+      color: var(--c-immobrown-light);
+    }
   }
-  .c-section--collage .c-figure {
+  .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
     background: var(--c-immobrown-light);
   }
 }
