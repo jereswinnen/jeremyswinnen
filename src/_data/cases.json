@@ -41,10 +41,10 @@
   },
   {
     "name": "Shelf",
-    "summary": "An app for power users who work with documents on a daily basis.",
+    "summary": "Designing a virtual shelf for storing frequently used documents that need to be accessed at all times.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png",
-    "cover-hq": "https://res.cloudinary.com/matter/image/upload/v1556484579/shelf__cover--constrained%402x.png",
+    "cover": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557950610/work/shelf/collage-hero.png",
+    "cover-hq": "https://res.cloudinary.com/matter/image/upload/v1557950610/work/shelf/collage-hero.png",
     "grid-size": "large"
   }
 ]

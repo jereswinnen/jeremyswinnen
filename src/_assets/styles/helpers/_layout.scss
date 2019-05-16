@@ -4,10 +4,15 @@
 
 .o-grid {
   .o-grid__align--bleed {
-    padding-left: 6vmin;
-    padding-right: 6vmin;
     margin-left: -6vmin; //100vw - 88vmin / 2
     margin-right: -6vmin; //100vw - 88vmin / 2
+    &.c-figure .c-figure__caption {
+      padding-left: 6vmin;
+    }
+    &.c-section--darken {
+      padding-left: 6vmin;
+      padding-right: 6vmin;
+    }
   }
   .o-grid__align--measure {
     margin-left: auto;
@@ -40,6 +45,10 @@
       order: 4;
     }
   }
+
+  // 2 columns (each grid item 50%) for o-grid__collage on break-s
+
+
   @media(min-width: $u-layout-break-m) {
     .o-grid__align--inset {
       margin-left: var(--u-hspacer-m);
@@ -56,6 +65,7 @@
       grid-template-columns: repeat(6, 1fr);
       grid-gap: var(--u-layout-gutter);
       align-items: flex-end;
+      //align-items: stretch;
       .o-grid__item--small {
         grid-column: span 2;
       }

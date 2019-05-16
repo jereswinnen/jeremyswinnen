@@ -15,7 +15,10 @@
       font-weight: 600;
       font-size: var(--f-size-body-fixed);
       line-height: var(--f-leading-vtight);
-      text-decoration: none;  
+      text-decoration: none;
+      &:hover {
+        color: var(--c-matter-accent);
+      } 
     }
   }
   @media(min-width: $u-layout-break-s) {

@@ -36,7 +36,7 @@
   --f-size-body-small: 0.875rem;
   --f-size-h1: calc(2.75rem + 1.65vw);
   --f-size-h2: calc(1.15rem + 0.75vw);
-  --f-size-h3: calc(1.875rem + 0.25vw);
+  --f-size-h3: calc(1.95rem + 0.25vw);
   --f-size-h4: calc(0.8rem + 0.1vw);
   --f-size-blockquote: var(--f-size-h3);
   --f-leading-vtight: 1.1em;
@@ -60,10 +60,13 @@
   --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1); }
 
 .o-grid .o-grid__align--bleed {
-  padding-left: 6vmin;
-  padding-right: 6vmin;
   margin-left: -6vmin;
   margin-right: -6vmin; }
+  .o-grid .o-grid__align--bleed.c-figure .c-figure__caption {
+    padding-left: 6vmin; }
+  .o-grid .o-grid__align--bleed.c-section--darken {
+    padding-left: 6vmin;
+    padding-right: 6vmin; }
 
 .o-grid .o-grid__align--measure {
   margin-left: auto;
@@ -272,9 +275,8 @@ h3 {
   margin-bottom: var(--u-spacer-xxs);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h3);
-  color: var(--c-matter-accent);
-  font-weight: 400;
-  text-transform: uppercase; }
+  color: var(--c-matter-dark);
+  font-weight: 400; }
 
 h4 {
   margin-bottom: var(--u-spacer-xs);
@@ -288,11 +290,13 @@ h4 {
 
 small {
   font-size: var(--f-size-body-small);
-  line-height: var(--f-leading); }
+  line-height: var(--f-leading);
+  color: var(--c-matter-accent); }
 
 .c-figure__caption p {
   font-size: var(--f-size-body-fixed);
-  line-height: var(--f-leading); }
+  line-height: var(--f-leading);
+  color: var(--c-matter-accent); }
 
 cite {
   font-size: var(--f-size-body-fixed);
@@ -309,13 +313,28 @@ cite {
     margin-bottom: var(--u-spacer-l);
     max-width: var(--u-line-measure); }
   .c-page .c-page__body {
-    margin-bottom: var(--u-spacer-l); }
-    .c-page .c-page__body.c-article p {
-      text-indent: var(--u-spacer-xs); }
-  @media (min-width: 46em) {
-    .c-page .c-page__body--mc {
-      column-count: 2;
-      column-gap: var(--u-layout-gutter); } }
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: var(--u-spacer-l);
+    max-width: var(--u-line-measure); }
+    .c-page .c-page__body h3:not(:first-child), .c-page .c-page__body h4:not(:first-child) {
+      margin-top: var(--u-spacer-s); }
+    .c-page .c-page__body p, .c-page .c-page__body ol {
+      margin-bottom: var(--u-spacer-xs); }
+    .c-page .c-page__body ol {
+      list-style: none;
+      counter-reset: li; }
+      .c-page .c-page__body ol li {
+        margin-bottom: var(--u-spacer-xxs);
+        counter-increment: li; }
+        .c-page .c-page__body ol li:last-child {
+          margin-bottom: 0; }
+        .c-page .c-page__body ol li::before {
+          display: inline-block;
+          margin-left: -1em;
+          width: 1em;
+          color: var(--c-matter-accent);
+          content: counter(li); }
 
 .c-section {
   margin-bottom: var(--u-spacer-l); }
@@ -352,13 +371,18 @@ cite {
       font-size: var(--f-size-body-fixed);
       line-height: var(--f-leading-vtight);
       text-decoration: none; }
+      .c-masthead .c-masthead__title a:hover {
+        color: var(--c-matter-accent); }
   @media (min-width: 34em) {
     .c-masthead {
       justify-content: flex-start; } }
 
+.c-article .c-article__header {
+  margin-bottom: var(--u-spacer-m);
+  max-width: var(--u-line-measure); }
+
 .c-footer {
-  padding: var(--u-spacer-s) 0;
-  color: var(--c-matter-accent); }
+  padding: var(--u-spacer-s) 0; }
 
 .c-nav .c-nav__items {
   display: flex;
@@ -453,7 +477,7 @@ cite {
       .c-card--work--shelf {
         transform-origin: top right; } }
 
-.c-card--gallery:not(.c-section--hero .c-card--gallery) {
+.c-card--gallery:not(.c-section--hero .c-card--gallery, .c-page__body .c-card--gallery) {
   padding: var(--u-card-inset);
   background: var(--c-matter-light); }
   .c-card--gallery .c-figure__caption p {
@@ -465,7 +489,7 @@ cite {
   .c-figure img {
     display: block; }
   .c-figure .c-figure__caption {
-    margin-top: var(--u-spacer-xs);
+    margin-top: var(--u-spacer-xxs);
     color: var(--c-matter-accent); }
 
 @media (prefers-color-scheme: dark) {
@@ -591,7 +615,7 @@ cite {
 .t--diabetik ::selection {
   background: var(--c-diabetik-accent); }
 
-.t--diabetik h2, .t--diabetik h3, .t--diabetik h4, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a[aria-current], .t--diabetik .c-figure__caption, .t--diabetik .c-footer {
+.t--diabetik h2, .t--diabetik h3, .t--diabetik h4, .t--diabetik small, .t--diabetik .c-masthead__title a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a[aria-current], .t--diabetik .c-page__body ol li::before, .t--diabetik .c-figure__caption p, .t--diabetik .c-footer {
   color: var(--c-diabetik-accent); }
 
 .t--diabetik .c-section--darken {
@@ -609,7 +633,7 @@ cite {
 .t--helpper ::selection {
   background: var(--c-helpper-accent); }
 
-.t--helpper h2, .t--helpper h3, .t--helpper h4, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a[aria-current], .t--helpper .c-figure__caption, .t--helpper .c-footer {
+.t--helpper h2, .t--helpper h3, .t--helpper h4, .t--helpper small, .t--helpper .c-masthead__title a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a[aria-current], .t--helpper .c-page__body ol li::before, .t--helpper .c-figure__caption p, .t--helpper .c-footer {
   color: var(--c-helpper-accent); }
 
 .t--helpper .c-section--darken {
@@ -627,7 +651,7 @@ cite {
 .t--immobrown ::selection {
   background: var(--c-immobrown-accent); }
 
-.t--immobrown h2, .t--immobrown h3, .t--immobrown h4, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a[aria-current], .t--immobrown .c-figure__caption, .t--immobrown .c-footer {
+.t--immobrown h2, .t--immobrown h3, .t--immobrown h4, .t--immobrown small, .t--immobrown .c-masthead__title a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a[aria-current], .t--immobrown .c-page__body ol li::before, .t--immobrown .c-figure__caption p, .t--immobrown .c-footer {
   color: var(--c-immobrown-accent); }
 
 .t--immobrown .c-section--darken {
@@ -645,7 +669,7 @@ cite {
 .t--realo ::selection {
   background: var(--c-realo-accent); }
 
-.t--realo h2, .t--realo h3, .t--realo h4, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a[aria-current], .t--realo .c-figure__caption, .t--realo .c-footer {
+.t--realo h2, .t--realo h3, .t--realo h4, .t--realo small, .t--realo .c-masthead__title a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a[aria-current], .t--realo .c-page__body ol li::before, .t--realo .c-figure__caption p, .t--realo .c-footer {
   color: var(--c-realo-accent); }
 
 .t--realo .c-section--darken {
@@ -663,7 +687,7 @@ cite {
 .t--scorecard ::selection {
   background: var(--c-scorecard-accent); }
 
-.t--scorecard h2, .t--scorecard h3, .t--scorecard h4, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a[aria-current], .t--scorecard .c-figure__caption, .t--scorecard .c-footer {
+.t--scorecard h2, .t--scorecard h3, .t--scorecard h4, .t--scorecard small, .t--scorecard .c-masthead__title a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a[aria-current], .t--scorecard .c-page__body ol li::before, .t--scorecard .c-figure__caption p, .t--scorecard .c-footer {
   color: var(--c-scorecard-accent); }
 
 .t--scorecard .c-section--darken {
@@ -681,7 +705,7 @@ cite {
 .t--shelf ::selection {
   background: var(--c-shelf-accent); }
 
-.t--shelf h2, .t--shelf h3, .t--shelf h4, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a[aria-current], .t--shelf .c-figure__caption, .t--shelf .c-footer {
+.t--shelf h2, .t--shelf h3, .t--shelf h4, .t--shelf small, .t--shelf .c-masthead__title a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a[aria-current], .t--shelf .c-page__body ol li::before, .t--shelf .c-figure__caption p, .t--shelf .c-footer {
   color: var(--c-shelf-accent); }
 
 .t--shelf .c-section--darken {

@@ -9,7 +9,7 @@
   ::selection {
     background: var(--c-immobrown-accent);
   }
-  h2, h3, h4, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-figure__caption, .c-footer {
+  h2, h3, h4, small, .c-masthead__title a:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-page__body ol li::before, .c-figure__caption p, .c-footer {
     color: var(--c-immobrown-accent);
   }
   .c-section--darken {

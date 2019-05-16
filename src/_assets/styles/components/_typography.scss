@@ -36,9 +36,8 @@ h3 {
   margin-bottom: var(--u-spacer-xxs);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h3);
-  color: var(--c-matter-accent);
+  color: var(--c-matter-dark);
   font-weight: 400;
-  text-transform: uppercase;
 }
 h4 {
   margin-bottom: var(--u-spacer-xs);
@@ -56,10 +55,12 @@ h4 {
 small {
   font-size: var(--f-size-body-small);
   line-height: var(--f-leading);
+  color: var(--c-matter-accent);
 }
 .c-figure__caption p {
   font-size: var(--f-size-body-fixed);
   line-height: var(--f-leading);
+  color: var(--c-matter-accent);
 }
 cite {
   font-size: var(--f-size-body-fixed);

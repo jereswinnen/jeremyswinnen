@@ -123,7 +123,7 @@
     }
   }
 }
-.c-card--gallery:not(.c-section--hero .c-card--gallery) {
+.c-card--gallery:not(.c-section--hero .c-card--gallery, .c-page__body .c-card--gallery) {
   padding: var(--u-card-inset);
   background: var(--c-matter-light);
   .c-figure__caption p {
@@ -132,6 +132,9 @@
   }
 }
 .c-card--press {
+
+}
+.c-card--article {
 
 }
 .c-card--note {
