@@ -13,7 +13,7 @@ After getting the brief from Matthew Bischoff, Partner at [Lickability](https://
 #### Iterate, iterate, iterate
 A crucial aspect of the UI are the file icons. These little squares are dynamic spaces where we can display a little preview of the file (this being a later addition) or simply show a placeholder icon. Since most of the UI has been kept clean and subdued in style, this was the first thing I started working on. Over the course of 2-3 weeks, I created a total of 4 high-fidelity icon sets.
 
-{% include screens with artwork: artwork.shelf.embed__filetypes %}
+{% include screens with artwork: artwork.shelf.embed__fileicons %}
 
 The first version I created featured a very bold color palette and some depth here and there to make them pop on the dark background of the app. While attractive, the flaws of this iteration were that the icons were too small.
 

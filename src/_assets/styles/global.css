@@ -204,7 +204,19 @@ ul {
   list-style: circle; }
 
 ol {
-  list-style: decimal; }
+  list-style: none;
+  counter-reset: li; }
+  ol li {
+    margin-bottom: var(--u-spacer-xxs);
+    counter-increment: li; }
+    ol li:last-child {
+      margin-bottom: 0; }
+    ol li::before {
+      display: inline-block;
+      margin-left: -1em;
+      width: 1em;
+      color: var(--c-matter-accent);
+      content: counter(li); }
 
 fieldset {
   margin: 0;
@@ -321,20 +333,6 @@ cite {
       margin-top: var(--u-spacer-s); }
     .c-page .c-page__body p, .c-page .c-page__body ol {
       margin-bottom: var(--u-spacer-xs); }
-    .c-page .c-page__body ol {
-      list-style: none;
-      counter-reset: li; }
-      .c-page .c-page__body ol li {
-        margin-bottom: var(--u-spacer-xxs);
-        counter-increment: li; }
-        .c-page .c-page__body ol li:last-child {
-          margin-bottom: 0; }
-        .c-page .c-page__body ol li::before {
-          display: inline-block;
-          margin-left: -1em;
-          width: 1em;
-          color: var(--c-matter-accent);
-          content: counter(li); }
 
 .c-section {
   margin-bottom: var(--u-spacer-l); }
@@ -477,10 +475,10 @@ cite {
       .c-card--work--shelf {
         transform-origin: top right; } }
 
-.c-card--gallery:not(.c-section--hero .c-card--gallery, .c-page__body .c-card--gallery) {
+.o-grid__collage .c-card--gallery {
   padding: var(--u-card-inset);
   background: var(--c-matter-light); }
-  .c-card--gallery .c-figure__caption p {
+  .o-grid__collage .c-card--gallery .c-figure__caption p {
     margin-bottom: 0;
     text-align: center; }
 

@@ -2,7 +2,12 @@
 title: Scorecard
 lede: In collaboration with Lickability, I created a fun and intuitive way to keep score while playing games with friends & family.
 ---
-### A winning combination
-The design seeks to combine the aesthetic of the Victorian era with modern sensibilities. A notable attribute of the original handbook is the use of an eclectic range of typefaces, yet reproducing this online would produce a confusing interface and degrade performance. Seeking a compromise between the two approaches, I settled on combining four typefaces. Trocchi, a bold serif, was used for headings and display copy with Scotch Text, a delicate Scotch roman, for body copy. While not as historically accurate, League Gothic would mimic block lettering used by advertisements in the original guide, with the default system typeface available for labels and interface elements.
+### The Challenge
+After working on Shelf in the second half of 2017, Lickability contacted me again in Late 2018 to work on Scorecard. The app’s goals are to make the act of keeping score while playing boardgames fun again.
 
-Producing content for the guide involved transcribing and correcting copy originating from an automated OCR process. As this copy already exists in the public domain, I released the newly digitised text on a public GitHub repository, alongside the source code for the website.
+### My Approach
+Working together with Lickability is always a streamlined process. Since there was a first version in place, it was quite easy for me to iterate on that. Most of the structure of the app was already in place, it just needed a visual refresh.
+
+I started in Figma laying out all the components currently present in the app and created a pattern library from there. Everything from user interface chrome, buttons, icons, and colors is defined as a ‘component’ in this document so it’s easily accessible with me and the developers at Lickability. Since this document acts as a ‘source of truth’, it really simplified the development process of the developers.
+
+{% include screens with artwork: artwork.scorecard.embed__patternlibrary %}

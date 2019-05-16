@@ -21,5 +21,20 @@ ul {
 	list-style: circle;
 }
 ol {
-	list-style: decimal;
+  list-style: none;
+  counter-reset: li;
+  li {
+    margin-bottom: var(--u-spacer-xxs);
+    counter-increment: li;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &::before {
+      display: inline-block;
+      margin-left: -1em;
+      width: 1em;
+      color: var(--c-matter-accent);
+      content: counter(li);
+    }
+  }
 }

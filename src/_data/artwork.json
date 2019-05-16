@@ -147,6 +147,15 @@
         "alt": "This is some alt text."
       }
     ],
+    "embed__patternlibrary": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1558010750/work/scorecard/embed-patternlibrary.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558010750/work/scorecard/embed-patternlibrary.png",
+        "alt": "A small snippet of the pattern library.",
+        "figcaption": "A small snippet of the pattern library I created for Scorecard.",
+        "grid-align": "bleed"
+      }
+    ],
     "collage": [
       {
         "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1556563026/work/scorecard/tablet-addagame.png",
@@ -211,8 +220,17 @@
       {
         "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1558000374/work/shelf/embed-filetypes.png",
         "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558000374/work/shelf/embed-filetypes.png",
-        "alt": "This is some alt text.",
-        "figcaption": "This is a sample figcaption.",
+        "alt": "The various file types, each with their respective color palette.",
+        "figcaption": "The various file types, each with their respective color palette.",
+        "grid-align": "bleed"
+      }
+    ],
+    "embed__fileicons": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1558003376/work/shelf/embed-fileicons.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558003376/work/shelf/embed-fileicons.png",
+        "alt": "The different iterations of the file icons, from left to right.",
+        "figcaption": "The different iterations of the file icons, from left to right.",
         "grid-align": "bleed"
       }
     ],
