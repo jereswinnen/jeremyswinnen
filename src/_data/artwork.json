@@ -156,6 +156,24 @@
         "grid-align": "bleed"
       }
     ],
+    "embed__iphonetoipad": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
+        "alt": "The iPad version is not simply a blown-up iPhone app.",
+        "figcaption": "The iPad version is not simply a blown-up iPhone app.",
+        "grid-align": "bleed"
+      }
+    ],
+    "embed__playerdetails": [
+      {
+        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1558184078/work/scorecard/embed-playerdetails.png",
+        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558184078/work/scorecard/embed-playerdetails.png",
+        "alt": "The 'Player Details' flow was kept within reach.",
+        "figcaption": "By keeping the player details within reach, the UI is more comfortable to use.",
+        "grid-align": "bleed"
+      }
+    ],
     "collage": [
       {
         "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1556563026/work/scorecard/tablet-addagame.png",
@@ -229,8 +247,8 @@
       {
         "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1558003376/work/shelf/embed-fileicons.png",
         "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558003376/work/shelf/embed-fileicons.png",
-        "alt": "The different iterations of the file icons, from left to right.",
-        "figcaption": "The different iterations of the file icons, from left to right.",
+        "alt": "The different iterations of the file icons.",
+        "figcaption": "The different iterations of the file icons.",
         "grid-align": "bleed"
       }
     ],

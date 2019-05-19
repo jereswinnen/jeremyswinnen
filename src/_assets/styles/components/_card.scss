@@ -123,13 +123,9 @@
     }
   }
 }
-.o-grid__collage .c-card--gallery {
-  padding: var(--u-card-inset);
-  background: var(--c-matter-light);
-  .c-figure__caption p {
-    margin-bottom: 0;
-    text-align: center;
-  }
+.o-grid__collage .c-card--gallery .c-figure__caption p {
+  margin-bottom: 0;
+  text-align: center;
 }
 .c-card--press {
 

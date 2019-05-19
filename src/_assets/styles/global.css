@@ -80,6 +80,9 @@
 .o-grid .o-grid__collage {
   display: grid;
   grid-row-gap: calc(var(--u-layout-gutter) * 1.25); }
+  .o-grid .o-grid__collage .c-card--gallery {
+    padding: var(--u-card-inset);
+    background: var(--c-matter-light); }
   .o-grid .o-grid__collage .c-card--work--diabetik {
     order: 5; }
   .o-grid .o-grid__collage .c-card--work--helpper {
@@ -106,6 +109,8 @@
     grid-template-columns: repeat(6, 1fr);
     grid-gap: var(--u-layout-gutter);
     align-items: flex-end; }
+    .o-grid .o-grid__collage > * {
+      grid-column: span 6; }
     .o-grid .o-grid__collage .o-grid__item--small {
       grid-column: span 2; }
     .o-grid .o-grid__collage .o-grid__item--medium {
@@ -475,12 +480,9 @@ cite {
       .c-card--work--shelf {
         transform-origin: top right; } }
 
-.o-grid__collage .c-card--gallery {
-  padding: var(--u-card-inset);
-  background: var(--c-matter-light); }
-  .o-grid__collage .c-card--gallery .c-figure__caption p {
-    margin-bottom: 0;
-    text-align: center; }
+.o-grid__collage .c-card--gallery .c-figure__caption p {
+  margin-bottom: 0;
+  text-align: center; }
 
 .c-figure {
   margin-bottom: 0; }

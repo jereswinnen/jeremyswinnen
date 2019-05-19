@@ -26,6 +26,10 @@
   .o-grid__collage {
     display: grid;
     grid-row-gap: calc(var(--u-layout-gutter) * 1.25);
+    .c-card--gallery {
+      padding: var(--u-card-inset);
+      background: var(--c-matter-light);
+    }
     .c-card--work--diabetik {
       order: 5;
     }
@@ -66,11 +70,18 @@
       grid-gap: var(--u-layout-gutter);
       align-items: flex-end;
       //align-items: stretch;
+      > * {
+        //display: flex;
+        //flex-direction: column;
+        //flex: 1;
+        //justify-content: center;
+        grid-column: span 6;
+      }
       .o-grid__item--small {
         grid-column: span 2;
       }
       .o-grid__item--medium {
-        grid-column: span 3;  
+        grid-column: span 3;
       }
       .o-grid__item--large {
         grid-column: span 4;  
