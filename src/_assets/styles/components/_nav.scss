@@ -12,13 +12,17 @@
         display: block;
         font-size: var(--f-size-body-fixed);
         line-height: var(--f-leading-vtight);
-        //color: var(--c-matter-dark);
         text-transform: lowercase;
         text-decoration: none;
         &:hover, &[aria-current] {
           color: var(--c-matter-accent);
         }
       }
+    }
+  }
+  @media(min-width: $u-layout-break-s) {
+    .c-nav__items .c-nav__item {
+      padding: 0 calc(0.75rem + 0.3vw);
     }
   }
 }

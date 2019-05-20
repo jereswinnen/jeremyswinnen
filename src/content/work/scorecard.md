@@ -8,7 +8,7 @@ After working on Shelf in the second half of 2017, Lickability contacted me agai
 ### My Approach
 Working together with Lickability is always a streamlined process. Since there was a version in place designed by another designer, it was quite easy for me to iterate on that. Most of the structure of the app was already in place, it just needed a visual refresh.
 
-Using Figma, I started laying out all the components currently present in the app and created a pattern library from there. Everything from user interface chrome, buttons, icons, and colors is defined as a ‘component’ in this document so it’s easily accessible with me and the developers at Lickability. Since this document acts as a ‘source of truth’, it really simplified the development process of the developers.
+Using Figma, I started laying out all the components currently present in the app and created a pattern library from there. Everything from user interface chrome, buttons, icons, and colors is defined as a ‘component’ in this document so it’s easily accessible to myself as well as the developers at Lickability. Since this document acts as a ‘source of truth’, it really simplified the development process of the developers.
 
 {% include screens with artwork: artwork.scorecard.embed__patternlibrary %}
 

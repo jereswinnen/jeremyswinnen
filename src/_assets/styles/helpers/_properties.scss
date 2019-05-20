@@ -36,7 +36,8 @@ $u-layout-break-xl: 90em; //1440
   --c-realo-alpha: hsl(238, 24%, 37%, 15%);
 
   --c-scorecard-dark: hsl(180, 27%, 12%);
-  --c-scorecard-accent: hsl(180, 16%, 35%);
+  //--c-scorecard-accent: hsl(180, 16%, 35%);
+  --c-scorecard-accent: #628588; //#6e9799
   --c-scorecard-light: hsl(180, 8%, 90%);
   --c-scorecard-alpha: hsla(180, 16%, 35%, 15%);
 
@@ -52,14 +53,14 @@ $u-layout-break-xl: 90em; //1440
   --f-family-serif: ohno-blazeface, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
 
-  --f-size-body: calc(1rem + 0.375vmin);
+  --f-size-body: calc(1rem + 0.5vmin);
   --f-size-body-fixed: 1rem;
   --f-size-body-small: 0.875rem;
 
   --f-size-h1: calc(2.75rem + 1.65vw);
   --f-size-h2: calc(1.15rem + 0.75vw);
   --f-size-h3: calc(1.95rem + 0.25vw);
-  --f-size-h4: calc(0.8rem + 0.1vw);
+  --f-size-h4: calc(0.8rem + 0.15vw);
   --f-size-blockquote: var(--f-size-h3);
 
   --f-leading-vtight: 1.1em;
@@ -81,8 +82,7 @@ $u-layout-break-xl: 90em; //1440
 
   --u-hero-measure: 64rem;
   --u-line-measure: 45rem;
-  //--u-page-measure: 88vmin; //55em
-  --u-page-measure: 75vw;
+  --u-page-measure: 88vmin; //55em
 
   //--u-layout-gutter: var(--u-spacer-s);
   --u-layout-gutter: calc(2rem + 0.75vmax);
@@ -91,6 +91,9 @@ $u-layout-break-xl: 90em; //1440
   --t-bezier: cubic-bezier(.215, .61, .355, 1);
 
   // Depth
-  --d-page: 0 0 4vw hsla(0, 0%, 0%, .1);
   --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1);
+  
+  @media(min-width: $u-layout-break-s) {
+    --u-page-measure: 75vw;  
+  }
 }
