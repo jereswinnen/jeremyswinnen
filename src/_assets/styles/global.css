@@ -53,7 +53,7 @@
   --u-card-inset: calc(1rem + 0.75vmax);
   --u-hero-measure: 64rem;
   --u-line-measure: 45rem;
-  --u-page-measure: 88vmin;
+  --u-page-measure: 75vw;
   --u-layout-gutter: calc(2rem + 0.75vmax);
   --t-bezier: cubic-bezier(.215, .61, .355, 1);
   --d-page: 0 0 4vw hsla(0, 0%, 0%, .1);

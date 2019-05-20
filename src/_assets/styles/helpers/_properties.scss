@@ -81,7 +81,8 @@ $u-layout-break-xl: 90em; //1440
 
   --u-hero-measure: 64rem;
   --u-line-measure: 45rem;
-  --u-page-measure: 88vmin; //55em
+  //--u-page-measure: 88vmin; //55em
+  --u-page-measure: 75vw;
 
   //--u-layout-gutter: var(--u-spacer-s);
   --u-layout-gutter: calc(2rem + 0.75vmax);
