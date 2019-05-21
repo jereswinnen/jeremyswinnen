@@ -36,7 +36,7 @@
   --f-size-body-small: 0.875rem;
   --f-size-h1: calc(2.75rem + 1.65vw);
   --f-size-h2: calc(1.15rem + 0.75vw);
-  --f-size-h3: calc(1.95rem + 0.25vw);
+  --f-size-h3: calc(1.95rem + 0.4vw);
   --f-size-h4: calc(0.8rem + 0.15vw);
   --f-size-blockquote: var(--f-size-h3);
   --f-leading-vtight: 1.1em;
@@ -57,6 +57,9 @@
   --u-layout-gutter: calc(2rem + 0.75vmax);
   --t-bezier: cubic-bezier(.215, .61, .355, 1);
   --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1); }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --c-helpper-accent: hsl(312, 18%, 37%); } }
   @media (min-width: 34em) {
     :root {
       --u-page-measure: 75vw; } }
@@ -321,7 +324,7 @@ cite {
   font-size: var(--f-size-body-fixed);
   line-height: var(--f-leading);
   font-style: normal;
-  color: var(--c-matter-accent); }
+  color: var(--c-matter-dark); }
 
 .c-page {
   margin-left: auto;
@@ -501,7 +504,7 @@ cite {
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--c-matter-dark); }
-    html body, html h1, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
+    html body, html h1, html cite, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
       color: var(--c-matter-light); }
     html .c-page {
       background: var(--c-matter-dark); }
@@ -526,7 +529,7 @@ cite {
       background: var(--c-shelf-alpha); }
   html.t--diabetik {
     background: var(--c-diabetik-dark); }
-    html.t--diabetik body, html.t--diabetik h1, html.t--diabetik .c-nav .c-nav__items .c-nav__item a, html.t--diabetik .c-figure__caption {
+    html.t--diabetik body, html.t--diabetik h1, html.t--diabetik cite, html.t--diabetik .c-nav .c-nav__items .c-nav__item a, html.t--diabetik .c-figure__caption {
       color: var(--c-diabetik-light); }
     html.t--diabetik .c-page {
       background: var(--c-diabetik-dark); }
@@ -541,7 +544,7 @@ cite {
       background: var(--c-diabetik-alpha); }
   html.t--helpper {
     background: var(--c-helpper-dark); }
-    html.t--helpper body, html.t--helpper h1, html.t--helpper .c-nav .c-nav__items .c-nav__item a, html.t--helpper .c-figure__caption {
+    html.t--helpper body, html.t--helpper h1, html.t--helpper cite, html.t--helpper .c-nav .c-nav__items .c-nav__item a, html.t--helpper .c-figure__caption {
       color: var(--c-helpper-light); }
     html.t--helpper .c-page {
       background: var(--c-helpper-dark); }
@@ -556,7 +559,7 @@ cite {
       background: var(--c-helpper-alpha); }
   html.t--immobrown {
     background: var(--c-immobrown-dark); }
-    html.t--immobrown body, html.t--immobrown h1, html.t--immobrown .c-nav .c-nav__items .c-nav__item a, html.t--immobrown .c-figure__caption {
+    html.t--immobrown body, html.t--immobrown h1, html.t--immobrown cite, html.t--immobrown .c-nav .c-nav__items .c-nav__item a, html.t--immobrown .c-figure__caption {
       color: var(--c-immobrown-light); }
     html.t--immobrown .c-page {
       background: var(--c-immobrown-dark); }
@@ -571,7 +574,7 @@ cite {
       background: var(--c-immobrown-alpha); }
   html.t--realo {
     background: var(--c-realo-dark); }
-    html.t--realo body, html.t--realo h1, html.t--realo .c-nav .c-nav__items .c-nav__item a, html.t--realo .c-figure__caption {
+    html.t--realo body, html.t--realo h1, html.t--realo cite, html.t--realo .c-nav .c-nav__items .c-nav__item a, html.t--realo .c-figure__caption {
       color: var(--c-realo-light); }
     html.t--realo .c-page {
       background: var(--c-realo-dark); }
@@ -586,7 +589,7 @@ cite {
       background: var(--c-realo-alpha); }
   html.t--scorecard {
     background: var(--c-scorecard-dark); }
-    html.t--scorecard body, html.t--scorecard h1, html.t--scorecard .c-nav .c-nav__items .c-nav__item a, html.t--scorecard .c-figure__caption {
+    html.t--scorecard body, html.t--scorecard h1, html.t--scorecard cite, html.t--scorecard .c-nav .c-nav__items .c-nav__item a, html.t--scorecard .c-figure__caption {
       color: var(--c-scorecard-light); }
     html.t--scorecard .c-page {
       background: var(--c-scorecard-dark); }
@@ -601,7 +604,7 @@ cite {
       background: var(--c-scorecard-alpha); }
   html.t--shelf {
     background: var(--c-shelf-dark); }
-    html.t--shelf body, html.t--shelf h1, html.t--shelf .c-nav .c-nav__items .c-nav__item a, html.t--shelf .c-figure__caption {
+    html.t--shelf body, html.t--shelf h1, html.t--shelf cite, html.t--shelf .c-nav .c-nav__items .c-nav__item a, html.t--shelf .c-figure__caption {
       color: var(--c-shelf-light); }
     html.t--shelf .c-page {
       background: var(--c-shelf-dark); }
@@ -615,7 +618,7 @@ cite {
     html.t--shelf .o-grid__collage .c-card--gallery {
       background: var(--c-shelf-alpha); } }
 
-.t--diabetik body, .t--diabetik h1, .t--diabetik .c-nav .c-nav__items .c-nav__item a {
+.t--diabetik body, .t--diabetik h1, .t--diabetik cite, .t--diabetik .c-nav .c-nav__items .c-nav__item a {
   color: var(--c-diabetik-dark); }
 
 .t--diabetik ::selection {
@@ -633,7 +636,7 @@ cite {
 .t--diabetik .o-grid__collage .c-card--gallery {
   background: var(--c-diabetik-light); }
 
-.t--helpper body, .t--helpper h1, .t--helpper .c-nav .c-nav__items .c-nav__item a {
+.t--helpper body, .t--helpper h1, .t--helpper cite, .t--helpper .c-nav .c-nav__items .c-nav__item a {
   color: var(--c-helpper-dark); }
 
 .t--helpper ::selection {
@@ -651,7 +654,7 @@ cite {
 .t--helpper .o-grid__collage .c-card--gallery {
   background: var(--c-helpper-light); }
 
-.t--immobrown body, .t--immobrown h1, .t--immobrown .c-nav .c-nav__items .c-nav__item a {
+.t--immobrown body, .t--immobrown h1, .t--immobrown cite, .t--immobrown .c-nav .c-nav__items .c-nav__item a {
   color: var(--c-immobrown-dark); }
 
 .t--immobrown ::selection {
@@ -669,7 +672,7 @@ cite {
 .t--immobrown .o-grid__collage .c-card--gallery {
   background: var(--c-immobrown-light); }
 
-.t--realo body, .t--realo h1, .t--realo .c-nav .c-nav__items .c-nav__item a {
+.t--realo body, .t--realo h1, .t--realo cite, .t--realo .c-nav .c-nav__items .c-nav__item a {
   color: var(--c-realo-dark); }
 
 .t--realo ::selection {
@@ -687,7 +690,7 @@ cite {
 .t--realo .o-grid__collage .c-card--gallery {
   background: var(--c-realo-light); }
 
-.t--scorecard body, .t--scorecard h1, .t--scorecard .c-nav .c-nav__items .c-nav__item a {
+.t--scorecard body, .t--scorecard h1, .t--scorecard cite, .t--scorecard .c-nav .c-nav__items .c-nav__item a {
   color: var(--c-scorecard-dark); }
 
 .t--scorecard ::selection {
@@ -705,7 +708,7 @@ cite {
 .t--scorecard .o-grid__collage .c-card--gallery {
   background: var(--c-scorecard-light); }
 
-.t--shelf body, .t--shelf h1, .t--shelf .c-nav .c-nav__items .c-nav__item a {
+.t--shelf body, .t--shelf h1, .t--shelf cite, .t--shelf .c-nav .c-nav__items .c-nav__item a {
   color: var(--c-shelf-dark); }
 
 .t--shelf ::selection {

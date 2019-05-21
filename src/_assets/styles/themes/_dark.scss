@@ -5,7 +5,7 @@
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--c-matter-dark);
-    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-matter-light);
     }
     .c-page {
@@ -42,7 +42,7 @@
   }
   html.t--diabetik {
     background: var(--c-diabetik-dark);
-    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-diabetik-light);
     }
     .c-page {
@@ -64,7 +64,7 @@
   }
   html.t--helpper {
     background: var(--c-helpper-dark);
-    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-helpper-light);
     }
     .c-page {
@@ -86,7 +86,7 @@
   }
   html.t--immobrown {
     background: var(--c-immobrown-dark);
-    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-immobrown-light);
     }
     .c-page {
@@ -108,7 +108,7 @@
   }
   html.t--realo {
     background: var(--c-realo-dark);
-    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-realo-light);
     }
     .c-page {
@@ -130,7 +130,7 @@
   }
   html.t--scorecard {
     background: var(--c-scorecard-dark);
-    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-scorecard-light);
     }
     .c-page {
@@ -152,7 +152,7 @@
   }
   html.t--shelf {
     background: var(--c-shelf-dark);
-    body, h1, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-shelf-light);
     }
     .c-page {

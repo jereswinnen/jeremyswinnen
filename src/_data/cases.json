@@ -11,8 +11,8 @@
     "name": "Helpper",
     "summary": "Helpper allows you to connect with people in your neighbourhood who are in need of a helping hand.",
     "role": "iOS",
-    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1555620883/helpper__cover--constrained%402x.png",
-    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1555620883/helpper__cover--constrained%402x.png",
+    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1555620883/work/helpper/collage-hero.png",
+    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1555620883/work/helpper/collage-hero.png",
     "grid-size": "medium"
   },
   {
@@ -35,16 +35,16 @@
     "name": "Scorecard",
     "summary": "Keeping score while playing games with friends and family has never been so seamless.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556484574/scorecard__cover--constrained%402x.png",
-    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556484574/scorecard__cover--constrained%402x.png",
+    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero.png",
+    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556484574/work/scorecard/collage-hero.png",
     "grid-size": "large"
   },
   {
     "name": "Shelf",
     "summary": "Designing a virtual shelf for storing frequently used documents that need to be accessed at all times.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1557950610/work/shelf/collage-hero.png",
-    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1557950610/work/shelf/collage-hero.png",
+    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465154/work/shelf/collage-hero.png",
+    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465154/work/shelf/collage-hero.png",
     "grid-size": "large"
   }
 ]

@@ -7,5 +7,10 @@
     "url": "https://madebymatter.co",
     "email": "hello@madebymatter.co",
     "twitter": "https://twitter.com/jereswinnen"
-  }  
+  },
+  "cloudinary": {
+    "base": "https://res.cloudinary.com/matter/image/upload",
+    "quality": "q_auto",
+    "width": "w_0.5"
+  }
 }

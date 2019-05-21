@@ -6,7 +6,7 @@ lede: Designing a virtual shelf for storing frequently used documents that need 
 With Apple’s announcement of the SlideOver and SplitScreen features in iOS 11 for iPad, and the premise of a soon to be filled App Store with dozens of similar apps, I had to swiftly envision an intuitive and beautiful user interface.
 
 ### My Approach
-After getting the brief from Matthew Bischoff, Partner at [Lickability](https://www.lickability.com), I designed wireframes to get a feel of the overall structure of the app. After getting the approval on the wireframes, I moved to designing the user interface.
+After getting the design brief from Matthew Bischoff, Partner at [Lickability](https://www.lickability.com), I designed wireframes to get a feel of the overall structure of the app. After getting the approval on the wireframes, I moved to designing the user interface.
 
 {% include screens with artwork: artwork.shelf.embed__filetypes %}
 

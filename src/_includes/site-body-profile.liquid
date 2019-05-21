@@ -19,28 +19,15 @@
     {% endfor %} 
   </section>
 </section>
-<section class="c-section" role="press">
-  <header class="o-grid__align--inset c-section__header">
-    <h4>Mentions</h4>
-    <h2>My work has been featured in both local and international publications.</h2>
-  </header>
-  <section class="o-grid__flow">
-    {% for item in press %}
-    <div class="o-grid__item c-card--press">
-      <img src="{{ item.logo }}" alt="{{ item.publication }}">
-    </div> 
-    {% endfor %}  
-  </section>
-</section>
 <section class="c-section" role="quotes">
   <header class="o-grid__align--inset c-section__header">
     <h4>Nice words about my work</h4>
   </header>
   <section class="o-grid__abreast">
-    {% for quote in quotes %}
+    {% for item in testimonials %}
     <blockquote class="o-grid__item">
-      <p class="c-blockquote__text">{{ quote.phrase }}</p>
-      <cite>{{ quote.cite }}</cite>
+      <p class="c-blockquote__text">{{ item.quote }}</p>
+      <cite>{{ item.cite }}</cite>
     </blockquote> 
     {% endfor %}  
   </section>
