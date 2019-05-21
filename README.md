@@ -1,5 +1,7 @@
-# madebymatter.co
-This is all the code behind my personal website and portfolio, Matter.
+# jeremyswinnen.com
+This is all the code behind my personal website and portfolio.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/92b48aca-276a-4ed3-9a33-1a2030301162/deploy-status)](https://app.netlify.com/sites/jeremyswinnen/deploys)
 
 ## Information
 All code is written by me, Jeremy Swinnen. I'm a designer and creative developer from Belgium. I design digital products and web experiences for and with people from all over the world.
@@ -8,7 +10,6 @@ While I'm primarily a designer, I do enjoy coding the designs I create. I believ
 
 ## Credits
 Many thanks to:
-
-Zach Leatherman for creating [Eleventy](www.11ty.io)
-Simon Wuyts
-Paul Robert Lloyd
+- Zach Leatherman for creating [Eleventy](www.11ty.io)
+- Simon Wuyts
+- Paul Robert Lloyd
