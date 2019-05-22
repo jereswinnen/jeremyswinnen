@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "description": "The bread and butter of my online identity.",
   "scripts": {
-    "build": "npx eleventy"
+    "build": "npx eleventy",
+    "now-build": "npx eleventy"
   },
   "repository": {
     "type": "git",
