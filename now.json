@@ -1,9 +1,6 @@
 {
   "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/node",
-      "config": { "distDir": "www" }
-    }
+    { "src": "package.json", "use": "@now/node" },
+    { "src": "www", "use": "@now/static" }
   ]
 }
