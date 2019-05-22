@@ -2,6 +2,7 @@
   "builds": [
     {
       "src": "package.json",
+      "use": "@now/node",
       "config": { "distDir": "www" }
     }
   ]
