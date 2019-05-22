@@ -2,63 +2,146 @@
   "diabetik": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1555403407/diabetik__cover--constrained%402x.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1555403407/diabetik__cover--constrained%402x.png",
-        "alt": "This is some alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/collage-hero.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515831/work/diabetik/collage-hero.png",
+        "alt": "Diabetik is right at home on both iPhone and iPad."
       }
     ],
     "embed__versionios6": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558462131/work/diabetik/embed-versionios6.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558462131/work/diabetik/embed-versionios6.png",
-        "alt": "A small snippet of the pattern library.",
-        "figcaption": "A small snippet of the pattern library I created for Scorecard.",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558462131/work/diabetik/embed-versionios6.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558462131/work/diabetik/embed-versionios6.png",
+        "alt": "The original iOS 6 version of Diabetik.",
+        "figcaption": "The original iOS 6 version of Diabetik.",
         "grid-align": "bleed"
       }
     ],
     "embed__beforeafter": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558467409/work/diabetik/embed-beforeafter.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558467409/work/diabetik/embed-beforeafter.png",
-        "alt": "A small snippet of the pattern library.",
-        "figcaption": "A small snippet of the pattern library I created for Scorecard.",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467409/work/diabetik/embed-beforeafter.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467409/work/diabetik/embed-beforeafter.png",
+        "alt": "The iOS 6 version of Diabetik on the left, and the iOS 7 version on the right.",
+        "figcaption": "iOS 7 was a drastic departure for Diabetik in terms of visual identity. By using colorful icons and subtle typography, we countered the stark white look.",
         "grid-align": "bleed"
       }
     ],
     "collage": [
       {
-        "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a figcaption",
-        "size": "small"
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515828/work/diabetik/phone-journal.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515828/work/diabetik/phone-journal.png",
+        "alt": "Diabetik's Journal view is designed to make digesting large amounts of data pleasant.",
+        "figcaption": "Diabetik's Journal view is designed to make digesting large amounts of data pleasant.",
+        "grid-size": "small"
       },
       {
-        "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-        "alt": "This is some secondary agency alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515829/work/diabetik/tablet-journal.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515829/work/diabetik/tablet-journal.png",
+        "alt": "Laying out the month cards on a grid allows the user to monitor their progress.",
+        "figcaption": "Laying out the month cards on a grid allows the user to monitor their progress.",
+        "grid-size": "large"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515829/work/diabetik/phone-addentry-meal.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515829/work/diabetik/phone-addentry-meal.png",
+        "alt": "Adding a meal entry.",
+        "figcaption": "Adding entries is fast, simple, and elegantly designed.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515830/work/diabetik/phone-addentry-medicine.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515830/work/diabetik/phone-addentry-medicine.png",
+        "alt": "Adding a medicine entry.",
+        "figcaption": "Adding entries is fast, simple, and elegantly designed.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515829/work/diabetik/phone-addentry-blood.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515829/work/diabetik/phone-addentry-blood.png",
+        "alt": "Adding a blood reading.",
+        "figcaption": "Adding entries is fast, simple, and elegantly designed.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/tablet-timeline.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515831/work/diabetik/tablet-timeline.png",
+        "alt": "The day cards are aligned horizontally on iPad to allow the user to easily compare days with each other.",
+        "figcaption": "The day cards are aligned horizontally on iPad to allow the user to easily compare days with each other.",
+        "grid-size": "large"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515828/work/diabetik/phone-timeline.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515828/work/diabetik/phone-timeline.png",
+        "alt": "The timeline contains every entry the user has added.",
+        "figcaption": "The timeline contains every entry the user has added.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515830/work/diabetik/phone-listmenu.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515830/work/diabetik/phone-listmenu.png",
+        "alt": "The side menu is easily accessed at all times by swiping on the navigation bar.",
+        "figcaption": "The side menu is easily accessed at all times by swiping on the navigation bar.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515832/work/diabetik/tablet-listmenu.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515832/work/diabetik/tablet-listmenu.png",
+        "alt": "The side menu is easily accessed at all times by swiping on the navigation bar.",
+        "figcaption": "The side menu is easily accessed at all times by swiping on the navigation bar.",
+        "grid-size": "large"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515832/work/diabetik/tablet-addentry.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515832/work/diabetik/tablet-addentry.png",
+        "alt": "The larger display of iPad allows the user to add multiple entries in a single action.",
+        "figcaption": "The larger display of iPad allows the user to add multiple entries in a single action."
       }
     ]
   },
   "helpper": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1555620883/work/helpper/collage-hero.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1555620883/work/helpper/collage-hero.png",
-        "alt": "This is some alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1555620883/work/helpper/collage-hero.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1555620883/work/helpper/collage-hero.png",
+        "alt": "Helpper's iOS app fits right in with their existing style guide and marketing direction."
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918356/work/realo/new/tablet-search-landscape.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918356/work/realo/new/tablet-search-landscape.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467817/work/helpper/phone-login.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467817/work/helpper/phone-login.png",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467815/work/helpper/collage-duo-overzicht.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467815/work/helpper/collage-duo-overzicht.png",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918356/work/realo/new/tablet-search-landscape.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918356/work/realo/new/tablet-search-landscape.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467816/work/helpper/phone-welkom.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467816/work/helpper/phone-welkom.png",
+        "alt": "On first launch, the user is welcomed with clear steps on how to use the app without making the user feel dumb.",
+        "figcaption": "On first launch, the user is welcomed with clear steps on how to use the app without making the user feel dumb.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467816/work/helpper/phone-profiel.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467816/work/helpper/phone-profiel.png",
+        "alt": "Editing your profile on the go is as easy as tapping the edit button.",
+        "figcaption": "Editing your profile on the go is as easy as tapping the edit button.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467819/work/helpper/phone-zoeken.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467819/work/helpper/phone-zoeken.png",
+        "alt": "It was quite a challenge to build a screen this packed with information and UI elements.",
+        "figcaption": "It was quite a challenge to build a screen this packed with information and UI elements.",
+        "grid-size": "small"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467814/work/helpper/collage-duo-prestaties.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467814/work/helpper/collage-duo-prestaties.png",
+        "alt": "Error messages are styled accordingly and provide clear instructions to the user.",
+        "figcaption": "Error messages are styled accordingly and provide clear instructions to the user.",
         "grid-size": "large"
       }
     ]
@@ -66,99 +149,129 @@
   "immobrown": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/  v1558368540/work/immobrown/new/collage-hero.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558368540/work/immobrown/new/collage-hero.png",
-        "alt": "This is some alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515913/work/immobrown/collage-hero.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515913/work/immobrown/collage-hero.png",
+        "alt": "I designed an elegent website for Immo Brown."
       }
     ],
     "collage": [
       {
-        "source": "https://images.unsplash.com/photo-1549303553-02c945fff8dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-        "alt": "This is some agency alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515906/work/immobrown/phone-detail.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515906/work/immobrown/phone-detail.png",
+        "alt": "The website was designed with a mobile-first approach to make the design feel right at home on smaller displays.",
+        "figcaption": "The website was designed with a mobile-first approach to make the design feel right at home on smaller displays.",
+        "grid-size": "small"
       },
       {
-        "source": "https://images.unsplash.com/photo-1549303553-add1bcc2e1c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60",
-        "alt": "This is some secondary agency alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515905/work/immobrown/notebook-home.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515905/work/immobrown/notebook-home.png",
+        "alt": "With some smart but tiny adustments to the code, the design really pops on larger displays.",
+        "figcaption": "With some smart but tiny adustments to the code, the design really pops on larger displays.",
+        "grid-size": "large"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515910/work/immobrown/notebook-detail.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515910/work/immobrown/notebook-detail.png",
+        "alt": "Immo Brown's property detail page.",
+        "grid-size": "medium"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515903/work/immobrown/notebook-forsale.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515903/work/immobrown/notebook-forsale.png",
+        "alt": "Immo Brown's for sale page.",
+        "grid-size": "medium"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515903/work/immobrown/notebook-contact.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515903/work/immobrown/notebook-contact.png",
+        "alt": "Immo Brown's contact page.",
+        "grid-size": "large"
+      },
+      {
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515905/work/immobrown/phone-menu.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515905/work/immobrown/phone-menu.png",
+        "alt": "Immo Brown's list menu on mobile.",
+        "grid-size": "small"
       }
     ]
   },
   "realo": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1555618894/realo__cover--constrained%402x.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1555618894/realo__cover--constrained%402x.png",
-        "alt": "This is some alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516028/work/realo/collage-hero.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516028/work/realo/collage-hero.png",
+        "alt": "Realo"
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918356/work/realo/new/tablet-search-landscape.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918356/work/realo/new/tablet-search-landscape.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516025/work/realo/tablet-search-landscape.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516025/work/realo/tablet-search-landscape.png",
+        "alt": "We reduced the width of the list to show a map on the left side. This gives the user a clear overview of where their potential next home is located.",
+        "figcaption": "We reduced the width of the list to show a map on the left side. This gives the user a clear overview of where their potential next home is located.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918349/work/realo/new/phone-search.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918349/work/realo/new/phone-search.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516025/work/realo/phone-search.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516025/work/realo/phone-search.png",
+        "alt": "Clear typography and attractive iconography makes the mobile pages even more pleasant to use.",
+        "figcaption": "Clear typography and attractive iconography makes the mobile pages even more pleasant to use.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918351/work/realo/new/phone-agency.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918351/work/realo/new/phone-agency.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516021/work/realo/tablet-agency.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516021/work/realo/tablet-agency.png",
+        "alt": "Realo is a first-class citizen on every screen size.",
+        "figcaption": "Realo is a first-class citizen on every screen size.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5//v1557918351/work/realo/new/notebook-agency.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918351/work/realo/new/notebook-agency.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516020/work/realo/notebook-agency.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516020/work/realo/notebook-agency.png",
+        "alt": "The agency page gives the user a complete overview of their listings, employees and reviews.",
+        "figcaption": "The agency page gives the user a complete overview of their listings, employees and reviews.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918356/work/realo/new/tablet-search.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918356/work/realo/new/tablet-search.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516026/work/realo/tablet-search.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516026/work/realo/tablet-search.png",
+        "alt": "Realo is a first-class citizen on every screen size.",
+        "figcaption": "Realo is a first-class citizen on every screen size.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918357/work/realo/new/tablet-agency.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918357/work/realo/new/tablet-agency.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516021/work/realo/tablet-agency.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516021/work/realo/tablet-agency.png",
+        "alt": "The agency page gives the user a complete overview of their listings, employees and reviews.",
+        "figcaption": "The agency page gives the user a complete overview of their listings, employees and reviews.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918353/work/realo/new/phone-propertydetail.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918353/work/realo/new/phone-propertydetail.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516022/work/realo/phone-propertydetail.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516022/work/realo/phone-propertydetail.png",
+        "alt": "Large images and clear data make the property detail pages a joy to read.",
+        "figcaption": "Large images and clear data make the property detail pages a joy to read.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918360/work/realo/new/tablet-propertydetail.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918360/work/realo/new/tablet-propertydetail.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516024/work/realo/tablet-propertydetail.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516024/work/realo/tablet-propertydetail.png",
+        "alt": "Large images and clear data make the property detail pages a joy to read.",
+        "figcaption": "Large images and clear data make the property detail pages a joy to read.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918357/work/realo/new/notebook-propertydetail.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918357/work/realo/new/notebook-propertydetail.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516019/work/realo/notebook-propertydetail.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516019/work/realo/notebook-propertydetail.png",
+        "alt": "Large images and clear data make the property detail pages a joy to read.",
+        "figcaption": "Large images and clear data make the property detail pages a joy to read.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1557918369/work/realo/new/notebook-home.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1557918369/work/realo/new/notebook-home.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516028/work/realo/notebook-home.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516028/work/realo/notebook-home.png",
+        "alt": "The user is welcomed by an inviting homepage where they can search for a home.",
+        "figcaption": "The user is welcomed by an inviting homepage where they can search for a home.",
         "grid-size": "medium"
       }
     ]
@@ -166,15 +279,15 @@
   "scorecard": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556484574/work/scorecard/collage-hero.png",
-        "alt": "This is some alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556484574/work/scorecard/collage-hero.png",
+        "alt": "Scorecard allows people to keep score while playing board games with friends &amp; family."
       }
     ],
     "embed__patternlibrary": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558010750/work/scorecard/embed-patternlibrary.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558010750/work/scorecard/embed-patternlibrary.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558010750/work/scorecard/embed-patternlibrary.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558010750/work/scorecard/embed-patternlibrary.png",
         "alt": "A small snippet of the pattern library.",
         "figcaption": "A small snippet of the pattern library I created for Scorecard.",
         "grid-align": "bleed"
@@ -182,8 +295,8 @@
     ],
     "embed__iphonetoipad": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
         "alt": "The iPad version is not simply a blown-up iPhone app.",
         "figcaption": "The iPad version is not simply a blown-up iPhone app.",
         "grid-align": "bleed"
@@ -191,8 +304,8 @@
     ],
     "embed__playerdetails": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558184078/work/scorecard/embed-playerdetails.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558184078/work/scorecard/embed-playerdetails.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558184078/work/scorecard/embed-playerdetails.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558184078/work/scorecard/embed-playerdetails.png",
         "alt": "The 'Player Details' flow was kept within reach.",
         "figcaption": "By keeping the player details within reach, the UI is more comfortable to use.",
         "grid-align": "bleed"
@@ -200,52 +313,50 @@
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556563026/work/scorecard/tablet-addagame.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556563026/work/scorecard/tablet-addagame.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/tablet-addagame.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/tablet-addagame.png",
+        "alt": "Going with two columns on iPad makes the UI more functional.",
+        "figcaption": "Going with two columns on iPad makes the UI more functional.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556563026/work/scorecard/phone-addagame.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556563026/work/scorecard/phone-addagame.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/phone-addagame.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/phone-addagame.png",
+        "alt": "Scorecard - Add a Game",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556563028/work/scorecard/tablet-yourgames-dark.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556563028/work/scorecard/tablet-yourgames-dark.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563028/work/scorecard/tablet-yourgames-dark.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563028/work/scorecard/tablet-yourgames-dark.png",
+        "alt": "A dark version of the app was also designed.",
+        "figcaption": "A dark version of the app was also designed.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556563027/work/scorecard/tablet-gameplay-purple.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556563027/work/scorecard/tablet-gameplay-purple.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563027/work/scorecard/tablet-gameplay-purple.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563027/work/scorecard/tablet-gameplay-purple.png",
+        "alt": "The gameplay screen tints its background and various UI elements based on the game color.",
+        "figcaption": "The gameplay screen tints its background and various UI elements based on the game color.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556563026/work/scorecard/phone-addagame-teamcreated.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556563026/work/scorecard/phone-addagame-teamcreated.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/phone-addagame-teamcreated.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/phone-addagame-teamcreated.png",
+        "alt": "Teams are defined as a grouped cell.",
+        "figcaption": "Teams are defined as a grouped cell.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556563028/work/scorecard/phone-gamesessions-blue.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556563028/work/scorecard/phone-gamesessions-blue.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563028/work/scorecard/phone-gamesessions-blue.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563028/work/scorecard/phone-gamesessions-blue.png",
+        "alt": "Most of Scorecard's UI is based around tinting UI elements with the game color, giving the app a more personal look and feel.",
+        "figcaption": "Most of Scorecard's UI is based around tinting UI elements with the game color, giving the app a more personal look and feel.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556563026/work/scorecard/phone-gameplaywithteam-blue.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556563026/work/scorecard/phone-gameplaywithteam-blue.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/phone-gameplaywithteam-blue.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/phone-gameplaywithteam-blue.png",
+        "alt": "Scorecard - Gameplay on iPhone",
         "grid-size": "small"
       }
     ]
@@ -253,15 +364,15 @@
   "shelf": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465154/work/shelf/collage-hero.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465154/work/shelf/collage-hero.png",
-        "alt": "This is some alt text."
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465154/work/shelf/collage-hero.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465154/work/shelf/collage-hero.png",
+        "alt": "Shelf for iPad"
       }
     ],
     "embed__filetypes": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465579/work/shelf/embed-filetypes.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465579/work/shelf/embed-filetypes.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465579/work/shelf/embed-filetypes.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465579/work/shelf/embed-filetypes.png",
         "alt": "The various file types, each with their respective color palette.",
         "figcaption": "The various file types, each with their respective color palette.",
         "grid-align": "bleed"
@@ -269,8 +380,8 @@
     ],
     "embed__fileicons": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/w_0.5/v1558003376/work/shelf/embed-fileicons.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/v1558003376/work/shelf/embed-fileicons.png",
+        "source": "https://res.cloudinary.com/matter/w_0.5/v1558003376/work/shelf/embed-fileicons.png",
+        "source-hq": "https://res.cloudinary.com/matter/v1558003376/work/shelf/embed-fileicons.png",
         "alt": "The different iterations of the file icons.",
         "figcaption": "The different iterations of the file icons.",
         "grid-align": "bleed"
@@ -278,45 +389,39 @@
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465160/work/shelf/tablet-splitscreen-image.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465160/work/shelf/tablet-splitscreen-image.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465160/work/shelf/tablet-splitscreen-image.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465160/work/shelf/tablet-splitscreen-image.png",
+        "alt": "An iPad showing the SplitScreen version of the app with a preview of a photo file.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465155/work/shelf/tablet-quicklook-video.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465155/work/shelf/tablet-quicklook-video.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465155/work/shelf/tablet-quicklook-video.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465155/work/shelf/tablet-quicklook-video.png",
+        "alt": "An iPad showing a Quick Look of a video file.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465154/work/shelf/tablet-slideover-text.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465154/work/shelf/tablet-slideover-text.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465154/work/shelf/tablet-slideover-text.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465154/work/shelf/tablet-slideover-text.png",
+        "alt": "An iPad showing the SlideOver version of the app.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465152/work/shelf/tablet-main-landscape.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465152/work/shelf/tablet-main-landscape.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465152/work/shelf/tablet-main-landscape.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465152/work/shelf/tablet-main-landscape.png",
+        "alt": "An iPad showing the main screen in landscape orientation.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465150/work/shelf/tablet-main-portrait.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465150/work/shelf/tablet-main-portrait.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465150/work/shelf/tablet-main-portrait.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465150/work/shelf/tablet-main-portrait.png",
+        "alt": "An iPad showing the main screen in portrait orientation.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465150/work/shelf/tablet-slideover-main.png",
-        "source-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465150/work/shelf/tablet-slideover-main.png",
-        "alt": "This is some agency alt text.",
-        "figcaption": "This is a sample figcaption",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465150/work/shelf/tablet-slideover-main.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465150/work/shelf/tablet-slideover-main.png",
+        "alt": "An iPad showing the SlideOver version of Shelf.",
         "grid-size": "large"
       }
     ]
