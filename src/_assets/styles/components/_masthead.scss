@@ -22,6 +22,8 @@
     }
   }
   @media(min-width: $u-layout-break-s) {
+    margin-bottom: var(--u-spacer-m);
+    padding: var(--u-spacer-s) 0;
     justify-content: flex-start;
   }
 }

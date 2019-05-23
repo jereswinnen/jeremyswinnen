@@ -57,7 +57,7 @@ $u-layout-break-xl: 90em; //1440
   --f-size-body-small: 0.875rem;
 
   --f-size-h1: calc(2.75rem + 1.65vw);
-  --f-size-h2: calc(1.15rem + 0.75vw);
+  --f-size-h2: calc(1.25rem + 0.75vw);
   --f-size-h3: calc(1.95rem + 0.4vw);
   --f-size-h4: calc(0.8rem + 0.15vw);
   --f-size-blockquote: var(--f-size-h3);
@@ -81,7 +81,7 @@ $u-layout-break-xl: 90em; //1440
 
   --u-hero-measure: 64rem;
   --u-line-measure: 45rem;
-  --u-page-measure: 88vmin; //55em
+  --u-page-measure: 88vmin;
 
   //--u-layout-gutter: var(--u-spacer-s);
   --u-layout-gutter: calc(2rem + 0.75vmax);

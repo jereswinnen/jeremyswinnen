@@ -10,6 +10,7 @@
     padding: var(--u-card-inset);
     color: white;
     h3 {
+      margin-bottom: var(--u-spacer-xxs);
       color: white; 
       a {
         text-decoration: none;
@@ -106,7 +107,7 @@
       flex: 1;
       align-items: center;
       img {
-        opacity: .85; //less busy
+        opacity: .85;
       }
     }
     &--diabetik {
@@ -123,12 +124,12 @@
     }
   }
 }
-.o-grid__collage .c-card--gallery .c-figure__caption p {
-  margin-bottom: 0;
-  text-align: center;
-}
-.c-card--press {
-
+.o-grid__collage .c-card--gallery {
+  margin: 0;
+  .c-figure__caption p {
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
 .c-card--article {
 
