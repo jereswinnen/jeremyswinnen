@@ -9,16 +9,16 @@
     ],
     "embed__versionios6": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558462131/work/diabetik/embed-versionios6.png",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558462131/work/diabetik/embed-versionios6.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633306/work/diabetik/embed-versionios6.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633306/work/diabetik/embed-versionios6.png",
         "alt": "The original iOS 6 version of Diabetik.",
         "figcaption": "The original iOS 6 version of Diabetik."
       }
     ],
     "embed__beforeafter": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467409/work/diabetik/embed-beforeafter.png",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467409/work/diabetik/embed-beforeafter.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633160/work/diabetik/embed-beforeafter.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633160/work/diabetik/embed-beforeafter.png",
         "alt": "The iOS 6 version of Diabetik on the left, and the iOS 7 version on the right.",
         "figcaption": "iOS 7 was a drastic departure for Diabetik in terms of visual identity. By using colorful icons and subtle typography, we countered the stark white look."
       }
@@ -292,16 +292,16 @@
     ],
     "embed__iphonetoipad": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558183602/work/scorecard/embed-iphonetoipad.png",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558183602/work/scorecard/embed-iphonetoipad.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633410/work/scorecard/embed-iphonetoipad.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633410/work/scorecard/embed-iphonetoipad.png",
         "alt": "The iPad version is not simply a blown-up iPhone app.",
         "figcaption": "The iPad version is not simply a blown-up iPhone app."
       }
     ],
     "embed__playerdetails": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558184078/work/scorecard/embed-playerdetails.png",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558184078/work/scorecard/embed-playerdetails.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633362/work/scorecard/embed-playerdetails.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633362/work/scorecard/embed-playerdetails.png",
         "alt": "The 'Player Details' flow was kept within reach.",
         "figcaption": "By keeping the player details within reach, the UI is more comfortable to use."
       }
