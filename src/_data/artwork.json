@@ -12,8 +12,7 @@
         "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558462131/work/diabetik/embed-versionios6.png",
         "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558462131/work/diabetik/embed-versionios6.png",
         "alt": "The original iOS 6 version of Diabetik.",
-        "figcaption": "The original iOS 6 version of Diabetik.",
-        "grid-align": "bleed"
+        "figcaption": "The original iOS 6 version of Diabetik."
       }
     ],
     "embed__beforeafter": [
@@ -21,8 +20,7 @@
         "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467409/work/diabetik/embed-beforeafter.png",
         "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467409/work/diabetik/embed-beforeafter.png",
         "alt": "The iOS 6 version of Diabetik on the left, and the iOS 7 version on the right.",
-        "figcaption": "iOS 7 was a drastic departure for Diabetik in terms of visual identity. By using colorful icons and subtle typography, we countered the stark white look.",
-        "grid-align": "bleed"
+        "figcaption": "iOS 7 was a drastic departure for Diabetik in terms of visual identity. By using colorful icons and subtle typography, we countered the stark white look."
       }
     ],
     "collage": [
@@ -289,17 +287,15 @@
         "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558010750/work/scorecard/embed-patternlibrary.png",
         "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558010750/work/scorecard/embed-patternlibrary.png",
         "alt": "A small snippet of the pattern library.",
-        "figcaption": "A small snippet of the pattern library I created for Scorecard.",
-        "grid-align": "bleed"
+        "figcaption": "A small snippet of the pattern library I created for Scorecard."
       }
     ],
     "embed__iphonetoipad": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558183602/work/scorecard/embed-iphoneto-ipad.png",
+        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558183602/work/scorecard/embed-iphonetoipad.png",
+        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558183602/work/scorecard/embed-iphonetoipad.png",
         "alt": "The iPad version is not simply a blown-up iPhone app.",
-        "figcaption": "The iPad version is not simply a blown-up iPhone app.",
-        "grid-align": "bleed"
+        "figcaption": "The iPad version is not simply a blown-up iPhone app."
       }
     ],
     "embed__playerdetails": [
@@ -307,8 +303,7 @@
         "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558184078/work/scorecard/embed-playerdetails.png",
         "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558184078/work/scorecard/embed-playerdetails.png",
         "alt": "The 'Player Details' flow was kept within reach.",
-        "figcaption": "By keeping the player details within reach, the UI is more comfortable to use.",
-        "grid-align": "bleed"
+        "figcaption": "By keeping the player details within reach, the UI is more comfortable to use."
       }
     ],
     "collage": [
@@ -374,8 +369,7 @@
         "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465579/work/shelf/embed-filetypes.png",
         "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465579/work/shelf/embed-filetypes.png",
         "alt": "The various file types, each with their respective color palette.",
-        "figcaption": "The various file types, each with their respective color palette.",
-        "grid-align": "bleed"
+        "figcaption": "The various file types, each with their respective color palette."
       }
     ],
     "embed__fileicons": [
@@ -383,8 +377,7 @@
         "source": "https://res.cloudinary.com/matter/w_0.5/v1558003376/work/shelf/embed-fileicons.png",
         "source-hq": "https://res.cloudinary.com/matter/v1558003376/work/shelf/embed-fileicons.png",
         "alt": "The different iterations of the file icons.",
-        "figcaption": "The different iterations of the file icons.",
-        "grid-align": "bleed"
+        "figcaption": "The different iterations of the file icons."
       }
     ],
     "collage": [

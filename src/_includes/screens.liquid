@@ -1,8 +1,0 @@
-{% for screen in artwork %}
-<figure class="{% if screen.grid-align %}o-grid__align--{{ screen.grid-align }} {% endif %}{% if screen.grid-size %}o-grid__item--{{ screen.grid-size }} {% endif %}c-figure c-card--gallery">
-  <img src="{{ screen.source }}" srcset="{{ screen.source }} 1x, {{ screen.source-hq }} 2x" sizes="100vw" {% if screen.alt %}alt="{{ screen.alt }}"{% endif %}>
-  {% if screen.figcaption %}
-  <figcaption class="c-figure__caption"><p>{{ screen.figcaption }}</p></figcaption>
-  {% endif %}
-</figure>
-{% endfor %}

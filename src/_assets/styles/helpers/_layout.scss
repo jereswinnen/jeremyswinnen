@@ -6,9 +6,6 @@
   .o-grid__align--bleed {
     margin-left: -6vmin; //100vw - 88vmin / 2
     margin-right: -6vmin; //100vw - 88vmin / 2
-    &.c-figure .c-figure__caption {
-      padding-left: 6vmin;
-    }
     &.c-section--darken {
       padding-left: 6vmin;
       padding-right: 6vmin;
@@ -18,6 +15,9 @@
     margin-left: auto;
     margin-right: auto;
     max-width: var(--u-hero-measure);
+    &.c-section--hero .c-card--gallery .c-figure {
+      margin: 0;
+    }
   }
   .o-grid__flow, .o-grid__abreast {
     display: grid;
@@ -29,6 +29,9 @@
     .c-card--gallery {
       padding: var(--u-card-inset);
       background: var(--c-matter-light);
+      .c-figure {
+        margin: 0;
+      }
     }
     .c-card--work--diabetik {
       order: 5;
@@ -55,7 +58,7 @@
 
   @media(min-width: $u-layout-break-m) {
     .o-grid__align--inset {
-      margin-left: var(--u-hspacer-m);
+      margin-left: var(--u-spacer-xs);
     }
     .o-grid__abreast {
       grid-template-columns: repeat(2, 1fr);
@@ -68,13 +71,8 @@
     .o-grid__collage {
       grid-template-columns: repeat(6, 1fr);
       grid-gap: var(--u-layout-gutter);
-      align-items: flex-end;
-      //align-items: stretch;
-      > * {
-        //display: flex;
-        //flex-direction: column;
-        //flex: 1;
-        //justify-content: center;
+      align-items: stretch;
+      .c-card {
         grid-column: span 6;
       }
       .o-grid__item--small {
@@ -98,6 +96,7 @@
         order: 4;
       }
       .c-card--work--realo {
+        align-self: flex-end;
         order: 1;
       }
       .c-card--work--scorecard {

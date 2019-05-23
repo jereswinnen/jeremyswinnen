@@ -9,7 +9,7 @@
   background: white;
   .c-page__header {
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-line-measure);
+    max-width: var(--u-lede-measure);
   }
   .c-page__body {
     margin-left: auto;
@@ -21,6 +21,14 @@
     }
     p, ol {
       margin-bottom: var(--u-spacer-xs);
+    }
+    .c-figure {
+      margin-left: -6vmin; //100vw - 88vmin / 2
+      margin-right: -6vmin; //100vw - 88vmin / 2
+      .c-figure__caption {
+        padding-left: 6vmin;
+        text-align: left;
+      }
     }
   }
 }

@@ -124,10 +124,10 @@
     }
   }
 }
-.o-grid__collage .c-card--gallery {
-  margin: 0;
-  .c-figure__caption p {
-    margin-bottom: 0;
+.c-card--gallery {
+  display: flex;
+  align-items: center;
+  .c-figure__caption {
     text-align: center;
   }
 }

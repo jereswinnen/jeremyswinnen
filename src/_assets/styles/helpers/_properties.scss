@@ -79,8 +79,9 @@ $u-layout-break-xl: 90em; //1440
 
   --u-card-inset: calc(1rem + 0.75vmax);
 
-  --u-hero-measure: 64rem;
+  --u-lede-measure: 40rem;
   --u-line-measure: 45rem;
+  --u-hero-measure: 64rem;
   --u-page-measure: 88vmin;
 
   //--u-layout-gutter: var(--u-spacer-s);
@@ -101,7 +102,7 @@ $u-layout-break-xl: 90em; //1440
     --c-shelf-accent: hsl(360, 25%, 47%);
   }
 
-  @media(min-width: $u-layout-break-s) {
+  @media(min-width: $u-layout-break-l) {
     --u-page-measure: 75vw;  
   }
 }

@@ -51,8 +51,9 @@
   --u-spacer-l: 10vmax;
   --u-spacer-xl: 16vmax;
   --u-card-inset: calc(1rem + 0.75vmax);
-  --u-hero-measure: 64rem;
+  --u-lede-measure: 40rem;
   --u-line-measure: 45rem;
+  --u-hero-measure: 64rem;
   --u-page-measure: 88vmin;
   --u-layout-gutter: calc(2rem + 0.75vmax);
   --t-bezier: cubic-bezier(.215, .61, .355, 1);
@@ -65,15 +66,13 @@
       --c-realo-accent: hsl(238, 24%, 49%);
       --c-scorecard-accent: hsl(180, 16%, 44%);
       --c-shelf-accent: hsl(360, 25%, 47%); } }
-  @media (min-width: 34em) {
+  @media (min-width: 62.5em) {
     :root {
       --u-page-measure: 75vw; } }
 
 .o-grid .o-grid__align--bleed {
   margin-left: -6vmin;
   margin-right: -6vmin; }
-  .o-grid .o-grid__align--bleed.c-figure .c-figure__caption {
-    padding-left: 6vmin; }
   .o-grid .o-grid__align--bleed.c-section--darken {
     padding-left: 6vmin;
     padding-right: 6vmin; }
@@ -82,6 +81,8 @@
   margin-left: auto;
   margin-right: auto;
   max-width: var(--u-hero-measure); }
+  .o-grid .o-grid__align--measure.c-section--hero .c-card--gallery .c-figure {
+    margin: 0; }
 
 .o-grid .o-grid__flow, .o-grid .o-grid__abreast {
   display: grid;
@@ -93,6 +94,8 @@
   .o-grid .o-grid__collage .c-card--gallery {
     padding: var(--u-card-inset);
     background: var(--c-matter-light); }
+    .o-grid .o-grid__collage .c-card--gallery .c-figure {
+      margin: 0; }
   .o-grid .o-grid__collage .c-card--work--diabetik {
     order: 5; }
   .o-grid .o-grid__collage .c-card--work--helpper {
@@ -108,7 +111,7 @@
 
 @media (min-width: 46em) {
   .o-grid .o-grid__align--inset {
-    margin-left: var(--u-hspacer-m); }
+    margin-left: var(--u-spacer-xs); }
   .o-grid .o-grid__abreast {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: var(--u-layout-gutter); }
@@ -118,8 +121,8 @@
   .o-grid .o-grid__collage {
     grid-template-columns: repeat(6, 1fr);
     grid-gap: var(--u-layout-gutter);
-    align-items: flex-end; }
-    .o-grid .o-grid__collage > * {
+    align-items: stretch; }
+    .o-grid .o-grid__collage .c-card {
       grid-column: span 6; }
     .o-grid .o-grid__collage .o-grid__item--small {
       grid-column: span 2; }
@@ -136,6 +139,7 @@
       align-self: stretch;
       order: 4; }
     .o-grid .o-grid__collage .c-card--work--realo {
+      align-self: flex-end;
       order: 1; }
     .o-grid .o-grid__collage .c-card--work--scorecard {
       order: 2; }
@@ -338,7 +342,7 @@ cite {
   background: white; }
   .c-page .c-page__header {
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-line-measure); }
+    max-width: var(--u-lede-measure); }
   .c-page .c-page__body {
     margin-left: auto;
     margin-right: auto;
@@ -348,12 +352,18 @@ cite {
       margin-top: var(--u-spacer-s); }
     .c-page .c-page__body p, .c-page .c-page__body ol {
       margin-bottom: var(--u-spacer-xs); }
+    .c-page .c-page__body .c-figure {
+      margin-left: -6vmin;
+      margin-right: -6vmin; }
+      .c-page .c-page__body .c-figure .c-figure__caption {
+        padding-left: 6vmin;
+        text-align: left; }
 
 .c-section {
   margin-bottom: var(--u-spacer-l); }
   .c-section .c-section__header {
     margin-bottom: var(--u-spacer-m);
-    max-width: var(--u-line-measure); }
+    max-width: var(--u-lede-measure); }
     .c-section .c-section__header h4 {
       color: var(--c-matter-dark); }
     .c-section .c-section__header--centered {
@@ -416,6 +426,14 @@ cite {
 @media (min-width: 34em) {
   .c-nav .c-nav__items .c-nav__item {
     padding: 0 calc(0.75rem + 0.3vw); } }
+
+.c-figure {
+  margin: var(--u-spacer-s) 0; }
+  .c-figure img {
+    display: block; }
+  .c-figure .c-figure__caption {
+    margin-top: var(--u-spacer-xxs);
+    color: var(--c-matter-accent); }
 
 .c-card--work {
   position: relative;
@@ -497,19 +515,11 @@ cite {
       .c-card--work--shelf {
         transform-origin: top right; } }
 
-.o-grid__collage .c-card--gallery {
-  margin: 0; }
-  .o-grid__collage .c-card--gallery .c-figure__caption p {
-    margin-bottom: 0;
+.c-card--gallery {
+  display: flex;
+  align-items: center; }
+  .c-card--gallery .c-figure__caption {
     text-align: center; }
-
-.c-figure {
-  margin: var(--u-spacer-s) 0; }
-  .c-figure img {
-    display: block; }
-  .c-figure .c-figure__caption {
-    margin-top: var(--u-spacer-xxs);
-    color: var(--c-matter-accent); }
 
 @media (prefers-color-scheme: dark) {
   html {
