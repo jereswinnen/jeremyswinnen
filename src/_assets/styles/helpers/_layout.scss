@@ -52,10 +52,6 @@
       order: 4;
     }
   }
-
-  // 2 columns (each grid item 50%) for o-grid__collage on break-s
-
-
   @media(min-width: $u-layout-break-m) {
     .o-grid__align--inset {
       margin-left: var(--u-spacer-xs);
