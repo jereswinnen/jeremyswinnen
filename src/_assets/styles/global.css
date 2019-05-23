@@ -421,6 +421,7 @@ cite {
       text-transform: lowercase;
       text-decoration: none; }
       .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current] {
+        font-weight: 600;
         color: var(--c-matter-accent); }
 
 @media (min-width: 34em) {
