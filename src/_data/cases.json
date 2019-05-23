@@ -35,16 +35,16 @@
     "name": "Scorecard",
     "summary": "Keeping score while playing games with friends and family has never been so seamless.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero.png",
-    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1556484574/work/scorecard/collage-hero.png",
+    "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero.png",
+    "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1556484574/work/scorecard/collage-hero.png",
     "grid-size": "large"
   },
   {
     "name": "Shelf",
     "summary": "Designing a virtual shelf for storing frequently used documents that need to be accessed at all times.",
     "role": "Web, iOS, Branding",
-    "cover": "https://res.cloudinary.com/matter/image/upload/q_auto,w_0.5/v1558465154/work/shelf/collage-hero.png",
-    "cover-hq": "https://res.cloudinary.com/matter/image/upload/q_auto/v1558465154/work/shelf/collage-hero.png",
+    "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465154/work/shelf/collage-hero.png",
+    "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1558465154/work/shelf/collage-hero.png",
     "grid-size": "large"
   }
 ]
