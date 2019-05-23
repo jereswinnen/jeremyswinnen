@@ -517,6 +517,7 @@ cite {
 
 .c-card--gallery {
   display: flex;
+  justify-content: center;
   align-items: center; }
   .c-card--gallery .c-figure__caption {
     text-align: center; }
