@@ -36,8 +36,7 @@ $u-layout-break-xl: 90em; //1440
   --c-realo-alpha: hsl(238, 24%, 37%, 15%);
 
   --c-scorecard-dark: hsl(180, 27%, 12%);
-  //--c-scorecard-accent: hsl(180, 16%, 35%);
-  --c-scorecard-accent: #628588; //#6e9799
+  --c-scorecard-accent: hsl(180, 16%, 42%);
   --c-scorecard-light: hsl(180, 8%, 90%);
   --c-scorecard-alpha: hsla(180, 16%, 35%, 15%);
 
@@ -94,8 +93,12 @@ $u-layout-break-xl: 90em; //1440
   --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1);
   
   @media (prefers-color-scheme: dark) {
-    // tweak accent color values
-    --c-helpper-accent: hsl(312, 18%, 37%);
+    --c-diabetik-accent: hsl(104, 24%, 45%);
+    --c-helpper-accent: hsl(312, 18%, 47%);
+    --c-immobrown-accent: hsl(29, 24%, 45%);
+    --c-realo-accent: hsl(238, 24%, 49%);
+    --c-scorecard-accent: hsl(180, 16%, 44%);
+    --c-shelf-accent: hsl(360, 25%, 47%);
   }
 
   @media(min-width: $u-layout-break-s) {
