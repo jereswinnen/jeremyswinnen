@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "jeremyswinnen.com",
+  "alias": ["www.jeremyswinnen.com", "jeremyswinnen.com"],
   "builds": [
     { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "www" } }
   ]
