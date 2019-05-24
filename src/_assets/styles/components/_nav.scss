@@ -15,8 +15,10 @@
         text-transform: lowercase;
         text-decoration: none;
         &:hover, &[aria-current] {
-          font-weight: 600;
           color: var(--c-matter-accent);
+        }
+        &[aria-current] {
+          font-weight: 600;
         }
       }
     }

@@ -1,13 +1,36 @@
-<header class="c-page__header">
+<header class="o-grid__align--inset c-page__header">
   <h1>{{ title }}</h1>
-  <h2>{{ lede }}</h2>  
+  <h2>{{ lede }}</h2>
+
+  <ul class="c-list c-list--horizontal" role="elsewhere"> //apply flex on larger bp
+    <li class="c-list__item"><a href="#"><svg>icon goes here</svg>link</a></li> //apply flex
+  </ul>
+
+  <aside class="c-page__aside" role="elsewhere">
+    <h3>Elsewhere</h3>
+    <ul class="c-list c-list--">
+    {% for item in elsewhere %}
+      <li><a href="{{ item.url }}">{{ item.platform }}<span>{{ item.handle }}</span></a></li> 
+    {% endfor %} 
+    </ul>
+  </aside>
 </header>
-<article class="c-page__body c-page__body--mc c-article">
-  {{ content }}
-</article>
-<section class="o-grid__align--bleed c-section c-section--darken">
-  <header class="c-section__header c-section__header--centered">
-    <h4>Skills &amp; Services -> Contact</h4>
-    <h2>While I'm primarily a designer, I'm equally able to assist you and your team in a few other key areas throughout the process.</h2>
-  </header>
+<section class="c-page__body c-section">
+  <form action="/contact/success" method="post" role="contact-form" class="c-form">
+    <fieldset class="c-form__fields">
+      <div class="c-form__field">
+        <label class="c-form__label" for="name"><h4>Name</h4></label>
+        <input class="c-form__input" id="name" name="name" type="text" required>
+      </div>
+      <div class="c-form__field">
+        <label class="c-form__label" for="email"><h4>Email address</h4></label>
+        <input class="c-form__input" id="email" name="email" type="email" required>
+      </div>
+      <div class="c-form__field">
+        <label class="c-form__label" for="message"><h4>Message</h4></label>
+        <textarea class="c-form__input" id="message" name="message" rows="8" cols="22" required></textarea>
+      </div>
+      <button class="c-form__button" type="submit">Send</button>
+    </fieldset>
+  </form>
 </section>

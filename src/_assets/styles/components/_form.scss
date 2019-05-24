@@ -1,0 +1,33 @@
+// =======================================================================
+// Form
+// =======================================================================
+
+.c-form {
+  //background: red;
+  .c-form__label h4 {
+    margin-bottom: var(--u-spacer-xxs);
+  }
+  .c-form__input {
+    margin-bottom: var(--u-spacer-xs);
+    padding: var(--u-spacer-xxs);
+    width: 100%;
+    border: 2px solid var(--c-matter-alpha);
+    //border-bottom: 2px solid var(--c-matter-alpha);
+    //background: yellow;
+    box-sizing: border-box;
+    &:hover, &:focus {
+      border: 2px solid var(--c-matter-accent);
+    }
+  }
+  .c-form__button {
+    padding: var(--u-spacer-xxs) var(--u-spacer-xs);
+    color: var(--c-matter-light);
+    background: var(--c-matter-dark);
+    &:hover {
+      background: var(--c-matter-accent);
+    }
+    &:active {
+      opacity: .65;
+    }
+  }
+}

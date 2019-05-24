@@ -31,4 +31,20 @@
       }
     }
   }
+  .c-page__aside {
+    color: var(--c-matter-accent);
+    &[role="elsewhere"] ul {
+      list-style-type: none;
+      font-size: var(--f-size-body-fixed);
+      li a {
+        //text-decoration: none;
+        span {
+          color: var(--c-matter-accent);
+        }
+        &:hover span {
+          color: var(--c-matter-dark);
+        }
+      }
+    }
+  }
 }
