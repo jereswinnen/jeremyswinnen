@@ -4,5 +4,6 @@ config.codekit3
 package-lock.json
 
 # Folders to ignore
+node_modules
 www
 .vscode

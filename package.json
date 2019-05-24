@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jereswinnen/jeremyswinnen-v2"
+    "url": "https://github.com/jereswinnen/jeremyswinnen"
   },
   "author": {
     "name": "Jeremy Swinnen",
@@ -16,8 +16,11 @@
     "url": "https://jeremyswinnen.com/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/jereswinnen/jeremyswinnen-v2#readme",
+  "homepage": "https://github.com/jereswinnen/jeremyswinnen#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.1.2"
   }
 }
