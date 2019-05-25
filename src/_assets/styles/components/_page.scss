@@ -17,7 +17,7 @@
     margin-bottom: var(--u-spacer-l);
     max-width: var(--u-line-measure);
     h3:not(:first-child), h4:not(:first-child) {
-      margin-top: var(--u-spacer-s);
+      margin-top: var(--u-spacer-m);
     }
     p, ol {
       margin-bottom: var(--u-spacer-xs);
@@ -27,23 +27,8 @@
       margin-right: -6vmin; //100vw - 88vmin / 2
       .c-figure__caption {
         padding-left: 6vmin;
+        padding-right: 6vmin;
         text-align: left;
-      }
-    }
-  }
-  .c-page__aside {
-    color: var(--c-matter-accent);
-    &[role="elsewhere"] ul {
-      list-style-type: none;
-      font-size: var(--f-size-body-fixed);
-      li a {
-        //text-decoration: none;
-        span {
-          color: var(--c-matter-accent);
-        }
-        &:hover span {
-          color: var(--c-matter-dark);
-        }
       }
     }
   }

@@ -5,7 +5,7 @@
 .c-section {
   margin-bottom: var(--u-spacer-l);
   .c-section__header {
-    margin-bottom: var(--u-spacer-m);
+    margin-bottom: var(--u-spacer-l);
     max-width: var(--u-lede-measure);
     h4 {
       color: var(--c-matter-dark);
@@ -17,8 +17,8 @@
     }
   }
   &--darken {
-    padding-top: var(--u-spacer-m);
-    padding-bottom: var(--u-spacer-m);
+    padding-top: var(--u-spacer-l);
+    padding-bottom: var(--u-spacer-l);
     color: var(--c-matter-accent);
     background: var(--c-matter-dark);
     h3, h4, .c-section__header h3, .c-section__header h4 {

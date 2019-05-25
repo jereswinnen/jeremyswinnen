@@ -6,7 +6,7 @@
   .o-grid__align--bleed {
     margin-left: -6vmin; //100vw - 88vmin / 2
     margin-right: -6vmin; //100vw - 88vmin / 2
-    &.c-section--darken {
+    &.c-nav--secondary, &.c-section--darken {
       padding-left: 6vmin;
       padding-right: 6vmin;
     }

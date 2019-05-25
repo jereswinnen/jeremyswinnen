@@ -1,22 +1,16 @@
 <header class="o-grid__align--inset c-page__header">
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>
-
-  <ul class="c-list c-list--horizontal" role="elsewhere"> //apply flex on larger bp
-    <li class="c-list__item"><a href="#"><svg>icon goes here</svg>link</a></li> //apply flex
-  </ul>
-
-  <aside class="c-page__aside" role="elsewhere">
-    <h3>Elsewhere</h3>
-    <ul class="c-list c-list--">
-    {% for item in elsewhere %}
-      <li><a href="{{ item.url }}">{{ item.platform }}<span>{{ item.handle }}</span></a></li> 
-    {% endfor %} 
+  <nav class="o-grid__align--bleed c-nav c-nav--secondary" role="{{ nav-secondary-role }}">
+    <ul class="c-nav__items">
+      {% for item in nav-secondary %}
+      <li class="c-nav__item"><a href="{{ item.url }}"><img src="{{ item.ion }}" aria-labelledby="{{ item.platform }}">{{ item.platform }}</a></li>
+      {% endfor %}
     </ul>
-  </aside>
+  </nav>
 </header>
 <section class="c-page__body c-section">
-  <form action="/contact/success" method="post" role="contact-form" class="c-form">
+  <form action="https://formsapi.jabwn.com/key/tGykMUQJnGdiH0lXAQ8L" method="post" role="contact-form" class="c-form">
     <fieldset class="c-form__fields">
       <div class="c-form__field">
         <label class="c-form__label" for="name"><h4>Name</h4></label>
@@ -30,7 +24,7 @@
         <label class="c-form__label" for="message"><h4>Message</h4></label>
         <textarea class="c-form__input" id="message" name="message" rows="8" cols="22" required></textarea>
       </div>
-      <button class="c-form__button" type="submit">Send</button>
+      <button class="c-form__button" type="submit" value="Send">Send</button>
     </fieldset>
   </form>
 </section>

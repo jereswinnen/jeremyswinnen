@@ -3,7 +3,6 @@
 // =======================================================================
 
 .c-form {
-  //background: red;
   .c-form__label h4 {
     margin-bottom: var(--u-spacer-xxs);
   }
@@ -12,8 +11,6 @@
     padding: var(--u-spacer-xxs);
     width: 100%;
     border: 2px solid var(--c-matter-alpha);
-    //border-bottom: 2px solid var(--c-matter-alpha);
-    //background: yellow;
     box-sizing: border-box;
     &:hover, &:focus {
       border: 2px solid var(--c-matter-accent);
