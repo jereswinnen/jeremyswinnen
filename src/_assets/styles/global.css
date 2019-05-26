@@ -608,7 +608,7 @@ cite {
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--c-matter-dark); }
-    html body, html h1, html cite, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
+    html body, html h1, html h3, html cite, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
       color: var(--c-matter-light); }
     html .c-form .c-form__button {
       color: var(--c-matter-light);
