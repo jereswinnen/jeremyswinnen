@@ -390,8 +390,7 @@ cite {
       .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a {
         color: var(--c-matter-dark); }
         .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-          color: var(--c-matter-light);
-          box-shadow: inset 0 -1px 0 var(--c-matter-light); }
+          color: var(--c-matter-light); }
   .c-section--darken {
     color: var(--c-matter-accent);
     background: var(--c-matter-dark); }
@@ -476,7 +475,7 @@ cite {
         height: 20px;
         stroke: currentColor; }
       .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-        box-shadow: inset 0 -1px 0 var(--c-matter-accent); }
+        box-shadow: 0 1px 0 currentColor; }
       .c-nav--secondary .c-nav__items .c-nav__item a:active {
         transition: none; }
   @media (min-width: 46em) {
@@ -611,6 +610,12 @@ cite {
     background: var(--c-matter-dark); }
     html body, html h1, html cite, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
       color: var(--c-matter-light); }
+    html .c-form .c-form__button {
+      color: var(--c-matter-light);
+      background: var(--c-matter-accent); }
+      html .c-form .c-form__button:hover, html .c-form .c-form__button:focus {
+        color: var(--c-matter-dark);
+        background: var(--c-matter-light); }
     html .c-page {
       background: var(--c-matter-dark); }
     html .c-section .c-section__header h4 {
@@ -738,8 +743,7 @@ cite {
   .t--diabetik .c-section--accent .c-nav--secondary {
     border-bottom: 1px solid var(--c-diabetik-alpha-dark); }
   .t--diabetik .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-    color: var(--c-diabetik-light);
-    box-shadow: inset 0 -1px 0 var(--c-diabetik-light); }
+    color: var(--c-diabetik-light); }
 
 .t--diabetik .c-section--darken {
   color: var(--c-diabetik-accent);
@@ -765,8 +769,7 @@ cite {
   .t--helpper .c-section--accent .c-nav--secondary {
     border-bottom: 1px solid var(--c-helpper-alpha-dark); }
   .t--helpper .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-    color: var(--c-helpper-light);
-    box-shadow: inset 0 -1px 0 var(--c-helpper-light); }
+    color: var(--c-helpper-light); }
 
 .t--helpper .c-section--darken {
   color: var(--c-helpper-accent);
@@ -792,8 +795,7 @@ cite {
   .t--immobrown .c-section--accent .c-nav--secondary {
     border-bottom: 1px solid var(--c-immobrown-alpha-dark); }
   .t--immobrown .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-    color: var(--c-immobrown-light);
-    box-shadow: inset 0 -1px 0 var(--c-immobrown-light); }
+    color: var(--c-immobrown-light); }
 
 .t--immobrown .c-section--darken {
   color: var(--c-immobrown-accent);
@@ -819,8 +821,7 @@ cite {
   .t--realo .c-section--accent .c-nav--secondary {
     border-bottom: 1px solid var(--c-realo-alpha-dark); }
   .t--realo .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-    color: var(--c-realo-light);
-    box-shadow: inset 0 -1px 0 var(--c-realo-light); }
+    color: var(--c-realo-light); }
 
 .t--realo .c-section--darken {
   color: var(--c-realo-accent);
@@ -846,8 +847,7 @@ cite {
   .t--scorecard .c-section--accent .c-nav--secondary {
     border-bottom: 1px solid var(--c-scorecard-alpha-dark); }
   .t--scorecard .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-    color: var(--c-scorecard-light);
-    box-shadow: inset 0 -1px 0 var(--c-scorecard-light); }
+    color: var(--c-scorecard-light); }
 
 .t--scorecard .c-section--darken {
   color: var(--c-scorecard-accent);
@@ -873,8 +873,7 @@ cite {
   .t--shelf .c-section--accent .c-nav--secondary {
     border-bottom: 1px solid var(--c-shelf-alpha-dark); }
   .t--shelf .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-    color: var(--c-shelf-light);
-    box-shadow: inset 0 -1px 0 var(--c-shelf-light); }
+    color: var(--c-shelf-light); }
 
 .t--shelf .c-section--darken {
   color: var(--c-shelf-accent);
