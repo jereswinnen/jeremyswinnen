@@ -56,9 +56,6 @@
   @media(min-width: $u-layout-break-m) {
     .c-nav__items {
       justify-content: flex-start;
-      .c-nav__item a {
-        //padding-bottom: var(--u-spacer-xxs);
-      }
     }
   }
 }
