@@ -398,7 +398,7 @@ cite {
     .c-section--darken h3, .c-section--darken h4, .c-section--darken .c-section__header h3, .c-section--darken .c-section__header h4 {
       color: var(--c-matter-light); }
   .c-section:last-of-type {
-    margin-bottom: var(--u-spacer-m); }
+    margin-bottom: var(--u-spacer-s); }
   @media (min-width: 62.5em) {
     .c-section--accent, .c-section--darken {
       padding-top: var(--u-spacer-m);

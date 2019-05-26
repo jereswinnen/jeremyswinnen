@@ -45,7 +45,7 @@
     }
   }
   &:last-of-type {
-    margin-bottom: var(--u-spacer-m);
+    margin-bottom: var(--u-spacer-s);
   }
   @media(min-width: $u-layout-break-l) {
     &--accent, &--darken {
