@@ -5,8 +5,13 @@
   "author": {
     "name": "Jeremy Swinnen",
     "url": "https://jeremyswinnen.com",
-    "email": "hello@madebymatter.co",
+    "email": "hello@jeremyswinnen.com",
     "twitter": "https://twitter.com/jereswinnen"
+  },
+  "social": {
+    "twitter": "https://twitter.com/jereswinnen",
+    "github": "https://github.com/jereswinnen",
+    "dribbble": "https://dribbble.com/jereswinnen"  
   },
   "cloudinary": {
     "base": "https://res.cloudinary.com/matter/image/upload",

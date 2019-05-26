@@ -14,38 +14,44 @@ $u-layout-break-xl: 90em; //1440
   --c-matter-accent: hsl(240, 5%, 56%);
   --c-matter-light: hsl(240, 6%, 93%);
   --c-matter-alpha: hsla(240, 5%, 56%, 15%);
+  --c-matter-alpha-dark: hsla(240, 7%, 10%, 20%);
 
   --c-diabetik-dark: hsl(104, 30%, 12%);
   --c-diabetik-accent: hsl(104, 24%, 35%);
   --c-diabetik-light: hsl(104, 12%, 90%);
   --c-diabetik-alpha: hsla(104, 24%, 35%, 15%);
+  --c-diabetik-alpha-dark: hsla(104, 30%, 12%, 20%);
 
   --c-helpper-dark: hsl(312, 27%, 12%);
   --c-helpper-accent: hsl(312, 18%, 37%);
   --c-helpper-light: hsl(312, 8%, 90%);
   --c-helpper-alpha: hsla(312, 18%, 37%, 15%);
+  --c-helpper-alpha-dark: hsla(312, 27%, 12%, 20%);
 
   --c-immobrown-dark: hsl(29, 30%, 12%);
   --c-immobrown-accent: hsl(29, 24%, 35%);
   --c-immobrown-light: hsl(29, 12%, 90%);
   --c-immobrown-alpha: hsla(29, 24%, 35%, 15%);
+  --c-immobrown-dark-alpha: hsla(29, 30%, 12%, 20%);
+  
 
   --c-realo-dark: hsl(238, 27%, 12%);
   --c-realo-accent: hsl(238, 24%, 37%);
   --c-realo-light: hsl(238, 12%, 90%);
   --c-realo-alpha: hsl(238, 24%, 37%, 15%);
+  --c-realo-dark-alpha: hsla(238, 27%, 12%, 20%);
 
   --c-scorecard-dark: hsl(180, 27%, 12%);
   --c-scorecard-accent: hsl(180, 16%, 42%);
   --c-scorecard-light: hsl(180, 8%, 90%);
   --c-scorecard-alpha: hsla(180, 16%, 35%, 15%);
+  --c-scorecard-dark-alpha: hsla(180, 27%, 12%, 20%);
 
   --c-shelf-dark: hsl(360, 30%, 12%);
   --c-shelf-accent: hsl(360, 25%, 37%);
   --c-shelf-light: hsl(360, 12%, 90%);
   --c-shelf-alpha: hsla(360, 25%, 37%, 15%);
-
-  --c-link-hover: var(--c-matter-accent);
+  --c-shelf-dark-alpha: hsla(360, 30%, 12%, 20%);
 
   // Typography
   --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
@@ -103,6 +109,6 @@ $u-layout-break-xl: 90em; //1440
   }
 
   @media(min-width: $u-layout-break-l) {
-    --u-page-measure: 75vw;  
+    --u-page-measure: 75vw; 
   }
 }

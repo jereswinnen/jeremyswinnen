@@ -1,13 +1,7 @@
 <header class="o-grid__align--inset c-page__header">
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>
-  <nav class="o-grid__align--bleed c-nav c-nav--secondary" role="{{ nav-secondary-role }}">
-    <ul class="c-nav__items">
-      {% for item in nav-secondary %}
-      <li class="c-nav__item"><a href="{{ item.url }}"><img src="{{ item.ion }}" aria-labelledby="{{ item.platform }}">{{ item.platform }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
+  {% include site-nav-social.liquid %}
 </header>
 <section class="c-page__body c-section">
   <form action="https://formsapi.jabwn.com/key/tGykMUQJnGdiH0lXAQ8L" method="post" role="contact-form" class="c-form">

@@ -3,31 +3,37 @@
   --c-matter-accent: hsl(240, 5%, 56%);
   --c-matter-light: hsl(240, 6%, 93%);
   --c-matter-alpha: hsla(240, 5%, 56%, 15%);
+  --c-matter-alpha-dark: hsla(240, 7%, 10%, 20%);
   --c-diabetik-dark: hsl(104, 30%, 12%);
   --c-diabetik-accent: hsl(104, 24%, 35%);
   --c-diabetik-light: hsl(104, 12%, 90%);
   --c-diabetik-alpha: hsla(104, 24%, 35%, 15%);
+  --c-diabetik-alpha-dark: hsla(104, 30%, 12%, 20%);
   --c-helpper-dark: hsl(312, 27%, 12%);
   --c-helpper-accent: hsl(312, 18%, 37%);
   --c-helpper-light: hsl(312, 8%, 90%);
   --c-helpper-alpha: hsla(312, 18%, 37%, 15%);
+  --c-helpper-alpha-dark: hsla(312, 27%, 12%, 20%);
   --c-immobrown-dark: hsl(29, 30%, 12%);
   --c-immobrown-accent: hsl(29, 24%, 35%);
   --c-immobrown-light: hsl(29, 12%, 90%);
   --c-immobrown-alpha: hsla(29, 24%, 35%, 15%);
+  --c-immobrown-dark-alpha: hsla(29, 30%, 12%, 20%);
   --c-realo-dark: hsl(238, 27%, 12%);
   --c-realo-accent: hsl(238, 24%, 37%);
   --c-realo-light: hsl(238, 12%, 90%);
   --c-realo-alpha: hsl(238, 24%, 37%, 15%);
+  --c-realo-dark-alpha: hsla(238, 27%, 12%, 20%);
   --c-scorecard-dark: hsl(180, 27%, 12%);
   --c-scorecard-accent: hsl(180, 16%, 42%);
   --c-scorecard-light: hsl(180, 8%, 90%);
   --c-scorecard-alpha: hsla(180, 16%, 35%, 15%);
+  --c-scorecard-dark-alpha: hsla(180, 27%, 12%, 20%);
   --c-shelf-dark: hsl(360, 30%, 12%);
   --c-shelf-accent: hsl(360, 25%, 37%);
   --c-shelf-light: hsl(360, 12%, 90%);
   --c-shelf-alpha: hsla(360, 25%, 37%, 15%);
-  --c-link-hover: var(--c-matter-accent);
+  --c-shelf-dark-alpha: hsla(360, 30%, 12%, 20%);
   --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --f-family-serif: ohno-blazeface, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
@@ -73,7 +79,7 @@
 .o-grid .o-grid__align--bleed {
   margin-left: -6vmin;
   margin-right: -6vmin; }
-  .o-grid .o-grid__align--bleed.c-nav--secondary, .o-grid .o-grid__align--bleed.c-section--darken {
+  .o-grid .o-grid__align--bleed.c-nav--secondary, .o-grid .o-grid__align--bleed.c-section {
     padding-left: 6vmin;
     padding-right: 6vmin; }
 
@@ -371,15 +377,32 @@ cite {
       margin-left: auto;
       margin-right: auto;
       text-align: center; }
-  .c-section--darken {
+  .c-section--accent, .c-section--darken {
     padding-top: var(--u-spacer-l);
-    padding-bottom: var(--u-spacer-l);
+    padding-bottom: var(--u-spacer-l); }
+  .c-section--accent {
+    color: var(--c-matter-light);
+    background: var(--c-matter-accent); }
+    .c-section--accent .c-section__header:last-child {
+      margin-bottom: 0; }
+    .c-section--accent .c-nav--secondary {
+      border-bottom: 1px solid var(--c-matter-alpha-dark); }
+      .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a {
+        color: var(--c-matter-dark); }
+        .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+          color: var(--c-matter-light);
+          box-shadow: inset 0 -1px 0 var(--c-matter-light); }
+  .c-section--darken {
     color: var(--c-matter-accent);
     background: var(--c-matter-dark); }
     .c-section--darken h3, .c-section--darken h4, .c-section--darken .c-section__header h3, .c-section--darken .c-section__header h4 {
       color: var(--c-matter-light); }
   .c-section:last-of-type {
     margin-bottom: var(--u-spacer-m); }
+  @media (min-width: 62.5em) {
+    .c-section--accent, .c-section--darken {
+      padding-top: var(--u-spacer-m);
+      padding-bottom: var(--u-spacer-m); } }
 
 .c-masthead {
   margin-bottom: var(--u-spacer-s);
@@ -446,7 +469,7 @@ cite {
       font-size: inherit;
       text-transform: none; }
       .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-        box-shadow: 0 1px 0 var(--c-matter-accent); }
+        box-shadow: inset 0 -1px 0 var(--c-matter-accent); }
   @media (min-width: 46em) {
     .c-nav--secondary .c-nav__items {
       justify-content: flex-start; } }
@@ -693,6 +716,15 @@ cite {
 .t--diabetik h2, .t--diabetik h3, .t--diabetik h4, .t--diabetik small, .t--diabetik .c-masthead__title a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a[aria-current], .t--diabetik .c-page__body ol li::before, .t--diabetik .c-figure__caption p, .t--diabetik .c-footer {
   color: var(--c-diabetik-accent); }
 
+.t--diabetik .c-section--accent {
+  color: var(--c-diabetik-light);
+  background: var(--c-diabetik-accent); }
+  .t--diabetik .c-section--accent .c-nav--secondary {
+    border-bottom: 1px solid var(--c-diabetik-alpha-dark); }
+  .t--diabetik .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: var(--c-diabetik-light);
+    box-shadow: inset 0 -1px 0 var(--c-diabetik-light); }
+
 .t--diabetik .c-section--darken {
   color: var(--c-diabetik-accent);
   background: var(--c-diabetik-dark); }
@@ -710,6 +742,15 @@ cite {
 
 .t--helpper h2, .t--helpper h3, .t--helpper h4, .t--helpper small, .t--helpper .c-masthead__title a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a[aria-current], .t--helpper .c-page__body ol li::before, .t--helpper .c-figure__caption p, .t--helpper .c-footer {
   color: var(--c-helpper-accent); }
+
+.t--helpper .c-section--accent {
+  color: var(--c-helpper-light);
+  background: var(--c-helpper-accent); }
+  .t--helpper .c-section--accent .c-nav--secondary {
+    border-bottom: 1px solid var(--c-helpper-alpha-dark); }
+  .t--helpper .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: var(--c-helpper-light);
+    box-shadow: inset 0 -1px 0 var(--c-helpper-light); }
 
 .t--helpper .c-section--darken {
   color: var(--c-helpper-accent);
@@ -729,6 +770,15 @@ cite {
 .t--immobrown h2, .t--immobrown h3, .t--immobrown h4, .t--immobrown small, .t--immobrown .c-masthead__title a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a[aria-current], .t--immobrown .c-page__body ol li::before, .t--immobrown .c-figure__caption p, .t--immobrown .c-footer {
   color: var(--c-immobrown-accent); }
 
+.t--immobrown .c-section--accent {
+  color: var(--c-immobrown-light);
+  background: var(--c-immobrown-accent); }
+  .t--immobrown .c-section--accent .c-nav--secondary {
+    border-bottom: 1px solid var(--c-immobrown-alpha-dark); }
+  .t--immobrown .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: var(--c-immobrown-light);
+    box-shadow: inset 0 -1px 0 var(--c-immobrown-light); }
+
 .t--immobrown .c-section--darken {
   color: var(--c-immobrown-accent);
   background: var(--c-immobrown-dark); }
@@ -746,6 +796,15 @@ cite {
 
 .t--realo h2, .t--realo h3, .t--realo h4, .t--realo small, .t--realo .c-masthead__title a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a[aria-current], .t--realo .c-page__body ol li::before, .t--realo .c-figure__caption p, .t--realo .c-footer {
   color: var(--c-realo-accent); }
+
+.t--realo .c-section--accent {
+  color: var(--c-realo-light);
+  background: var(--c-realo-accent); }
+  .t--realo .c-section--accent .c-nav--secondary {
+    border-bottom: 1px solid var(--c-realo-alpha-dark); }
+  .t--realo .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: var(--c-realo-light);
+    box-shadow: inset 0 -1px 0 var(--c-realo-light); }
 
 .t--realo .c-section--darken {
   color: var(--c-realo-accent);
@@ -765,6 +824,15 @@ cite {
 .t--scorecard h2, .t--scorecard h3, .t--scorecard h4, .t--scorecard small, .t--scorecard .c-masthead__title a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a[aria-current], .t--scorecard .c-page__body ol li::before, .t--scorecard .c-figure__caption p, .t--scorecard .c-footer {
   color: var(--c-scorecard-accent); }
 
+.t--scorecard .c-section--accent {
+  color: var(--c-scorecard-light);
+  background: var(--c-scorecard-accent); }
+  .t--scorecard .c-section--accent .c-nav--secondary {
+    border-bottom: 1px solid var(--c-scorecard-alpha-dark); }
+  .t--scorecard .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: var(--c-scorecard-light);
+    box-shadow: inset 0 -1px 0 var(--c-scorecard-light); }
+
 .t--scorecard .c-section--darken {
   color: var(--c-scorecard-accent);
   background: var(--c-scorecard-dark); }
@@ -782,6 +850,15 @@ cite {
 
 .t--shelf h2, .t--shelf h3, .t--shelf h4, .t--shelf small, .t--shelf .c-masthead__title a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a[aria-current], .t--shelf .c-page__body ol li::before, .t--shelf .c-figure__caption p, .t--shelf .c-footer {
   color: var(--c-shelf-accent); }
+
+.t--shelf .c-section--accent {
+  color: var(--c-shelf-light);
+  background: var(--c-shelf-accent); }
+  .t--shelf .c-section--accent .c-nav--secondary {
+    border-bottom: 1px solid var(--c-shelf-alpha-dark); }
+  .t--shelf .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: var(--c-shelf-light);
+    box-shadow: inset 0 -1px 0 var(--c-shelf-light); }
 
 .t--shelf .c-section--darken {
   color: var(--c-shelf-accent);
