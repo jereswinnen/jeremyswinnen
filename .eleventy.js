@@ -10,7 +10,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/_assets/favicons');
   eleventyConfig.addPassthroughCopy('./src/_assets/images');
 
-  // Base config
+  // liquid options
+
+  eleventyConfig.setLiquidOptions({
+    cache: true,
+    root: ['./src/_includes', './src/_layouts']
+  });
+
+  // base config
   return {
     templateFormats: ['liquid', 'md'],
     passthroughFileCopy: true,
