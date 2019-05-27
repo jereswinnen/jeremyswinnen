@@ -17,9 +17,12 @@
     background: var(--c-diabetik-accent);
     .c-nav--secondary {
       border-bottom: 1px solid var(--c-diabetik-alpha-dark);
-    }
-    .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-      color: var(--c-diabetik-light);
+      .c-nav__items .c-nav__item a {
+        color: var(--c-diabetik-light);
+        &:hover {
+          color: var(--c-diabetik-dark)
+        }
+      }
     }
   }
   .c-section--darken {

@@ -17,9 +17,12 @@
     background: var(--c-shelf-accent);
     .c-nav--secondary {
       border-bottom: 1px solid var(--c-shelf-alpha-dark);
-    }
-    .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-      color: var(--c-shelf-light);
+      .c-nav__items .c-nav__item a {
+        color: var(--c-shelf-light);
+        &:hover {
+          color: var(--c-shelf-dark)
+        }
+      }
     }
   }
   .c-section--darken {

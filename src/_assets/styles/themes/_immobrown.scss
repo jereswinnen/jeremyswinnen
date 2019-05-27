@@ -17,9 +17,12 @@
     background: var(--c-immobrown-accent);
     .c-nav--secondary {
       border-bottom: 1px solid var(--c-immobrown-alpha-dark);
-    }
-    .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-      color: var(--c-immobrown-light);
+      .c-nav__items .c-nav__item a {
+        color: var(--c-immobrown-light);
+        &:hover {
+          color: var(--c-immobrown-dark)
+        }
+      }
     }
   }
   .c-section--darken {
