@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" class="t--{{ page.fileSlug }}">
+<head>
+  {% include htmlHeader %}
+</head>
+<body>
+  <main class="o-grid o-grid--{{ layout }} c-page">
+    {% include siteHeader %}
+    {% block layout %}{% endblock %}
+    {% include siteFooter %}
+  </main>
+  {% include htmlFooter %} 
+</body>
+</html>

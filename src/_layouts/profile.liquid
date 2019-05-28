@@ -1,3 +1,5 @@
+{% layout master %}
+{% block layout %}
 <header class="o-grid__align--inset c-page__header">
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>  
@@ -36,6 +38,7 @@
   <header class="c-section__header">
     <h1>Work with me</h1>
     <p>Did I pique your interest? Consider hiring me for your next project or venture. Get in touch by sending me an email or by messaging me through your favorite social network.</p>
-    {% include site-nav-social.liquid %}
+    {% include social %}
   </header>
 </section>
+{% endblock %}

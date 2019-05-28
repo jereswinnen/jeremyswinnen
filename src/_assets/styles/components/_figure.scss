@@ -11,4 +11,7 @@
     margin-top: var(--u-spacer-xxs);
     color: var(--c-matter-accent);
   }
+  @media(min-width: $u-layout-break-l) {
+    margin: var(--u-spacer-xs) 0;
+  }
 }

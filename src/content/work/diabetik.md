@@ -12,14 +12,14 @@ Diabetik has been built to make managing all aspects of diabetes easier. From th
 
 By using an innovative new technology called Smart Input, the application we’ve built looks at your medication usage and uses that information to determine which medicine you’re most likely taking at any given point in time. By learning your habits, it’s able to automagically populate fields that other applications make you type out by hand or select from menus - cutting the time needed to enter information from minutes to seconds.
 
-{% include embed-artwork with artwork: artwork.diabetik.embed__versionios6 %}
+{% include shots with artwork: artwork.diabetik.embed__versionios6 %}
 
 It lets you monitor every aspect of your health, from tracking carbs and watching your diet, to physical activities. It can even remind you to take your medication when you enter your home.
 
 #### Redesigning for iOS 7
 We launched the first version of Diabetik on June 26, 2013. Three weeks *after* Apple announced iOS 7, featuring a controversially new design direction. Kindly put, we were a bit starstruck by the news. We made the decision to redesign the app in its entirety to make it feel more at home on the new operating system.
 
-{% include embed-artwork with artwork: artwork.diabetik.embed__beforeafter %}
+{% include shots with artwork: artwork.diabetik.embed__beforeafter %}
 
 This whole redesign took, complete with iPad version, around 1.5 months from start to the day we launched it, again, in the App Store.
 

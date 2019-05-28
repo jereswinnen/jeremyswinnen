@@ -517,6 +517,9 @@ cite {
   .c-figure .c-figure__caption {
     margin-top: var(--u-spacer-xxs);
     color: var(--c-matter-accent); }
+  @media (min-width: 62.5em) {
+    .c-figure {
+      margin: var(--u-spacer-xs) 0; } }
 
 .c-card--work {
   position: relative;

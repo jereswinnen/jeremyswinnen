@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile
 permalink: /profile/index.html
 title: Me, myself, and I
 lede: Hi, I'm Jeremy — a designer and creative developer from Belgium. I work with people and organisations from all over the world with one goal in mind — to create the best experience possible.
