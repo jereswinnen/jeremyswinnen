@@ -6,11 +6,12 @@
   {% include social %}
 </header>
 <section class="c-page__body c-section">
+  {% if type != 'success' %}
   <form action="https://formsapi.jabwn.com/key/Ig9R68a9itb9dBc4jw1s" method="post" role="contact-form" class="c-form">
     <fieldset class="c-form__fields">
       <input type="hidden" name="_replyto" value="%email">
       <input type="text" name="_honey" value="" style="display:none">
-      <input type="hidden" name="_after" value="https://porsche.com">
+      <input type="hidden" name="_after" value="{{ site.url }}/contact/thank-you/">
       <div class="c-form__field">
         <label class="c-form__label" for="name"><h4>Name</h4></label>
         <input class="c-form__input" id="name" name="name" type="text" required>
@@ -26,5 +27,8 @@
       <button class="c-form__button" type="submit" value="Send">Send</button>
     </fieldset>
   </form>
+  {% else %}
+  {{ content }}
+  {% endif %}
 </section>
 {% endblock %}
