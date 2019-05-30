@@ -1,7 +1,7 @@
 ---
 title: Diabetik
 lede: I worked together with Nial Giacomelli on creating a delightful user experience for people who suffer from diabetes.
-twitterImage: https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/collage-hero.png
+twitterImage: https://res.cloudinary.com/matter/v1559237188/work/diabetik/twitterCard.png
 ---
 ### The Challenge
 “Can good design help save lives?”. This is how Nial’s post on Dribbble was titled. Over 381 million people worldwide suffer from diabetes. Nial is one of them and he was tired that there wasn’t a single app in the App Store that was well-designed and had the features he though were relevant.

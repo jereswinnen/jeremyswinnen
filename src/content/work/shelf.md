@@ -1,7 +1,7 @@
 ---
 title: Shelf
 lede: Designing a virtual shelf for storing frequently used documents that need to be accessed at all times.
-twitterImage: https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465154/work/shelf/collage-hero.png
+twitterImage: https://res.cloudinary.com/matter/v1559237378/work/shelf/twitterCard.png
 ---
 ### The Challenge
 With Apple’s announcement of the SlideOver and SplitScreen features in iOS 11 for iPad, and the premise of a soon to be filled App Store with dozens of similar apps, I had to swiftly envision an intuitive and beautiful user interface.
