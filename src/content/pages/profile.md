@@ -28,9 +28,9 @@ press:
   - publication: Macworld
     logo: /_assets/images/press-macworld@2x.png
 testimonials:
-  - quote: “Working together with Jeremy was an absolute delight. His thorough knowledge of the platform and keen eye for detail really elevated our product.”
+  - quote: “Jeremy is an absolute pleasure to work with. His expert-level skill designing beautiful, elegant, and functional interfaces is why we have worked with him time and time again. If you care about getting the details of your app right, hire Jeremy.”
     cite: Matthew Bischoff, Partner at Lickability
-  - quote: “Working together with Jeremy was an absolute delight. His thorough knowledge of the platform and keen eye for detail really elevated our product and marketing campaigns.”
+  - quote: “Working together with Jeremy was a delight. His thorough knowledge of the platform and keen eye for detail really elevated our product and marketing campaigns.”
     cite: Patricia Lemaitre, Immo Brown 
 ---
 ### How I like to work
