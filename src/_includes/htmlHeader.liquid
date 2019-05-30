@@ -4,13 +4,13 @@
 <title>{% if type != 'home' %}{{ title }} - {% endif %}{{ site.title }}</title>
 <meta name="description" content="{% if lede %}{{ lede }}{% else %}{{ site.description }}{% endif %}">
 
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{% if type != 'home' %}{{ title }} - {% endif %}{{ site.title }}">
 <meta property="og:description" name="description" content="{% if lede %}{{ lede }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="https://jeremyswinnen.com">
 <meta property="og:image" content="{% if twitterImage %}{{ twitterImage }}{% else %}{{ site.image }}{% endif %}">
 <meta name="twitter:card" content="{% if twitterCard %}{{ twitterCard }}{% else %}summary{% endif %}">
 <meta name="twitter:site" content="@jereswinnen">
-<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:title" content="{% if type != 'home' %}{{ title }} - {% endif %}{{ site.title }}">
 <meta name="twitter:image" content="{% if twitterImage %}{{ twitterImage }}{% else %}{{ site.image }}{% endif %}">
 
 <link rel="dns-prefetch" href="https://res.cloudinary.com">

@@ -1,8 +1,8 @@
 ---
 layout: profile
 permalink: /profile/index.html
-title: Me, myself, and I
-lede: Hi, I'm Jeremy — a designer and creative developer from Belgium. I work with people and organisations from all over the world with one goal in mind — to create the best experience possible.
+title: Profile
+lede: Hi, I'm Jeremy — a designer and creative developer from Belgium. I work with people and organisations from all over the world with one goal in mind — to create the best experiences possible.
 skills:
   - title: User Interface Design
     description: Is your app in need of a thorough redesign of its UI? I'm experienced with iOS and Android and can create detailed and native experiences for your mobile users. I'm loyal to the platform I'm designing for and my eye for detail makes your product stand out in the crowd.
