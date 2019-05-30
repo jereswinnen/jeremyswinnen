@@ -41,4 +41,4 @@ When the design is approved, I can convert my work into a working website by wri
 I am typically hired by individuals and small organisations in the tech and real estate business. They often need someone with a strong visual eye, who is capable of delivering both visual and technical work in a timely manner.
 
 ### How you can hire me
-The best way to hire me is to simply send me an email with some info about yourself and your project. You can expect an answer from me within 48 hours. My email is [hello@jeremyswinnen.co](https://www.porsche.com).
+The best way to hire me is to simply send me an email with some info about yourself and your project. You can expect an answer from me within 48 hours. My email is [desk@jeremyswinnen.com](mailto:desk@jeremyswinnen.com).
