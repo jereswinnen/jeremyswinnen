@@ -1,9 +1,9 @@
 :root {
-  --c-matter-dark: hsl(240, 7%, 10%);
-  --c-matter-accent: hsl(240, 5%, 56%);
-  --c-matter-light: hsl(240, 6%, 93%);
-  --c-matter-alpha: hsla(240, 5%, 56%, 15%);
-  --c-matter-alpha-dark: hsla(240, 7%, 10%, 20%);
+  --c-dark: hsl(240, 7%, 10%);
+  --c-accent: hsl(240, 5%, 56%);
+  --c-light: hsl(240, 6%, 93%);
+  --c-alpha: hsla(240, 5%, 56%, 15%);
+  --c-alpha-dark: hsla(240, 7%, 10%, 20%);
   --c-diabetik-dark: hsl(104, 30%, 12%);
   --c-diabetik-accent: hsl(104, 24%, 35%);
   --c-diabetik-light: hsl(104, 12%, 90%);
@@ -99,7 +99,7 @@
   grid-row-gap: calc(var(--u-layout-gutter) * 1.25); }
   .o-grid .o-grid__collage .c-card--gallery {
     padding: var(--u-card-inset);
-    background: var(--c-matter-light); }
+    background: var(--c-light); }
     .o-grid .o-grid__collage .c-card--gallery .c-figure {
       margin: 0; }
   .o-grid .o-grid__collage .c-card--work--diabetik {
@@ -160,7 +160,7 @@ html {
 
 ::selection {
   color: white;
-  background: var(--c-matter-accent); }
+  background: var(--c-accent); }
 
 body {
   margin: 0;
@@ -240,7 +240,7 @@ ol {
       display: inline-block;
       margin-left: -1em;
       width: 1em;
-      color: var(--c-matter-accent);
+      color: var(--c-accent);
       content: counter(li); }
 
 fieldset {
@@ -275,7 +275,7 @@ textarea {
   overflow: auto; }
 
 ::placeholder {
-  color: var(--c-neutral-dark-a50); }
+  color: var(--c-accent); }
 
 :focus::placeholder {
   opacity: 0.5; }
@@ -287,7 +287,7 @@ body {
   font-family: var(--f-family-sans);
   font-size: var(--f-size-body);
   line-height: var(--f-leading);
-  color: var(--c-matter-dark);
+  color: var(--c-dark);
   letter-spacing: var(--f-spacing-narrow); }
 
 h1 {
@@ -296,7 +296,7 @@ h1 {
   font-size: var(--f-size-h1);
   line-height: var(--f-leading-tight);
   font-weight: 400;
-  color: var(--c-matter-dark);
+  color: var(--c-dark);
   text-transform: uppercase; }
 
 h2, .c-blockquote__text {
@@ -304,7 +304,7 @@ h2, .c-blockquote__text {
   font-size: var(--f-size-h2);
   line-height: var(--f-leading);
   font-weight: 100;
-  color: var(--c-matter-accent); }
+  color: var(--c-accent); }
   h2:not(h2), .c-blockquote__text:not(h2) {
     margin-bottom: var(--u-spacer-xxs); }
 
@@ -312,7 +312,7 @@ h3 {
   margin-bottom: var(--u-spacer-xs);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h3);
-  color: var(--c-matter-dark);
+  color: var(--c-dark);
   font-weight: 400; }
 
 h4 {
@@ -320,7 +320,7 @@ h4 {
   font-size: var(--f-size-h4);
   font-weight: 500;
   letter-spacing: var(--f-spacing-extended);
-  color: var(--c-matter-accent);
+  color: var(--c-accent);
   text-transform: uppercase; }
   h4:not(:first-child) {
     margin-top: var(--u-spacer-xs); }
@@ -328,18 +328,18 @@ h4 {
 small {
   font-size: var(--f-size-body-small);
   line-height: var(--f-leading);
-  color: var(--c-matter-accent); }
+  color: var(--c-accent); }
 
 .c-figure__caption p {
   font-size: var(--f-size-body-fixed);
   line-height: var(--f-leading);
-  color: var(--c-matter-accent); }
+  color: var(--c-accent); }
 
 cite {
   font-size: var(--f-size-body-fixed);
   line-height: var(--f-leading);
   font-style: normal;
-  color: var(--c-matter-dark); }
+  color: var(--c-dark); }
 
 .c-page {
   margin-left: auto;
@@ -372,7 +372,7 @@ cite {
     margin-bottom: var(--u-spacer-l);
     max-width: var(--u-lede-measure); }
     .c-section .c-section__header h4 {
-      color: var(--c-matter-dark); }
+      color: var(--c-dark); }
     .c-section .c-section__header--centered {
       margin-left: auto;
       margin-right: auto;
@@ -381,21 +381,21 @@ cite {
     padding-top: var(--u-spacer-l);
     padding-bottom: var(--u-spacer-l); }
   .c-section--accent {
-    color: var(--c-matter-light);
-    background: var(--c-matter-accent); }
+    color: var(--c-light);
+    background: var(--c-accent); }
     .c-section--accent .c-section__header:last-child {
       margin-bottom: 0; }
     .c-section--accent .c-nav--secondary {
-      border-bottom: 1px solid var(--c-matter-alpha-dark); }
+      border-bottom: 1px solid var(--c-alpha-dark); }
       .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a {
-        color: var(--c-matter-dark); }
+        color: var(--c-dark); }
         .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-          color: var(--c-matter-light); }
+          color: var(--c-light); }
   .c-section--darken {
-    color: var(--c-matter-accent);
-    background: var(--c-matter-dark); }
+    color: var(--c-accent);
+    background: var(--c-dark); }
     .c-section--darken h3, .c-section--darken h4, .c-section--darken .c-section__header h3, .c-section--darken .c-section__header h4 {
-      color: var(--c-matter-light); }
+      color: var(--c-light); }
   .c-section:last-of-type {
     margin-bottom: var(--u-spacer-s); }
   @media (min-width: 62.5em) {
@@ -418,7 +418,7 @@ cite {
       line-height: var(--f-leading-vtight);
       text-decoration: none; }
       .c-masthead .c-masthead__title a:hover {
-        color: var(--c-matter-accent); }
+        color: var(--c-accent); }
   @media (min-width: 34em) {
     .c-masthead {
       margin-bottom: var(--u-spacer-m);
@@ -446,7 +446,7 @@ cite {
       text-transform: lowercase;
       text-decoration: none; }
       .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current] {
-        color: var(--c-matter-accent); }
+        color: var(--c-accent); }
       .c-nav .c-nav__items .c-nav__item a[aria-current] {
         font-weight: 600; }
 
@@ -456,7 +456,7 @@ cite {
 
 .c-nav--secondary {
   padding-top: var(--u-spacer-m);
-  border-bottom: 1px solid var(--c-matter-alpha); }
+  border-bottom: 1px solid var(--c-alpha); }
   .c-nav--secondary .c-nav__items {
     justify-content: space-between; }
     .c-nav--secondary .c-nav__items .c-nav__item:first-child {
@@ -496,17 +496,17 @@ cite {
   margin-bottom: var(--u-spacer-xs);
   padding: var(--u-spacer-xxs);
   width: 100%;
-  border: 2px solid var(--c-matter-alpha);
+  border: 2px solid var(--c-alpha);
   box-sizing: border-box; }
   .c-form .c-form__input:hover, .c-form .c-form__input:focus {
-    border: 2px solid var(--c-matter-accent); }
+    border: 2px solid var(--c-accent); }
 
 .c-form .c-form__button {
   padding: var(--u-spacer-xxs) var(--u-spacer-xs);
-  color: var(--c-matter-light);
-  background: var(--c-matter-dark); }
+  color: var(--c-light);
+  background: var(--c-dark); }
   .c-form .c-form__button:hover {
-    background: var(--c-matter-accent); }
+    background: var(--c-accent); }
   .c-form .c-form__button:active {
     opacity: .65; }
 
@@ -516,7 +516,7 @@ cite {
     display: block; }
   .c-figure .c-figure__caption {
     margin-top: var(--u-spacer-xxs);
-    color: var(--c-matter-accent); }
+    color: var(--c-accent); }
   @media (min-width: 62.5em) {
     .c-figure {
       margin: var(--u-spacer-xs) 0; } }
@@ -610,24 +610,24 @@ cite {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background: var(--c-matter-dark); }
+    background: var(--c-dark); }
     html body, html h1, html h3, html cite, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
-      color: var(--c-matter-light); }
+      color: var(--c-light); }
     html .c-form .c-form__button {
-      color: var(--c-matter-light);
-      background: var(--c-matter-accent); }
+      color: var(--c-light);
+      background: var(--c-accent); }
       html .c-form .c-form__button:hover, html .c-form .c-form__button:focus {
-        color: var(--c-matter-dark);
-        background: var(--c-matter-light); }
+        color: var(--c-dark);
+        background: var(--c-light); }
     html .c-page {
-      background: var(--c-matter-dark); }
+      background: var(--c-dark); }
     html .c-section .c-section__header h4 {
-      color: var(--c-matter-light); }
+      color: var(--c-light); }
     html .c-section--darken {
-      color: var(--c-matter-light);
-      background: var(--c-matter-alpha); }
+      color: var(--c-light);
+      background: var(--c-alpha); }
       html .c-section--darken h4 {
-        color: var(--c-matter-light); }
+        color: var(--c-light); }
     html .c-card--work--diabetik .c-card__image {
       background: var(--c-diabetik-alpha); }
     html .c-card--work--helpper .c-card__image {

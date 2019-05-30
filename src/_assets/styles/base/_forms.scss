@@ -34,7 +34,7 @@ textarea {
   overflow: auto;
 }
 ::placeholder {
-  color: var(--c-neutral-dark-a50);
+  color: var(--c-accent);
 }
 :focus::placeholder {
   opacity: 0.5;

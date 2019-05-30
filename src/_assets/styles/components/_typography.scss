@@ -7,7 +7,7 @@ body {
   font-family: var(--f-family-sans);
   font-size: var(--f-size-body);
   line-height: var(--f-leading);
-  color: var(--c-matter-dark);
+  color: var(--c-dark);
   letter-spacing: var(--f-spacing-narrow);
 }
 
@@ -18,7 +18,7 @@ h1 {
   font-size: var(--f-size-h1);
   line-height: var(--f-leading-tight);
   font-weight: 400;
-  color: var(--c-matter-dark);
+  color: var(--c-dark);
   text-transform: uppercase;
 }
 h2, .c-blockquote__text {
@@ -26,7 +26,7 @@ h2, .c-blockquote__text {
   font-size: var(--f-size-h2);
   line-height: var(--f-leading);
   font-weight: 100;
-  color: var(--c-matter-accent);
+  color: var(--c-accent);
   &:not(h2) {
     margin-bottom: var(--u-spacer-xxs);
   }
@@ -36,7 +36,7 @@ h3 {
   margin-bottom: var(--u-spacer-xs);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h3);
-  color: var(--c-matter-dark);
+  color: var(--c-dark);
   font-weight: 400;
 }
 h4 {
@@ -44,7 +44,7 @@ h4 {
   font-size: var(--f-size-h4);
   font-weight: 500;
   letter-spacing: var(--f-spacing-extended);
-  color: var(--c-matter-accent);
+  color: var(--c-accent);
   text-transform: uppercase;
   &:not(:first-child) {
     margin-top: var(--u-spacer-xs);
@@ -55,16 +55,16 @@ h4 {
 small {
   font-size: var(--f-size-body-small);
   line-height: var(--f-leading);
-  color: var(--c-matter-accent);
+  color: var(--c-accent);
 }
 .c-figure__caption p {
   font-size: var(--f-size-body-fixed);
   line-height: var(--f-leading);
-  color: var(--c-matter-accent);
+  color: var(--c-accent);
 }
 cite {
   font-size: var(--f-size-body-fixed);
   line-height: var(--f-leading);
   font-style: normal;
-  color: var(--c-matter-dark);
+  color: var(--c-dark);
 }

@@ -18,7 +18,7 @@
         text-transform: lowercase;
         text-decoration: none;
         &:hover, &[aria-current] {
-          color: var(--c-matter-accent);
+          color: var(--c-accent);
         }
         &[aria-current] {
           font-weight: 600;
@@ -34,7 +34,7 @@
 }
 .c-nav--secondary {
   padding-top: var(--u-spacer-m);
-  border-bottom: 1px solid var(--c-matter-alpha);
+  border-bottom: 1px solid var(--c-alpha);
   .c-nav__items {
     justify-content: space-between;
     .c-nav__item {

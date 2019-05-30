@@ -33,7 +33,7 @@ ol {
       display: inline-block;
       margin-left: -1em;
       width: 1em;
-      color: var(--c-matter-accent);
+      color: var(--c-accent);
       content: counter(li);
     }
   }

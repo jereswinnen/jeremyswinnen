@@ -10,11 +10,11 @@ $u-layout-break-xl: 90em; //1440
 
 :root {
   // Colour
-  --c-matter-dark: hsl(240, 7%, 10%);
-  --c-matter-accent: hsl(240, 5%, 56%);
-  --c-matter-light: hsl(240, 6%, 93%);
-  --c-matter-alpha: hsla(240, 5%, 56%, 15%);
-  --c-matter-alpha-dark: hsla(240, 7%, 10%, 20%);
+  --c-dark: hsl(240, 7%, 10%);
+  --c-accent: hsl(240, 5%, 56%);
+  --c-light: hsl(240, 6%, 93%);
+  --c-alpha: hsla(240, 5%, 56%, 15%);
+  --c-alpha-dark: hsla(240, 7%, 10%, 20%);
 
   --c-diabetik-dark: hsl(104, 30%, 12%);
   --c-diabetik-accent: hsl(104, 24%, 35%);

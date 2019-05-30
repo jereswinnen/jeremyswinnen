@@ -4,29 +4,29 @@
 
 @media (prefers-color-scheme: dark) {
   html {
-    background: var(--c-matter-dark);
+    background: var(--c-dark);
     body, h1, h3, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-matter-light);
+      color: var(--c-light);
     }
     .c-form .c-form__button {
-      color: var(--c-matter-light);
-      background: var(--c-matter-accent);
+      color: var(--c-light);
+      background: var(--c-accent);
       &:hover, &:focus {
-        color: var(--c-matter-dark);
-        background: var(--c-matter-light);
+        color: var(--c-dark);
+        background: var(--c-light);
       }
     }
     .c-page {
-      background: var(--c-matter-dark);
+      background: var(--c-dark);
     }
     .c-section .c-section__header h4 {
-      color: var(--c-matter-light);
+      color: var(--c-light);
     }
     .c-section--darken {
-      color: var(--c-matter-light);
-      background: var(--c-matter-alpha);
+      color: var(--c-light);
+      background: var(--c-alpha);
       h4 {
-        color: var(--c-matter-light);
+        color: var(--c-light);
       }
     }
     .c-card--work--diabetik .c-card__image {
