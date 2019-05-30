@@ -2,16 +2,16 @@
 <meta name="theme-color" content="#000000"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{% if type != 'home' %}{{ title }} - {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ site.description }}">
+<meta name="description" content="{% if lede %}{{ lede }}{% else %}{{ site.description }}{% endif %}">
 
-<meta property="og:title" content="Jeremy Swinnen">
-<meta property="og:description" name="description" content="A creative developer and designer with a focus on digital product design for mobile platforms.">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" name="description" content="{% if lede %}{{ lede }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="https://jeremyswinnen.com">
 <meta property="og:image" content="{% if twitterImage %}{{ twitterImage }}{% else %}{{ site.image }}{% endif %}">
 <meta name="twitter:card" content="{% if twitterCard %}{{ twitterCard }}{% else %}summary{% endif %}">
 <meta name="twitter:site" content="@jereswinnen">
-<meta name="twitter:title" content="Jeremy Swinnen">
-<meta name="twitter:image" content="{% if coverImage %}{{ coverImage }}{% else %}{{ site.image }}{% endif %}">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:image" content="{% if twitterImage %}{{ twitterImage }}{% else %}{{ site.image }}{% endif %}">
 
 <link rel="dns-prefetch" href="https://res.cloudinary.com">
 
