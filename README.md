@@ -15,3 +15,4 @@ Many thanks to:
 - Zach Leatherman for creating [Eleventy](www.11ty.io)
 - Simon Wuyts
 - Paul Robert Lloyd
+- Jérôme Coupé

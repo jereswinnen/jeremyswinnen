@@ -1,4 +1,5 @@
 {
   "layout": "case",
-  "permalink": "/work/{{ page.fileSlug }}/index.html"  
+  "permalink": "/work/{{ page.fileSlug }}/index.html",
+  "twitterCard": "summary_large_image"
 }

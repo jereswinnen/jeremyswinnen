@@ -1,6 +1,7 @@
 ---
 title: Diabetik
 lede: I worked together with Nial Giacomelli on creating a delightful user experience for people who suffer from diabetes.
+twitterImage: https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/collage-hero.png
 ---
 ### The Challenge
 “Can good design help save lives?”. This is how Nial’s post on Dribbble was titled. Over 381 million people worldwide suffer from diabetes. Nial is one of them and he was tired that there wasn’t a single app in the App Store that was well-designed and had the features he though were relevant.
@@ -15,7 +16,7 @@ By using an innovative new technology called Smart Input, the application we’v
 {% include shots with artwork: artwork.diabetik.embed__versionios6 %}
 
 It lets you monitor every aspect of your health, from tracking carbs and watching your diet, to physical activities. It can even remind you to take your medication when you enter your home.
-
+ 
 #### Redesigning for iOS 7
 We launched the first version of Diabetik on June 26, 2013. Three weeks *after* Apple announced iOS 7, featuring a controversially new design direction. Kindly put, we were a bit starstruck by the news. We made the decision to redesign the app in its entirety to make it feel more at home on the new operating system.
 

@@ -1,6 +1,7 @@
 ---
 title: Realo
 lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
+twitterImage: https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516028/work/realo/collage-hero.png
 ---
 ### The Challenge
 The website had to reinvent the way people search for their next home as well as provide convenient and powerful tools for real estate agents and brokers.

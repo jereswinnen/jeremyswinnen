@@ -1,6 +1,7 @@
 ---
 title: Immo Brown
 lede: As part of my time at FW4, I was tasked with the challenge of redesigning the online identity of real estate broker, Immo Brown.
+twitterImage: https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515913/work/immobrown/collage-hero.png
 ---
 ### Summary
 Immo Brown is an exclusive real estate agency based in West-Flanders, Belgium. Their website was in dire need of a redesign to reposition the agency back on top in this competitive market. I had around 2 weeks time to redesign their site and marketing direction. From the very beginning, I opted to design their website with a mobile-first approach in mind.

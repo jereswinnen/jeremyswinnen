@@ -1,5 +1,8 @@
 {
   "diabetik": {
+    "name": "diabetik",
+    "summary": "Elegant diabetes management at your fingertips.",
+    "gridSize": "small",
     "cover": [
       {
         "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/collage-hero.png",

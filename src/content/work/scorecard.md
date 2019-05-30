@@ -1,6 +1,7 @@
 ---
 title: Scorecard
 lede: In collaboration with Lickability, I created a fun and intuitive way to keep score while playing games with friends & family.
+twitterImage: https://res.cloudinary.com/matter/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero.png
 ---
 ### The Challenge
 After working on Shelf in the second half of 2017, Lickability contacted me again in Late 2018 to work on Scorecard. The app’s goals are to make the act of keeping score while playing boardgames fun again.

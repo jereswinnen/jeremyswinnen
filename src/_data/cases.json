@@ -2,49 +2,43 @@
   {
     "name": "Diabetik",
     "summary": "Elegant diabetes management at your fingertips.",
-    "role": "Web, iOS",
     "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/collage-hero.png",
     "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1558515831/work/diabetik/collage-hero.png",
-    "grid-size": "small"
+    "gridSize": "small"
   },
   {
     "name": "Helpper",
     "summary": "Helpper allows you to connect with people in your neighbourhood who are in need of a helping hand.",
-    "role": "iOS",
     "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1555620883/work/helpper/collage-hero.png",
     "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1555620883/work/helpper/collage-hero.png",
-    "grid-size": "medium"
+    "gridSize": "medium"
   },
   {
     "name": "Immo Brown",
     "summary": "An elegant new website for an exclusive real estate agency.",
-    "role": "Web",
     "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515913/work/immobrown/collage-hero.png",
     "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1558515913/work/immobrown/collage-hero.png",
-    "grid-size": "medium"
+    "gridSize": "medium"
   },
   {
     "name": "Realo",
     "summary": "Building a next generation real estate platform.",
-    "role": "Web, iOS, Android",
     "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516028/work/realo/collage-hero.png",
     "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1558516028/work/realo/collage-hero.png",
-    "grid-size": "small"
+    "gridSize": "small"
   },
   {
     "name": "Scorecard",
     "summary": "Keeping score while playing games with friends and family has never been so seamless.",
-    "role": "Web, iOS, Branding",
     "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero.png",
     "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1556484574/work/scorecard/collage-hero.png",
-    "grid-size": "large"
+    "gridSize": "large"
   },
   {
     "name": "Shelf",
     "summary": "Designing a virtual shelf for storing frequently used documents that need to be accessed at all times.",
-    "role": "Web, iOS, Branding",
     "cover": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465154/work/shelf/collage-hero.png",
     "cover-hq": "https://res.cloudinary.com/matter/q_auto/v1558465154/work/shelf/collage-hero.png",
-    "grid-size": "large"
+    "gridSize": "large"
   }
 ]

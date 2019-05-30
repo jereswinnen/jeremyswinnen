@@ -1,6 +1,7 @@
 ---
 title: Helpper
 lede: The team at Helpper reached out to me to design a native experience that fits right into their existing style guide.
+twitterImage: https://res.cloudinary.com/matter/q_auto,w_0.5/v1555620883/work/helpper/collage-hero.png
 ---
 ### The Challenge
 The primary goal of the app was to provide an intuitive way to use the Helpper platform while on the go. It had to be designed with a tremendous focus on accessibility because of the nature of the target audience.
