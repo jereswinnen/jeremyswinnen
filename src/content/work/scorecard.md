@@ -2,6 +2,9 @@
 title: Scorecard
 lede: In collaboration with Lickability, I created a fun and intuitive way to keep score while playing games with friends & family.
 twitterImage: https://res.cloudinary.com/matter/v1559237345/work/scorecard/twitterCard.png
+testimonials:
+  - quote: “Jeremy is an absolute pleasure to work with. His expert-level skill designing beautiful, elegant, and functional interfaces is why we have worked with him time and time again. If you care about getting the details of your app right, hire Jeremy.”
+    cite: Matthew Bischoff, Partner at Lickability
 ---
 ### The Challenge
 After working on Shelf in the second half of 2017, Lickability contacted me again in Late 2018 to work on Scorecard. The app’s goals are to make the act of keeping score while playing boardgames fun again.

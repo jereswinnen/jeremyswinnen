@@ -57,10 +57,10 @@
   --u-spacer-l: 10vmax;
   --u-spacer-xl: 16vmax;
   --u-card-inset: calc(1rem + 0.75vmax);
-  --u-lede-measure: 40rem;
-  --u-line-measure: 45rem;
-  --u-hero-measure: 64rem;
-  --u-page-measure: 88vmin;
+  --u-measure-s: 40rem;
+  --u-measure-m: 45rem;
+  --u-measure-l: 64rem;
+  --u-measure-xl: 88vmin;
   --u-layout-gutter: calc(2rem + 0.75vmax);
   --t-bezier: cubic-bezier(.215, .61, .355, 1);
   --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1); }
@@ -74,21 +74,28 @@
       --c-shelf-accent: hsl(360, 25%, 47%); } }
   @media (min-width: 62.5em) {
     :root {
-      --u-page-measure: 75vw; } }
+      --u-measure-xl: 75vw; } }
 
-.o-grid .o-grid__align--bleed {
-  margin-left: -6vmin;
-  margin-right: -6vmin; }
-  .o-grid .o-grid__align--bleed.c-nav--secondary, .o-grid .o-grid__align--bleed.c-section {
-    padding-left: 6vmin;
-    padding-right: 6vmin; }
-
-.o-grid .o-grid__align--measure {
+.o-grid .o-grid-align__measure {
   margin-left: auto;
   margin-right: auto;
-  max-width: var(--u-hero-measure); }
-  .o-grid .o-grid__align--measure.c-section--hero .c-card--gallery .c-figure {
+  max-width: var(--u-measure-s); }
+  .o-grid .o-grid-align__measure.c-section--hero .c-card--gallery
+.c-figure {
     margin: 0; }
+  .o-grid .o-grid-align__measure--medium {
+    max-width: var(--u-measure-m); }
+  .o-grid .o-grid-align__measure--large {
+    max-width: var(--u-measure-l); }
+  .o-grid .o-grid-align__measure--xlarge {
+    max-width: var(--u-measure-xl); }
+
+.o-grid .o-grid-align__bleed {
+  margin-left: -6vmin;
+  margin-right: -6vmin; }
+  .o-grid .o-grid-align__bleed.c-nav--secondary, .o-grid .o-grid-align__bleed.c-section {
+    padding-left: 6vmin;
+    padding-right: 6vmin; }
 
 .o-grid .o-grid__flow, .o-grid .o-grid__abreast {
   display: grid;
@@ -116,7 +123,7 @@
     order: 4; }
 
 @media (min-width: 46em) {
-  .o-grid .o-grid__align--inset {
+  .o-grid .o-grid-align__inset {
     margin-left: var(--u-spacer-xs); }
   .o-grid .o-grid__abreast {
     grid-template-columns: repeat(2, 1fr);
@@ -344,16 +351,16 @@ cite {
 .c-page {
   margin-left: auto;
   margin-right: auto;
-  max-width: var(--u-page-measure);
+  max-width: var(--u-measure-xl);
   background: white; }
   .c-page .c-page__header {
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-lede-measure); }
+    max-width: var(--u-measure-s); }
   .c-page .c-page__body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-line-measure); }
+    max-width: var(--u-measure-m); }
     .c-page .c-page__body h3:not(:first-child), .c-page .c-page__body h4:not(:first-child) {
       margin-top: var(--u-spacer-m); }
     .c-page .c-page__body p, .c-page .c-page__body ol {
@@ -370,7 +377,7 @@ cite {
   margin-bottom: var(--u-spacer-l); }
   .c-section .c-section__header {
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-lede-measure); }
+    max-width: var(--u-measure-s); }
     .c-section .c-section__header h4 {
       color: var(--c-dark); }
     .c-section .c-section__header--centered {
@@ -427,7 +434,7 @@ cite {
 
 .c-article .c-article__header {
   margin-bottom: var(--u-spacer-m);
-  max-width: var(--u-line-measure); }
+  max-width: var(--u-measure-m); }
 
 .c-footer {
   padding: var(--u-spacer-s) 0; }
@@ -544,7 +551,7 @@ cite {
     .c-card--work .c-card__header p {
       margin-bottom: 0;
       opacity: .6;
-      max-width: calc(var(--u-line-measure) / 1.5); }
+      max-width: calc(var(--u-measure-m) / 1.5); }
   .c-card--work .c-card__image {
     padding: var(--u-card-inset); }
     .c-card--work .c-card__image img {
@@ -737,7 +744,7 @@ cite {
 .t--diabetik ::selection {
   background: var(--c-diabetik-accent); }
 
-.t--diabetik h2, .t--diabetik h3, .t--diabetik h4, .t--diabetik small, .t--diabetik .c-masthead__title a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a[aria-current], .t--diabetik .c-page__body ol li::before, .t--diabetik .c-figure__caption p, .t--diabetik .c-footer {
+.t--diabetik h2, .t--diabetik h3, .t--diabetik h4, .t--diabetik cite, .t--diabetik small, .t--diabetik .c-masthead__title a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a:hover, .t--diabetik .c-nav .c-nav__items .c-nav__item a[aria-current], .t--diabetik .c-page__body ol li::before, .t--diabetik .c-figure__caption p, .t--diabetik .c-blockquote__text, .t--diabetik .c-footer {
   color: var(--c-diabetik-accent); }
 
 .t--diabetik .c-section--accent {
@@ -765,7 +772,7 @@ cite {
 .t--helpper ::selection {
   background: var(--c-helpper-accent); }
 
-.t--helpper h2, .t--helpper h3, .t--helpper h4, .t--helpper small, .t--helpper .c-masthead__title a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a[aria-current], .t--helpper .c-page__body ol li::before, .t--helpper .c-figure__caption p, .t--helpper .c-footer {
+.t--helpper h2, .t--helpper h3, .t--helpper h4, .t--helpper cite, .t--helpper small, .t--helpper .c-masthead__title a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a:hover, .t--helpper .c-nav .c-nav__items .c-nav__item a[aria-current], .t--helpper .c-page__body ol li::before, .t--helpper .c-figure__caption p, .t--helpper .c-blockquote__text, .t--helpper .c-footer {
   color: var(--c-helpper-accent); }
 
 .t--helpper .c-section--accent {
@@ -793,7 +800,7 @@ cite {
 .t--immobrown ::selection {
   background: var(--c-immobrown-accent); }
 
-.t--immobrown h2, .t--immobrown h3, .t--immobrown h4, .t--immobrown small, .t--immobrown .c-masthead__title a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a[aria-current], .t--immobrown .c-page__body ol li::before, .t--immobrown .c-figure__caption p, .t--immobrown .c-footer {
+.t--immobrown h2, .t--immobrown h3, .t--immobrown h4, .t--immobrown cite, .t--immobrown small, .t--immobrown .c-masthead__title a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a:hover, .t--immobrown .c-nav .c-nav__items .c-nav__item a[aria-current], .t--immobrown .c-page__body ol li::before, .t--immobrown .c-figure__caption p, .t--immobrown .c-blockquote__text, .t--immobrown .c-footer {
   color: var(--c-immobrown-accent); }
 
 .t--immobrown .c-section--accent {
@@ -821,7 +828,7 @@ cite {
 .t--realo ::selection {
   background: var(--c-realo-accent); }
 
-.t--realo h2, .t--realo h3, .t--realo h4, .t--realo small, .t--realo .c-masthead__title a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a[aria-current], .t--realo .c-page__body ol li::before, .t--realo .c-figure__caption p, .t--realo .c-footer {
+.t--realo h2, .t--realo h3, .t--realo h4, .t--realo cite, .t--realo small, .t--realo .c-masthead__title a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a:hover, .t--realo .c-nav .c-nav__items .c-nav__item a[aria-current], .t--realo .c-page__body ol li::before, .t--realo .c-figure__caption p, .t--realo .c-blockquote__text, .t--realo .c-footer {
   color: var(--c-realo-accent); }
 
 .t--realo .c-section--accent {
@@ -849,7 +856,7 @@ cite {
 .t--scorecard ::selection {
   background: var(--c-scorecard-accent); }
 
-.t--scorecard h2, .t--scorecard h3, .t--scorecard h4, .t--scorecard small, .t--scorecard .c-masthead__title a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a[aria-current], .t--scorecard .c-page__body ol li::before, .t--scorecard .c-figure__caption p, .t--scorecard .c-footer {
+.t--scorecard h2, .t--scorecard h3, .t--scorecard h4, .t--scorecard cite, .t--scorecard small, .t--scorecard .c-masthead__title a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a:hover, .t--scorecard .c-nav .c-nav__items .c-nav__item a[aria-current], .t--scorecard .c-page__body ol li::before, .t--scorecard .c-figure__caption p, .t--scorecard .c-blockquote__text, .t--scorecard .c-footer {
   color: var(--c-scorecard-accent); }
 
 .t--scorecard .c-section--accent {
@@ -877,7 +884,7 @@ cite {
 .t--shelf ::selection {
   background: var(--c-shelf-accent); }
 
-.t--shelf h2, .t--shelf h3, .t--shelf h4, .t--shelf small, .t--shelf .c-masthead__title a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a[aria-current], .t--shelf .c-page__body ol li::before, .t--shelf .c-figure__caption p, .t--shelf .c-footer {
+.t--shelf h2, .t--shelf h3, .t--shelf h4, .t--shelf cite, .t--shelf small, .t--shelf .c-masthead__title a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a:hover, .t--shelf .c-nav .c-nav__items .c-nav__item a[aria-current], .t--shelf .c-page__body ol li::before, .t--shelf .c-figure__caption p, .t--shelf .c-blockquote__text, .t--shelf .c-footer {
   color: var(--c-shelf-accent); }
 
 .t--shelf .c-section--accent {

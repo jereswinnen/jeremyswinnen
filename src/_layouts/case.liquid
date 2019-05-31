@@ -3,20 +3,28 @@
 
 {% layout master %}
 {% block layout %}
-<header class="o-grid__align--inset c-page__header">
+<header class="o-grid-align__inset c-page__header">
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>  
 </header>
-<section class="o-grid__align--measure c-section c-section--hero">
+<section class="o-grid-align__measure o-grid-align__measure--large c-section c-section--hero">
   {% include shots with artwork: artwork[projectName].cover %}
 </section>
 <article class="c-page__body c-article">
   {{ content }}
 </article>
+<section class="o-grid-align__measure o-grid-align__measure--medium c-section">
+  {% for item in testimonials %}
+  <blockquote class="o-grid__item c-blockquote">
+    <p class="c-blockquote__text">{{ item.quote }}</p>
+    <cite>{{ item.cite }}</cite>
+  </blockquote> 
+  {% endfor %}
+</section>
 <section class="o-grid__collage c-section">
   {% include shots with artwork: artwork[projectName].collage %}
 </section>
-<section class="o-grid__align--bleed c-section c-section--accent" role="work-with-me">
+<section class="o-grid-align__bleed c-section c-section--accent" role="work-with-me">
   <header class="c-section__header">
     <h1>Work with me</h1>
     <p>Did I pique your interest? Consider hiring me for your next project or venture. Get in touch by sending me an email or by messaging me through your favorite social network.</p>

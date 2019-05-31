@@ -85,10 +85,10 @@ $u-layout-break-xl: 90em; //1440
 
   --u-card-inset: calc(1rem + 0.75vmax);
 
-  --u-lede-measure: 40rem;
-  --u-line-measure: 45rem;
-  --u-hero-measure: 64rem;
-  --u-page-measure: 88vmin;
+  --u-measure-s: 40rem;
+  --u-measure-m: 45rem;
+  --u-measure-l: 64rem;
+  --u-measure-xl: 88vmin;
 
   //--u-layout-gutter: var(--u-spacer-s);
   --u-layout-gutter: calc(2rem + 0.75vmax);
@@ -109,6 +109,6 @@ $u-layout-break-xl: 90em; //1440
   }
 
   @media(min-width: $u-layout-break-l) {
-    --u-page-measure: 75vw; 
+    --u-measure-xl: 75vw;
   }
 }

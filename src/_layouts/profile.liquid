@@ -1,13 +1,13 @@
 {% layout master %}
 {% block layout %}
-<header class="o-grid__align--inset c-page__header">
+<header class="o-grid-align__inset c-page__header">
   <h1>Me, myself, and I</h1>
   <h2>{{ lede }}</h2>  
 </header>
 <article class="c-page__body c-article">
   {{ content }}
 </article>
-<section class="o-grid__align--bleed c-section c-section--darken">
+<section class="o-grid-align__bleed c-section c-section--darken">
   <header class="c-section__header c-section__header--centered">
     <h4>Skills &amp; Services</h4>
     <h2>While I'm primarily a designer, I'm equally able to assist you and your team in a few other key areas throughout the process.</h2>
@@ -22,19 +22,19 @@
   </section>
 </section>
 <section class="c-section" role="quotes">
-  <header class="o-grid__align--inset c-section__header">
+  <header class="o-grid-align__inset c-section__header">
     <h4>Nice words about my work</h4>
   </header>
   <section class="o-grid__abreast">
     {% for item in testimonials %}
-    <blockquote class="o-grid__item">
+    <blockquote class="o-grid__item c-blockquote">
       <p class="c-blockquote__text">{{ item.quote }}</p>
       <cite>{{ item.cite }}</cite>
     </blockquote> 
     {% endfor %}  
   </section>
 </section>
-<section class="o-grid__align--bleed c-section c-section--accent" role="work-with-me">
+<section class="o-grid-align__bleed c-section c-section--accent" role="work-with-me">
   <header class="c-section__header">
     <h1>Work with me</h1>
     <p>Did I pique your interest? Consider hiring me for your next project or venture. Get in touch by sending me an email or by messaging me through your favorite social network.</p>
