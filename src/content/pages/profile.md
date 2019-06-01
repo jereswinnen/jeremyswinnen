@@ -36,7 +36,7 @@ testimonials:
 ### How I like to work
 I aim to be as straightforward and direct as possible while working with you and your team. I communicate clearly and often throughout the design process. Depending on the scale of the project, I’m able to deliver the first mockups in about 2 weeks time. When those are approved, I quickly move to high-fidelity mockups with multiple stages of prototyping in between to make sure we’re on the right track.
 
-When the design is approved, I can convert my work into a working website by writing modular and valid code (HTML, CSS & Javacript). If needed, integrating with a CMS is also an option. I'm experienced with various popular CMS (Wordpress, Craft,...) as well as static content generators (Jekyll, Middleman, Eleventy,...).
+When the design is approved, I can convert my work into a working website by writing modular and valid code (HTML, CSS & Javascript). If needed, integrating with a CMS is also an option. I'm experienced with various popular CMS (Wordpress, Craft,...) as well as static content generators (Jekyll, Middleman, Eleventy,...), and their respective templating languages.
 
 ### Who hires me
 I am typically hired by individuals and small organisations in the tech and real estate industry. They often need someone with a strong visual eye, who is capable of delivering both visual and technical work in a timely manner.
