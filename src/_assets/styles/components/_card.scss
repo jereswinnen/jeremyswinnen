@@ -4,7 +4,6 @@
 
 .c-card--work {
   position: relative;
-  transform-origin: center;
   transition: transform .45s var(--t-bezier), box-shadow .45s var(--t-bezier);
   .c-card__header {
     padding: var(--u-card-inset);
@@ -27,8 +26,8 @@
     }
     p {
       margin-bottom: 0;
-      opacity: .6;
       max-width: calc(var(--u-measure-m) / 1.5);
+      opacity: .6;
     }
   }
   .c-card__image {
@@ -100,27 +99,13 @@
   }
   @media(min-width: $u-layout-break-m) {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     .c-card__image {
       display: flex;
-      flex: 1;
       align-items: center;
       img {
         opacity: .85;
       }
-    }
-    &--diabetik {
-      transform-origin: top left;
-    }
-    &--realo {
-      transform-origin: bottom right;
-    }
-    &--scorecard {
-      transform-origin: bottom left;
-    }
-    &--shelf {
-      transform-origin: top right;
     }
   }
 }

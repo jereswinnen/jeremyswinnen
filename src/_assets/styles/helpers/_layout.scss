@@ -36,30 +36,34 @@
   .o-grid__collage {
     display: grid;
     grid-row-gap: calc(var(--u-layout-gutter) * 1.25);
+    .c-card--work {
+      position: relative;
+      transform-origin: center;
+      &--diabetik {
+        order: 5;  
+      }
+      &--helpper {
+        order: 3;  
+      }
+      &--immobrown {
+        order: 6;  
+      }
+      &--realo {
+        order: 3;  
+      }
+      &--scorecard {
+        order: 1;  
+      }
+      &--shelf {
+        order: 4;  
+      }
+    }
     .c-card--gallery {
       padding: var(--u-card-inset);
       background: var(--c-light);
       .c-figure {
         margin: 0;
       }
-    }
-    .c-card--work--diabetik {
-      order: 5;
-    }
-    .c-card--work--helpper {
-      order: 2;
-    }
-    .c-card--work--immobrown {
-      order: 6;
-    }
-    .c-card--work--realo {
-      order: 3;
-    }
-    .c-card--work--scorecard {
-      order: 1;
-    }
-    .c-card--work--shelf {
-      order: 4;
     }
   }
   @media(min-width: $u-layout-break-m) {
@@ -80,6 +84,39 @@
       align-items: stretch;
       .c-card {
         grid-column: span 6;
+        &--work {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .c-card__image {
+            flex: 1;
+          }
+          &--diabetik {
+            align-self: flex-start;
+            order: 6;
+            transform-origin: top left;
+          }
+          &--helpper {
+            order: 3;
+          }
+          &--immobrown {
+            align-self: stretch;
+            order: 4;
+          }
+          &--realo {
+            align-self: flex-end;
+            order: 1;
+            transform-origin: bottom right;
+          }
+          &--scorecard {
+            order: 2;
+            transform-origin: bottom left;
+          }
+          &--shelf {
+            order: 5;
+            transform-origin: top right;
+          }
+        }
       }
       .o-grid__item--small {
         grid-column: span 2;
@@ -89,27 +126,6 @@
       }
       .o-grid__item--large {
         grid-column: span 4;  
-      }
-      .c-card--work--diabetik {
-        align-self: flex-start;
-        order: 6;
-      }
-      .c-card--work--helpper {
-        order: 3;
-      }
-      .c-card--work--immobrown {
-        align-self: stretch;
-        order: 4;
-      }
-      .c-card--work--realo {
-        align-self: flex-end;
-        order: 1;
-      }
-      .c-card--work--scorecard {
-        order: 2;
-      }
-      .c-card--work--shelf {
-        order: 5;
       }
     }
   }

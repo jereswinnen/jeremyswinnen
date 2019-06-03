@@ -43,6 +43,33 @@
       color: var(--c-light);
     }
   }
+  &--scrolling {
+    * {
+      transition-property: opacity, transform;
+      transition-duration: .65s;
+      transition-timing-function: var(--t-bezier);
+    }
+    img {
+
+    }
+    .c-section__scroller {
+
+    }
+    &:hover {
+      * {
+        transition-property: opacity, transform;
+        transition-duration: .65s;
+        transition-timing-function: var(--t-bezier);
+      }
+      img {
+        opacity: 1;
+        transform: scale(1);
+      }
+      .c-section__scroller {
+        transform: translateX(100%);
+      }
+    }
+  }
   &:last-of-type {
     margin-bottom: var(--u-spacer-s);
   }
