@@ -590,14 +590,14 @@ cite {
       opacity: .6; }
   .c-card--work .c-card__image {
     padding: var(--u-card-inset); }
-    .c-card--work .c-card__image img {
+    .c-card--work .c-card__image img, .c-card--work .c-card__image source {
       transition: opacity 0.45s var(--t-bezier); }
   .c-card--work:hover {
     transform: scale(1.04);
     box-shadow: var(--d-card); }
-    .c-card--work:hover .c-card__image img {
+    .c-card--work:hover .c-card__image img, .c-card--work:hover .c-card__image source {
       opacity: 1; }
-  .c-card--work:active .c-card__image img {
+  .c-card--work:active .c-card__image img, .c-card--work:active .c-card__image source {
     opacity: .85;
     transition: none; }
   .c-card--work[data-theme="diabetik"] .c-card__header {

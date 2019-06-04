@@ -32,19 +32,19 @@
   }
   .c-card__image {
     padding: var(--u-card-inset);
-    img {
+    img, source {
       transition: opacity .45s var(--t-bezier);  
     }
   }
   &:hover {
     transform: scale(1.04);
     box-shadow: var(--d-card);
-    .c-card__image img {
+    .c-card__image img, .c-card__image source {
       opacity: 1;
     }
   }
   &:active {
-    .c-card__image img {
+    .c-card__image img, .c-card__image source {
       opacity: .85;
       transition: none;
     }  
