@@ -5,7 +5,7 @@
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--c-dark);
-    body, h1, h3, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
       color: var(--c-light);
     }
     .c-form .c-form__button {

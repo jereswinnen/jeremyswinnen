@@ -15,7 +15,7 @@
     "dribbble": "https://dribbble.com/jereswinnen"  
   },
   "cloudinary": {
-    "base": "https://res.cloudinary.com/matter/image/upload",
+    "base": "https://res.cloudinary.com/matter",
     "quality": "q_auto",
     "width": "w_0.5"
   }

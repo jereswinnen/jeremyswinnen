@@ -354,7 +354,7 @@ h3 {
   margin-bottom: var(--u-spacer-xs);
   font-family: var(--f-family-display);
   font-size: var(--f-size-h3);
-  color: var(--c-dark);
+  color: var(--c-accent);
   font-weight: 400; }
 
 h4 {
@@ -641,136 +641,10 @@ cite {
   .c-card--gallery .c-figure__caption {
     text-align: center; }
 
-[data-theme="diabetik"] body, [data-theme="diabetik"] h1, [data-theme="diabetik"] cite, [data-theme="diabetik"] .c-nav .c-nav__items .c-nav__item a {
-  color: var(--c-dark); }
-
-[data-theme="diabetik"] ::selection {
-  background: var(--c-accent); }
-
-[data-theme="diabetik"] h2, [data-theme="diabetik"] h3, [data-theme="diabetik"] h4, [data-theme="diabetik"] cite, [data-theme="diabetik"] small, [data-theme="diabetik"] .c-masthead__title a:hover, [data-theme="diabetik"] .c-nav .c-nav__items .c-nav__item a:hover, [data-theme="diabetik"] .c-nav .c-nav__items .c-nav__item a[aria-current], [data-theme="diabetik"] .c-page__body ol li::before, [data-theme="diabetik"] .c-figure__caption p, [data-theme="diabetik"] .c-blockquote__text, [data-theme="diabetik"] .c-footer {
-  color: var(--c-accent); }
-
-[data-theme="diabetik"] .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-  color: var(--c-light); }
-
-[data-theme="diabetik"] .c-section--darken {
-  color: var(--c-accent);
-  background: var(--c-dark); }
-  [data-theme="diabetik"] .c-section--darken h3, [data-theme="diabetik"] .c-section--darken h4 {
-    color: var(--c-light); }
-
-[data-theme="diabetik"] .o-grid__collage .c-card--gallery {
-  background: var(--c-light); }
-
-[data-theme="helpper"] body, [data-theme="helpper"] h1, [data-theme="helpper"] cite, [data-theme="helpper"] .c-nav .c-nav__items .c-nav__item a {
-  color: var(--c-dark); }
-
-[data-theme="helpper"] ::selection {
-  background: var(--c-accent); }
-
-[data-theme="helpper"] h2, [data-theme="helpper"] h3, [data-theme="helpper"] h4, [data-theme="helpper"] cite, [data-theme="helpper"] small, [data-theme="helpper"] .c-masthead__title a:hover, [data-theme="helpper"] .c-nav .c-nav__items .c-nav__item a:hover, [data-theme="helpper"] .c-nav .c-nav__items .c-nav__item a[aria-current], [data-theme="helpper"] .c-page__body ol li::before, [data-theme="helpper"] .c-figure__caption p, [data-theme="helpper"] .c-blockquote__text, [data-theme="helpper"] .c-footer {
-  color: var(--c-accent); }
-
-[data-theme="helpper"] .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-  color: var(--c-light); }
-
-[data-theme="helpper"] .c-section--darken {
-  color: var(--c-accent);
-  background: var(--c-dark); }
-  [data-theme="helpper"] .c-section--darken h3, [data-theme="helpper"] .c-section--darken h4 {
-    color: var(--c-light); }
-
-[data-theme="helpper"] .o-grid__collage .c-card--gallery {
-  background: var(--c-light); }
-
-[data-theme="immobrown"] body, [data-theme="immobrown"] h1, [data-theme="immobrown"] cite, [data-theme="immobrown"] .c-nav .c-nav__items .c-nav__item a {
-  color: var(--c-dark); }
-
-[data-theme="immobrown"] ::selection {
-  background: var(--c-accent); }
-
-[data-theme="immobrown"] h2, [data-theme="immobrown"] h3, [data-theme="immobrown"] h4, [data-theme="immobrown"] cite, [data-theme="immobrown"] small, [data-theme="immobrown"] .c-masthead__title a:hover, [data-theme="immobrown"] .c-nav .c-nav__items .c-nav__item a:hover, [data-theme="immobrown"] .c-nav .c-nav__items .c-nav__item a[aria-current], [data-theme="immobrown"] .c-page__body ol li::before, [data-theme="immobrown"] .c-figure__caption p, [data-theme="immobrown"] .c-blockquote__text, [data-theme="immobrown"] .c-footer {
-  color: var(--c-accent); }
-
-[data-theme="immobrown"] .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-  color: var(--c-light); }
-
-[data-theme="immobrown"] .c-section--darken {
-  color: var(--c-accent);
-  background: var(--c-dark); }
-  [data-theme="immobrown"] .c-section--darken h3, [data-theme="immobrown"] .c-section--darken h4 {
-    color: var(--c-light); }
-
-[data-theme="immobrown"] .o-grid__collage .c-card--gallery {
-  background: var(--c-light); }
-
-[data-theme="realo"] body, [data-theme="realo"] h1, [data-theme="realo"] cite, [data-theme="realo"] .c-nav .c-nav__items .c-nav__item a {
-  color: var(--c-dark); }
-
-[data-theme="realo"] ::selection {
-  background: var(--c-accent); }
-
-[data-theme="realo"] h2, [data-theme="realo"] h3, [data-theme="realo"] h4, [data-theme="realo"] cite, [data-theme="realo"] small, [data-theme="realo"] .c-masthead__title a:hover, [data-theme="realo"] .c-nav .c-nav__items .c-nav__item a:hover, [data-theme="realo"] .c-nav .c-nav__items .c-nav__item a[aria-current], [data-theme="realo"] .c-page__body ol li::before, [data-theme="realo"] .c-figure__caption p, [data-theme="realo"] .c-blockquote__text, [data-theme="realo"] .c-footer {
-  color: var(--c-accent); }
-
-[data-theme="realo"] .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-  color: var(--c-light); }
-
-[data-theme="realo"] .c-section--darken {
-  color: var(--c-accent);
-  background: var(--c-dark); }
-  [data-theme="realo"] .c-section--darken h3, [data-theme="realo"] .c-section--darken h4 {
-    color: var(--c-light); }
-
-[data-theme="realo"] .o-grid__collage .c-card--gallery {
-  background: var(--c-light); }
-
-[data-theme="scorecard"] body, [data-theme="scorecard"] h1, [data-theme="scorecard"] cite, [data-theme="scorecard"] .c-nav .c-nav__items .c-nav__item a {
-  color: var(--c-dark); }
-
-[data-theme="scorecard"] ::selection {
-  background: var(--c-accent); }
-
-[data-theme="scorecard"] h2, [data-theme="scorecard"] h3, [data-theme="scorecard"] h4, [data-theme="scorecard"] cite, [data-theme="scorecard"] small, [data-theme="scorecard"] .c-masthead__title a:hover, [data-theme="scorecard"] .c-nav .c-nav__items .c-nav__item a:hover, [data-theme="scorecard"] .c-nav .c-nav__items .c-nav__item a[aria-current], [data-theme="scorecard"] .c-page__body ol li::before, [data-theme="scorecard"] .c-figure__caption p, [data-theme="scorecard"] .c-blockquote__text, [data-theme="scorecard"] .c-footer {
-  color: var(--c-accent); }
-
-[data-theme="scorecard"] .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-  color: var(--c-light); }
-
-[data-theme="scorecard"] .c-section--darken {
-  color: var(--c-accent);
-  background: var(--c-dark); }
-  [data-theme="scorecard"] .c-section--darken h3, [data-theme="scorecard"] .c-section--darken h4 {
-    color: var(--c-light); }
-
-[data-theme="scorecard"] .o-grid__collage .c-card--gallery {
-  background: var(--c-light); }
-
-[data-theme="shelf"] body, [data-theme="shelf"] h1, [data-theme="shelf"] cite, [data-theme="shelf"] .c-nav .c-nav__items .c-nav__item a {
-  color: var(--c-dark); }
-
-[data-theme="shelf"] ::selection {
-  background: var(--c-accent); }
-
-[data-theme="shelf"] h2, [data-theme="shelf"] h3, [data-theme="shelf"] h4, [data-theme="shelf"] cite, [data-theme="shelf"] small, [data-theme="shelf"] .c-masthead__title a:hover, [data-theme="shelf"] .c-nav .c-nav__items .c-nav__item a:hover, [data-theme="shelf"] .c-nav .c-nav__items .c-nav__item a[aria-current], [data-theme="shelf"] .c-page__body ol li::before, [data-theme="shelf"] .c-figure__caption p, [data-theme="shelf"] .c-blockquote__text, [data-theme="shelf"] .c-footer {
-  color: var(--c-accent); }
-
-[data-theme="shelf"] .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-  color: var(--c-light); }
-
-[data-theme="shelf"] .c-section--darken {
-  color: var(--c-accent);
-  background: var(--c-dark); }
-  [data-theme="shelf"] .c-section--darken h3, [data-theme="shelf"] .c-section--darken h4 {
-    color: var(--c-light); }
-
-[data-theme="shelf"] .o-grid__collage .c-card--gallery {
-  background: var(--c-light); }
-
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--c-dark); }
-    html body, html h1, html h3, html cite, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
+    html body, html h1, html cite, html .c-nav .c-nav__items .c-nav__item a, html .c-figure__caption {
       color: var(--c-light); }
     html .c-form .c-form__button {
       color: var(--c-light);
