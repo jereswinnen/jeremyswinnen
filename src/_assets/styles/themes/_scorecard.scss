@@ -2,37 +2,27 @@
 // Scorecard Custom Styles
 // =======================================================================
 
-.t--scorecard {
+[data-theme="scorecard"] {
   body, h1, cite, .c-nav .c-nav__items .c-nav__item a {
-    color: var(--c-scorecard-dark);
+    color: var(--c-dark);
   }
   ::selection {
-    background: var(--c-scorecard-accent);
+    background: var(--c-accent);
   }
   h2, h3, h4, cite, small, .c-masthead__title a:hover, .c-nav .c-nav__items .c-nav__item a:hover, .c-nav .c-nav__items .c-nav__item a[aria-current], .c-page__body ol li::before, .c-figure__caption p, .c-blockquote__text, .c-footer {
-    color: var(--c-scorecard-accent);
+    color: var(--c-accent);
   }
-  .c-section--accent {
-    color: var(--c-scorecard-light);
-    background: var(--c-scorecard-accent);
-    .c-nav--secondary {
-      border-bottom: 1px solid var(--c-scorecard-alpha-dark);
-      .c-nav__items .c-nav__item a {
-        color: var(--c-scorecard-light);
-        &:hover {
-          color: var(--c-scorecard-dark)
-        }
-      }
-    }
+  .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+    color: var(--c-light);
   }
   .c-section--darken {
-    color: var(--c-scorecard-accent);
-    background: var(--c-scorecard-dark);
+    color: var(--c-accent);
+    background: var(--c-dark);
     h3, h4 {
-      color: var(--c-scorecard-light);
+      color: var(--c-light);
     }
   }
   .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
-    background: var(--c-scorecard-light);
+    background: var(--c-light);
   }
 }

@@ -22,6 +22,12 @@
     .c-section .c-section__header h4 {
       color: var(--c-light);
     }
+    .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a {
+      color: var(--c-dark);
+      &:hover {
+        color: var(--c-light);
+      }
+    }
     .c-section--darken {
       color: var(--c-light);
       background: var(--c-alpha);
@@ -29,155 +35,31 @@
         color: var(--c-light);
       }
     }
-    .c-card--work--diabetik .c-card__image {
-      background: var(--c-diabetik-alpha);
+    .c-card--work[data-theme="diabetik"] .c-card__image {
+      background: var(--c-alpha);
     }
-    .c-card--work--helpper .c-card__image {
-      background: var(--c-helpper-alpha);
+    .c-card--work[data-theme="helpper"] .c-card__image {
+      background: var(--c-alpha);
     }
-    .c-card--work--immobrown .c-card__image {
-      background: var(--c-immobrown-alpha);
+    .c-card--work[data-theme="immobrown"] .c-card__image {
+      background: var(--c-alpha);
     }
-    .c-card--work--realo .c-card__image {
-      background: var(--c-realo-alpha);
+    .c-card--work[data-theme="realo"] .c-card__image {
+      background: var(--c-alpha);
     }
-    .c-card--work--scorecard .c-card__image {
-      background: var(--c-scorecard-alpha);
+    .c-card--work[data-theme="scorecard"] .c-card__image {
+      background: var(--c-alpha);
     }
-    .c-card--work--shelf .c-card__image {
-      background: var(--c-shelf-alpha);
-    }
-  }
-  html.t--diabetik {
-    background: var(--c-diabetik-dark);
-    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-diabetik-light);
-    }
-    .c-page {
-      background: var(--c-diabetik-dark);
-    }
-    .c-section .c-section__header h4 {
-      color: var(--c-diabetik-light);
-    }
-    .c-section--darken {
-      color: var(--c-diabetik-light);
-      background: var(--c-diabetik-alpha);
-      h4 {
-        color: var(--c-diabetik-light);
-      }
-    }
-    .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
-      background: var(--c-diabetik-alpha);
+    .c-card--work[data-theme="shelf"] .c-card__image {
+      background: var(--c-alpha);
     }
   }
-  html.t--helpper {
-    background: var(--c-helpper-dark);
+  [data-theme="diabetik"], [data-theme="helpper"], [data-theme="immobrown"], [data-theme="realo"], [data-theme="scorecard"], [data-theme="shelf"] {
     body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-helpper-light);
-    }
-    .c-page {
-      background: var(--c-helpper-dark);
-    }
-    .c-section .c-section__header h4 {
-      color: var(--c-helpper-light);
-    }
-    .c-section--darken {
-      color: var(--c-helpper-light);
-      background: var(--c-helpper-alpha);
-      h4 {
-        color: var(--c-helpper-light);
-      }
+      color: var(--c-light);
     }
     .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
-      background: var(--c-helpper-alpha);
-    }
-  }
-  html.t--immobrown {
-    background: var(--c-immobrown-dark);
-    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-immobrown-light);
-    }
-    .c-page {
-      background: var(--c-immobrown-dark);
-    }
-    .c-section .c-section__header h4 {
-      color: var(--c-immobrown-light);
-    }
-    .c-section--darken {
-      color: var(--c-immobrown-light);
-      background: var(--c-immobrown-alpha);
-      h4 {
-        color: var(--c-immobrown-light);
-      }
-    }
-    .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
-      background: var(--c-immobrown-alpha);
-    }
-  }
-  html.t--realo {
-    background: var(--c-realo-dark);
-    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-realo-light);
-    }
-    .c-page {
-      background: var(--c-realo-dark);
-    }
-    .c-section .c-section__header h4 {
-      color: var(--c-realo-light);
-    }
-    .c-section--darken {
-      color: var(--c-realo-light);
-      background: var(--c-realo-alpha);
-      h4 {
-        color: var(--c-realo-light);
-      }
-    }
-    .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
-      background: var(--c-realo-alpha);
-    }
-  }
-  html.t--scorecard {
-    background: var(--c-scorecard-dark);
-    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-scorecard-light);
-    }
-    .c-page {
-      background: var(--c-scorecard-dark);
-    }
-    .c-section .c-section__header h4 {
-      color: var(--c-scorecard-light);
-    }
-    .c-section--darken {
-      color: var(--c-scorecard-light);
-      background: var(--c-scorecard-alpha);
-      h4 {
-        color: var(--c-scorecard-light);
-      }
-    }
-    .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
-      background: var(--c-scorecard-alpha);
-    }
-  }
-  html.t--shelf {
-    background: var(--c-shelf-dark);
-    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-shelf-light);
-    }
-    .c-page {
-      background: var(--c-shelf-dark);
-    }
-    .c-section .c-section__header h4 {
-      color: var(--c-shelf-light);
-    }
-    .c-section--darken {
-      color: var(--c-shelf-light);
-      background: var(--c-shelf-alpha);
-      h4 {
-        color: var(--c-shelf-light);
-      }
-    }
-    .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
-      background: var(--c-shelf-alpha);
+      background: var(--c-alpha);
     }
   }
 }

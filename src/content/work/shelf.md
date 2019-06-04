@@ -1,4 +1,5 @@
 ---
+theme: shelf
 title: Shelf
 lede: Designing a virtual shelf for storing frequently used documents that need to be accessed at all times.
 twitterImage: https://res.cloudinary.com/matter/v1559237378/work/shelf/twitterCard.png

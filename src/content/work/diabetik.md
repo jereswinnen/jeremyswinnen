@@ -1,4 +1,5 @@
 ---
+theme: diabetik
 title: Diabetik
 lede: I worked together with Nial Giacomelli on creating a delightful user experience for people who suffer from diabetes.
 twitterImage: https://res.cloudinary.com/matter/v1559237188/work/diabetik/twitterCard.png

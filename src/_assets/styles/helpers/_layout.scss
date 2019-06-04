@@ -39,22 +39,22 @@
     .c-card--work {
       position: relative;
       transform-origin: center;
-      &--diabetik {
+      &[data-theme="diabetik"] {
         order: 5;  
       }
-      &--helpper {
+      &[data-theme="helpper"] {
         order: 3;  
       }
-      &--immobrown {
+      &[data-theme="immobrown"] {
         order: 6;  
       }
-      &--realo {
+      &[data-theme="realo"] {
         order: 3;  
       }
-      &--scorecard {
+      &[data-theme="scorecard"] {
         order: 1;  
       }
-      &--shelf {
+      &[data-theme="shelf"] {
         order: 4;  
       }
     }
@@ -91,28 +91,28 @@
           .c-card__image {
             flex: 1;
           }
-          &--diabetik {
+          &[data-theme="diabetik"] {
             align-self: flex-start;
             order: 6;
             transform-origin: top left;
           }
-          &--helpper {
+          &[data-theme="helpper"] {
             order: 3;
           }
-          &--immobrown {
+          &[data-theme="immobrown"] {
             align-self: stretch;
             order: 4;
           }
-          &--realo {
+          &[data-theme="realo"] {
             align-self: flex-end;
             order: 1;
             transform-origin: bottom right;
           }
-          &--scorecard {
+          &[data-theme="scorecard"] {
             order: 2;
             transform-origin: bottom left;
           }
-          &--shelf {
+          &[data-theme="shelf"] {
             order: 5;
             transform-origin: top right;
           }

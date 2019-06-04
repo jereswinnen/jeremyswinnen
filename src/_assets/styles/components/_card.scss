@@ -49,52 +49,52 @@
       transition: none;
     }  
   }
-  &--diabetik {
+  &[data-theme="diabetik"] {
     .c-card__header {
-      background: var(--c-diabetik-accent);
+      background: var(--c-accent);
     }
     .c-card__image {
-      background: var(--c-diabetik-light);
+      background: var(--c-light);
     }  
   }
-  &--helpper {
+  &[data-theme="helpper"] {
     .c-card__header {
-      background: var(--c-helpper-accent);
+      background: var(--c-accent);
     }
     .c-card__image {
-      background: var(--c-helpper-light);
+      background: var(--c-light);
     }  
   }
-  &--immobrown {
+  &[data-theme="immobrown"] {
     .c-card__header {
-      background: var(--c-immobrown-accent);
+      background: var(--c-accent);
     }
     .c-card__image {
-      background: var(--c-immobrown-light);
+      background: var(--c-light);
     }  
   }
-  &--realo {
+  &[data-theme="realo"] {
     .c-card__header {
-      background: var(--c-realo-accent);
+      background: var(--c-accent);
     }
     .c-card__image {
-      background: var(--c-realo-light);
+      background: var(--c-light);
     }  
   }
-  &--scorecard {
+  &[data-theme="scorecard"] {
     .c-card__header {
-      background: var(--c-scorecard-accent);
+      background: var(--c-accent);
     }
     .c-card__image {
-      background: var(--c-scorecard-light);
+      background: var(--c-light);
     }  
   }
-  &--shelf {
+  &[data-theme="shelf"] {
     .c-card__header {
-      background: var(--c-shelf-accent);
+      background: var(--c-accent);
     }
     .c-card__image {
-      background: var(--c-shelf-light);
+      background: var(--c-light);
     }  
   }
   @media(min-width: $u-layout-break-m) {

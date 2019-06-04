@@ -6,7 +6,7 @@
 </header>
 <section class="o-grid__collage c-section">
   {% for case in cases %}
-  <article class="{% if case.gridSize %}o-grid__item--{{ case.gridSize }} {% endif %}c-card c-card--work c-card--work--{{ case.name | downcase | remove:' ' }}">
+  <article data-theme="{{ case.name | downcase | remove:' ' }}" class="{% if case.gridSize %}o-grid__item--{{ case.gridSize }} {% endif %}c-card c-card--work">
     <figure class="c-card__image">
       <img src="{{ case.cover }}" srcset="{{ case.cover }} 1x, {{ case.cover-hq }} 2x" sizes="100vw" alt="{{ case.name }} &mdash; {{ case.summary }}">
     </figure>

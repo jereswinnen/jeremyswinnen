@@ -1,4 +1,5 @@
 ---
+theme: realo
 title: Realo
 lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
 twitterImage: https://res.cloudinary.com/matter/v1559237288/work/realo/twitterCard.png

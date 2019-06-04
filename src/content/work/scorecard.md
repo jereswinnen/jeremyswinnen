@@ -1,4 +1,5 @@
 ---
+theme: scorecard
 title: Scorecard
 lede: In collaboration with Lickability, I created a fun and intuitive way to keep score while playing games with friends & family.
 twitterImage: https://res.cloudinary.com/matter/v1559237345/work/scorecard/twitterCard.png

@@ -21,8 +21,13 @@
     padding-bottom: var(--u-spacer-l);  
   }
   &--accent {
-    .c-section__header:last-child {
-      margin-bottom: 0;
+    .c-section__header {
+      h1 {
+        color: var(--c-light);
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
     color: var(--c-light);
     background: var(--c-accent);
@@ -41,33 +46,6 @@
     background: var(--c-dark);
     h3, h4, .c-section__header h3, .c-section__header h4 {
       color: var(--c-light);
-    }
-  }
-  &--scrolling {
-    * {
-      transition-property: opacity, transform;
-      transition-duration: .65s;
-      transition-timing-function: var(--t-bezier);
-    }
-    img {
-
-    }
-    .c-section__scroller {
-
-    }
-    &:hover {
-      * {
-        transition-property: opacity, transform;
-        transition-duration: .65s;
-        transition-timing-function: var(--t-bezier);
-      }
-      img {
-        opacity: 1;
-        transform: scale(1);
-      }
-      .c-section__scroller {
-        transform: translateX(100%);
-      }
     }
   }
   &:last-of-type {

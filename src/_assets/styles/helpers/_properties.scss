@@ -16,43 +16,6 @@ $u-layout-break-xl: 90em; //1440
   --c-alpha: hsla(240, 5%, 56%, 15%);
   --c-alpha-dark: hsla(240, 7%, 10%, 20%);
 
-  --c-diabetik-dark: hsl(104, 30%, 12%);
-  --c-diabetik-accent: hsl(104, 24%, 35%);
-  --c-diabetik-light: hsl(104, 12%, 90%);
-  --c-diabetik-alpha: hsla(104, 24%, 35%, 15%);
-  --c-diabetik-alpha-dark: hsla(104, 30%, 12%, 20%);
-
-  --c-helpper-dark: hsl(312, 27%, 12%);
-  --c-helpper-accent: hsl(312, 18%, 37%);
-  --c-helpper-light: hsl(312, 8%, 90%);
-  --c-helpper-alpha: hsla(312, 18%, 37%, 15%);
-  --c-helpper-alpha-dark: hsla(312, 27%, 12%, 20%);
-
-  --c-immobrown-dark: hsl(29, 30%, 12%);
-  --c-immobrown-accent: hsl(29, 24%, 35%);
-  --c-immobrown-light: hsl(29, 12%, 90%);
-  --c-immobrown-alpha: hsla(29, 24%, 35%, 15%);
-  --c-immobrown-alpha-dark: hsla(29, 30%, 12%, 20%);
-  
-
-  --c-realo-dark: hsl(238, 27%, 12%);
-  --c-realo-accent: hsl(238, 24%, 37%);
-  --c-realo-light: hsl(238, 12%, 90%);
-  --c-realo-alpha: hsl(238, 24%, 37%, 15%);
-  --c-realo-alpha-dark: hsla(238, 27%, 12%, 20%);
-
-  --c-scorecard-dark: hsl(180, 27%, 12%);
-  --c-scorecard-accent: hsl(180, 16%, 42%);
-  --c-scorecard-light: hsl(180, 8%, 90%);
-  --c-scorecard-alpha: hsla(180, 16%, 42%, 15%);
-  --c-scorecard-alpha-dark: hsla(180, 27%, 12%, 20%);
-
-  --c-shelf-dark: hsl(360, 30%, 12%);
-  --c-shelf-accent: hsl(360, 25%, 37%);
-  --c-shelf-light: hsl(360, 12%, 90%);
-  --c-shelf-alpha: hsla(360, 25%, 37%, 15%);
-  --c-shelf-alpha-dark: hsla(360, 30%, 12%, 20%);
-
   // Typography
   --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --f-family-serif: ohno-blazeface, Georgia, serif;
@@ -83,14 +46,13 @@ $u-layout-break-xl: 90em; //1440
   --u-spacer-l: 10vmax;
   --u-spacer-xl: 16vmax;
 
-  --u-card-inset: calc(1rem + 0.75vmax);
-
   --u-measure-s: 40rem;
   --u-measure-m: 45rem;
   --u-measure-l: 64rem;
   --u-measure-xl: 88vmin;
 
-  //--u-layout-gutter: var(--u-spacer-s);
+  --u-card-inset: calc(1rem + 0.75vmax);
+
   --u-layout-gutter: calc(2rem + 0.75vmax);
 
   // Animation
@@ -98,17 +60,69 @@ $u-layout-break-xl: 90em; //1440
 
   // Depth
   --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1);
-  
-  @media (prefers-color-scheme: dark) {
-    --c-diabetik-accent: hsl(104, 24%, 45%);
-    --c-helpper-accent: hsl(312, 18%, 47%);
-    --c-immobrown-accent: hsl(29, 24%, 45%);
-    --c-realo-accent: hsl(238, 24%, 49%);
-    --c-scorecard-accent: hsl(180, 16%, 44%);
-    --c-shelf-accent: hsl(360, 25%, 47%);
-  }
 
   @media(min-width: $u-layout-break-l) {
     --u-measure-xl: 75vw;
+  }
+}
+
+[data-theme="diabetik"] {
+  --c-dark: hsl(104, 30%, 12%);
+  --c-accent: hsl(104, 24%, 35%);
+  --c-light: hsl(104, 12%, 90%);
+  --c-alpha: hsla(104, 24%, 35%, 15%);
+  --c-alpha-dark: hsla(104, 30%, 12%, 20%);
+  @media(prefers-color-scheme: dark) {
+    --c-accent: hsl(104, 24%, 45%);  
+  }
+}
+[data-theme="helpper"] {
+  --c-dark: hsl(312, 27%, 12%);
+  --c-accent: hsl(312, 18%, 37%);
+  --c-light: hsl(312, 8%, 90%);
+  --c-alpha: hsla(312, 18%, 37%, 15%);
+  --c-alpha-dark: hsla(312, 27%, 12%, 20%);
+  @media(prefers-color-scheme: dark) {
+    --c-accent: hsl(312, 18%, 47%);
+  }
+}
+[data-theme="immobrown"] {
+  --c-dark: hsl(29, 30%, 12%);
+  --c-accent: hsl(29, 24%, 35%);
+  --c-light: hsl(29, 12%, 90%);
+  --c-alpha: hsla(29, 24%, 35%, 15%);
+  --c-alpha-dark: hsla(29, 30%, 12%, 20%);
+  @media(prefers-color-scheme: dark) {
+    --c-accent: hsl(29, 24%, 45%);
+  }
+}
+[data-theme="realo"] {
+  --c-dark: hsl(238, 27%, 12%);
+  --c-accent: hsl(238, 24%, 37%);
+  --c-light: hsl(238, 12%, 90%);
+  --c-alpha: hsl(238, 24%, 37%, 15%);
+  --c-alpha-dark: hsla(238, 27%, 12%, 20%);
+  @media(prefers-color-scheme: dark) {
+    --c-accent: hsl(238, 24%, 49%);
+  }
+}
+[data-theme="scorecard"] {
+  --c-dark: hsl(180, 27%, 12%);
+  --c-accent: hsl(180, 16%, 42%);
+  --c-light: hsl(180, 8%, 90%);
+  --c-alpha: hsla(180, 16%, 42%, 15%);
+  --c-alpha-dark: hsla(180, 27%, 12%, 20%);
+  @media(prefers-color-scheme: dark) {
+    --c-accent: hsl(180, 16%, 44%);
+  }
+}
+[data-theme="shelf"] {
+  --c-dark: hsl(360, 30%, 12%);
+  --c-accent: hsl(360, 25%, 37%);
+  --c-light: hsl(360, 12%, 90%);
+  --c-alpha: hsla(360, 25%, 37%, 15%);
+  --c-alpha-dark: hsla(360, 30%, 12%, 20%);
+  @media(prefers-color-scheme: dark) {
+    --c-accent: hsl(360, 25%, 47%);
   }
 }
