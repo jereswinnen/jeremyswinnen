@@ -1,0 +1,14 @@
+{% for screen in artwork %}
+<article class="{% if screen.grid-size %}o-grid__item--{{ screen.grid-size }} {% endif %}c-card c-card--gallery">
+  <figure class="c-figure">
+    <picture>
+      <source type="image/webp" srcset="{{ site.srcset.base }}/{{ site.srcset.quality }},{{ site.srcset.width }}/{{ screen.source }}.webp 1x, {{ site.srcset.base }}/{{ site.srcset.quality }}/{{ screen.source }}.webp 2x" sizes="100vw" lazyload="on">
+      <source type="image/png" srcset="{{ site.srcset.base }}/{{ site.srcset.quality }},{{ site.srcset.width }}/{{ screen.source }}.png 1x, {{ site.srcset.base }}/{{ site.srcset.quality }}/{{ screen.source }}.png 2x" sizes="100vw" lazyload="on">
+      <img src="{{ screen.source }}.png" srcset="{{ site.srcset.base }}/{{ site.srcset.quality }},{{ site.srcset.width }}/{{ screen.source }}.png 1x, {{ site.srcset.base }}/{{ site.srcset.quality }}/{{ screen.source }}.png 2x" sizes="100vw" {% if screen.alt %}alt="{{ screen.alt }}"{% endif %} lazyload="on">
+    </picture>
+    {%- if screen.figcaption %}
+    <figcaption class="c-figure__caption"><p>{{ screen.figcaption }}</p></figcaption>
+    {% endif %}
+  </figure>
+</article>
+{% endfor %}

@@ -14,9 +14,15 @@
     "github": "https://github.com/jereswinnen",
     "dribbble": "https://dribbble.com/jereswinnen"  
   },
-  "cloudinary": {
+  "srcset": {
     "base": "https://res.cloudinary.com/matter",
     "quality": "q_auto",
-    "width": "w_0.5"
+    "width": "w_0.5",
+    "sizes": {
+      "s": "320w",
+      "m": "680w",
+      "l": "960w",
+      "xl": "1280w"
+    }
   }
 }

@@ -8,8 +8,7 @@
   <h2>{{ lede }}</h2>  
 </header>
 <section class="o-grid-align__measure o-grid-align__measure--large c-section c-section--hero">
-  {% include shots with artwork: artwork[projectName].cover %}
-  <div class="c-section__scroller"></div>
+  {% include screens with artwork: artwork[projectName].cover %}
 </section>
 <article class="c-page__body c-article">
   {{ content }}
@@ -23,7 +22,7 @@
   {% endfor %}
 </section>
 <section class="o-grid__collage c-section">
-  {% include shots with artwork: artwork[projectName].collage %}
+  {% include screens with artwork: artwork[projectName].collage %}
 </section>
 <section class="o-grid-align__bleed c-section c-section--accent">
   <header class="c-section__header">

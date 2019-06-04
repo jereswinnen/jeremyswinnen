@@ -1,98 +1,82 @@
 {
   "diabetik": {
-    "name": "diabetik",
-    "summary": "Elegant diabetes management at your fingertips.",
-    "gridSize": "small",
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/collage-hero",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515831/work/diabetik/collage-hero",
+        "source": "v1558515831/work/diabetik/collage-hero",
         "alt": "Diabetik is right at home on both iPhone and iPad."
       }
     ],
     "embed__versionios6": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633306/work/diabetik/embed-versionios6",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633306/work/diabetik/embed-versionios6",
+        "source": "v1558633306/work/diabetik/embed-versionios6",
         "alt": "The original iOS 6 version of Diabetik.",
         "figcaption": "The original iOS 6 version of Diabetik."
       }
     ],
     "embed__beforeafter": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633160/work/diabetik/embed-beforeafter",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633160/work/diabetik/embed-beforeafter",
+        "source": "v1558633160/work/diabetik/embed-beforeafter",
         "alt": "The iOS 6 version of Diabetik on the left, and the iOS 7 version on the right.",
         "figcaption": "iOS 7 was a drastic departure for Diabetik in terms of visual identity. By using colorful icons and subtle typography, we countered the stark white look."
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515828/work/diabetik/phone-journal",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515828/work/diabetik/phone-journal",
+        "source": "v1558515828/work/diabetik/phone-journal",
         "alt": "Diabetik's Journal view is designed to make digesting large amounts of data pleasant.",
         "figcaption": "Diabetik's Journal view is designed to make digesting large amounts of data pleasant.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515829/work/diabetik/tablet-journal",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515829/work/diabetik/tablet-journal",
+        "source": "v1558515829/work/diabetik/tablet-journal",
         "alt": "Laying out the month cards on a grid allows the user to monitor their progress.",
         "figcaption": "Laying out the month cards on a grid allows the user to monitor their progress.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515829/work/diabetik/phone-addentry-meal",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515829/work/diabetik/phone-addentry-meal",
+        "source": "v1558515829/work/diabetik/phone-addentry-meal",
         "alt": "Adding a meal entry.",
         "figcaption": "Adding entries is fast, simple, and elegantly designed.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515830/work/diabetik/phone-addentry-medicine",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515830/work/diabetik/phone-addentry-medicine",
+        "source": "v1558515830/work/diabetik/phone-addentry-medicine",
         "alt": "Adding a medicine entry.",
         "figcaption": "Adding entries is fast, simple, and elegantly designed.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515829/work/diabetik/phone-addentry-blood",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515829/work/diabetik/phone-addentry-blood",
+        "source": "v1558515829/work/diabetik/phone-addentry-blood",
         "alt": "Adding a blood reading.",
         "figcaption": "Adding entries is fast, simple, and elegantly designed.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515831/work/diabetik/tablet-timeline",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515831/work/diabetik/tablet-timeline",
+        "source": "v1558515831/work/diabetik/tablet-timeline",
         "alt": "The day cards are aligned horizontally on iPad to allow the user to easily compare days with each other.",
         "figcaption": "The day cards are aligned horizontally on iPad to allow the user to easily compare days with each other.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515828/work/diabetik/phone-timeline",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515828/work/diabetik/phone-timeline",
+        "source": "v1558515828/work/diabetik/phone-timeline",
         "alt": "The timeline contains every entry the user has added.",
         "figcaption": "The timeline contains every entry the user has added.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515830/work/diabetik/phone-listmenu",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515830/work/diabetik/phone-listmenu",
+        "source": "v1558515830/work/diabetik/phone-listmenu",
         "alt": "The side menu is easily accessed at all times by swiping on the navigation bar.",
         "figcaption": "The side menu is easily accessed at all times by swiping on the navigation bar.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515832/work/diabetik/tablet-listmenu",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515832/work/diabetik/tablet-listmenu",
+        "source": "v1558515832/work/diabetik/tablet-listmenu",
         "alt": "The side menu is easily accessed at all times by swiping on the navigation bar.",
         "figcaption": "The side menu is easily accessed at all times by swiping on the navigation bar.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515832/work/diabetik/tablet-addentry",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515832/work/diabetik/tablet-addentry",
+        "source": "v1558515832/work/diabetik/tablet-addentry",
         "alt": "The larger display of iPad allows the user to add multiple entries in a single action.",
         "figcaption": "The larger display of iPad allows the user to add multiple entries in a single action."
       }
@@ -101,46 +85,39 @@
   "helpper": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1555620883/work/helpper/collage-hero",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1555620883/work/helpper/collage-hero",
+        "source": "v1555620883/work/helpper/collage-hero",
         "alt": "Helpper's iOS app fits right in with their existing style guide and marketing direction."
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467817/work/helpper/phone-login",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467817/work/helpper/phone-login",
+        "source": "v1558467817/work/helpper/phone-login",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467815/work/helpper/collage-duo-overzicht",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467815/work/helpper/collage-duo-overzicht",
+        "source": "v1558467815/work/helpper/collage-duo-overzicht",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467816/work/helpper/phone-welkom",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467816/work/helpper/phone-welkom",
+        "source": "v1558467816/work/helpper/phone-welkom",
         "alt": "On first launch, the user is welcomed with clear steps on how to use the app without making the user feel dumb.",
         "figcaption": "On first launch, the user is welcomed with clear steps on how to use the app without making the user feel dumb.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467816/work/helpper/phone-profiel",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467816/work/helpper/phone-profiel",
+        "source": "v1558467816/work/helpper/phone-profiel",
         "alt": "Editing your profile on the go is as easy as tapping the edit button.",
         "figcaption": "Editing your profile on the go is as easy as tapping the edit button.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467819/work/helpper/phone-zoeken",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467819/work/helpper/phone-zoeken",
+        "source": "v1558467819/work/helpper/phone-zoeken",
         "alt": "It was quite a challenge to build a screen this packed with information and UI elements.",
         "figcaption": "It was quite a challenge to build a screen this packed with information and UI elements.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558467814/work/helpper/collage-duo-prestaties",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558467814/work/helpper/collage-duo-prestaties",
+        "source": "v1558467814/work/helpper/collage-duo-prestaties",
         "alt": "Error messages are styled accordingly and provide clear instructions to the user.",
         "figcaption": "Error messages are styled accordingly and provide clear instructions to the user.",
         "grid-size": "large"
@@ -150,47 +127,40 @@
   "immobrown": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515913/work/immobrown/collage-hero",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515913/work/immobrown/collage-hero",
+        "source": "v1558515913/work/immobrown/collage-hero",
         "alt": "I designed an elegent website for Immo Brown."
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515906/work/immobrown/phone-detail",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515906/work/immobrown/phone-detail",
+        "source": "v1558515906/work/immobrown/phone-detail",
         "alt": "The website was designed with a mobile-first approach to make the design feel right at home on smaller displays.",
         "figcaption": "The website was designed with a mobile-first approach to make the design feel right at home on smaller displays.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515905/work/immobrown/notebook-home",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515905/work/immobrown/notebook-home",
+        "source": "v1558515905/work/immobrown/notebook-home",
         "alt": "With some smart but tiny adustments to the code, the design really pops on larger displays.",
         "figcaption": "With some smart but tiny adustments to the code, the design really pops on larger displays.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515910/work/immobrown/notebook-detail",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515910/work/immobrown/notebook-detail",
+        "source": "v1558515910/work/immobrown/notebook-detail",
         "alt": "Immo Brown's property detail page.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515903/work/immobrown/notebook-forsale",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515903/work/immobrown/notebook-forsale",
+        "source": "v1558515903/work/immobrown/notebook-forsale",
         "alt": "Immo Brown's for sale page.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515903/work/immobrown/notebook-contact",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515903/work/immobrown/notebook-contact",
+        "source": "v1558515903/work/immobrown/notebook-contact",
         "alt": "Immo Brown's contact page.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558515905/work/immobrown/phone-menu",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558515905/work/immobrown/phone-menu",
+        "source": "v1558515905/work/immobrown/phone-menu",
         "alt": "Immo Brown's list menu on mobile.",
         "grid-size": "small"
       }
@@ -199,78 +169,67 @@
   "realo": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516028/work/realo/collage-hero",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516028/work/realo/collage-hero",
+        "source": "v1558516028/work/realo/collage-hero",
         "alt": "Realo"
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516025/work/realo/tablet-search-landscape",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516025/work/realo/tablet-search-landscape",
+        "source": "v1558516025/work/realo/tablet-search-landscape",
         "alt": "We reduced the width of the list to show a map on the left side. This gives the user a clear overview of where their potential next home is located.",
         "figcaption": "We reduced the width of the list to show a map on the left side. This gives the user a clear overview of where their potential next home is located.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516025/work/realo/phone-search",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516025/work/realo/phone-search",
+        "source": "v1558516025/work/realo/phone-search",
         "alt": "Clear typography and attractive iconography makes the mobile pages even more pleasant to use.",
         "figcaption": "Clear typography and attractive iconography makes the mobile pages even more pleasant to use.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516021/work/realo/tablet-agency",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516021/work/realo/tablet-agency",
+        "source": "v1558516021/work/realo/tablet-agency",
         "alt": "Realo is a first-class citizen on every screen size.",
         "figcaption": "Realo is a first-class citizen on every screen size.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516020/work/realo/notebook-agency",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516020/work/realo/notebook-agency",
+        "source": "v1558516020/work/realo/notebook-agency",
         "alt": "The agency page gives the user a complete overview of their listings, employees and reviews.",
         "figcaption": "The agency page gives the user a complete overview of their listings, employees and reviews.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516026/work/realo/tablet-search",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516026/work/realo/tablet-search",
+        "source": "v1558516026/work/realo/tablet-search",
         "alt": "Realo is a first-class citizen on every screen size.",
         "figcaption": "Realo is a first-class citizen on every screen size.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516021/work/realo/tablet-agency",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516021/work/realo/tablet-agency",
+        "source": "v1558516021/work/realo/tablet-agency",
         "alt": "The agency page gives the user a complete overview of their listings, employees and reviews.",
         "figcaption": "The agency page gives the user a complete overview of their listings, employees and reviews.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516022/work/realo/phone-propertydetail",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516022/work/realo/phone-propertydetail",
+        "source": "v1558516022/work/realo/phone-propertydetail",
         "alt": "Large images and clear data make the property detail pages a joy to read.",
         "figcaption": "Large images and clear data make the property detail pages a joy to read.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516024/work/realo/tablet-propertydetail",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516024/work/realo/tablet-propertydetail",
+        "source": "v1558516024/work/realo/tablet-propertydetail",
         "alt": "Large images and clear data make the property detail pages a joy to read.",
         "figcaption": "Large images and clear data make the property detail pages a joy to read.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516019/work/realo/notebook-propertydetail",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516019/work/realo/notebook-propertydetail",
+        "source": "v1558516019/work/realo/notebook-propertydetail",
         "alt": "Large images and clear data make the property detail pages a joy to read.",
         "figcaption": "Large images and clear data make the property detail pages a joy to read.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558516028/work/realo/notebook-home",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558516028/work/realo/notebook-home",
+        "source": "v1558516028/work/realo/notebook-home",
         "alt": "The user is welcomed by an inviting homepage where they can search for a home.",
         "figcaption": "The user is welcomed by an inviting homepage where they can search for a home.",
         "grid-size": "medium"
@@ -280,80 +239,69 @@
   "scorecard": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556484574/work/scorecard/collage-hero",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556484574/work/scorecard/collage-hero",
+        "source": "v1556484574/work/scorecard/collage-hero",
         "alt": "Scorecard allows people to keep score while playing board games with friends &amp; family."
       }
     ],
     "embed__patternlibrary": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558010750/work/scorecard/embed-patternlibrary",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558010750/work/scorecard/embed-patternlibrary",
+        "source": "v1558010750/work/scorecard/embed-patternlibrary",
         "alt": "A small snippet of the pattern library.",
         "figcaption": "A small snippet of the pattern library I created for Scorecard."
       }
     ],
     "embed__iphonetoipad": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633410/work/scorecard/embed-iphonetoipad",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633410/work/scorecard/embed-iphonetoipad",
+        "source": "v1558633410/work/scorecard/embed-iphonetoipad",
         "alt": "The iPad version is not simply a blown-up iPhone app.",
         "figcaption": "The iPad version is not simply a blown-up iPhone app."
       }
     ],
     "embed__playerdetails": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558633362/work/scorecard/embed-playerdetails",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558633362/work/scorecard/embed-playerdetails",
+        "source": "v1558633362/work/scorecard/embed-playerdetails",
         "alt": "The 'Player Details' flow was kept within reach.",
         "figcaption": "By keeping the player details within reach, the UI is more comfortable to use."
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/tablet-addagame",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/tablet-addagame",
+        "source": "v1556563026/work/scorecard/tablet-addagame",
         "alt": "Going with two columns on iPad makes the UI more functional.",
         "figcaption": "Going with two columns on iPad makes the UI more functional.",
         "grid-size": "large"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/phone-addagame",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/phone-addagame",
+        "source": "v1556563026/work/scorecard/phone-addagame",
         "alt": "Scorecard - Add a Game",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563028/work/scorecard/tablet-yourgames-dark",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563028/work/scorecard/tablet-yourgames-dark",
+        "source": "v1556563028/work/scorecard/tablet-yourgames-dark",
         "alt": "A dark version of the app was also designed.",
         "figcaption": "A dark version of the app was also designed.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563027/work/scorecard/tablet-gameplay-purple",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563027/work/scorecard/tablet-gameplay-purple",
+        "source": "v1556563027/work/scorecard/tablet-gameplay-purple",
         "alt": "The gameplay screen tints its background and various UI elements based on the game color.",
         "figcaption": "The gameplay screen tints its background and various UI elements based on the game color.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/phone-addagame-teamcreated",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/phone-addagame-teamcreated",
+        "source": "v1556563026/work/scorecard/phone-addagame-teamcreated",
         "alt": "Teams are defined as a grouped cell.",
         "figcaption": "Teams are defined as a grouped cell.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563028/work/scorecard/phone-gamesessions-blue",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563028/work/scorecard/phone-gamesessions-blue",
+        "source": "v1556563028/work/scorecard/phone-gamesessions-blue",
         "alt": "Most of Scorecard's UI is based around tinting UI elements with the game color, giving the app a more personal look and feel.",
         "figcaption": "Most of Scorecard's UI is based around tinting UI elements with the game color, giving the app a more personal look and feel.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1556563026/work/scorecard/phone-gameplaywithteam-blue",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1556563026/work/scorecard/phone-gameplaywithteam-blue",
+        "source": "v1556563026/work/scorecard/phone-gameplaywithteam-blue",
         "alt": "Scorecard - Gameplay on iPhone",
         "grid-size": "small"
       }
@@ -362,61 +310,52 @@
   "shelf": {
     "cover": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465154/work/shelf/collage-hero",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465154/work/shelf/collage-hero",
+        "source": "v1558465154/work/shelf/collage-hero",
         "alt": "Shelf for iPad"
       }
     ],
     "embed__filetypes": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465579/work/shelf/embed-filetypes",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465579/work/shelf/embed-filetypes",
+        "source": "v1558465579/work/shelf/embed-filetypes",
         "alt": "The various file types, each with their respective color palette.",
         "figcaption": "The various file types, each with their respective color palette."
       }
     ],
     "embed__fileicons": [
       {
-        "source": "https://res.cloudinary.com/matter/w_0.5/v1558003376/work/shelf/embed-fileicons",
-        "source-hq": "https://res.cloudinary.com/matter/v1558003376/work/shelf/embed-fileicons",
+        "source": "v1558003376/work/shelf/embed-fileicons",
         "alt": "The different iterations of the file icons.",
         "figcaption": "The different iterations of the file icons."
       }
     ],
     "collage": [
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465160/work/shelf/tablet-splitscreen-image",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465160/work/shelf/tablet-splitscreen-image",
+        "source": "v1558465160/work/shelf/tablet-splitscreen-image",
         "alt": "An iPad showing the SplitScreen version of the app with a preview of a photo file.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465155/work/shelf/tablet-quicklook-video",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465155/work/shelf/tablet-quicklook-video",
+        "source": "v1558465155/work/shelf/tablet-quicklook-video",
         "alt": "An iPad showing a Quick Look of a video file.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465154/work/shelf/tablet-slideover-text",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465154/work/shelf/tablet-slideover-text",
+        "source": "v1558465154/work/shelf/tablet-slideover-text",
         "alt": "An iPad showing the SlideOver version of the app.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465152/work/shelf/tablet-main-landscape",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465152/work/shelf/tablet-main-landscape",
+        "source": "v1558465152/work/shelf/tablet-main-landscape",
         "alt": "An iPad showing the main screen in landscape orientation.",
         "grid-size": "medium"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465150/work/shelf/tablet-main-portrait",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465150/work/shelf/tablet-main-portrait",
+        "source": "v1558465150/work/shelf/tablet-main-portrait",
         "alt": "An iPad showing the main screen in portrait orientation.",
         "grid-size": "small"
       },
       {
-        "source": "https://res.cloudinary.com/matter/q_auto,w_0.5/v1558465150/work/shelf/tablet-slideover-main",
-        "source-hq": "https://res.cloudinary.com/matter/q_auto/v1558465150/work/shelf/tablet-slideover-main",
+        "source": "v1558465150/work/shelf/tablet-slideover-main",
         "alt": "An iPad showing the SlideOver version of Shelf.",
         "grid-size": "large"
       }
