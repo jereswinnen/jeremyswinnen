@@ -581,7 +581,7 @@ cite {
     padding: var(--u-card-inset);
     color: white; }
     .c-card--work .c-card__header h3 {
-      margin-bottom: var(--u-spacer-xxs);
+      margin-bottom: 0;
       color: white; }
       .c-card--work .c-card__header h3 a {
         text-decoration: none;
