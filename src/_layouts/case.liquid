@@ -5,10 +5,11 @@
 {% block layout %}
 <header class="o-grid-align__inset c-page__header">
   <h1>{{ title }}</h1>
-  <h2>{{ lede }}</h2>  
+  <h2>{{ lede }}</h2>
+  {% if page.fileSlug != "immobrown" %}{% include navSecondary %}{% endif %}
 </header>
 <section class="o-grid-align__measure o-grid-align__measure--large c-section c-section--hero">
-  {% include screens with artwork: artwork[projectName].cover %}
+  {% include embedScreens with artwork: artwork[projectName].cover %}
 </section>
 <article class="c-page__body c-article">
   {{ content }}
@@ -22,13 +23,13 @@
   {% endfor %}
 </section>
 <section class="o-grid__collage c-section">
-  {% include screens with artwork: artwork[projectName].collage %}
+  {% include embedScreens with artwork: artwork[projectName].collage %}
 </section>
 <section class="o-grid-align__bleed c-section c-section--accent">
   <header class="c-section__header">
     <h1>Work with me</h1>
     <p>Did I pique your interest? Consider hiring me for your next project or venture. Get in touch by sending me an email or by messaging me through your favorite social network.</p>
-    {% include social %}
+    {% include navSocial %}
   </header>
 </section>
 {% endblock %}

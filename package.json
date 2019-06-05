@@ -19,5 +19,9 @@
   "homepage": "https://github.com/jereswinnen/jeremyswinnen#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^2.4.1",
+    "smooth-scroll": "^16.0.3"
   }
 }

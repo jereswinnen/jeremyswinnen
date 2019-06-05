@@ -1,0 +1,7 @@
+<nav class="o-grid-align__bleed c-nav c-nav--secondary">
+  <ul class="c-nav__items">
+    {% for link in site.social %}
+    <li class="c-nav__item"><a href="{{ link.target }}">{% if link.icon %}{{ link.icon }}{% endif %}{{ link.anchor }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

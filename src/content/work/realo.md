@@ -4,7 +4,7 @@ title: Realo
 lede: Joining this startup as the first designer on the team, my job was to create a design system flexible enough to be used on a variety of platforms.
 twitterImage: https://res.cloudinary.com/matter/v1559237288/work/realo/twitterCard.png
 ---
-### The Challenge
+### The Challenge {#challenge}
 The website had to reinvent the way people search for their next home as well as provide convenient and powerful tools for real estate agents and brokers.
 
 Realo's goals were threefold:
@@ -12,7 +12,7 @@ Realo's goals were threefold:
 2. Empower the user by providing as much information and data as possible about their possible new home;
 3. Provide real estate agents and brokers with intuitive and powerful tools to plan and follow up on appointments.
 
-### My Approach
+### My Approach {#approach}
 I was hired as employee #2 and was the first designer on the team (the other person being a developer). In the early days, my task was to do research on all aspects of a real estate platform and present that at the end of each week to the managing team (my boss and my Head of Product). I created presentations and presented my findings while gathering feedback from the team.
 
 As time went by, more and more people joined the team and my role became more focused. Working alongside Realo’s development team (around 5 people), I created an internal design system using HTML, CSS & Javascript to enable the developers to easily construct pages and layouts. This also proved very useful when new members came on board.
@@ -30,7 +30,7 @@ When we started development our development team made the decision to have two s
 
 Due to my extensive experience with building responsive sites and native apps, it didn’t take long to make sure every layout displayed correctly on nearly every screen resolution. In this time, communication with the dev team was key to get everyone on the same level.
 
-### Result
+### Result {#result}
 After about 7 months of hard work and user testing, we were ready to unveil our creation to the world. Realo was easy to use, fast, and responsive. It was a real breakthrough in the real estate market and still is to this day. Members of the press praised Realo’s intuitive design. Users were impressed by the data we provided them.
 
 Due to the nature of a startup, I learned a lot in terms of how to successfully work on many aspects of a product while, at the same time, communicate efficiently with a multilingual team.

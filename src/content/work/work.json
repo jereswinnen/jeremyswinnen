@@ -1,5 +1,19 @@
 {
   "layout": "case",
   "permalink": "/work/{{ page.fileSlug }}/index.html",
-  "twitterCard": "summary_large_image"
+  "twitterCard": "summary_large_image",
+  "navSecondary": [
+    {
+      "anchor": "Challenge",
+      "target": "#challenge"
+    },
+    {
+      "anchor": "Approach",
+      "target": "#approach"
+    },
+    {
+      "anchor": "Result",
+      "target": "#result"
+    }
+  ]
 }

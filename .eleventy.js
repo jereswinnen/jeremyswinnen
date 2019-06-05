@@ -1,4 +1,14 @@
 module.exports = function(eleventyConfig) {
+  // markdown-it config
+  let markdownIt = require("markdown-it");
+  let markdownItAttrs = require("markdown-it-attrs");
+  let options = {
+    html: true
+  };
+  let markdownLib = markdownIt(options).use(markdownItAttrs);
+  
+  eleventyConfig.setLibrary("md", markdownLib);
+
   // work collection
   eleventyConfig.addCollection("work", function(collection) {
     return collection.getFilteredByGlob("./src/content/work/*.md");
