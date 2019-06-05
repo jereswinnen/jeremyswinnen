@@ -4,7 +4,7 @@
 
 .c-card--work {
   position: relative;
-  transition: transform .45s var(--t-bezier), box-shadow .45s var(--t-bezier);
+  transition: transform var(--a-duration-normal) var(--a-timing-bezier), box-shadow var(--a-duration-normal) var(--a-timing-bezier);
   .c-card__header {
     padding: var(--u-card-inset);
     color: white;
@@ -13,6 +13,7 @@
       color: white; 
       a {
         text-decoration: none;
+        transition: none;
         &:before {
           position: absolute;
           top: 0;
@@ -22,18 +23,22 @@
           content: "";
           z-index: 2;
         }
+        &:hover {
+          color: currentColor;
+        }
       }
     }
     p {
       margin-bottom: 0;
       max-width: calc(var(--u-measure-m) / 1.5);
-      opacity: .6;
+      line-height: var(--f-leading-tight);
+      opacity: var(--t-mid);
     }
   }
   .c-card__image {
     padding: var(--u-card-inset);
     img, source {
-      transition: opacity .45s var(--t-bezier);  
+      transition: opacity var(--a-duration-normal) var(--a-timing-bezier);  
     }
   }
   &:hover {
@@ -43,11 +48,9 @@
       opacity: 1;
     }
   }
-  &:active {
-    .c-card__image img, .c-card__image source {
-      opacity: .85;
-      transition: none;
-    }  
+  &:active .c-card__image img, .c-card__image source {
+    opacity: .85;
+    transition: none;
   }
   &[data-theme="diabetik"] {
     .c-card__header {

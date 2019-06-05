@@ -21,20 +21,21 @@ $u-layout-break-xl: 90em; //1440
   --f-family-serif: ohno-blazeface, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
 
-  --f-size-body: calc(1rem + 0.5vmin);
-  --f-size-body-fixed: 1rem;
+  --f-size-body: calc(1.1rem + 0.45vmin);
+  --f-size-body-fixed: 1.05rem;
   --f-size-body-small: 0.875rem;
 
   --f-size-h1: calc(2.75rem + 1.65vw);
-  --f-size-h2: calc(1.25rem + 0.75vw);
-  --f-size-h3: calc(1.95rem + 0.4vw);
-  --f-size-h4: calc(0.87rem + 0.15vw);
+  --f-size-h2: calc(1.4rem + 0.75vw);
+  --f-size-h3: calc(1.8rem + 0.5vw);
+  --f-size-h4: calc(0.9rem + 0.15vw);
   --f-size-blockquote: var(--f-size-h3);
 
   --f-leading-vtight: 1.1em;
-  --f-leading-tight: 1.25em;
-  --f-leading: 1.4em;
+  --f-leading-tight: 1.35em;
+  --f-leading: 1.5em;
 
+  --f-spacing-tight: -0.07rem;
   --f-spacing-narrow: -0.016743rem;
   --f-spacing-extended: 0.025rem;
 
@@ -56,10 +57,15 @@ $u-layout-break-xl: 90em; //1440
   --u-layout-gutter: calc(2rem + 0.75vmax);
 
   // Animation
-  --t-bezier: cubic-bezier(.215, .61, .355, 1);
+  --a-timing-bezier: cubic-bezier(.215, .61, .355, 1);
+  --a-duration-vfast: .25s;
+  --a-duration-normal: .45s;
 
   // Depth
-  --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .1);
+  --d-card: 0 1.5vw 2vw hsla(0, 0%, 0%, .15);
+
+  // Transparency
+  --t-mid: .7;
 
   @media(min-width: $u-layout-break-l) {
     --u-measure-xl: 75vw;

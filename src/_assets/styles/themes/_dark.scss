@@ -5,7 +5,7 @@
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--c-dark);
-    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
+    body, h1, cite, .c-figure__caption {
       color: var(--c-light);
     }
     .c-form .c-form__button {
@@ -55,9 +55,6 @@
     }
   }
   [data-theme="diabetik"], [data-theme="helpper"], [data-theme="immobrown"], [data-theme="realo"], [data-theme="scorecard"], [data-theme="shelf"] {
-    body, h1, cite, .c-nav .c-nav__items .c-nav__item a, .c-figure__caption {
-      color: var(--c-light);
-    }
     .o-grid__collage .c-card--gallery:not(.c-section--hero .c-card--gallery) {
       background: var(--c-alpha);
     }

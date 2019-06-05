@@ -6,8 +6,9 @@ a {
   color: currentColor;
   text-decoration: underline;
   background-color: transparent;
+  transition: all var(--a-duration-vfast) var(--a-timing-bezier);
   &:hover {
-    //color: var(--c-link-hover);
+    color: var(--c-accent);
     text-decoration: none;
   }
   &:active {

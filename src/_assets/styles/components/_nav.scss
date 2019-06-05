@@ -17,10 +17,8 @@
         line-height: var(--f-leading-vtight);
         text-transform: lowercase;
         text-decoration: none;
-        &:hover, &[aria-current] {
-          color: var(--c-accent);
-        }
         &[aria-current] {
+          color: var(--c-accent);
           font-weight: 600;
         }
       }
@@ -48,7 +46,6 @@
         align-items: center;
         font-size: inherit;
         text-transform: none;
-        transition: all .25s var(--t-bezier);
         svg {
           margin-bottom: calc(var(--u-spacer-xxs) / 1.5);
           width: 20px;
