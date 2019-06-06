@@ -17,6 +17,7 @@ module.exports = function(eleventyConfig) {
   // pass through
   eleventyConfig.addPassthroughCopy('./src/_assets/styles/global.css');
   eleventyConfig.addPassthroughCopy('./src/_assets/scripts/site.min.js');
+  eleventyConfig.addPassthroughCopy('./src/_assets/documents');
   eleventyConfig.addPassthroughCopy('./src/_assets/favicons');
   eleventyConfig.addPassthroughCopy('./src/_assets/images');
 
