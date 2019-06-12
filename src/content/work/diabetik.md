@@ -5,7 +5,7 @@ lede: I worked together with Nial Giacomelli on creating a delightful user exper
 twitterImage: https://res.cloudinary.com/matter/v1559237188/work/diabetik/twitterCard.png
 ---
 ### The Challenge {#challenge}
-“Can good design help save lives?”. This is how Nial’s post on Dribbble was titled. Over 381 million people worldwide suffer from diabetes. Nial is one of them and he was tired that there wasn’t a single app in the App Store that was well-designed and had the features he though were relevant.
+“Can good design help save lives?”. This is how Nial’s post on Dribbble was titled. Over 381 million people worldwide suffer from diabetes. Nial is one of them and he was tired that there wasn’t a single app in the App Store that was well-designed and had the features he thought were relevant.
 
 ### My Approach {#approach}
 Since Nial is a developer, he had a beta version of his vision in place. The feature set was well considered, but the design and user experience was a bit lacking.
@@ -31,4 +31,4 @@ The result was overwhelming to say the least. We had a great Kickstarter campaig
 The [American Diabetes Association](https://www.diabetes.org) shared these kind words about the design of the app:
 “The app has a delightful user interface and gorgeous use of subtle color shades. There are tiny and colorful icons in the app which make the overall UX great. It even has little tap sounds, which we love. Adding entries is quick and easy and there’s a lovely gesture that lets you add additional type of entries by swiping right to left on the Add screen.”
 
-In the end, Diabetik was a huge success for me personally. It was first big launch on the App Store and it will always have a special place in my heart because of its great community and kind words we received from people all over the world.
+In the end, Diabetik was a huge success for me personally. It was my first big launch on the App Store and it will always have a special place in my heart because of its great community and kind words we received from people all over the world.
