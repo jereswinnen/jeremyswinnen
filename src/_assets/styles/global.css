@@ -5,13 +5,13 @@
   --c-alpha: hsla(240, 5%, 56%, 15%);
   --c-alpha-dark: hsla(240, 7%, 10%, 20%);
   --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
-  --f-family-serif: ohno-blazeface, Georgia, serif;
+  --f-family-serif: zenon, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --f-size-body: calc(1.1rem + 0.45vmin);
   --f-size-body-fixed: 1.05rem;
   --f-size-body-small: 0.875rem;
   --f-size-h1: calc(2.75rem + 1.65vw);
-  --f-size-h2: calc(1.4rem + 0.75vw);
+  --f-size-h2: calc(1.6rem + 0.75vw);
   --f-size-h3: calc(1.8rem + 0.5vw);
   --f-size-h4: calc(0.9rem + 0.15vw);
   --f-size-blockquote: var(--f-size-h3);
@@ -350,8 +350,9 @@ h1 {
 h2, .c-blockquote__text {
   font-family: var(--f-family-serif);
   font-size: var(--f-size-h2);
-  line-height: var(--f-leading);
-  font-weight: 100;
+  line-height: var(--f-leading-tight);
+  font-weight: 400;
+  font-style: italic;
   color: var(--c-accent); }
   h2:not(h2), .c-blockquote__text:not(h2) {
     margin-bottom: var(--u-spacer-xxs); }

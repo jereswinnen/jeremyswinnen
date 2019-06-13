@@ -18,7 +18,7 @@ $u-layout-break-xl: 90em; //1440
 
   // Typography
   --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
-  --f-family-serif: ohno-blazeface, Georgia, serif;
+  --f-family-serif: zenon, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
 
   --f-size-body: calc(1.1rem + 0.45vmin);
@@ -26,7 +26,7 @@ $u-layout-break-xl: 90em; //1440
   --f-size-body-small: 0.875rem;
 
   --f-size-h1: calc(2.75rem + 1.65vw);
-  --f-size-h2: calc(1.4rem + 0.75vw);
+  --f-size-h2: calc(1.6rem + 0.75vw);
   --f-size-h3: calc(1.8rem + 0.5vw);
   --f-size-h4: calc(0.9rem + 0.15vw);
   --f-size-blockquote: var(--f-size-h3);
