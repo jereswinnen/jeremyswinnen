@@ -1,5 +1,5 @@
 module.exports = function(eleventyConfig) {
-  // markdown-it config
+  // Markdown-It Config
   let markdownIt = require("markdown-it");
   let markdownItAttrs = require("markdown-it-attrs");
   let options = {
@@ -9,26 +9,38 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.setLibrary("md", markdownLib);
 
-  // work collection
+  // Collections
   eleventyConfig.addCollection("work", function(collection) {
     return collection.getFilteredByGlob("./src/content/work/*.md");
   });
+  eleventyConfig.addCollection("articles", function(collection) {
+    return collection.getFilteredByGlob("./src/content/articles/*.md");
+  });
+  eleventyConfig.addCollection("notes", function(collection) {
+    return collection.getFilteredByGlob("./src/content/notes/*.md");
+  });
+  eleventyConfig.addCollection("gamelog", function(collection) {
+    return collection.getFilteredByGlob("./src/content/gamelog/*.md");
+  });
+  eleventyConfig.addCollection("watchlist", function(collection) {
+    return collection.getFilteredByGlob("./src/content/watchlist/*.md");
+  });
 
-  // pass through
+  // Pass-through
   eleventyConfig.addPassthroughCopy('./src/_assets/styles/global.css');
   eleventyConfig.addPassthroughCopy('./src/_assets/scripts/site.min.js');
   eleventyConfig.addPassthroughCopy('./src/_assets/documents');
   eleventyConfig.addPassthroughCopy('./src/_assets/favicons');
   eleventyConfig.addPassthroughCopy('./src/_assets/images');
 
-  // liquid options
+  // Liquid Config
 
   eleventyConfig.setLiquidOptions({
     cache: true,
     root: ['./src/_includes', './src/_layouts']
   });
 
-  // base config
+  // Base Config
   return {
     templateFormats: ['liquid', 'md'],
     passthroughFileCopy: true,
