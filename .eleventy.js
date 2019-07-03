@@ -6,7 +6,6 @@ module.exports = function(eleventyConfig) {
     html: true
   };
   let markdownLib = markdownIt(options).use(markdownItAttrs);
-  
   eleventyConfig.setLibrary("md", markdownLib);
 
   // Collections
@@ -19,11 +18,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("notes", function(collection) {
     return collection.getFilteredByGlob("./src/content/notes/*.md");
   });
+  eleventyConfig.addCollection("bookmarks", function(collection) {
+    return collection.getFilteredByGlob("./src/content/bookmarks/*.md");
+  });
   eleventyConfig.addCollection("gamelog", function(collection) {
     return collection.getFilteredByGlob("./src/content/gamelog/*.md");
   });
   eleventyConfig.addCollection("watchlist", function(collection) {
     return collection.getFilteredByGlob("./src/content/watchlist/*.md");
+  });
+  eleventyConfig.addCollection("playlist", function(collection) {
+    return collection.getFilteredByGlob("./src/content/playlist/*.md");
   });
 
   // Pass-through
@@ -34,7 +39,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/_assets/images');
 
   // Liquid Config
-
   eleventyConfig.setLiquidOptions({
     cache: true,
     root: ['./src/_includes', './src/_layouts']
