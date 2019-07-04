@@ -1,0 +1,3 @@
+{
+  "permalink": "bookmarks/{{ page.fileSlug }}.html"
+}
