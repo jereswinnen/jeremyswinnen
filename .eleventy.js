@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("work", function(collection) {
     return collection.getFilteredByGlob("./src/content/work/*.md");
   });
-  
+
   eleventyConfig.addCollection("articles", function(collection) {
     return collection.getFilteredByGlob("./src/content/articles/*.md");
   });
@@ -44,6 +44,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/_assets/documents');
   eleventyConfig.addPassthroughCopy('./src/_assets/favicons');
   eleventyConfig.addPassthroughCopy('./src/_assets/images');
+  eleventyConfig.addPassthroughCopy('./src/_assets/webfonts');
 
   // Liquid Config
   eleventyConfig.setLiquidOptions({

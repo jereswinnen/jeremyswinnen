@@ -4,7 +4,7 @@
   --c-light: hsl(240, 6%, 93%);
   --c-alpha: hsla(240, 5%, 56%, 15%);
   --c-alpha-dark: hsla(240, 7%, 10%, 20%);
-  --f-family-sans: covik-sans, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  --f-family-sans: 'Basier Square', "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --f-family-serif: zenon, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --f-size-body: calc(1.1rem + 0.45vmin);
@@ -197,6 +197,31 @@
       grid-column: span 3; }
     .o-grid .o-grid__collage .o-grid__item--large {
       grid-column: span 4; } }
+
+@font-face {
+  font-display: swap;
+  font-family: 'Basier Square';
+  font-weight: 400;
+  src: url(/_assets/webfonts/basierSquare__regular.woff2) format("woff2"); }
+
+@font-face {
+  font-display: swap;
+  font-family: 'Basier Square';
+  font-weight: 400;
+  font-style: italic;
+  src: url(/_assets/webfonts/basierSquare__regular--italic.woff2) format("woff2"); }
+
+@font-face {
+  font-display: swap;
+  font-family: 'Basier Square';
+  font-weight: 500;
+  src: url(/_assets/webfonts/basierSquare__medium.woff2) format("woff2"); }
+
+@font-face {
+  font-display: swap;
+  font-family: 'Basier Square';
+  font-weight: 600;
+  src: url(/_assets/webfonts/basierSquare__semibold.woff2) format("woff2"); }
 
 html {
   box-sizing: border-box;
