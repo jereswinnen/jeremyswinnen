@@ -3,14 +3,16 @@
 // =======================================================================
 
 .c-masthead {
+  display: grid;
+  grid-template: auto / 1fr; // rows / columns
   margin-bottom: var(--u-spacer-s);
   padding: var(--u-spacer-m) 0;
+  font-size: var(--f-size-body-fixed);
   .c-masthead__title {
     margin-bottom: var(--u-spacer-xxs);
     border-bottom: 1px solid;
     border-color: var(--c-darkest);
     a {
-      font-size: var(--f-size-body-fixed);
       font-weight: 500;
       text-decoration: none;
       svg {
@@ -26,9 +28,27 @@
       } 
     }
   }
+  .c-masthead__link {
+    display: none;
+    text-align: right;
+    text-decoration: none;
+  }
   @media(min-width: $u-layout-break-s) {
     margin-bottom: var(--u-spacer-m);
     padding: var(--u-spacer-s) 0;
     justify-content: flex-start;
+  }
+  @media(min-width: $u-layout-break-m) {
+    grid-template: auto / repeat(3, 1fr);
+    align-items: baseline;
+    border-bottom: 1px solid;
+    border-color: var(--c-darkest);
+    .c-masthead__title {
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+    .c-masthead__link {
+      display: block;
+    }
   }
 }

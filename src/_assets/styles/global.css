@@ -198,6 +198,16 @@
     .o-grid .o-grid__collage .o-grid__item--large {
       grid-column: span 4; } }
 
+.o-visually-hidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  inline-size: 1px;
+  block-size: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
 @font-face {
   font-display: swap;
   font-family: 'Basier Square';
@@ -360,8 +370,7 @@ body {
   font-family: var(--f-family-sans);
   font-size: var(--f-size-body);
   line-height: var(--f-leading);
-  color: var(--c-dark);
-  letter-spacing: var(--f-spacing-narrow); }
+  color: var(--c-dark); }
 
 h1 {
   margin-bottom: var(--u-spacer-xs);
@@ -485,14 +494,16 @@ cite {
       padding-bottom: var(--u-spacer-m); } }
 
 .c-masthead {
+  display: grid;
+  grid-template: auto / 1fr;
   margin-bottom: var(--u-spacer-s);
-  padding: var(--u-spacer-m) 0; }
+  padding: var(--u-spacer-m) 0;
+  font-size: var(--f-size-body-fixed); }
   .c-masthead .c-masthead__title {
     margin-bottom: var(--u-spacer-xxs);
     border-bottom: 1px solid;
     border-color: var(--c-darkest); }
     .c-masthead .c-masthead__title a {
-      font-size: var(--f-size-body-fixed);
       font-weight: 500;
       text-decoration: none; }
       .c-masthead .c-masthead__title a svg {
@@ -504,11 +515,26 @@ cite {
       .c-masthead .c-masthead__title a:hover {
         color: var(--c-accent);
         fill: var(--c-accent); }
+  .c-masthead .c-masthead__link {
+    display: none;
+    text-align: right;
+    text-decoration: none; }
   @media (min-width: 34em) {
     .c-masthead {
       margin-bottom: var(--u-spacer-m);
       padding: var(--u-spacer-s) 0;
       justify-content: flex-start; } }
+  @media (min-width: 46em) {
+    .c-masthead {
+      grid-template: auto/repeat(3, 1fr);
+      align-items: baseline;
+      border-bottom: 1px solid;
+      border-color: var(--c-darkest); }
+      .c-masthead .c-masthead__title {
+        margin-bottom: 0;
+        border-bottom: none; }
+      .c-masthead .c-masthead__link {
+        display: block; } }
 
 .c-article .c-article__header {
   margin-bottom: var(--u-spacer-m);
@@ -527,8 +553,6 @@ cite {
     .c-nav .c-nav__items .c-nav__item:last-child {
       padding-right: 0; }
     .c-nav .c-nav__items .c-nav__item a {
-      display: block;
-      font-size: var(--f-size-body-fixed);
       text-decoration: none; }
       .c-nav .c-nav__items .c-nav__item a[aria-current] {
         color: var(--c-accent);

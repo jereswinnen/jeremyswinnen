@@ -15,8 +15,6 @@
         padding-right: 0;
       }
       a {
-        display: block;
-        font-size: var(--f-size-body-fixed);
         text-decoration: none;
         &[aria-current] {
           color: var(--c-accent);

@@ -130,3 +130,13 @@
     }
   }
 }
+.o-visually-hidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  inline-size: 1px;
+  block-size: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
