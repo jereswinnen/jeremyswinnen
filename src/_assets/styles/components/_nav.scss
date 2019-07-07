@@ -8,18 +8,19 @@
     list-style: none;
     .c-nav__item {
       padding: 0 calc(0.5rem + 0.2vw);
+      &:first-child {
+        padding-left: 0;
+      }
       &:last-child {
         padding-right: 0;
       }
       a {
         display: block;
         font-size: var(--f-size-body-fixed);
-        line-height: var(--f-leading-vtight);
-        text-transform: lowercase;
         text-decoration: none;
         &[aria-current] {
           color: var(--c-accent);
-          font-weight: 600;
+          font-weight: 500;
         }
       }
     }
