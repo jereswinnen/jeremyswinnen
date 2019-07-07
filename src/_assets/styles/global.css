@@ -680,6 +680,9 @@ cite {
   .c-card--gallery .c-figure__caption {
     text-align: center; }
 
+.c-card--bookmark {
+  background: lightgoldenrodyellow; }
+
 @media (prefers-color-scheme: dark) {
   html {
     background: var(--c-dark); }

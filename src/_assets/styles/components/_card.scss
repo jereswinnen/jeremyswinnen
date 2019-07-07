@@ -120,9 +120,15 @@
     text-align: center;
   }
 }
-.c-card--article {
+.c-card--bookmark {
+  background: lightgoldenrodyellow;
+  .c-card__header {
 
-}
-.c-card--note {
-
+  }
+  .c-card__body {
+    
+  }
+  .c-card__footer {
+    
+  }
 }

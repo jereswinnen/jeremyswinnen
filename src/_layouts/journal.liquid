@@ -7,30 +7,12 @@
 <section class="c-section">
   <h4>Latest Writing</h4>
   {% for item in collections.articles %}
-  <article class="c-card c-card--essay">
-    <figure class="c-card__figure c-figure"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></figure>
-    <header class="c-card__header">
-      <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-    </header>
-    <main class="c-card__main">
-      <p>{{ item.data.lede }}</p>
-    </main>
-    <footer class="c-card__footer">
-      <time datetime="{{ item.data.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"><p>Written on {{ item.data.date | date: "%B %e" }} at {{ item.data.date | date: "%l:%M %P" }}</p></time>
-    </footer>
-  </article>
+  {% include cards/cardArticle %}
   {% endfor %}
   <div>
     <h4>Bookmarked</h4>
     {% for item in collections.bookmarks %}
-    <article class="c-card c-card--bookmark">
-      <header class="c-card__header">
-        <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
-      </header>
-      <main class="c-card__main">
-        <a href="{{ item.data.link }}">{{ item.data.source }}</a>
-      </main>
-    </article>
+    {% include cards/cardBookmark %}
     {% endfor %}
   </div><!--end bookmarks-->
 </section><!--end latest article + bookmarks-->
@@ -38,22 +20,7 @@
 <section class="c-section">
   <h4>Notes</h4>
   {% for item in collections.notes %}
-  <article class="c-card c-card--note">
-    {% if item.data.cover %}
-    <figure class="c-card__figure c-figure"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></figure>
-    {% endif %}
-    {% if item.data.title %}
-    <header class="c-card__header">
-      <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-    </header>
-    {% endif %}
-    <main class="c-card__main">
-      {{ item.templateContent | truncate: 400 }}
-    </main>
-    <footer class="c-card__footer">
-      <time datetime="{{ item.data.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"><p>Noted on {{ item.data.date | date: "%B %e" }} at {{ item.data.date | date: "%l:%M %P" }}</p></time>
-    </footer>  
-  </article>
+  {% include cards/cardNote %}
   {% endfor %}  
 </section><!--end notes-->
 
@@ -61,22 +28,7 @@
   <div>
     <h4>Entertainment</h4>
     {% for item in collections.entertainment %}
-    <article class="c-card c-card--playlist">
-      {% if item.data.cover %}
-      <figure class="c-card__figure c-figure"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></figure>
-      {% endif %}
-      {% if item.data.title %}
-      <header class="c-card__header">
-        <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-      </header>
-      {% endif %}
-      <main class="c-card__main">
-        {{ item.templateContent | truncate: 400 }}
-      </main>
-      <footer class="c-card__footer">
-        <time datetime="{{ item.data.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"><p>Noted on {{ item.data.date | date: "%B %e" }} at {{ item.data.date | date: "%l:%M %P" }}</p></time>
-      </footer>  
-    </article>
+    {% include cards/cardPlaylist %}
     {% endfor %}
   </div><!--end entertainment-->
   <aside>
