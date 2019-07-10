@@ -7,14 +7,14 @@
   --f-family-sans: 'Basier Square', "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
   --f-family-serif: zenon, Georgia, serif;
   --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  --f-size-title: 2.75rem;
+  --f-size-lede: 1.6rem;
+  --f-size-subhead: 1.8rem;
+  --f-size-caption: var(--f-size-body-small);
+  --f-size-blockquote: var(--f-size-lede);
   --f-size-body: calc(1.1rem + 0.45vmin);
-  --f-size-body-fixed: 1.05rem;
   --f-size-body-small: 0.875rem;
-  --f-size-h1: calc(2.75rem + 1.65vw);
-  --f-size-h2: calc(1.6rem + 0.75vw);
-  --f-size-h3: calc(1.8rem + 0.5vw);
-  --f-size-h4: calc(0.9rem + 0.15vw);
-  --f-size-blockquote: var(--f-size-h3);
+  --f-size-base: 1rem;
   --f-leading-vtight: 1.1em;
   --f-leading-tight: 1.35em;
   --f-leading: 1.5em;
@@ -710,42 +710,3 @@ cite {
 
 .c-card--bookmark {
   background: lightgoldenrodyellow; }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    background: var(--c-dark); }
-    html body, html h1, html cite, html .c-figure__caption {
-      color: var(--c-light); }
-    html .c-form .c-form__button {
-      color: var(--c-light);
-      background: var(--c-accent); }
-      html .c-form .c-form__button:hover, html .c-form .c-form__button:focus {
-        color: var(--c-dark);
-        background: var(--c-light); }
-    html .c-page {
-      background: var(--c-dark); }
-    html .c-section .c-section__header h4 {
-      color: var(--c-light); }
-    html .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a {
-      color: var(--c-dark); }
-      html .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
-        color: var(--c-light); }
-    html .c-section--darken {
-      color: var(--c-light);
-      background: var(--c-alpha); }
-      html .c-section--darken h4 {
-        color: var(--c-light); }
-    html .c-card--work[data-theme="diabetik"] .c-card__image {
-      background: var(--c-alpha); }
-    html .c-card--work[data-theme="helpper"] .c-card__image {
-      background: var(--c-alpha); }
-    html .c-card--work[data-theme="immobrown"] .c-card__image {
-      background: var(--c-alpha); }
-    html .c-card--work[data-theme="realo"] .c-card__image {
-      background: var(--c-alpha); }
-    html .c-card--work[data-theme="scorecard"] .c-card__image {
-      background: var(--c-alpha); }
-    html .c-card--work[data-theme="shelf"] .c-card__image {
-      background: var(--c-alpha); }
-  [data-theme="diabetik"] .o-grid__collage .c-card--gallery, [data-theme="helpper"] .o-grid__collage .c-card--gallery, [data-theme="immobrown"] .o-grid__collage .c-card--gallery, [data-theme="realo"] .o-grid__collage .c-card--gallery, [data-theme="scorecard"] .o-grid__collage .c-card--gallery, [data-theme="shelf"] .o-grid__collage .c-card--gallery {
-    background: var(--c-alpha); } }
