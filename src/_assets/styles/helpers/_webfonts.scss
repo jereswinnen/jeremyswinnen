@@ -27,3 +27,30 @@
 	font-weight: 600;
 	src: url(/_assets/webfonts/basierSquare__semibold.woff2) format("woff2")
 }
+
+// Vulf Sans
+@font-face {
+	font-display: swap;
+	font-family: 'Vulf Sans';
+	font-weight: 400;
+	src: url(/_assets/webfonts/vulfSans__regular.woff2) format("woff2")
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Vulf Sans';
+	font-weight: 400;
+  font-style: italic;
+	src: url(/_assets/webfonts/vulfSans__regular--italic.woff2) format("woff2")
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Vulf Sans';
+	font-weight: 500;
+	src: url(/_assets/webfonts/vulfSans__medium.woff2) format("woff2")
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Vulf Sans';
+	font-weight: 700;
+	src: url(/_assets/webfonts/vulfSans__bold.woff2) format("woff2")
+}
