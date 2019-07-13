@@ -18,8 +18,7 @@ $u-layout-break-xl: 90em; //1440
 
   // Typography
   --f-family-sans: 'Vulf Sans', 'Basier Square', "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
-  --f-family-serif: zenon, Georgia, serif;
-  --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  --f-family-mono: Monaco, monospace;
 
   --f-size-title: 2.75rem; //h1 calc(2.75rem + 1.65vw)
   --f-size-lede: 1.6rem; //h2 calc(1.6rem + 0.75vw)
@@ -32,7 +31,7 @@ $u-layout-break-xl: 90em; //1440
 
   --f-leading-vtight: 1.1em;
   --f-leading-tight: 1.35em;
-  --f-leading: 1.5em;
+  --f-leading: calc(1.45em + 0.2vw);
 
   --f-spacing-tight: -0.07rem;
   --f-spacing-narrow: -0.016743rem;
@@ -71,7 +70,7 @@ $u-layout-break-xl: 90em; //1440
   }
 }
 
-[data-theme="diabetik"] {
+  [data-theme="diabetik"] {
   --c-dark: hsl(104, 30%, 12%);
   --c-accent: hsl(104, 24%, 35%);
   --c-light: hsl(104, 12%, 90%);

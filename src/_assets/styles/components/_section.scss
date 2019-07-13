@@ -7,6 +7,15 @@
   .c-section__header {
     margin-bottom: var(--u-spacer-l);
     max-width: var(--u-measure-s);
+    border-bottom: 1px solid;
+    border-color: var(--c-accent);
+    p {
+      color: var(--c-accent);
+      > span {
+        font-weight: 500;
+        color: var(--c-dark);
+      }
+    }
     h4 {
       color: var(--c-dark);
     }

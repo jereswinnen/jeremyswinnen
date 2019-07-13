@@ -4,29 +4,18 @@
 
 // Body
 body {
-  font-family: var(--f-family-sans);
-  font-size: var(--f-size-body);
-  line-height: var(--f-leading);
+  font: 400 var(--f-size-body)/var(--f-leading) var(--f-family-sans);
   color: var(--c-dark);
-  //letter-spacing: var(--f-spacing-narrow);
 }
 
 // Headings
 h1 {
   margin-bottom: var(--u-spacer-xs);
-  font-family: var(--f-family-display);
-  font-size: var(--f-size-h1);
-  line-height: var(--f-leading-tight);
-  font-weight: 400;
+  font: 700 var(--f-size-title)/var(--f-leading-tight) var(--f-family-sans);
   color: var(--c-dark);
-  text-transform: uppercase;
 }
-h2, .c-blockquote__text {
-  font-family: var(--f-family-serif);
-  font-size: var(--f-size-h2);
-  line-height: var(--f-leading-tight);
-  font-weight: 400;
-  font-style: italic;
+h2 {
+  font: 400 var(--f-size-lede)/var(--f-leading-tight) var(--f-family-sans);
   color: var(--c-accent);
   &:not(h2) {
     margin-bottom: var(--u-spacer-xxs);
@@ -35,21 +24,16 @@ h2, .c-blockquote__text {
 
 h3 {
   margin-bottom: var(--u-spacer-xs);
-  font-family: var(--f-family-sans);
-  font-size: var(--f-size-h3);
-  line-height: var(--f-leading);
-  font-weight: 600;
-  font-style: italic;
-  letter-spacing: var(--f-spacing-tight);
+  font: 600 italic var(--f-size-subhead)/var(--f-leading) var(--f-family-sans);
   color: var(--c-accent);
 }
-h4 {
+h4 { //potentially remove
   margin-bottom: var(--u-spacer-xs);
-  font-size: var(--f-size-h4);
   font-weight: 500;
+  font-size: var(--f-size-h4);
+  text-transform: uppercase;
   letter-spacing: var(--f-spacing-extended);
   color: var(--c-accent);
-  text-transform: uppercase;
   &:not(:first-child) {
     margin-top: var(--u-spacer-xs);
   }
@@ -58,17 +42,23 @@ h4 {
 // Miscellaneous
 small {
   font-size: var(--f-size-body-small);
-  line-height: var(--f-leading);
+  line-height: var(--f-leading-vtight);
+  color: var(--c-accent);
+}
+.c-blockquote__text {
+  font-weight: 400;
+  font-size: var(--f-size-blockquote);
+  line-height: var(--f-leading-tight);
   color: var(--c-accent);
 }
 .c-figure__caption p {
-  font-size: var(--f-size-body-fixed);
+  font-size: var(--f-size-caption);
   line-height: var(--f-leading);
   color: var(--c-accent);
 }
 cite {
-  font-size: var(--f-size-body-fixed);
-  line-height: var(--f-leading);
   font-style: normal;
+  font-size: var(--f-size-caption);
+  line-height: var(--f-leading);
   color: var(--c-dark);
 }

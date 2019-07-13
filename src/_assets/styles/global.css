@@ -5,8 +5,7 @@
   --c-alpha: hsla(240, 5%, 56%, 15%);
   --c-alpha-dark: hsla(240, 7%, 10%, 20%);
   --f-family-sans: 'Vulf Sans', 'Basier Square', "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
-  --f-family-serif: zenon, Georgia, serif;
-  --f-family-display: bureau-grot-condensed, "BlinkMacSystemFont", -apple-system, "Helvetica Neue", Helvetica, sans-serif;
+  --f-family-mono: Monaco, monospace;
   --f-size-title: 2.75rem;
   --f-size-lede: 1.6rem;
   --f-size-subhead: 1.8rem;
@@ -17,7 +16,7 @@
   --f-size-base: 1rem;
   --f-leading-vtight: 1.1em;
   --f-leading-tight: 1.35em;
-  --f-leading: 1.5em;
+  --f-leading: calc(1.45em + 0.2vw);
   --f-spacing-tight: -0.07rem;
   --f-spacing-narrow: -0.016743rem;
   --f-spacing-extended: 0.025rem;
@@ -156,6 +155,9 @@
     margin-left: var(--u-spacer-xs); }
   .o-grid .o-grid__abreast {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: var(--u-layout-gutter); }
+  .o-grid .o-grid__asymmetric {
+    grid-template-columns: 60% 40%;
     grid-gap: var(--u-layout-gutter); }
   .o-grid .o-grid__flow {
     grid-template-columns: repeat(4, 1fr);
@@ -392,64 +394,55 @@ textarea {
   outline: none; }
 
 body {
-  font-family: var(--f-family-sans);
-  font-size: var(--f-size-body);
-  line-height: var(--f-leading);
+  font: 400 var(--f-size-body)/var(--f-leading) var(--f-family-sans);
   color: var(--c-dark); }
 
 h1 {
   margin-bottom: var(--u-spacer-xs);
-  font-family: var(--f-family-display);
-  font-size: var(--f-size-h1);
-  line-height: var(--f-leading-tight);
-  font-weight: 400;
-  color: var(--c-dark);
-  text-transform: uppercase; }
+  font: 700 var(--f-size-title)/var(--f-leading-tight) var(--f-family-sans);
+  color: var(--c-dark); }
 
-h2, .c-blockquote__text {
-  font-family: var(--f-family-serif);
-  font-size: var(--f-size-h2);
-  line-height: var(--f-leading-tight);
-  font-weight: 400;
-  font-style: italic;
+h2 {
+  font: 400 var(--f-size-lede)/var(--f-leading-tight) var(--f-family-sans);
   color: var(--c-accent); }
-  h2:not(h2), .c-blockquote__text:not(h2) {
+  h2:not(h2) {
     margin-bottom: var(--u-spacer-xxs); }
 
 h3 {
   margin-bottom: var(--u-spacer-xs);
-  font-family: var(--f-family-sans);
-  font-size: var(--f-size-h3);
-  line-height: var(--f-leading);
-  font-weight: 600;
-  font-style: italic;
-  letter-spacing: var(--f-spacing-tight);
+  font: 600 italic var(--f-size-subhead)/var(--f-leading) var(--f-family-sans);
   color: var(--c-accent); }
 
 h4 {
   margin-bottom: var(--u-spacer-xs);
-  font-size: var(--f-size-h4);
   font-weight: 500;
+  font-size: var(--f-size-h4);
+  text-transform: uppercase;
   letter-spacing: var(--f-spacing-extended);
-  color: var(--c-accent);
-  text-transform: uppercase; }
+  color: var(--c-accent); }
   h4:not(:first-child) {
     margin-top: var(--u-spacer-xs); }
 
 small {
   font-size: var(--f-size-body-small);
-  line-height: var(--f-leading);
+  line-height: var(--f-leading-vtight);
+  color: var(--c-accent); }
+
+.c-blockquote__text {
+  font-weight: 400;
+  font-size: var(--f-size-blockquote);
+  line-height: var(--f-leading-tight);
   color: var(--c-accent); }
 
 .c-figure__caption p {
-  font-size: var(--f-size-body-fixed);
+  font-size: var(--f-size-caption);
   line-height: var(--f-leading);
   color: var(--c-accent); }
 
 cite {
-  font-size: var(--f-size-body-fixed);
-  line-height: var(--f-leading);
   font-style: normal;
+  font-size: var(--f-size-caption);
+  line-height: var(--f-leading);
   color: var(--c-dark); }
 
 .c-page {
@@ -481,7 +474,14 @@ cite {
   margin-bottom: var(--u-spacer-l); }
   .c-section .c-section__header {
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-measure-s); }
+    max-width: var(--u-measure-s);
+    border-bottom: 1px solid;
+    border-color: var(--c-accent); }
+    .c-section .c-section__header p {
+      color: var(--c-accent); }
+      .c-section .c-section__header p > span {
+        font-weight: 500;
+        color: var(--c-dark); }
     .c-section .c-section__header h4 {
       color: var(--c-dark); }
     .c-section .c-section__header--centered {
@@ -523,7 +523,7 @@ cite {
   grid-template: auto / 1fr;
   margin-bottom: var(--u-spacer-s);
   padding: var(--u-spacer-m) 0;
-  font-size: var(--f-size-body-fixed); }
+  font-size: var(--f-size-base); }
   .c-masthead .c-masthead__title {
     margin-bottom: var(--u-spacer-xxs);
     border-bottom: 1px solid;
@@ -733,5 +733,10 @@ cite {
   .c-card--gallery .c-figure__caption {
     text-align: center; }
 
-.c-card--bookmark {
-  background: lightgoldenrodyellow; }
+.c-card .c-card__footer > * {
+  color: var(--c-accent); }
+
+.c-card--article .c-card__header h2 {
+  font-weight: 500; }
+  .c-card--article .c-card__header h2 a {
+    text-decoration: none; }

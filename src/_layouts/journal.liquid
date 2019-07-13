@@ -4,12 +4,13 @@
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>  
 </header>
-<section class="c-section">
-  <h4>Latest Writing</h4>
-  {% for item in collections.articles %}
-  {% include cards/cardArticle %}
-  {% endfor %}
-  <div>
+<section class="o-grid__asymmetric c-section"><!--bleed section-->
+  <div data-theme="tint--accent">
+    {% for item in collections.articles %}
+    {% include cards/cardArticle %}
+    {% endfor %}
+  </div>
+  <div data-theme="tint--dark">
     <h4>Bookmarked</h4>
     {% for item in collections.bookmarks %}
     {% include cards/cardBookmark %}
@@ -18,7 +19,9 @@
 </section><!--end latest article + bookmarks-->
 
 <section class="c-section">
-  <h4>Notes</h4>
+  <header class="c-section__header">
+    <p><span>Notes.</span> Bite-sized thoughts and opinions.</p>
+  </header>
   {% for item in collections.notes %}
   {% include cards/cardNote %}
   {% endfor %}  
@@ -35,9 +38,9 @@
     <h4>Blog Roll</h4>
     {% for item in blogroll %}
     <article class="c-card">
-      <main class="c-card__main">
+      <div class="c-card__body">
         <a href="{{ item.link }}">{{ item.name }}</a>
-      </main>
+      </div>
     </article>
     {% endfor %}
   </aside>

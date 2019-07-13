@@ -74,6 +74,10 @@
       grid-template-columns: repeat(2, 1fr);
       grid-gap: var(--u-layout-gutter);
     }
+    .o-grid__asymmetric {
+      grid-template-columns: 60% 40%;
+      grid-gap: var(--u-layout-gutter);
+    }
     .o-grid__flow {
       grid-template-columns: repeat(4, 1fr);
       grid-gap: var(--u-layout-gutter);
