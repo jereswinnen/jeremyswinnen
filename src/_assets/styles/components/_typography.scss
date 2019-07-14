@@ -17,9 +17,6 @@ h1 {
 h2 {
   font: 400 var(--f-size-lede)/var(--f-leading-tight) var(--f-family-sans);
   color: var(--c-accent);
-  &:not(h2) {
-    margin-bottom: var(--u-spacer-xxs);
-  }
 }
 
 h3 {

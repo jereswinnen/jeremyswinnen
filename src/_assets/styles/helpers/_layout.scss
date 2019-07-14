@@ -28,7 +28,7 @@
       padding-left: 6vmin;
       padding-right: 6vmin;
     } 
-    &.o-grid__asymmetric.c-section > * {
+    &.o-grid__asymmetric > * {
       padding-left: 6vmin;
       padding-right: 6vmin;
     } 
@@ -82,6 +82,12 @@
       display: grid;
       grid-template-columns: 60% 40%;
       grid-gap: var(--u-layout-gutter);
+      > *:first-child {
+        padding-right: 0;
+      }
+      > *:last-child {
+        padding-left: 0;
+      }
     }
     .o-grid__flow {
       grid-template-columns: repeat(4, 1fr);
