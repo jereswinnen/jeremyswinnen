@@ -4,11 +4,11 @@
   {% include htmlHeader %}
 </head>
 <body>
+  {% include siteHeader %}
   <main class="o-grid o-grid--{{ layout }} c-page">
-    {% include siteHeader %}
     {% block layout %}{% endblock %}
-    {% include siteFooter %}
   </main>
+  {% include siteFooter %}
   {% include htmlFooter %} 
 </body>
 </html>

@@ -121,6 +121,9 @@
   }
 }
 .c-card {
+  .c-card__figure {
+    margin: 0 0 var(--u-spacer-s) 0;  
+  }
   .c-card__footer {
     > * {
       color: var(--c-accent);

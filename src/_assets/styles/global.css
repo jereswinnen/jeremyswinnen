@@ -118,7 +118,10 @@
 .o-grid .o-grid-align__bleed {
   margin-left: -6vmin;
   margin-right: -6vmin; }
-  .o-grid .o-grid-align__bleed.c-nav--secondary, .o-grid .o-grid-align__bleed.c-section {
+  .o-grid .o-grid-align__bleed.c-nav--secondary, .o-grid .o-grid-align__bleed.c-section:not(.o-grid__asymmetric.c-section) {
+    padding-left: 6vmin;
+    padding-right: 6vmin; }
+  .o-grid .o-grid-align__bleed.o-grid__asymmetric.c-section > * {
     padding-left: 6vmin;
     padding-right: 6vmin; }
 
@@ -157,6 +160,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: var(--u-layout-gutter); }
   .o-grid .o-grid__asymmetric {
+    display: grid;
     grid-template-columns: 60% 40%;
     grid-gap: var(--u-layout-gutter); }
   .o-grid .o-grid__flow {
@@ -488,28 +492,39 @@ cite {
       margin-left: auto;
       margin-right: auto;
       text-align: center; }
-  .c-section--accent, .c-section--darken {
+  .c-section > *[data-theme="tint--accent"], .c-section > *[data-theme="tint--dark"] {
+    padding-top: var(--u-spacer-s);
+    padding-bottom: var(--u-spacer-s); }
+  .c-section > *[data-theme="tint--accent"] {
+    background: var(--c-accent); }
+    .c-section > *[data-theme="tint--accent"] .c-card__header > *, .c-section > *[data-theme="tint--accent"] .c-card__body > *, .c-section > *[data-theme="tint--accent"] .c-card__footer > * {
+      color: var(--c-dark); }
+  .c-section > *[data-theme="tint--dark"] {
+    background: var(--c-dark); }
+    .c-section > *[data-theme="tint--dark"] .c-card__header > *, .c-section > *[data-theme="tint--dark"] .c-card__body > *, .c-section > *[data-theme="tint--dark"] .c-card__footer > * {
+      color: var(--c-accent); }
+  .c-section[data-theme="tint--accent"], .c-section[data-theme="tint--dark"] {
     padding-top: var(--u-spacer-l);
     padding-bottom: var(--u-spacer-l); }
-  .c-section--accent {
-    color: white;
+  .c-section[data-theme="tint--accent"] {
     background: var(--c-accent); }
-    .c-section--accent .c-section__header h1 {
+    .c-section[data-theme="tint--accent"] .c-section__header h1 {
       color: var(--c-light); }
-    .c-section--accent .c-section__header:last-child {
+    .c-section[data-theme="tint--accent"] .c-section__header:last-child {
       margin-bottom: 0; }
-    .c-section--accent p {
+    .c-section[data-theme="tint--accent"] p {
+      color: white;
       opacity: var(--t-mid); }
-    .c-section--accent .c-nav--secondary {
+    .c-section[data-theme="tint--accent"] .c-nav--secondary {
       border-bottom: 1px solid var(--c-alpha-dark); }
-      .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a {
+      .c-section[data-theme="tint--accent"] .c-nav--secondary .c-nav__items .c-nav__item a {
         color: var(--c-light); }
-        .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a:hover {
+        .c-section[data-theme="tint--accent"] .c-nav--secondary .c-nav__items .c-nav__item a:hover {
           color: var(--c-dark); }
-  .c-section--darken {
+  .c-section[data-theme="tint--dark"] {
     color: var(--c-accent);
     background: var(--c-dark); }
-    .c-section--darken h3, .c-section--darken h4, .c-section--darken .c-section__header h3, .c-section--darken .c-section__header h4 {
+    .c-section[data-theme="tint--dark"] h3, .c-section[data-theme="tint--dark"] h4, .c-section[data-theme="tint--dark"] .c-section__header h3, .c-section[data-theme="tint--dark"] .c-section__header h4 {
       color: var(--c-light); }
   .c-section:last-of-type {
     margin-bottom: var(--u-spacer-s); }
@@ -519,6 +534,9 @@ cite {
       padding-bottom: var(--u-spacer-m); } }
 
 .c-masthead {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--u-measure-xl);
   display: grid;
   grid-template: auto / 1fr;
   margin-bottom: var(--u-spacer-s);
@@ -566,7 +584,10 @@ cite {
   max-width: var(--u-measure-m); }
 
 .c-footer {
-  padding: var(--u-spacer-s) 0; }
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--u-spacer-s) 0;
+  max-width: var(--u-measure-xl); }
 
 .c-nav .c-nav__items {
   display: flex;
@@ -732,6 +753,9 @@ cite {
   align-items: center; }
   .c-card--gallery .c-figure__caption {
     text-align: center; }
+
+.c-card .c-card__figure {
+  margin: 0 0 var(--u-spacer-s) 0; }
 
 .c-card .c-card__footer > * {
   color: var(--c-accent); }

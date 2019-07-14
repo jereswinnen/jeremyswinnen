@@ -3,5 +3,8 @@
 // =======================================================================
 
 .c-footer {
+  margin-left: auto;
+  margin-right: auto;
   padding: var(--u-spacer-s) 0;
+  max-width: var(--u-measure-xl);
 }

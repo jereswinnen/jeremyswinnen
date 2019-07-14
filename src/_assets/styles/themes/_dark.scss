@@ -22,13 +22,13 @@
     .c-section .c-section__header h4 {
       color: var(--c-light);
     }
-    .c-section--accent .c-nav--secondary .c-nav__items .c-nav__item a {
+    [data-theme="tint--accent"] .c-nav--secondary .c-nav__items .c-nav__item a {
       color: var(--c-dark);
       &:hover {
         color: var(--c-light);
       }
     }
-    .c-section--darken {
+    [data-theme="tint--dark"] {
       color: var(--c-light);
       background: var(--c-alpha);
       h4 {

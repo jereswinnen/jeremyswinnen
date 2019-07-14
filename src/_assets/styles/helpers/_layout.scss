@@ -24,10 +24,14 @@
   .o-grid-align__bleed {
     margin-left: -6vmin; //100vw - 88vmin / 2
     margin-right: -6vmin; //100vw - 88vmin / 2
-    &.c-nav--secondary, &.c-section {
+    &.c-nav--secondary, &.c-section:not(.o-grid__asymmetric.c-section) {
       padding-left: 6vmin;
       padding-right: 6vmin;
-    }  
+    } 
+    &.o-grid__asymmetric.c-section > * {
+      padding-left: 6vmin;
+      padding-right: 6vmin;
+    } 
   }
   .o-grid__flow, .o-grid__abreast {
     display: grid;
@@ -75,6 +79,7 @@
       grid-gap: var(--u-layout-gutter);
     }
     .o-grid__asymmetric {
+      display: grid;
       grid-template-columns: 60% 40%;
       grid-gap: var(--u-layout-gutter);
     }

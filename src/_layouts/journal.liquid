@@ -4,7 +4,7 @@
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>  
 </header>
-<section class="o-grid__asymmetric c-section"><!--bleed section-->
+<section class="o-grid-align__bleed o-grid__asymmetric c-section"><!--bleed section-->
   <div data-theme="tint--accent">
     {% for item in collections.articles %}
     {% include cards/cardArticle %}
@@ -27,7 +27,7 @@
   {% endfor %}  
 </section><!--end notes-->
 
-<section class="c-section">
+<section class="o-grid__asymmetric c-section">
   <div>
     <h4>Entertainment</h4>
     {% for item in collections.entertainment %}
