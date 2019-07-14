@@ -69,6 +69,13 @@ $u-layout-break-xl: 90em; //1440
     --u-measure-xl: 75vw;
   }
 }
+[data-theme="0719"] {
+  --c-dark: hsl(174, 44%, 17%);
+  --c-accent: hsl(174, 36%, 37%);
+  --c-light: hsl(145, 14%, 60%);
+  //--c-alpha: hsla(104, 24%, 35%, 15%);
+  //--c-alpha-dark: hsla(104, 30%, 12%, 20%);
+}
 [data-theme="diabetik"] {
   --c-dark: hsl(104, 30%, 12%);
   --c-accent: hsl(104, 24%, 35%);

@@ -1,0 +1,15 @@
+<article data-theme="{{ case.name | downcase | remove:' ' }}" class="{% if case.gridSize %}o-grid__item--{{ case.gridSize }} {% endif %}c-card c-card--work">
+  <figure class="c-card__figure c-figure">
+    <picture>
+      <source type="image/webp" srcset="{{ site.srcset.base }}/{{ site.srcset.quality }},{{ site.srcset.width }}/{{ case.cover }}.webp 1x, {{ site.srcset.base }}/{{ site.srcset.quality }}/{{ case.cover }}.webp 2x" sizes="100vw">
+      <source type="image/png" srcset="{{ site.srcset.base }}/{{ site.srcset.quality }},{{ site.srcset.width }}/{{ case.cover }}.png 1x, {{ site.srcset.base }}/{{ site.srcset.quality }}/{{ case.cover }}.png 2x" sizes="100vw">
+      <img src="{{ case.cover }}.png" srcset="{{ site.srcset.base }}/{{ site.srcset.quality }},{{ site.srcset.width }}/{{ case.cover }}.png 1x, {{ site.srcset.base }}/{{ site.srcset.quality }}/{{ case.cover }}.png 2x" sizes="100vw" alt="{{ case.name }} &mdash; {{ case.summary }}">
+    </picture>  
+  </figure>
+  <header class="c-card__header">
+    <h3><a href="/work/{{ case.name | downcase | remove: ' ' }}">{{ case.name }}</a></h3>
+  </header>
+  <div class="c-card__body">
+    <p>{{ case.summary }}</p>
+  </div>
+</article>

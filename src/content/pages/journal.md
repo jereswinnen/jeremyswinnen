@@ -1,4 +1,5 @@
 ---
+theme: 0719
 layout: journal
 type: journal
 permalink: journal/index.html

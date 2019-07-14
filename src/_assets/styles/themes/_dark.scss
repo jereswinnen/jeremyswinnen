@@ -35,22 +35,7 @@
         color: var(--c-light);
       }
     }
-    .c-card--work[data-theme="diabetik"] .c-card__image {
-      background: var(--c-alpha);
-    }
-    .c-card--work[data-theme="helpper"] .c-card__image {
-      background: var(--c-alpha);
-    }
-    .c-card--work[data-theme="immobrown"] .c-card__image {
-      background: var(--c-alpha);
-    }
-    .c-card--work[data-theme="realo"] .c-card__image {
-      background: var(--c-alpha);
-    }
-    .c-card--work[data-theme="scorecard"] .c-card__image {
-      background: var(--c-alpha);
-    }
-    .c-card--work[data-theme="shelf"] .c-card__image {
+    .c-card--work[data-theme="diabetik"] .c-card__figure, .c-card--work[data-theme="helpper"] .c-card__figure, .c-card--work[data-theme="immobrown"] .c-card__figure, .c-card--work[data-theme="realo"] .c-card__figure, .c-card--work[data-theme="scorecard"] .c-card__figure, .c-card--work[data-theme="shelf"] .c-card__figure {
       background: var(--c-alpha);
     }
   }

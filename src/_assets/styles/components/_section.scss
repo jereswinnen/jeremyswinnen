@@ -25,9 +25,15 @@
       text-align: center;
     }
   }
-  > *[data-theme="tint--accent"], > *[data-theme="tint--dark"] {
+  > *[data-theme="tint--light"], > *[data-theme="tint--accent"], > *[data-theme="tint--dark"] {
     padding-top: var(--u-spacer-s);
     padding-bottom: var(--u-spacer-s); 
+  }
+  > *[data-theme="tint--light"] {
+    background: var(--c-light);
+    .c-card__header > *, .c-card__body > *, .c-card__footer > * {
+      color: var(--c-dark);
+    }
   }
   > *[data-theme="tint--accent"] {
     background: var(--c-accent);
@@ -41,7 +47,7 @@
       color: var(--c-accent);
     } 
   }
-  &[data-theme="tint--accent"], &[data-theme="tint--dark"] {
+  &[data-theme="tint--light"], &[data-theme="tint--accent"], &[data-theme="tint--dark"] {
     padding-top: var(--u-spacer-l);
     padding-bottom: var(--u-spacer-l);  
   }

@@ -5,12 +5,12 @@
   <h2>{{ lede }}</h2>  
 </header>
 <section class="o-grid-align__bleed o-grid__asymmetric c-section">
-  <div data-theme="tint--accent">
+  <div data-theme="tint--ligh">
     {% for item in collections.articles %}
     {% include cards/cardArticle %}
     {% endfor %}
   </div>
-  <div data-theme="tint--dark">
+  <div data-theme="tint--dar">
     <h4>Bookmarked</h4>
     {% for item in collections.bookmarks %}
     {% include cards/cardBookmark %}
