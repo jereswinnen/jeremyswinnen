@@ -4,7 +4,7 @@
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>  
 </header>
-<section class="o-grid-align__bleed o-grid__asymmetric c-section"><!--bleed section-->
+<section class="o-grid-align__bleed o-grid__asymmetric c-section">
   <div data-theme="tint--accent">
     {% for item in collections.articles %}
     {% include cards/cardArticle %}
@@ -15,8 +15,8 @@
     {% for item in collections.bookmarks %}
     {% include cards/cardBookmark %}
     {% endfor %}
-  </div><!--end bookmarks-->
-</section><!--end latest article + bookmarks-->
+  </div>
+</section>
 
 <section class="c-section">
   <header class="c-section__header">
@@ -25,7 +25,7 @@
   {% for item in collections.notes %}
   {% include cards/cardNote %}
   {% endfor %}  
-</section><!--end notes-->
+</section>
 
 <section class="o-grid__asymmetric c-section">
   <div>
@@ -33,7 +33,7 @@
     {% for item in collections.entertainment %}
     {% include cards/cardPlaylist %}
     {% endfor %}
-  </div><!--end entertainment-->
+  </div>
   <aside>
     <h4>Blog Roll</h4>
     {% for item in blogroll %}
@@ -44,5 +44,5 @@
     </article>
     {% endfor %}
   </aside>
-</section><!--end entertainment + blogroll-->
+</section>
 {% endblock %}
