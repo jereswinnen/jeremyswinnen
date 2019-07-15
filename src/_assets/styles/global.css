@@ -704,6 +704,8 @@ cite {
       font-weight: 500; }
       .c-card--article .c-card__header h2 a {
         text-decoration: none; }
+        .c-card--article .c-card__header h2 a:hover {
+          color: var(--c-dark); }
   .c-card--article .c-card__body {
     grid-area: body; }
   .c-card--article .c-card__footer {

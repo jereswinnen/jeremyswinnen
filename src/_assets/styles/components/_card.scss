@@ -29,6 +29,9 @@
       font-weight: 500;
       a {
         text-decoration: none;
+        &:hover {
+          color: var(--c-dark);
+        }
       }
     }
   }
