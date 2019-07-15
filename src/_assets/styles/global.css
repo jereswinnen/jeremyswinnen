@@ -551,8 +551,8 @@ cite {
   max-width: var(--u-measure-xl);
   display: grid;
   grid-template: auto / 1fr;
-  margin-bottom: var(--u-spacer-s);
-  padding: var(--u-spacer-m) 0;
+  margin-bottom: var(--u-spacer-l);
+  padding-top: var(--u-spacer-m);
   font-size: var(--f-size-base); }
   .c-masthead .c-masthead__title {
     margin-bottom: var(--u-spacer-xxs);
@@ -576,8 +576,8 @@ cite {
     text-decoration: none; }
   @media (min-width: 34em) {
     .c-masthead {
-      margin-bottom: var(--u-spacer-m);
-      padding: var(--u-spacer-s) 0;
+      margin-bottom: var(--u-spacer-l);
+      padding-top: var(--u-spacer-s);
       justify-content: flex-start; } }
   @media (min-width: 46em) {
     .c-masthead {
