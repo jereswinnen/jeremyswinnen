@@ -11,7 +11,9 @@
     {% endfor %}
   </div>
   <div data-theme="tint--dar">
-    <h4>Bookmarked</h4>
+    <header class="c-section__caption">
+      <h4>Bookmarked</h4>
+    </header>
     {% for item in collections.bookmarks %}
     {% include cards/cardBookmark %}
     {% endfor %}

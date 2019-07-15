@@ -6,7 +6,6 @@
   margin-bottom: var(--u-spacer-l);
   .c-section__header {
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-measure-s);
     border-bottom: 1px solid;
     border-color: var(--c-accent);
     p {
@@ -23,6 +22,12 @@
       margin-left: auto;
       margin-right: auto;
       text-align: center;
+    }
+  }
+  .c-section__caption {
+    margin-bottom: var(--u-spacer-xs);
+    > * {
+      font-size: var(--f-size-caption);
     }
   }
   > *[data-theme="tint--light"], > *[data-theme="tint--accent"], > *[data-theme="tint--dark"] {

@@ -420,12 +420,10 @@ h2 {
   color: var(--c-accent); }
 
 h3 {
-  margin-bottom: var(--u-spacer-xs);
   font: 600 italic var(--f-size-subhead)/var(--f-leading) var(--f-family-sans);
   color: var(--c-accent); }
 
 h4 {
-  margin-bottom: var(--u-spacer-xs);
   font-weight: 500;
   font-size: var(--f-size-h4);
   text-transform: uppercase;
@@ -485,7 +483,6 @@ cite {
   margin-bottom: var(--u-spacer-l); }
   .c-section .c-section__header {
     margin-bottom: var(--u-spacer-l);
-    max-width: var(--u-measure-s);
     border-bottom: 1px solid;
     border-color: var(--c-accent); }
     .c-section .c-section__header p {
@@ -499,6 +496,10 @@ cite {
       margin-left: auto;
       margin-right: auto;
       text-align: center; }
+  .c-section .c-section__caption {
+    margin-bottom: var(--u-spacer-xs); }
+    .c-section .c-section__caption > * {
+      font-size: var(--f-size-caption); }
   .c-section > *[data-theme="tint--light"], .c-section > *[data-theme="tint--accent"], .c-section > *[data-theme="tint--dark"] {
     padding-top: var(--u-spacer-s);
     padding-bottom: var(--u-spacer-s); }
@@ -694,8 +695,7 @@ cite {
     color: var(--c-accent); }
 
 .c-card--article {
-  grid-template-areas: "figure" "footer" "header" "body";
-  background: lightblue; }
+  grid-template-areas: "figure" "footer" "header" "body"; }
   .c-card--article .c-card__figure {
     grid-area: figure; }
   .c-card--article .c-card__header {
@@ -718,6 +718,29 @@ cite {
       .c-card--article .c-card__figure source, .c-card--article .c-card__figure img {
         height: 100%;
         object-fit: cover; } }
+
+.c-card--bookmark {
+  margin-bottom: var(--u-spacer-xs);
+  grid-template-areas: "header" "body";
+  grid-gap: 0; }
+  .c-card--bookmark:last-child {
+    margin-bottom: 0; }
+  .c-card--bookmark .c-card__header {
+    grid-area: header; }
+    .c-card--bookmark .c-card__header a {
+      font-weight: 500;
+      text-underline-offset: 3px;
+      text-decoration-color: var(--c-alpha-dark); }
+      .c-card--bookmark .c-card__header a:hover {
+        text-decoration: underline; }
+  .c-card--bookmark .c-card__body {
+    grid-area: body; }
+    .c-card--bookmark .c-card__body a {
+      font-size: var(--f-size-base);
+      color: var(--c-accent);
+      text-decoration: none; }
+      .c-card--bookmark .c-card__body a:hover {
+        color: var(--c-dark); }
 
 .c-card--gallery {
   display: flex;

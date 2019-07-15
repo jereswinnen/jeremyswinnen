@@ -20,12 +20,12 @@ h2 {
 }
 
 h3 {
-  margin-bottom: var(--u-spacer-xs);
+  //margin-bottom: var(--u-spacer-xs);
   font: 600 italic var(--f-size-subhead)/var(--f-leading) var(--f-family-sans);
   color: var(--c-accent);
 }
 h4 { //potentially remove
-  margin-bottom: var(--u-spacer-xs);
+  //margin-bottom: var(--u-spacer-xs);
   font-weight: 500;
   font-size: var(--f-size-h4);
   text-transform: uppercase;
