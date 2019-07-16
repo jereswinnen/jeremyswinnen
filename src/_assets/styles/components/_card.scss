@@ -3,6 +3,7 @@
 // =======================================================================
 
 .c-card {
+  margin-bottom: var(--u-spacer-xxs);
   display: grid;
   //grid-template: 1fr / 1fr; // rows / columns
   grid-gap: var(--u-spacer-xs);
@@ -16,6 +17,7 @@
   }
 }
 .c-card--article {
+  margin-bottom: 0;
   grid-template-areas: "figure"
                        "footer"
                        "header"
@@ -85,6 +87,24 @@
         color: var(--c-dark);
       }
     } 
+  }
+}
+.c-card--note {
+  //grid-template-areas: "figure"
+  //                     "footer"
+  //                     "header"
+  //                     "body";
+  .c-card__figure {
+    //grid-area: figure;
+  }
+  .c-card__header {
+    //grid-area: header;
+  }
+  .c-card__body {
+    //grid-area: body;
+  }
+  .c-card__footer {
+    //grid-area: footer;
   }
 }
 .c-card--gallery {

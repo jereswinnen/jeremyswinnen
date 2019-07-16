@@ -10,26 +10,26 @@ module.exports = function(eleventyConfig) {
 
   // Collections
   eleventyConfig.addCollection("entertainment", function(collection) {
-    return collection.getFilteredByGlob("./src/content/+(gamelog|playlist|watchlist)/*.md");
+    return collection.getFilteredByGlob("./src/content/+(gamelog|playlist|watchlist)/*.md").reverse();
   });
   eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getFilteredByGlob("./src/content/+(articles|bookmarks|gamelog|notes|playlist|watchlist)/*.md");
+    return collection.getFilteredByGlob("./src/content/+(articles|bookmarks|gamelog|notes|playlist|watchlist)/*.md").reverse();
   });
   eleventyConfig.addCollection("work", function(collection) {
     return collection.getFilteredByGlob("./src/content/work/*.md");
   });
 
   eleventyConfig.addCollection("articles", function(collection) {
-    return collection.getFilteredByGlob("./src/content/articles/*.md");
+    return collection.getFilteredByGlob("./src/content/articles/*.md").reverse();
   });
   eleventyConfig.addCollection("bookmarks", function(collection) {
-    return collection.getFilteredByGlob("./src/content/bookmarks/*.md");
+    return collection.getFilteredByGlob("./src/content/bookmarks/*.md").reverse();
   });
   eleventyConfig.addCollection("gamelog", function(collection) {
     return collection.getFilteredByGlob("./src/content/gamelog/*.md");
   });
   eleventyConfig.addCollection("notes", function(collection) {
-    return collection.getFilteredByGlob("./src/content/notes/*.md");
+    return collection.getFilteredByGlob("./src/content/notes/*.md").reverse();
   });
   eleventyConfig.addCollection("playlist", function(collection) {
     return collection.getFilteredByGlob("./src/content/playlist/*.md");

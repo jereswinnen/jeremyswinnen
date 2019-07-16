@@ -1,7 +1,6 @@
 // =======================================================================
 // Layout
 // =======================================================================
-
 .o-grid {
   .o-grid-align__measure {
     margin-left: auto;
@@ -88,6 +87,10 @@
       > *:last-child {
         padding-left: 0;
       }
+    }
+    .o-grid__masonry {
+      //display: grid;
+      //grid-template-columns: 2fr 1fr 1fr;
     }
     .o-grid__flow {
       grid-template-columns: repeat(4, 1fr);

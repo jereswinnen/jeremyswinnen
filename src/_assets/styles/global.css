@@ -687,6 +687,7 @@ cite {
       margin: var(--u-spacer-xs) 0; } }
 
 .c-card {
+  margin-bottom: var(--u-spacer-xxs);
   display: grid;
   grid-gap: var(--u-spacer-xs); }
   .c-card .c-card__figure {
@@ -695,6 +696,7 @@ cite {
     color: var(--c-accent); }
 
 .c-card--article {
+  margin-bottom: 0;
   grid-template-areas: "figure" "footer" "header" "body"; }
   .c-card--article .c-card__figure {
     grid-area: figure; }

@@ -6,7 +6,7 @@
 </header>
 <section class="o-grid-align__bleed o-grid__asymmetric c-section">
   <div data-theme="tint--ligh">
-    {% for item in collections.articles %}
+    {% for item in collections.articles limit: 1 %}
     {% include cards/cardArticle %}
     {% endfor %}
   </div>
@@ -14,7 +14,7 @@
     <header class="c-section__caption">
       <h4>Bookmarked</h4>
     </header>
-    {% for item in collections.bookmarks %}
+    {% for item in collections.bookmarks limit: 5 %}
     {% include cards/cardBookmark %}
     {% endfor %}
   </div>
@@ -24,20 +24,26 @@
   <header class="c-section__header">
     <p><span>Notes.</span> Bite-sized thoughts and opinions.</p>
   </header>
-  {% for item in collections.notes %}
-  {% include cards/cardNote %}
-  {% endfor %}  
+  <div class="o-grid__masonry">
+    {% for item in collections.notes %}
+    {% include cards/cardNote %}
+    {% endfor %}
+  </div>
 </section>
 
 <section class="o-grid__asymmetric c-section">
   <div>
-    <h4>Entertainment</h4>
+    <header class="c-section__caption">
+      <h4>Entertainment</h4>
+    </header>
     {% for item in collections.entertainment %}
     {% include cards/cardPlaylist %}
     {% endfor %}
   </div>
   <aside>
-    <h4>Blog Roll</h4>
+    <header class="c-section__caption">
+      <h4>Blog Roll</h4>
+    </header>
     {% for item in blogroll %}
     <article class="c-card">
       <div class="c-card__body">

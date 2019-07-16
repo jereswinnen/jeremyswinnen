@@ -1,6 +1,6 @@
 <article class="{% if item.data.cover %}o-grid__card--hasImage {% else %}o-grid__card {% endif %}c-card c-card--note">
   {% if item.data.cover %}
-  <figure class="c-card__figure c-figure"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></figure>
+  <figure class="c-card__figure c-figure"><a href="{{ item.url }}"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></a></figure>
   {% endif %}
   {% if item.data.title %}
   <header class="c-card__header">
