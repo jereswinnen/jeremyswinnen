@@ -11,7 +11,8 @@
   --f-size-subhead: 1.8rem;
   --f-size-caption: var(--f-size-body-small);
   --f-size-blockquote: var(--f-size-lede);
-  --f-size-body: calc(1.1rem + 0.45vmin);
+  --f-size-body: calc(1rem + 0.45vmin);
+  --f-size-body-fixed: 1.1rem;
   --f-size-body-small: 0.875rem;
   --f-size-base: 1rem;
   --f-leading-vtight: 1.1em;
@@ -172,6 +173,14 @@
       padding-right: 0; }
     .o-grid .o-grid__asymmetric > *:last-child {
       padding-left: 0; }
+  .o-grid .o-grid__masonry {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: var(--u-layout-gutter); }
+    .o-grid .o-grid__masonry > * {
+      background: lightcyan; }
+    .o-grid .o-grid__masonry > *.o-grid__cell--large {
+      background: lightgoldenrodyellow; }
   .o-grid .o-grid__flow {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: var(--u-layout-gutter); }
@@ -693,6 +702,7 @@ cite {
   .c-card .c-card__figure {
     margin: 0; }
   .c-card .c-card__footer > * {
+    font-size: var(--f-size-base);
     color: var(--c-accent); }
 
 .c-card--article {
@@ -713,8 +723,7 @@ cite {
   .c-card--article .c-card__footer {
     grid-area: footer; }
     .c-card--article .c-card__footer > * {
-      font-style: italic;
-      font-size: var(--f-size-base); }
+      font-style: italic; }
   @media (min-width: 46em) {
     .c-card--article {
       grid-template-columns: 1fr 2fr;
@@ -745,6 +754,24 @@ cite {
       text-decoration: none; }
       .c-card--bookmark .c-card__body a:hover {
         color: var(--c-dark); }
+
+.c-card--note {
+  display: block;
+  font-size: var(--f-size-body-fixed);
+  line-height: var(--f-leading); }
+  .c-card--note .c-card__header > * {
+    font-weight: 500;
+    font-style: italic;
+    font-size: inherit;
+    line-height: inherit; }
+    .c-card--note .c-card__header > * a {
+      text-decoration: none; }
+      .c-card--note .c-card__header > * a:hover {
+        color: var(--c-dark); }
+  .c-card--note .c-card__footer > * a {
+    text-decoration: none; }
+    .c-card--note .c-card__footer > * a:hover {
+      color: var(--c-dark); }
 
 .c-card--gallery {
   display: flex;

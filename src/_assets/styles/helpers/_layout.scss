@@ -89,8 +89,15 @@
       }
     }
     .o-grid__masonry {
-      //display: grid;
-      //grid-template-columns: 2fr 1fr 1fr;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-gap: var(--u-layout-gutter);
+      > * {
+        background: lightcyan;
+      }
+      > *.o-grid__cell--large {
+        background: lightgoldenrodyellow;
+      }
     }
     .o-grid__flow {
       grid-template-columns: repeat(4, 1fr);

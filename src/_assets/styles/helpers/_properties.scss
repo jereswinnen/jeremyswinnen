@@ -25,7 +25,8 @@ $u-layout-break-xl: 90em; //1440
   --f-size-subhead: 1.8rem; //h3 calc(1.8rem + 0.5vw)
   --f-size-caption: var(--f-size-body-small); //figcaption
   --f-size-blockquote: var(--f-size-lede);
-  --f-size-body: calc(1.1rem + 0.45vmin);
+  --f-size-body: calc(1rem + 0.45vmin);
+  --f-size-body-fixed: 1.1rem;
   --f-size-body-small: 0.875rem;
   --f-size-base: 1rem; //body-fixed
 

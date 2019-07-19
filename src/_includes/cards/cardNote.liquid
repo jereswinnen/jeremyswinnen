@@ -1,4 +1,4 @@
-<article class="{% if item.data.cover %}o-grid__card--hasImage {% else %}o-grid__card {% endif %}c-card c-card--note">
+<article class="{% if item.data.cover %}o-grid__cell--large {% endif %}c-card c-card--note">
   {% if item.data.cover %}
   <figure class="c-card__figure c-figure"><a href="{{ item.url }}"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></a></figure>
   {% endif %}
@@ -8,9 +8,9 @@
   </header>
   {% endif %}
   <div class="c-card__body">
-    {{ item.templateContent | truncate: 400 }}
+    {{ item.templateContent | truncate: 350 }}
   </div>
   <footer class="c-card__footer">
-    <time datetime="{{ item.data.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"><p>Noted on {{ item.data.date | date: "%B %e" }} at {{ item.data.date | date: "%l:%M %P" }}</p></time>
+    <time datetime="{{ item.data.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"><a href="{{ item.url }}"><p>Noted on {{ item.data.date | date: "%B %e" }} at {{ item.data.date | date: "%l:%M %P" }}</p></a></time>
   </footer>  
 </article>
