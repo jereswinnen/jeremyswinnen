@@ -47,6 +47,11 @@
   --c-accent: hsl(174, 36%, 37%);
   --c-light: hsl(145, 14%, 60%); }
 
+[data-theme="0819"] {
+  --c-dark: hsl(265, 97%, 13%);
+  --c-accent: hsl(297, 15%, 49%);
+  --c-light: hsl(235, 15%, 65%); }
+
 [data-theme="diabetik"] {
   --c-dark: hsl(104, 30%, 12%);
   --c-accent: hsl(104, 24%, 35%);
