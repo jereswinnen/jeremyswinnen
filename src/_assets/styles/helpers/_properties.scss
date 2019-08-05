@@ -22,7 +22,7 @@ $u-layout-break-xl: 90em; //1440
 
   --f-size-title: 2.75rem; //h1 calc(2.75rem + 1.65vw)
   --f-size-lede: 1.6rem; //h2 calc(1.6rem + 0.75vw)
-  --f-size-subhead: 1.8rem; //h3 calc(1.8rem + 0.5vw)
+  --f-size-subhead: 1.35rem; //h3 calc(1.8rem + 0.5vw)
   --f-size-caption: var(--f-size-body-small); //figcaption
   --f-size-blockquote: var(--f-size-lede);
   --f-size-body: calc(1rem + 0.45vmin);
@@ -74,15 +74,15 @@ $u-layout-break-xl: 90em; //1440
   --c-dark: hsl(174, 44%, 17%);
   --c-accent: hsl(174, 36%, 37%);
   --c-light: hsl(145, 14%, 60%);
-  //--c-alpha: hsla(104, 24%, 35%, 15%);
-  //--c-alpha-dark: hsla(104, 30%, 12%, 20%);
+  --c-alpha: hsla(174, 36%, 37%, 30%);
+  --c-alpha-dark: hsla(174, 44%, 17%, 20%);
 }
 [data-theme="0819"] {
   --c-dark: hsl(265, 97%, 13%);
   --c-accent: hsl(297, 15%, 49%);
   --c-light: hsl(235, 15%, 65%);
-  //--c-alpha: hsla(104, 24%, 35%, 15%);
-  //--c-alpha-dark: hsla(104, 30%, 12%, 20%);
+  --c-alpha: hsla(297, 15%, 49%, 30%);
+  --c-alpha-dark: hsla(265, 97%, 13%, 20%);
 }
 [data-theme="diabetik"] {
   --c-dark: hsl(104, 30%, 12%);

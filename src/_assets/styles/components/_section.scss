@@ -5,9 +5,8 @@
 .c-section {
   margin-bottom: var(--u-spacer-l);
   .c-section__header {
-    margin-bottom: var(--u-spacer-l);
-    border-bottom: 1px solid;
-    border-color: var(--c-accent);
+    margin-bottom: var(--u-spacer-m);
+    border-bottom: 1px solid var(--c-accent);
     p {
       color: var(--c-accent);
       > span {
@@ -28,6 +27,11 @@
     margin-bottom: var(--u-spacer-xs);
     > * {
       font-size: var(--f-size-caption);
+    }
+  }
+  .c-section__aside {
+    .c-list .c-list__item a {
+      font-size: var(--f-size-base);
     }
   }
   > *[data-theme="tint--light"], > *[data-theme="tint--accent"], > *[data-theme="tint--dark"] {

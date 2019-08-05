@@ -1,5 +1,5 @@
 ---
-theme: 0719
+theme: 0819
 layout: journal
 type: journal
 permalink: journal/index.html

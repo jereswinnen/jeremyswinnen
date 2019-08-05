@@ -1,0 +1,19 @@
+// =======================================================================
+// List
+// =======================================================================
+
+.c-list {
+  list-style: none;
+  > * + * {
+    margin-top: var(--u-spacer-xxs);
+    padding-top: var(--u-spacer-xs);
+    border-top: 1px solid var(--c-alpha);
+  }
+  &--feed {
+    > * + * {
+      margin-top: var(--u-spacer-s);
+      padding-top: var(--u-spacer-m);
+      border-top: 1px solid var(--c-alpha);
+    }
+  }
+}

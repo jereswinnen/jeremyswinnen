@@ -20,37 +20,39 @@
   </div>
 </section>
 
-<section class="c-section">
-  <header class="c-section__header">
-    <p><span>Notes.</span> Bite-sized thoughts and opinions.</p>
-  </header>
-  <div class="o-grid__masonry">
-    {% for item in collections.notes %}
-    {% include cards/cardNote %}
-    {% endfor %}
+<section class="o-grid__asymmetric o-grid__asymmetric--micro c-section">
+  <div>
+    <header class="c-section__header">
+      <p><span>Notes.</span> Bite-sized thoughts and opinions.</p>
+    </header>
+    <ul class="c-list c-list--feed">
+      {% for item in collections.notes %}
+      <li class="c-list__item">
+        {% include cards/cardNote %}
+      </li>
+      {% endfor %}
+    </ul>
   </div>
+  <aside class="c-section__aside">
+    <header class="c-section__header">
+      <p><span>Blog</span> roll.</p>
+    </header>
+    <ul class="c-list">
+      {% for item in blogroll %}
+      <li class="c-list__item">
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
 </section>
 
-<section class="o-grid__asymmetric c-section">
-  <div>
-    <header class="c-section__caption">
-      <h4>Entertainment</h4>
-    </header>
-    {% for item in collections.entertainment %}
-    {% include cards/cardPlaylist %}
-    {% endfor %}
-  </div>
-  <aside>
-    <header class="c-section__caption">
-      <h4>Blog Roll</h4>
-    </header>
-    {% for item in blogroll %}
-    <article class="c-card">
-      <div class="c-card__body">
-        <a href="{{ item.link }}">{{ item.name }}</a>
-      </div>
-    </article>
-    {% endfor %}
-  </aside>
+<section class="c-section">
+  <header class="c-section__caption">
+    <h4>Entertainment</h4>
+  </header>
+  {% for item in collections.entertainment %}
+  {% include cards/cardPlaylist %}
+  {% endfor %}
 </section>
 {% endblock %}

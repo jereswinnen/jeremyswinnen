@@ -87,16 +87,8 @@
       > *:last-child {
         padding-left: 0;
       }
-    }
-    .o-grid__masonry {
-      display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
-      grid-gap: var(--u-layout-gutter);
-      > * {
-        background: lightcyan;
-      }
-      > *.o-grid__cell--large {
-        background: lightgoldenrodyellow;
+      &--micro {
+        grid-template-columns: 75% 25%;
       }
     }
     .o-grid__flow {
