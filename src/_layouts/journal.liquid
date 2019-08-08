@@ -4,13 +4,13 @@
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>  
 </header>
-<section class="o-grid-align__bleed o-grid__asymmetric c-section">
-  <div data-theme="tint--ligh">
+<section class="o-grid-align__bleed o-grid__asymmetric o-grid--gapless c-section c-section--elevator">
+  <div data-theme="tint--light">
     {% for item in collections.articles limit: 1 %}
     {% include cards/cardArticle %}
     {% endfor %}
   </div>
-  <div data-theme="tint--dar">
+  <div data-theme="tint--dark">
     <header class="c-section__caption">
       <h4>Bookmarked</h4>
     </header>
