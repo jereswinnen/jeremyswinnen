@@ -1,6 +1,6 @@
 ---
 issue: 0819
-title: Ant-Man and the Wasp
+title: "Ant-Man and the Wasp"
 episode: 
 imdb: https://www.themoviedb.org/movie/363088?language=en-US
 cover: https://image.tmdb.org/t/p/original/rv1AWImgx386ULjcf62VYaW8zSt.jpg

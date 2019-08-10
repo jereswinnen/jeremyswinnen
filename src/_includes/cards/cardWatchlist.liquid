@@ -1,9 +1,14 @@
-<article class="c-card c-card--bookmark">
+<article class="c-card c-card--playlist">
+  {% if item.data.cover %}
+  <figure class="c-card__figure c-figure"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></figure>
+  {% endif %}
+  {% if item.data.title %}
   <header class="c-card__header">
-    <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+    <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
   </header>
+  {% endif %}
   <div class="c-card__body">
-    <a href="{{ item.data.link }}">{{ item.data.source }}</a>
+    {{ item.templateContent | truncate: 400 }}
   </div>
   <footer class="c-card__footer">
     <time datetime="{{ item.data.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }}"><p>Watched on {{ item.data.date | date: "%B %e" }} at {{ item.data.date | date: "%l:%M %P" }}</p></time>

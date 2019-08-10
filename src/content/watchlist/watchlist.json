@@ -1,3 +1,4 @@
 {
+  "type": "film",
   "permalink": "watchlist/{{ page.date | date: '%Y/%m/%d' }}/{{ page.fileSlug }}.html"
 }
