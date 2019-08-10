@@ -3,9 +3,6 @@
 // =======================================================================
 
 .c-masthead {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--u-measure-xl);
   display: grid;
   grid-template: auto / 1fr; // rows / columns
   margin-bottom: var(--u-spacer-l);

@@ -1,22 +1,24 @@
 {% layout master %}
 {% block layout %}
-<header class="o-grid-align__inset c-page__header">
+<header class="o-grid-align__inst c-page__header">
   <h1>{{ title }}</h1>
   <h2>{{ lede }}</h2>  
 </header>
-<section class="o-grid-align__bleed o-grid__asymmetric o-grid--gapless c-section c-section--elevator">
-  <div data-theme="tint--light">
-    {% for item in collections.articles limit: 1 %}
-    {% include cards/cardArticle %}
-    {% endfor %}
-  </div>
-  <div data-theme="tint--dark">
-    <header class="c-section__caption">
-      <h4>Bookmarked</h4>
-    </header>
-    {% for item in collections.bookmarks limit: 5 %}
-    {% include cards/cardBookmark %}
-    {% endfor %}
+<section class="o-grid-align__bleed c-section c-section--elevator">
+  <div class="o-grid-align__wrap o-grid__asymmetric o-grid--gapless">
+    <div data-theme="tint--light">
+      {% for item in collections.articles limit: 1 %}
+      {% include cards/cardArticle %}
+      {% endfor %}
+    </div>
+    <div data-theme="tint--dark">
+      <header class="c-section__caption">
+        <h4>Bookmarked</h4>
+      </header>
+      {% for item in collections.bookmarks limit: 5 %}
+      {% include cards/cardBookmark %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 
