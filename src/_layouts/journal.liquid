@@ -54,7 +54,6 @@
     <h4>Entertainment</h4>
   </header>
   {% for item in collections.entertainment %}
-
   {% case item.data.type %}
     {% when 'game' %}
       {% include cards/cardGamelog %}
@@ -63,7 +62,6 @@
     {% when 'film' %}
       {% include cards/cardWatchlist %}
   {% endcase %}
-  
   {% endfor %}
 </section>
 {% endblock %}
