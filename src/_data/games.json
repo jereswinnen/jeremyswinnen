@@ -1,0 +1,22 @@
+{
+  "dirtrally2": [{
+    "name": "Dirt Rally 2.0",
+    "cover": "https://store.playstation.com/store/api/chihiro/00_09_000/container/BE/nl/999/EP4001-CUSA12747_00-DIRTRALLY2EU0001/1564139010000/image?w=480&h=480&bg_color=000000&opacity=100&_version=00_09_000",
+    "metacritic": "https://www.metacritic.com/game/playstation-4/dirt-rally-20"
+  }],
+  "granturismosport": [{
+    "name": "Gran Turismo Sport",
+    "cover": "https://store.playstation.com/store/api/chihiro/00_09_000/container/BE/nl/999/EP9001-CUSA02168_00-GTSPORT000000000/1565221816000/image?w=480&h=480&bg_color=000000&opacity=100&_version=00_09_000",
+    "metacritic": "https://www.metacritic.com/game/playstation-4/gran-turismo-sport"
+  }],
+  "inside": [{
+    "name": "Inside",
+    "cover": "https://store.playstation.com/store/api/chihiro/00_09_000/container/BE/nl/999/EP2054-CUSA02754_00-INSIDE0000000000/1560384283000/image?w=480&h=480&bg_color=000000&opacity=100&_version=00_09_000",
+    "metacritic": "https://www.metacritic.com/game/playstation-4/inside"
+  }],
+  "spyroreignitedtrilogy": [{
+    "name": "Spyro Reignited Trilogy",
+    "cover": "https://store.playstation.com/store/api/chihiro/00_09_000/container/BE/nl/999/EP0002-CUSA12085_00-SPYROTRILOGY0001/1565355081000/image?w=480&h=480&bg_color=000000&opacity=100&_version=00_09_000",
+    "metacritic": "https://www.metacritic.com/game/playstation-4/spyro-reignited-trilogy"
+  }]
+}
