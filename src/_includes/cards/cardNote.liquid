@@ -1,4 +1,4 @@
-<article class="{% if item.data.cover %}o-grid__cell--large {% endif %}c-card c-card--note">
+<article class="o-grid__item {% if item.data.cover %}o-grid__item--media {% endif %}c-card c-card--note">
   {% if item.data.cover %}
   <figure class="c-card__figure c-figure"><a href="{{ item.url }}"><img src="{{ item.data.cover }}" alt="{{ item.data.title }}"></a></figure>
   {% endif %}
