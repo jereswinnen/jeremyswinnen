@@ -21,8 +21,6 @@
     }
   }
   .o-grid-align__bleed {
-    //margin-left: -6vmin; //100vw - 88vmin / 2
-    //margin-right: -6vmin; //100vw - 88vmin / 2
     &.c-nav--secondary, &.c-section:not(.o-grid__asymmetric.c-section) {
       padding-left: 6vmin;
       padding-right: 6vmin;
@@ -89,84 +87,82 @@
         grid-column: bleed;
         grid-template-columns: inherit;
         grid-column-gap: inherit;
-        //background: blue;
         .o-grid-align__wrap {
           grid-column: wrap;
-          //background: yellow;
+        }
+      }
+      > *.o-grid-align__inset {
+        margin-left: var(--u-spacer-xs);
+      }
+      > *.o-grid__abreast {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: var(--u-layout-gutter);
+      }
+      > *.o-grid__asymmetric, *.o-grid__asymmetric {
+        display: grid;
+        grid-template-columns: 2fr 1.2fr;
+        grid-gap: var(--u-layout-gutter);
+        &--micro {
+          grid-template-columns: 3fr 1fr;
+        }
+      }
+      > *.o-grid__flow {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: var(--u-layout-gutter);
+      }
+      > *.o-grid__collage {
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: var(--u-layout-gutter);
+        align-items: stretch;
+        .c-card {
+          grid-column: span 6;
+          &--work {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .c-card__image {
+              flex: 1;
+            }
+            &[data-theme="diabetik"] {
+              align-self: flex-start;
+              order: 6;
+              transform-origin: top left;
+            }
+            &[data-theme="helpper"] {
+              order: 3;
+            }
+            &[data-theme="immobrown"] {
+              align-self: stretch;
+              order: 4;
+            }
+            &[data-theme="realo"] {
+              align-self: flex-end;
+              order: 1;
+              transform-origin: bottom right;
+            }
+            &[data-theme="scorecard"] {
+              order: 2;
+              transform-origin: bottom left;
+            }
+            &[data-theme="shelf"] {
+              order: 5;
+              transform-origin: top right;
+            }
+          }
+        }
+        .o-grid__item--small {
+          grid-column: span 2;
+        }
+        .o-grid__item--medium {
+          grid-column: span 3;
+        }
+        .o-grid__item--large {
+          grid-column: span 4;  
         }
       }
     }
     &--gapless {
       grid-gap: 0 !important;
-    }
-    .o-grid-align__inset {
-      margin-left: var(--u-spacer-xs);
-    }
-    .o-grid__abreast {
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: var(--u-layout-gutter);
-    }
-    .o-grid__asymmetric {
-      display: grid;
-      grid-template-columns: 2fr 1.2fr;
-      grid-gap: var(--u-layout-gutter);
-      &--micro {
-        grid-template-columns: 3fr 1fr;
-      }
-    }
-    .o-grid__flow {
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: var(--u-layout-gutter);
-    }
-    .o-grid__collage {
-      grid-template-columns: repeat(6, 1fr);
-      grid-gap: var(--u-layout-gutter);
-      align-items: stretch;
-      .c-card {
-        grid-column: span 6;
-        &--work {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          .c-card__image {
-            flex: 1;
-          }
-          &[data-theme="diabetik"] {
-            align-self: flex-start;
-            order: 6;
-            transform-origin: top left;
-          }
-          &[data-theme="helpper"] {
-            order: 3;
-          }
-          &[data-theme="immobrown"] {
-            align-self: stretch;
-            order: 4;
-          }
-          &[data-theme="realo"] {
-            align-self: flex-end;
-            order: 1;
-            transform-origin: bottom right;
-          }
-          &[data-theme="scorecard"] {
-            order: 2;
-            transform-origin: bottom left;
-          }
-          &[data-theme="shelf"] {
-            order: 5;
-            transform-origin: top right;
-          }
-        }
-      }
-      .o-grid__item--small {
-        grid-column: span 2;
-      }
-      .o-grid__item--medium {
-        grid-column: span 3;
-      }
-      .o-grid__item--large {
-        grid-column: span 4;  
-      }
     }
   }
 }
