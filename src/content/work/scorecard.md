@@ -8,7 +8,7 @@ testimonials:
     cite: Matthew Bischoff, Partner at Lickability
 ---
 ### The Challenge {#challenge}
-After working on Shelf in the second half of 2017, Lickability contacted me again in Late 2018 to work on Scorecard. The app’s goals are to make the act of keeping score while playing boardgames fun again.
+After working on [Shelf](https://jeremyswinnen.com/work/shelf/) in the second half of 2017, Lickability contacted me again in Late 2018 to work on Scorecard. The app’s goals are to make the act of keeping score while playing boardgames fun again.
 
 ### My Approach {#approach}
 Working together with Lickability is always a streamlined process. Since there was a version in place designed by another designer, it was quite easy for me to iterate on that. Most of the structure of the app was already in place, it just needed a visual refresh.
