@@ -1,6 +1,6 @@
 ---
 layout: home
 type: home
-lede: Jeremy Swinnen is a designer and creative developer focused on building digital products and web experiences for a multitude of platforms. 
+lede: Jij bent mijn allerliefste, allerknapste, en allerschattigste mannetje. En nee, jij bent NIET dik ;x  
 permalink: /index.html
 ---
