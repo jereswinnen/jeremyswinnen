@@ -15,6 +15,9 @@
     "email": "jswinnen@me.com",
     "url": "https://jeremyswinnen.com/"
   },
+  "engines" : { 
+    "node" : ">=8.0.0 <11.0.0" 
+  },
   "license": "MIT",
   "homepage": "https://github.com/jereswinnen/jeremyswinnen#readme",
   "devDependencies": {
